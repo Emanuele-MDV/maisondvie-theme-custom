@@ -1,8 +1,13 @@
 /* Custom fonts */
 
 @font-face{
-  font-family:'Grafier', sans-serif;
+  font-family:'Grafier', serif;
   src: url('Grafier-Variable.tff') format('truetype');
+}
+
+@font-face{
+  font-family:'Wotfard Bold', sans-serif;
+  src: url('Wotfard-Bold.tff') format('truetype');
 }
 
 
