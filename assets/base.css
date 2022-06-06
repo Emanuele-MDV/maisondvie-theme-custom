@@ -2,12 +2,12 @@
 
 @font-face{
   font-family:'Grafier', serif;
-  src: url('Grafier-Variable.tff') format('truetype');
+  src: url({{ "Grafier-Variable.tff" | asset_url }}) format('truetype');
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
-  src: url('Wotfard-Bold.tff') format('truetype');
+  src: url({{ "Wotfard-Bold.tff" | asset_url }}) format('truetype');
   font-weight: bold;
   font-style: normal;
 }
