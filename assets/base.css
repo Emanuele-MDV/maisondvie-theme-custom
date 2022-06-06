@@ -6,23 +6,31 @@
 }
 
 @font-face{
-  font-family:'Wotfard Bold', sans-serif;
+  font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Bold.tff') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face{
-  font-family:'Wotfard Medium', sans-serif;
+  font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Medium.tff') format('truetype');
+  font-weight: medium;
+  font-style: normal;
 }
 
 @font-face{
-  font-family:'Wotfard Regular', sans-serif;
+  font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Regular.tff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face{
-  font-family:'Wotfard Light', sans-serif;
+  font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Light.tff') format('truetype');
+  font-weight: light;
+  font-style: normal;
 }
 
 
