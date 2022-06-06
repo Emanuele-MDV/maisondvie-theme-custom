@@ -1,5 +1,13 @@
 /* Accordion */
 
+.collapsible-content__wrapper.section-template--16077895598335__165450710886c266e6-padding.content-container.color-background-2.gradient {
+    background-color: white;
+}
+
 section#shopify-section-template--16077895598335__165450710886c266e6 .grid__item {
     position: relative;
+}
+
+section#shopify-section-template--16077895598335__165450710886c266e6 .grid__item summary {
+    
 }
