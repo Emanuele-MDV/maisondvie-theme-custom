@@ -1,35 +1,45 @@
 /* Custom fonts */
 
+
 @font-face{
   font-family:'Grafier', serif;
-  src: url({{ "Grafier-Variable.tff" | asset_url }}) format('truetype');
+  src: url({{ "Grafier-BlackDisplay.otf" | asset_url }}) format('openType');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'Grafier', serif;
+  src: url({{ "Grafier-RegularDisplay.otf" | asset_url }}) format('openType');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
   src: url({{ "Wotfard-Bold.tff" | asset_url }}) format('truetype');
-  font-weight: bold;
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Medium.tff') format('truetype');
-  font-weight: medium;
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Regular.tff') format('truetype');
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
   src: url('Wotfard-Light.tff') format('truetype');
-  font-weight: light;
+  font-weight: 300;
   font-style: normal;
 }
 
