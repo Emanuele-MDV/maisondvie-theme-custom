@@ -269,6 +269,12 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
     </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    {% if template == "product" %}
+    	<link rel="stylesheet" href="{{ 'product-page-custom.js' | asset_url }}" media="print" onload="this.media='all'">
+    {% endif %}
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
