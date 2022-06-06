@@ -1,3 +1,11 @@
+/* Custom fonts */
+
+@font-face{
+  font-family:'Grafier', sans-serif;
+  src: url('Grafier-Variable.tff') format('truetype');
+}
+
+
 /* Color custom properties */
 
 :root,
