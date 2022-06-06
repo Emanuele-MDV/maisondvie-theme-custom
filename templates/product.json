@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -42,11 +47,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "collapsible-row-0": {
@@ -95,12 +95,12 @@
       "block_order": [
         "vendor",
         "title",
+        "description",
         "caption",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -154,45 +154,25 @@
         "165450710827f62a6c-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Size & fit",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.my_fields.size_fit | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "165450710827f62a6c-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "165450710827f62a6c-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "165450710827f62a6c-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Design details & care",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.my_fields.design_details_care | metafield_tag }}<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "165450710827f62a6c-0",
-        "165450710827f62a6c-1",
-        "165450710827f62a6c-2",
-        "165450710827f62a6c-3"
+        "165450710827f62a6c-1"
       ],
       "settings": {
         "caption": "",
@@ -202,7 +182,7 @@
         "layout": "section",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
+        "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
