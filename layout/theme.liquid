@@ -210,7 +210,7 @@
     }
     </script>
     
-    {% if template contains "product" %}
+    {% if template == "product" %}
     	<link rel="stylesheet" href="{{ 'product-page.css' | asset_url }}" media="print" onload="this.media='all'">
     {% endif %}
     
