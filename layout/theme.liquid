@@ -210,15 +210,16 @@
     }
     </script>
     
-    
+    {% if template contains "product" %}
+    	<link rel="stylesheet" href="{{ 'product-page.css' | asset_url }}" media="print" onload="this.media='all'">
+    {% endif %}
+    <link rel="stylesheet" href="{{ 'product-page.css' | asset_url }}" media="print" onload="this.media='all'">
     
   </head>
 
   <body class="gradient">
     
-    {% if template contains "product" %}
-    	<!-- Prodotto -->
-    {% endif %}
+    
     
     
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
