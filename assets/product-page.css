@@ -63,6 +63,12 @@ li.thumbnail-list__item.slider__slide > button > img {
   }
   
   
+  button.slider-button {
+    background-color: white;
+    border-radius: 2px;
+}
+  
+  
 }
 
 /* Brand name */
