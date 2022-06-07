@@ -156,10 +156,10 @@ p.product__text.caption-with-letter-spacing {
 
 /* Variants picker */
 
-.product-form__input.product-form__quantity, variant-selects.no-js-hidden {
+/* .product-form__input.product-form__quantity, variant-selects.no-js-hidden {
     float: left;
     width: 50%;
-}
+} */
 
 .product-form__input.product-form__quantity {
     padding-left: 50px;
