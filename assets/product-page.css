@@ -23,6 +23,13 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
+/* Description */
+
+.product__description {
+    margin-bottom: 40px;
+    margin-top: 22px;
+}
+
 /* Price */
 
 .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular { float:left;}
