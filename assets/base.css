@@ -3,7 +3,7 @@
 
 @font-face{
   font-family: Grafier;
-  src: url({{ "Grafier-HeavyDisplay.ttf" | asset_url }}) format('truetype');
+  src: url(Grafier-HeavyDisplay.ttf) format('truetype');
 }
 
 @font-face{
