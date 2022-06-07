@@ -267,7 +267,7 @@
               </details>
             </div>
         	
-        	<div class="aligner-dropdowns">
+        	
           {%- when 'quantity_selector' -%}
             <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
               <label class="form__label" for="Quantity-{{ section.id }}">
@@ -389,8 +389,6 @@
                 </variant-selects>
               {%- endif -%}
             {%- endunless -%}
-              
-              </div>
 
             <noscript class="product-form__noscript-wrapper-{{ section.id }}">
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
