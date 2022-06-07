@@ -5,6 +5,11 @@ main > section {
     margin: 0 auto;
 }
 
+main > section:first-of-type {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
 
 
 /* Accordion */
