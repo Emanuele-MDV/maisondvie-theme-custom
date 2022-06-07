@@ -115,7 +115,7 @@ p.product__text.caption-with-letter-spacing {
 /* Description */
 
 .product__description.rte.quick-add-hidden {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
     margin-top: 16px;
 }
 
@@ -131,6 +131,12 @@ p.product__text.caption-with-letter-spacing {
 
 .categories p {
     margin: 0;
+}
+
+.categories ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 
