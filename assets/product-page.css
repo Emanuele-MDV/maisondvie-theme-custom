@@ -24,7 +24,7 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
-.thumbnail[aria-current]{
+.thumbnail, .thumbnail[aria-current]{
 	border:0px;
 }
   
@@ -86,7 +86,7 @@ slider-component#GalleryThumbnails-template--16077895598335__main {
   slider-component#GalleryThumbnails-template--16077895598335__main {
     position: absolute;
     width: 100%;
-    bottom: 0px;
+    bottom: -100px;
     transition: all 200ms ease-in;
     z-index:2;
     background: rgb(0,0,0);
