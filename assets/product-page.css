@@ -38,6 +38,12 @@ li.thumbnail-list__item.slider__slide > button > img {
     font-size: 14px;
 }
 
+/* Product description */
+
+.rich-text__blocks {
+    max-width: unset;
+}
+
 
 
 /* Variants picker */
