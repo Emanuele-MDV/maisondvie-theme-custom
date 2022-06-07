@@ -17,6 +17,10 @@ main > section:first-of-type {
     width: 50%;
 }
 
+.product-form__input.product-form__quantity {
+    padding-left: 50px;
+}
+
 /* Long description block */
 
 .rich-text__blocks {
