@@ -24,6 +24,19 @@ li.thumbnail-list__item.slider__slide > button > img {
 }
 
 
+  
+  button.slider-button {
+    background-color: white;
+    border-radius: 2px;
+}
+  
+  .slider-button .icon {
+    width: 14px;
+    height: 12px;
+}
+  
+
+
 
 /* only for desktop */
 
@@ -62,12 +75,7 @@ li.thumbnail-list__item.slider__slide > button > img {
     bottom:0;
   }
   
-  
-  button.slider-button {
-    background-color: white;
-    border-radius: 2px;
-}
-  
+
   
 }
 
