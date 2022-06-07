@@ -43,6 +43,11 @@ li.thumbnail-list__item.slider__slide > button > img {
     transition: all 200ms ease-in;
 }
   
+  media-gallery#MediaGallery-template--16077895598335__main:hover slider-component#GalleryThumbnails-template--16077895598335__main {
+    
+    bottom:0;
+  }
+  
   
 }
 
