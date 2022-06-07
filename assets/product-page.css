@@ -36,6 +36,11 @@ li.thumbnail-list__item.slider__slide > button > img {
 }
   
 
+slider-component#GalleryThumbnails-template--16077895598335__main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 
 /* only for desktop */
