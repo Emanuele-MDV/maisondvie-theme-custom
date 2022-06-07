@@ -262,8 +262,9 @@ h3.accordion__title {
 
 /* Related products */
 
-.card--standard>.card__content {
+.card--standard>.card__content, .card-information {
     text-align: center;
+  	width:100%;
 }
 
 
