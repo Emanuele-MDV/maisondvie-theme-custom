@@ -15,6 +15,7 @@ main > section:first-of-type {
 li.thumbnail-list__item.slider__slide {
     border-radius: 100%;
     overflow: hidden;
+  border:0px;
 }
 
 li.thumbnail-list__item.slider__slide > button > img {
