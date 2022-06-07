@@ -262,7 +262,7 @@ h3.accordion__title {
 
 /* Related products */
 
-.card--standard>.card__content, .card-information, .price, .caption-with-letter-spacing.light {
+.card--standard>.card__content, .card-information, .card__content .price, .caption-with-letter-spacing.light {
     text-align: center;
   	width:100%;
 }
