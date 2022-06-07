@@ -1,3 +1,12 @@
+/* Page size */
+
+main > section {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+
 /* Accordion */
 
 .custom-tabs{}
