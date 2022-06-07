@@ -139,6 +139,14 @@ p.product__text.caption-with-letter-spacing {
     list-style: none;
 }
 
+.categories ul li {
+    padding: 0 0 0 14px;
+    position: relative;
+}
+
+.categories ul li::before {
+	content:"";
+}
 
 /* Price */
 
