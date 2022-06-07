@@ -36,6 +36,14 @@ li.thumbnail-list__item.slider__slide > button > img {
   }
   
   
+  slider-component#GalleryThumbnails-template--16077895598335__main {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transition: all 200ms ease-in;
+}
+  
+  
 }
 
 /* Brand name */
