@@ -23,7 +23,7 @@
         "07843213-48ad-4c0e-9494-9e69e555070d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>Categories:<\/p>\n<ul>\n{% for collection in product.collections %}\n<li>\n<a\nhref=\"\n{{ collection.url }} \n\">\n{{ collection.title }} \n<\/a>\n<\/li>\n{% endfor %}\n\n\n<\/ul>"
+            "custom_liquid": "<div class=\"categories\">\n<p>Categories:<\/p>\n<ul>\n{% for collection in product.collections %}\n<li>\n<a\nhref=\"\n{{ collection.url }} \n\">\n{{ collection.title }} \n<\/a>\n<\/li>\n{% endfor %}\n\n\n<\/ul>\n<\/div>"
           }
         },
         "price": {
