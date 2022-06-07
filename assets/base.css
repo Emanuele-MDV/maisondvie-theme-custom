@@ -2,21 +2,14 @@
 
 
 @font-face{
-  font-family:'Grafier', serif;
-  src: url({{ "Grafier-BlackDisplay.otf" | asset_url }}) format('openType');
+  font-family: Grafier;
+  src: url({{ "Grafier-HeavyDisplay.ttf" | asset_url }}) format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face{
-  font-family:'Grafier', serif;
-  src: url({{ "Grafier-RegularDisplay.otf" | asset_url }}) format('openType');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face{
-  font-family:'Wotfard', sans-serif;
+  font-family: Wotfard;
   src: url({{ "Wotfard-Bold.tff" | asset_url }}) format('truetype');
   font-weight: 800;
   font-style: normal;
