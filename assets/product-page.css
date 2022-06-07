@@ -21,6 +21,10 @@ main > section:first-of-type {
     padding-left: 50px;
 }
 
+.product-form__buttons {
+    max-width: unset;
+}
+
 /* Long description block */
 
 .rich-text__blocks {
