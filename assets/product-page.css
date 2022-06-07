@@ -277,5 +277,9 @@ h3.accordion__title {
      min-width:unset!important; 
     }
   
+    .collapsible-content.collapsible-section-layout.isolate.page-width.custom-tabs {
+      padding-top: 1rem;
+  }
+  
 
 }
