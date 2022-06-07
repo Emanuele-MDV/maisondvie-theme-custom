@@ -23,6 +23,11 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
+media-gallery#MediaGallery-template--16077895598335__main {
+    position: relative;
+    top: 0;
+}
+
 /* Brand name */
 
 p.product__text.caption-with-letter-spacing {
@@ -36,6 +41,9 @@ p.product__text.caption-with-letter-spacing {
     margin-bottom: 40px;
     margin-top: 16px;
 }
+
+
+
 
 
 /* Price */
