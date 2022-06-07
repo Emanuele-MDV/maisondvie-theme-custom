@@ -156,10 +156,6 @@ p.product__text.caption-with-letter-spacing {
 
 /* Variants picker */
 
-/* .product-form__input.product-form__quantity, variant-selects.no-js-hidden {
-    float: left;
-    width: 50%;
-} */
 
 variant-selects.no-js-hidden, .product-form__input.product-form__quantity {
     margin: 0;
@@ -206,4 +202,5 @@ button.quantity__button.no-js-hidden {
 
 .custom-tabs .collapsible-content__wrapper.section-template--16077895598335__165450710886c266e6-padding.content-container.color-background-2.gradient .collapsible-content-wrapper-narrow {
     max-width: 100%;
+    padding: 0 50px;
 }
