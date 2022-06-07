@@ -262,6 +262,8 @@ h3.accordion__title {
 
 /* RESPONSIVE STARTS HERE */
 
+
+
 @media screen and (max-width:960px){
 
     main>section:first-of-type {
@@ -282,4 +284,22 @@ h3.accordion__title {
   }
   
 
+}
+
+
+@media screen and (max-width:480px){
+  
+  main>section:first-of-type {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+  
+  .product__info-wrapper--extra-padding {
+    padding-left: 0!important;
+}
+  
+  .rich-text__wrapper.rich-text__wrapper--left.page-width {
+    padding: 0;
+}
+  
 }
