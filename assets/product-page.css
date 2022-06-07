@@ -47,7 +47,7 @@ li.thumbnail-list__item.slider__slide > button > img {
   slider-component#GalleryThumbnails-template--16077895598335__main {
     position: absolute;
     width: 100%;
-    bottom: -100px;
+    bottom: 0px;
     transition: all 200ms ease-in;
     z-index:2;
     background: rgb(0,0,0);
