@@ -41,7 +41,7 @@ slider-component#GalleryThumbnails-template--16077895598335__main {
     padding-right: 10px;
 }
 
-.thumbnail:hover {
+.thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail:hover {
     opacity: 1;
 }
 
