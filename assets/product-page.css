@@ -25,13 +25,13 @@ li.thumbnail-list__item.slider__slide > button > img {
 
 /* Price */
 
-.price__regular span {
+.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular span {
     font-family: Graffier;
     font-weight: 800;
     font-size: 24px;
 }
 
-.price__container::after {
+.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__container::after {
     content: "Including VAT";
     float: left;
     opacity: .5;
