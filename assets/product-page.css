@@ -252,6 +252,12 @@ button.quantity__button.no-js-hidden {
     padding: 0 50px;
 }
 
+h3.accordion__title {
+    font-family: Wotfard;
+    font-weight: 600;
+    font-size: 18px;
+}
+
 
 
 /* RESPONSIVE STARTS HERE */
