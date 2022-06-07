@@ -170,6 +170,9 @@ p.product__text.caption-with-letter-spacing {
  	background-color:black; 
 }
 
+v.categories ul li:hover a{
+	font-weight:400;
+}
 
 /* Price */
 
