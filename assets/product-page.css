@@ -142,7 +142,10 @@ p.product__text.caption-with-letter-spacing {
 .categories ul li {
     padding: 0 0 0 14px;
     position: relative;
+    width: fit-content;
 }
+
+
 
 .categories ul li:before {
     content: "";
@@ -153,7 +156,20 @@ p.product__text.caption-with-letter-spacing {
     width: 8px;
     height: 8px;
     border: 1px solid #b5b5b5;
+  	transition: all 200ms ease-in;
 }
+
+.categories ul li a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+  	transition: all 200ms ease-in;
+}
+
+.categories ul li:hover::before{
+ 	background-color:black; 
+}
+
 
 /* Price */
 
