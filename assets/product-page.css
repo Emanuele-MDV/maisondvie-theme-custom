@@ -187,12 +187,6 @@ button.quantity__button.no-js-hidden {
     width: 20%;
 }
 
-
-
-.product-form__input.product-form__quantity {
-    padding-left: 50px;
-}
-
 .product-form__buttons {
     max-width: unset;
 }
