@@ -266,7 +266,7 @@ h3.accordion__title {
 
     main>section:first-of-type {
       margin-top: 40px;
-      margin-bottom: 40px;
+      margin-bottom: 16px;
 	}
   
    .product__info-wrapper--extra-padding {
