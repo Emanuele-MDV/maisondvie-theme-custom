@@ -45,6 +45,20 @@ slider-component#GalleryThumbnails-template--16077895598335__main {
     opacity: 1;
 }
 
+.thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: white;
+    opacity: 0;
+    transition: all 200ms ease-in;
+}
+
+.thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail:hover::before{
+	opacity:.5;
+}
 
 
 /* only for desktop */
