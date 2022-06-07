@@ -122,10 +122,10 @@ p.product__text.caption-with-letter-spacing {
 
 /* Categories list */
 
-.categories {
+.product__info-container .categories {
     margin-top: 0;
-    padding-bottom: 12px;
-    margin-bottom: 12px;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
     border-bottom: 1px solid #e1e1e1;
 }
 
