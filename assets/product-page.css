@@ -32,10 +32,11 @@ p.product__text.caption-with-letter-spacing {
 
 /* Description */
 
-.product__info-container .product__description {
+.product__description.rte.quick-add-hidden {
     margin-bottom: 40px;
-    margin-top: 22px;
+    margin-top: 16px;
 }
+
 
 /* Price */
 
