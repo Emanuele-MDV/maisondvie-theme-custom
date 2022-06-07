@@ -15,21 +15,21 @@
 
 @font-face{
   font-family: Wotfard;
-  src: url(Wotfard-Medium.tff) format('truetype');
+  src: url(Wotfard-Medium.ttf) format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face{
   font-family: Wotfard;
-  src: url(Wotfard-Regular.tff) format('truetype');
+  src: url(Wotfard-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face{
   font-family: Wotfard;
-  src: url(Wotfard-Light.tff) format('truetype');
+  src: url(Wotfard-Light.ttf) format('truetype');
   font-weight: 300;
   font-style: normal;
 }
