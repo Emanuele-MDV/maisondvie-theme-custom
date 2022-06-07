@@ -166,6 +166,7 @@ variant-selects.no-js-hidden, .product-form__input.product-form__quantity {
     width: 50%;
     max-width: 50%;
     box-sizing: border-box;
+  float:left;
 }
 
 .product-form__input.product-form__quantity {
