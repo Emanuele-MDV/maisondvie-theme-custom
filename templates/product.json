@@ -124,7 +124,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>About this product<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "16545073935f4b3030-1": {
@@ -139,8 +139,8 @@
         "16545073935f4b3030-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -168,10 +168,19 @@
             "page": ""
           }
         },
+        "30132159-1c1f-446c-9075-2785d4f3cf48": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Size chart",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
         "cfc7cf30-e34f-423b-866e-477ea8744e1a": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Delivery and free returns",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -181,6 +190,7 @@
       "block_order": [
         "165450710827f62a6c-0",
         "165450710827f62a6c-1",
+        "30132159-1c1f-446c-9075-2785d4f3cf48",
         "cfc7cf30-e34f-423b-866e-477ea8744e1a"
       ],
       "settings": {
