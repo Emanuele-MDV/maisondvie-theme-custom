@@ -8,28 +8,28 @@
 
 @font-face{
   font-family: Wotfard;
-  src: url({{ "Wotfard-Bold.tff" | asset_url }}) format('truetype');
+  src: url(Wotfard-Bold.tff) format('truetype');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
-  src: url('Wotfard-Medium.tff') format('truetype');
+  src: url(Wotfard-Medium.tff) format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
-  src: url('Wotfard-Regular.tff') format('truetype');
+  src: url(Wotfard-Regular.tff) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face{
   font-family:'Wotfard', sans-serif;
-  src: url('Wotfard-Light.tff') format('truetype');
+  src: url(Wotfard-Light.tff) format('truetype');
   font-weight: 300;
   font-style: normal;
 }
