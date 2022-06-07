@@ -263,7 +263,11 @@ button.quantity__button.no-js-hidden {
       margin-bottom: 40px;
 	}
   
+   .product__info-wrapper--extra-padding {
+      padding-left: 4rem;
+  	}
   
+  	
   
 
 }
