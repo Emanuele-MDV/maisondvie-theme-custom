@@ -26,7 +26,7 @@ li.thumbnail-list__item.slider__slide > button > img {
 /* Price */
 
 .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular span {
-    font-family: Graffier;
+    font-family: Grafier;
     font-weight: 800;
     font-size: 24px;
 }
