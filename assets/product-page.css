@@ -42,6 +42,11 @@ li.thumbnail-list__item.slider__slide > button > img {
     bottom: -100px;
     transition: all 200ms ease-in;
     z-index:2;
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,0.5998774509803921) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.5998774509803921) 0%, rgba(0,0,0,0) 100%);
+background: linear-gradient(0deg, rgba(0,0,0,0.5998774509803921) 0%, rgba(0,0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
   
   media-gallery#MediaGallery-template--16077895598335__main:hover slider-component#GalleryThumbnails-template--16077895598335__main {
