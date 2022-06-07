@@ -10,6 +10,15 @@ main > section:first-of-type {
     margin-bottom: 40px;
 }
 
+/* Gallery */
+
+li.thumbnail-list__item.slider__slide {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+
+
 /* Variants picker */
 
 .product-form__input.product-form__quantity, variant-selects.no-js-hidden {
