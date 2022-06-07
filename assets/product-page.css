@@ -24,7 +24,9 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
-
+.thumbnail[aria-current]{
+	border:0px;
+}
   
   button.slider-button {
     background-color: white;
