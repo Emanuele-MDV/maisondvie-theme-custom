@@ -23,6 +23,13 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
+/* Brand name */
+
+p.product__text.caption-with-letter-spacing {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
 /* Description */
 
 .product__info-container .product__description {
