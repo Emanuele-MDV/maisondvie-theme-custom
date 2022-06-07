@@ -267,7 +267,9 @@ button.quantity__button.no-js-hidden {
       padding-left: 4rem!important;
   	}
   
-  	
+  	.product-form__input{
+     min-width:unset; 
+    }
   
 
 }
