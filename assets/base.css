@@ -4,8 +4,6 @@
 @font-face{
   font-family: Grafier;
   src: url({{ "Grafier-HeavyDisplay.ttf" | asset_url }}) format('truetype');
-  font-weight: 800;
-  font-style: normal;
 }
 
 @font-face{
