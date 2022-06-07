@@ -161,6 +161,34 @@ p.product__text.caption-with-letter-spacing {
     width: 50%;
 } */
 
+variant-selects.no-js-hidden, .product-form__input.product-form__quantity {
+    margin: 0;
+    width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.product-form__input.product-form__quantity {
+	max-width:calc(50% - 14px);
+}
+
+
+quantity-input.quantity {
+    width: 100%;
+}
+
+
+input#Quantity-template--16077895598335__main {
+    width: 80%;
+    max-width: 60%;
+}
+
+button.quantity__button.no-js-hidden {
+    width: 20%;
+}
+
+
+
 .product-form__input.product-form__quantity {
     padding-left: 50px;
 }
