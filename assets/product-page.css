@@ -32,6 +32,7 @@ li.thumbnail-list__item.slider__slide > button > img {
   media-gallery#MediaGallery-template--16077895598335__main {
       position: relative;
       top: 0;
+    overflow:hidden;
   }
   
   
