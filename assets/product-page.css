@@ -25,7 +25,7 @@ li.thumbnail-list__item.slider__slide > button > img {
 
 /* Description */
 
-.product__description {
+.product__info-container .product__description {
     margin-bottom: 40px;
     margin-top: 22px;
 }
