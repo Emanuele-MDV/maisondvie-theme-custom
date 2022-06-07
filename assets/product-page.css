@@ -10,6 +10,12 @@ main > section:first-of-type {
     margin-bottom: 40px;
 }
 
+/* Long description block */
+
+.rich-text__blocks {
+    max-width: unset;
+}
+
 
 
 /* Accordion */
