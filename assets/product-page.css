@@ -120,7 +120,11 @@ p.product__text.caption-with-letter-spacing {
 }
 
 
+/* Categories list */
 
+.categories p {
+    margin: 0;
+}
 
 
 /* Price */
@@ -150,11 +154,6 @@ p.product__text.caption-with-letter-spacing {
 
 
 /* Product form */
-
-
-
-
-/* Variants picker */
 
 
 variant-selects.no-js-hidden, .product-form__input.product-form__quantity {
