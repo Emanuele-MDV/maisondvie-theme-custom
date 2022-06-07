@@ -264,7 +264,7 @@ button.quantity__button.no-js-hidden {
 	}
   
    .product__info-wrapper--extra-padding {
-      padding-left: 4rem;
+      padding-left: 4rem!important;
   	}
   
   	
