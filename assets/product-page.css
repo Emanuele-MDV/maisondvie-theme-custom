@@ -17,6 +17,10 @@ li.thumbnail-list__item.slider__slide {
     overflow: hidden;
 }
 
+li.thumbnail-list__item.slider__slide > button > img {
+  
+}
+
 
 
 /* Variants picker */
