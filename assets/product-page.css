@@ -144,8 +144,15 @@ p.product__text.caption-with-letter-spacing {
     position: relative;
 }
 
-.categories ul li::before {
-	content:"";
+.categories ul li:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #b5b5b5;
 }
 
 /* Price */
