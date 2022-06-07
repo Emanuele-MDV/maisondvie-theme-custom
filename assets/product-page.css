@@ -23,6 +23,14 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
+/* Price */
+
+.price__regular span {
+    font-family: Graffier;
+    font-weight: 800;
+    font-size: 24px;
+}
+
 
 
 /* Variants picker */
