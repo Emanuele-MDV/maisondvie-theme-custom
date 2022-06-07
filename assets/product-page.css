@@ -315,4 +315,8 @@ h3.accordion__title {
     padding-top: 0;
 }
   
+  .thumbnail-list__item.slider__slide {
+    max-width: 17%;
+}
+  
 }
