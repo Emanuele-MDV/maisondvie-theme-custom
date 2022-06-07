@@ -190,7 +190,7 @@ button.quantity__button.no-js-hidden {
 }
 
 .product-form__buttons {
-    max-width: unset;
+    max-width: 100%;
 }
 
 /* Long description block */
