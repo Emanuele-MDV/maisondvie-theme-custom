@@ -23,9 +23,16 @@ li.thumbnail-list__item.slider__slide > button > img {
     object-position: top;
 }
 
-media-gallery#MediaGallery-template--16077895598335__main {
-    position: relative;
-    top: 0;
+
+@media screen and ('min-width:1200px'){
+
+
+  media-gallery#MediaGallery-template--16077895598335__main {
+      position: relative;
+      top: 0;
+  }
+  
+  
 }
 
 /* Brand name */
