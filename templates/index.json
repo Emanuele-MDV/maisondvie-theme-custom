@@ -45,7 +45,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "section_css_class": "homepage-banner"
+        "section_css_class": "homepage-banner page-width-desktop"
       }
     },
     "featured_collection": {
