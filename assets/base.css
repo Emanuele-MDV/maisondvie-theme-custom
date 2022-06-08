@@ -2992,8 +2992,11 @@ label.field__label {
   
 /* MEGA MENU */
   
-  ul.mega-menu__list div:first-of-type {
+ul.mega-menu__list div:first-of-type {
     width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
   
   ul.mega-menu__list div:last-of-type{
