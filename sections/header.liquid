@@ -457,6 +457,8 @@
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup" tabindex="-1">
                         
                         <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                          
+                          <div>
                           {%- for childlink in link.links -%}
                             <li>
                               
@@ -481,6 +483,8 @@
                               {%- endif -%}
                             </li>
                           {%- endfor -%} 
+                          </div>
+                          
                           
                           <div class="mega-content-link mega-content-link-all-{{ link.title | escape }}">
                             
