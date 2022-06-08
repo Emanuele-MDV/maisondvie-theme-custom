@@ -12,7 +12,7 @@ p.section-description {
 
 /* BANNER */
 
-.homepage-banner .banner__media, .homepage-banner .banner__media:after {
+.homepage-banner .banner__media, .homepage-banner .banner:after, .banner__media:after {
     
     width: 100%;
     max-width: calc(100% - 10rem);
