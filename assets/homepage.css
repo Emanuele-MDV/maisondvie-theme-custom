@@ -14,3 +14,7 @@
 .categories-hp .collage.collage--mobile .collage__item{
 	width:24%;
 }
+
+.categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
+    width: 48%;
+}
