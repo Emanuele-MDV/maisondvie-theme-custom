@@ -2,6 +2,12 @@
 
 h2 {
     text-align: center;
+  	margin-bottom: 16px;
+}
+
+p.section-description {
+    text-align: center;
+    margin-bottom: 42px;
 }
 
 /* BANNER */
