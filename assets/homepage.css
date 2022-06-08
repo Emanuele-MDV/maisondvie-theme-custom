@@ -12,6 +12,18 @@ p.section-description {
 
 /* BANNER */
 
+.homepage-banner .banner__media {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: calc(100% - 10rem);
+    left: 0;
+    margin: 0 auto;
+}
+
 
 /* FEATURED PRODUCTS */
 
