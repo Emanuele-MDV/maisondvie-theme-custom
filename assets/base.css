@@ -3026,3 +3026,20 @@ ul.mega-menu__list div:first-of-type {
     font-family: Graffier;
     font-size: 22px;
 }
+  
+  .mega-content-link a {
+    display: block;
+    width: fit-content;
+    background-color:transparent;
+    padding: 8px 29px;
+    border-radius: 2px;
+    border: 1px solid;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms ease-in;
+}
+  
+  .mega-content-link a:hover{
+  	color:black;
+    background-color:white;
+  }
