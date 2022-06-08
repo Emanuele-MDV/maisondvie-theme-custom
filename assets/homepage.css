@@ -12,15 +12,12 @@ p.section-description {
 
 /* BANNER */
 
-.homepage-banner .banner__media {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
+.homepage-banner .banner__media, .homepage-banner .banner__media .banner__media:after {
+    
     width: 100%;
     max-width: calc(100% - 10rem);
     left: 0;
+  	right: 0;
     margin: 0 auto;
 }
 
