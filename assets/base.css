@@ -3002,6 +3002,7 @@ ul.mega-menu__list div:first-of-type {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-right: 3rem;
 }
   
   ul.mega-menu__list div:last-of-type{
