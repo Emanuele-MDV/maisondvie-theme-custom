@@ -23,9 +23,9 @@
   <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
     <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     
-    
+    {% if section.settings.heading != blank %}
     <p>{{ section.settings.section_paragraph }}</p>
-    
+    {% endif %}
     
     <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
       {%- for block in section.blocks -%}
