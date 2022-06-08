@@ -3014,4 +3014,10 @@ ul.mega-menu__list div:first-of-type {
     padding-right: 2rem;
 }
   
-  
+
+  .mega-content-link {
+    position: relative;
+    padding: 40px 22px;
+    background-color: black;
+    color: white;
+}
