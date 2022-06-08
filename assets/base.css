@@ -2989,3 +2989,13 @@ label.field__label {
 }
   
   
+  
+/* MEGA MENU */
+  
+  ul.mega-menu__list div:first-of-type {
+    width: 75%;
+}
+  
+  ul.mega-menu__list div:last-of-type{
+  	width: 25%;
+  }
