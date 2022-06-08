@@ -480,9 +480,14 @@
                               
                               {%- endif -%}
                             </li>
-                          {%- endfor -%}
+                          {%- endfor -%} 
                           
-                          <p>Test {{ link.title | escape }} </p><a href="{{ link.url | escape }} ">Test</a>
+                          <div class="mega-content-link">
+                          	
+                            <p>View the latest {{ link.title | escape }} arrivals</p>
+                            <a href="{{ link.url | escape }} ">Test</a>
+                          
+                          </div>
                           
                           
                           
