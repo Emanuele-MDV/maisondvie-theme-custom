@@ -3021,3 +3021,8 @@ ul.mega-menu__list div:first-of-type {
     background-color: black;
     color: white;
 }
+  
+  .mega-content-link p {
+    font-family: Graffier;
+    font-size: 22px;
+}
