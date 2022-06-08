@@ -3043,6 +3043,7 @@ ul.mega-menu__list div:first-of-type {
   .mega-content-link a:hover{
   	color:black;
     background-color:white;
+    border:0px;
   }
   
   .mega-content-link.mega-content-link-all-Clothing{
