@@ -21,6 +21,10 @@ p.section-description {
     margin: 0 auto;
 }
 
+.homepage-banner .banner__media::after{
+	content:'';
+}
+
 .homepage-banner::after{
 	content:unset!important;
 }
