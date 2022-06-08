@@ -9,6 +9,7 @@
 .categories-hp .collage.collage--mobile {
     display: flex;
     flex-wrap: wrap;
+  	justify-content:space-between;
 }
 
 .categories-hp .collage.collage--mobile .collage__item{
