@@ -2955,6 +2955,7 @@ details-disclosure > details {
     background: transparent;
     color: white;
     border-bottom: 1px solid;
+    font-size: 26px;
 }
   
   
