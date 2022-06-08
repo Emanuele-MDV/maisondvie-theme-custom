@@ -1,0 +1,14 @@
+/* BANNER */
+
+
+/* FEATURED PRODUCTS */
+
+
+/* CATEGORIES GRID */
+
+.categories-hp .collage.collage--mobile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categories-hp .collage.collage--mobile .collage__item{}
