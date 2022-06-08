@@ -3008,4 +3008,10 @@ ul.mega-menu__list div:first-of-type {
   	width: 25%;
 }
   
+  ul.mega-menu__list div:first-of-type li {
+    width: fit-content;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
+  
   
