@@ -20,8 +20,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Shop now",
+            "button_link_1": "https:\/\/dev-maisondvie.myshopify.com\/collections\/all?sort_by=title-ascending&filter.p.m.my_fields.sale=10%25+Off&filter.p.m.my_fields.sale=15%25+Off",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "https:\/\/dev-maisondvie.myshopify.com\/collections\/all?sort_by=title-ascending&filter.p.m.my_fields.sale=10%25+Off&filter.p.m.my_fields.sale=15%25+Off",
