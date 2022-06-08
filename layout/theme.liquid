@@ -214,6 +214,10 @@
     	<link rel="stylesheet" href="{{ 'product-page.css' | asset_url }}" media="print" onload="this.media='all'">
     {% endif %}
     
+    {% if template.name = "index" %} 
+     <link rel="stylesheet" href="{{ 'homepage.css' | asset_url }}" media="print" onload="this.media='all'">
+    {% endif %}
+    
     
   </head>
 
