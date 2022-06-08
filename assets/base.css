@@ -2928,4 +2928,7 @@ details-disclosure > details {
   
   
   
-  
+  p.announcement-bar__message.h5 {
+    font-family: Wotfard;
+    text-transform: uppercase;
+}
