@@ -3015,7 +3015,7 @@ ul.mega-menu__list div:first-of-type {
 }
   
 
-.mega-menu__content.gradient.motion-reduce.global-settings-popup {
+  .mega-content-link {
     position: relative;
     padding: 40px 22px;
     background-color: black;
