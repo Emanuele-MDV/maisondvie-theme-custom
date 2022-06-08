@@ -487,6 +487,8 @@
                             {% if link.image %}
                               {{ link.image | image_url: width: 2048 | image_tag }}
                             {% endif %}
+                            
+                            {{ link.image | image_url: width: 2048 | image_tag }}
                           	
                             <p>Browse all the {{ link.title | escape }}</p>
                             <a href="{{ link.url | escape }} ">Shop now</a>
