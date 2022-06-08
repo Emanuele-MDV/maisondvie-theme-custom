@@ -2940,3 +2940,43 @@ details-disclosure > details {
   .search-modal__form {
     max-width: 97.8rem;
 }
+  
+  .search-modal__content.search-modal__content-bottom {
+    background-color: black;
+}
+  
+  .modal__close-button .icon {
+    color: white;
+}
+  
+  .search__input.field__input {
+    padding: 4rem 0;
+    padding-left: 30px;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid;
+}
+  
+  
+label.field__label {
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    left: 0;
+}
+  
+  button.search__button.field__button {
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+  .search__button .icon {
+    height: 3.8rem;
+    width: 3.8rem;
+    color: white;
+}
+  
+  button.modal__close-button.link.link--text.focus-inset {
+    position: absolute;
+    right: 4rem;
+}
