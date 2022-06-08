@@ -3040,6 +3040,7 @@ ul.mega-menu__list div:first-of-type {
   .mega-content-link p {
     font-family: Graffier;
     font-size: 22px;
+        position: relative;
 }
   
   .mega-content-link a {
@@ -3052,6 +3053,7 @@ ul.mega-menu__list div:first-of-type {
     color: white;
     text-decoration: none;
     transition: all 200ms ease-in;
+        position: relative;
 }
   
   .mega-content-link a:hover{
