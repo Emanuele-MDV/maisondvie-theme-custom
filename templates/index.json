@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/explore-design-dresses-collection.webp",
         "image_overlay_opacity": 40,
         "image_height": "small",
         "adapt_height_first_image": false,
