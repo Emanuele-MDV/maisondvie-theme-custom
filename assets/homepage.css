@@ -28,6 +28,10 @@ section#shopify-section-template--16077895434495__image_banner {
 
 /* FEATURED PRODUCTS */
 
+.slider-counter.caption {
+    display: none;
+}
+
 
 /* CATEGORIES GRID */
 
