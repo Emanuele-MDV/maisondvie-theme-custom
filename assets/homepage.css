@@ -22,7 +22,7 @@ p.section-description {
 }
 
 .homepage-banner::after{
-	content:'test';
+	content:unset!important;
 }
 
 
