@@ -11,4 +11,6 @@
     flex-wrap: wrap;
 }
 
-.categories-hp .collage.collage--mobile .collage__item{}
+.categories-hp .collage.collage--mobile .collage__item{
+	width:25%;
+}
