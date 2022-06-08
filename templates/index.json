@@ -54,7 +54,7 @@
       "settings": {
         "title": "Brand new arrivals",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Be the first in line with our awe-inspiring new collection.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "new-products",
