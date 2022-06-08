@@ -21,8 +21,8 @@ p.section-description {
     margin: 0 auto;
 }
 
-.homepage-banner:after{
-	content:unset;
+.homepage-banner::after{
+	content:'test';
 }
 
 
