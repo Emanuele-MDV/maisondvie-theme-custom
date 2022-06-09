@@ -37,7 +37,6 @@ section#shopify-section-template--16077895434495__image_banner {
     top: 50%;
     z-index: 32;
     width: 100%;
-    justify-content: space-between;
     transform: translateY(-50%);
 }
 
@@ -49,10 +48,6 @@ button.slider-button {
 
 button.slider-button:hover {
     background-color: black;
-}
-
-.slider-button .icon {
-    height: 1.2rem;
 }
 
 button.slider-button:hover .icon{
