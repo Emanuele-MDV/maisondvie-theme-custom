@@ -23,7 +23,7 @@
         "07843213-48ad-4c0e-9494-9e69e555070d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>\n{{product.type | link_to_type }}"
+            "custom_liquid": "<p>\n<strong>\nProduct category: \n<\/strong>\n{{ product.type }}\n<\/p>"
           }
         },
         "price": {
