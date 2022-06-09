@@ -381,19 +381,7 @@
   }
 }
 
-@media screen and (min-width: 750px) {
-  .banner__box {
-    width: auto;
-    max-width: 71rem;
-    min-width: 45rem;
-  }
-}
 
-@media screen and (min-width: 1400px) {
-  .banner__box {
-    max-width: 90rem;
-  }
-}
 
 .banner__heading {
   margin-bottom: 0;
