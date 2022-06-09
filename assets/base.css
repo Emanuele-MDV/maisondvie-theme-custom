@@ -3005,9 +3005,12 @@ ul.mega-menu__list div:first-of-type {
     padding-right: 3rem;
 }
   
-  ul.mega-menu__list div:last-of-type{
-  	width: 33.33%;
-    min-height:360px;
+ul.mega-menu__list div:last-of-type {
+    width: 33.33%;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
   
   ul.mega-menu__list div:first-of-type li {
