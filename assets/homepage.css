@@ -31,6 +31,15 @@ section#shopify-section-template--16077895434495__image_banner {
     margin: 0;
 }
 
+/* LAYOUT */
+
+section {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+
+
 /* FEATURED PRODUCTS */
 
 .slider-counter.caption {
