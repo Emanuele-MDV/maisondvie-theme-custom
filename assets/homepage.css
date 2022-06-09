@@ -46,7 +46,7 @@ section#shopify-section-template--16077895434495__image_banner {
 }
 
 .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
-    width: 49%;
+    width: 49.3%;
 }
 
 .slider--desktop.grid--5-col-desktop .grid__item {
@@ -56,4 +56,8 @@ section#shopify-section-template--16077895434495__image_banner {
 .slider--desktop .slider__slide:first-child {
     margin-left: auto;
     scroll-margin-left: var(--desktop-margin-left-first-item);
+}
+
+.card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner{
+max-height:40rem;
 }
