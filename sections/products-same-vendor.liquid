@@ -168,14 +168,15 @@
 
 {% schema %}
 {
-  "name": "t:sections.featured-collection.name",
+  "name": "Products from this Brand",
   "tag": "section",
   "class": "section",
+  "templates": ["product"],
   "settings": [
     {
       "type": "text",
       "id": "title",
-      "default": "Products from the same vendor",
+      "default": "Same vendor",
       "label": "t:sections.featured-collection.settings.title.label"
     },
     {
