@@ -2998,7 +2998,7 @@ label.field__label {
 }
   
 ul.mega-menu__list div:first-of-type {
-    width: 75%;
+    width: 66.66%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -3006,7 +3006,7 @@ ul.mega-menu__list div:first-of-type {
 }
   
   ul.mega-menu__list div:last-of-type{
-  	width: 25%;
+  	width: 33.33%;
 }
   
   ul.mega-menu__list div:first-of-type li {
