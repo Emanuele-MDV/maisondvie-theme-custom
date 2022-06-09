@@ -21,10 +21,23 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate {{ section.settings.section_css_class }}">
   <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
+    
+    {% if section.settings.is_on_top_of_title == true %}
+        
+        {% if section.settings.custom_paragraph %}
+        	<p>{{ section.settings.custom_paragraph }}</p>
+        {% endif %}
+        
+    {% endif %}
+    
     <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     
-    {% if section.settings.heading != blank %}
-    <p class="section-description">{{ section.settings.section_paragraph }}</p>
+    {% if section.settings.is_on_top_of_title == false %}
+        
+        {% if section.settings.custom_paragraph %}
+        	<p>{{ section.settings.custom_paragraph }}</p>
+        {% endif %}
+        
     {% endif %}
     
     <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
@@ -274,24 +287,27 @@
 	{
 
     "type": "text",
+        "id": "custom_paragraph",
+        "label": {
+          "en": "Custom Paragraph"
+        }
+      },
+		{
+      "type": "checkbox",
+      "id": "is_on_top_of_title",
+      "default": false,
+      "label": "Show text before title?"
+    },
+	{
+
+    "type": "text",
         "id": "section_css_class",
         "label": {
           "en": "Custom CSS Class"
         },
         "default": {
-          "en": "Custom CSS"
+          "en": "custom-"
         }
-      },
-	  {
-
-      "type": "text",
-          "id": "section_paragraph",
-          "label": {
-            "en": "Paragraph"
-          },
-          "default": {
-            "en": "Paragraph"
-          }
       }
   ],
   "blocks": [
