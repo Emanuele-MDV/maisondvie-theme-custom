@@ -229,24 +229,24 @@
         "16547691411000c76a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "New Collection 2022 is available now.",
+            "heading_size": "h2"
           }
         },
         "16547691411000c76a-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Check out the latest pieces from your favorite brand",
             "text_style": "body"
           }
         },
         "16547691411000c76a-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/new-products",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -259,7 +259,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/trendy-designer-fashion-collections.webp",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
