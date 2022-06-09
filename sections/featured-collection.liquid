@@ -91,6 +91,12 @@
         </div>
       {%- endif -%}
     </slider-component>
+    
+    
+    {% if template.name == 'product' %}
+    <p>Product page</p>
+	{% endif %}
+    
 
     {%- if section.settings.show_view_all and more_in_collection -%}
       <div class="center collection__view-all">
