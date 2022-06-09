@@ -3007,6 +3007,7 @@ ul.mega-menu__list div:first-of-type {
   
   ul.mega-menu__list div:last-of-type{
   	width: 33.33%;
+    min-height:360px;
 }
   
   ul.mega-menu__list div:first-of-type li {
