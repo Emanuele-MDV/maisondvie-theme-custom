@@ -230,7 +230,7 @@
           "type": "heading",
           "settings": {
             "heading": "New Collection 2022 is available now.",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "16547691411000c76a-1": {
@@ -260,10 +260,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/trendy-designer-fashion-collections.webp",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
