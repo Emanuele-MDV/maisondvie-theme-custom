@@ -258,6 +258,7 @@
         "16547691411000c76a-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/trendy-designer-fashion-collections.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
