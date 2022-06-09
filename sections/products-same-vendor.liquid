@@ -56,7 +56,7 @@
         
           <h2 class="title {{ section.settings.heading_size }}">View more from {{ product.vendor | title }}</h2>
         
-        <p>{{ product.link }}</p>
+        <p>{{ product.url }}</p>
         
         {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
           <div class="section-description collection__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
