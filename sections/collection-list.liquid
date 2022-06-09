@@ -31,8 +31,14 @@
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
         
+        is_on_top_of_title
+        
+        {% if section.settings.is_on_top_of_title == true %}
+        
         {% if section.settings.custom_paragraph %}
         	<p>{{ section.settings.custom_paragraph }}</p>
+        {% endif %}
+        
         {% endif %}
         
         <h2 class="collection-list-title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
@@ -242,7 +248,7 @@
       "type": "checkbox",
       "id": "is_on_top_of_title",
       "default": false,
-      "label": "Show before title?"
+      "label": "Show text before title?"
     },
 	{
 
