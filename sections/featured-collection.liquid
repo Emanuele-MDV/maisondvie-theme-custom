@@ -95,7 +95,10 @@
       {%- endif -%}
     </slider-component>
     
+    {% else %}
     
+    {% assign vendor = product.vendor %}
+    {% render vendor %}
     
     
 	{% endif %}
