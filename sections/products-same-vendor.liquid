@@ -50,7 +50,7 @@
 {% assign vendor = product.vendor %}
 {% assign prod_link = product.url %}
 
-{%- assign products = collection.products | where: "vendor", product.vendor | limit: 4 -%}
+{%- assign products = collection.products | where: "vendor", product.vendor -%}
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
