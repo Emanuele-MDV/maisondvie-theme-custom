@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "https:\/\/dev-maisondvie.myshopify.com\/collections\/all?sort_by=title-ascending&filter.p.m.my_fields.sale=10%25+Off&filter.p.m.my_fields.sale=15%25+Off",
+            "button_link_1": "shopify:\/\/collections\/sales",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "https:\/\/dev-maisondvie.myshopify.com\/collections\/all?sort_by=title-ascending&filter.p.m.my_fields.sale=10%25+Off&filter.p.m.my_fields.sale=15%25+Off",
@@ -189,7 +189,7 @@
             "collection": ""
           }
         },
-        "2b1e3de6-8a19-4d3c-8e51-ac271b213406": {
+        "56dccbc3-e5f0-41aa-8330-f03775757d2b": {
           "type": "featured_collection",
           "settings": {
             "collection": ""
@@ -205,7 +205,7 @@
         "1a006258-d7ce-4aa6-9e0f-5fc8594b6e4a",
         "988a1122-03a4-43b6-ba97-bb612a0873ec",
         "5572f61b-9319-4c04-9d9c-bf8969123a7d",
-        "2b1e3de6-8a19-4d3c-8e51-ac271b213406"
+        "56dccbc3-e5f0-41aa-8330-f03775757d2b"
       ],
       "settings": {
         "title": "Designer's collection",
@@ -222,12 +222,41 @@
         "is_on_top_of_title": true,
         "section_css_class": "custom-designer-collection"
       }
+    },
+    "1654765667c246d5f8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Maison's Best Sellers",
+        "heading_size": "h1",
+        "description": "<p>Here are a few of your most loved pieces. All in one spot, only for you.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_css_class": "slider-homepage page-width-desktop"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "collage",
-    "16547630219c80648c"
+    "16547630219c80648c",
+    "1654765667c246d5f8"
   ]
 }
