@@ -32,6 +32,33 @@ section#shopify-section-template--16077895434495__image_banner {
     display: none;
 }
 
+.slider-buttons {
+    position: absolute;
+    top: 50%;
+    z-index: 32;
+    width: 100%;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+button.slider-button {
+    background-color: white;
+    border-radius: 2px;
+    transition: all 200ms ease-in;
+}
+
+button.slider-button:hover {
+    background-color: black;
+}
+
+.slider-button .icon {
+    height: 1.2rem;
+}
+
+button.slider-button:hover .icon{
+	color:white;
+}
+
 
 /* CATEGORIES GRID */
 
@@ -60,4 +87,13 @@ section#shopify-section-template--16077895434495__image_banner {
 
 .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner{
 max-height:40rem;
+}
+
+
+/* DESIGNERS COLLECTION */
+
+.custom-designer-collection .title-wrapper-with-link h2, .custom-designer-collection .title-wrapper-with-link p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
