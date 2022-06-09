@@ -48,6 +48,7 @@
 
 
 {% assign vendor = product.vendor %}
+{% assign prod_name = product.name %}
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
