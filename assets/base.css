@@ -3010,7 +3010,7 @@ ul.mega-menu__list div:last-of-type {
     min-height: 360px;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    justify-content: end;
 }
   
   ul.mega-menu__list div:first-of-type li {
