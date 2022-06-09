@@ -25,6 +25,15 @@ section#shopify-section-template--16077895434495__image_banner {
     margin-bottom: 40px;
 }
 
+.section-title {
+  margin-bottom:32px;
+}
+
+.section-title h2, .section-title p {
+    text-align: center;
+    margin: 0;
+}
+
 
 /* FEATURED PRODUCTS */
 
@@ -53,6 +62,8 @@ button.slider-button:hover {
 button.slider-button:hover .icon{
 	color:white;
 }
+
+
 
 
 /* CATEGORIES GRID */
