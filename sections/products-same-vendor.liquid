@@ -50,6 +50,8 @@
 {% assign vendor = product.vendor %}
 {% assign prod_link = product.url %}
 
+{%- assign products = collection.products | where: "vendor", product.vendor | limit: 4 -%}
+
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
       <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
@@ -67,6 +69,8 @@
         {%- for product in collections['all'].all_products limit: section.settings.products_to_show -%}
           
         {% if vendor == product.vendor %}
+        
+        
         
         	{% if prod_link != product.url %}
         
