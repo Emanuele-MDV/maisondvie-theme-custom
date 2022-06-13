@@ -3076,10 +3076,9 @@ ul.mega-menu__list div:last-of-type {
   
   .footer-block--newsletter.page-width {
     background-color: #373737;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 62px;
     padding-bottom: 62px;
-    min-width:100%;
 }
   
   .footer-block__newsletter {
