@@ -139,6 +139,22 @@ button.slider-button:hover .icon{
 max-height:40rem;
 }
 
+/* GRIDS */
+
+.categories-hp .card__inner.color-background-2.gradient.ratio::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
+background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
+background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
 
 /* DESIGNERS COLLECTION */
 
@@ -264,19 +280,7 @@ section#shopify-section-template--16077895434495__image_banner {
     z-index: 1;
 }
   
-  .categories-hp .card__inner.color-background-2.gradient.ratio::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: rgb(0,0,0);
-background: -moz-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
-background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
-background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
-}
+  
   
   .categories-hp .card--standard>.card__content .card__information h3 {
     color: white!important;
