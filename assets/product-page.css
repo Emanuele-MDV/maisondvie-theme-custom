@@ -179,7 +179,7 @@ p.product__text.caption-with-letter-spacing {
 
 .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular { float:left;}
 
-.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular span {
+.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular span, .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__sale span {
     font-family: Grafier;
     font-weight: 800;
     font-size: 24px;
