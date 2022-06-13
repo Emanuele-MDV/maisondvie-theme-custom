@@ -51,9 +51,6 @@
 {% assign mycollection = product.vendor | handle %}
 {% assign current_product = product.title %}
 
-{{ mycollection.size }}
-
-
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
