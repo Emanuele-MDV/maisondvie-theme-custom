@@ -3125,10 +3125,6 @@ input#NewsletterForm--footer {
   padding-left: 100px;
 }
   
-  .newsletter-form__field-wrapper .field__input {
-    padding-left: 100px;
-}
-  
 .field label {
     position: absolute;
     top: 50%;
