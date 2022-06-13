@@ -3079,6 +3079,7 @@ ul.mega-menu__list div:last-of-type {
     margin: 0;
     padding-top: 62px;
     padding-bottom: 62px;
+    min-width:100%;
 }
   
   .footer-block__newsletter {
