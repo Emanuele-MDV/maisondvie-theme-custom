@@ -361,4 +361,8 @@ h3.accordion__title {
     letter-spacing: 0;
 	}
   
+  .price.price--large:after {
+    margin-top: 6px;
+}
+  
 }
