@@ -186,5 +186,10 @@ section {
   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
     width: 100%;
 }
+  
+  .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner {
+    max-height: 18rem;
+    height: 18rem;
+}
 
 }
