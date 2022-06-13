@@ -133,7 +133,9 @@ section#shopify-section-template--16077895434495__image_banner {
   	max-width:unset;
   }
 
-
+section {
+    margin-bottom: 22px;
+}
 
 
 }
