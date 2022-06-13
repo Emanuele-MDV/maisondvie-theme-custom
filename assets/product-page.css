@@ -185,13 +185,13 @@ p.product__text.caption-with-letter-spacing {
     font-size: 24px;
 }
 
-.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__container::after {
+/* .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__container::after {
     content: "Including VAT";
     float: left;
     opacity: .5;
     font-size: 14px;
   	width:100%;
-}
+} */
 
 /* Product description */
 
