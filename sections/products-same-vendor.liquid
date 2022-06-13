@@ -52,25 +52,6 @@
 {% assign prod_link = product.url %}
 
 
-{% assign limit = 4 %}
-{% assign count = 0 %}
-
-{% for related in collection.products %}
-
-    {% for vendor in related.vendors %}
-        {% if vendor contains vendor and count < limit %}
-            {% assign count = count | plus: 1 %}
-            SHOW PRODUCT INFO HERE
-        {% endif %}
-        {% if count >= limit %}
-            {% break %}
-        {% endif %}
-    {% endfor %}
-    {% if count >= limit %}
-        {% break %}
-    {% endif %}
-{% endfor %}
-
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
