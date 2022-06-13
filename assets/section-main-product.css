@@ -340,11 +340,11 @@ a.product__text {
 }
 
 .product .price .badge {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .product .price__container {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .product .price dl {
