@@ -143,6 +143,23 @@ max-height:40rem;
 
 @media screen and (max-width:480px){
   
+  
+  section {
+    margin-bottom: 22px;
+}
+  
+  .page-width {
+    padding-top: 0;
+}
+  
+  
+  .section-description, .section-description p {
+    text-align: center;
+    margin-bottom: 0;
+}
+  
+  
+  
   /* Banner */
 
 section#shopify-section-template--16077895434495__image_banner {
@@ -156,14 +173,6 @@ section#shopify-section-template--16077895434495__image_banner {
   
   .banner__buttons, .banner__buttons a {
     width: 100%;
-}
-
-section {
-    margin-bottom: 22px;
-}
-  
-  .page-width {
-    padding-top: 0;
 }
   
   
