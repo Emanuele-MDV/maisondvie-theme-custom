@@ -3074,9 +3074,11 @@ ul.mega-menu__list div:last-of-type {
   
   /* Footer */
   
+  footer .full{
+  background-color:#373737;
+  }
+  
   footer .page-width:first-of-type {
-    background-color: #373737;
-    margin: 0 auto;
     padding-top: 62px;
     padding-bottom: 62px;
 }
