@@ -45,6 +45,8 @@
               <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
             	<p>Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.</p>
             {%- endif -%}
+            
+            </div>
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
@@ -84,7 +86,7 @@
                 <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
               {%- endif -%}
             {%- endform -%}
-          </div>
+          
         {%- endif -%}
 
         {%- if section.settings.show_social -%}
