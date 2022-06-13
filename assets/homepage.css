@@ -238,15 +238,19 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
   
   .card--standard>.card__content .card__information h3 {
     color: white!important;
+    font-size:1.8rem;
 }
   
   .card--standard>.card__content .card__information h3 span {
     display: none;
 }
   
-  .card--standard>.card__content .card__information h3::after{
-  	content:'Shop now >';
-  }
+  .card--standard>.card__content .card__information h3:after {
+    content: "Shop now >";
+    font-family: Wotfard;
+    font-size: 1.4rem;
+}
+  
   
   
 
