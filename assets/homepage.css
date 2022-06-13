@@ -146,7 +146,7 @@ section {
   /* Product badges */
   
   .section-template--16077895434495__featured_collection-padding {
-    padding-bottom: 0;
+    padding-bottom: 0!important;
 }
   
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item, .grid--peek .grid__item {
