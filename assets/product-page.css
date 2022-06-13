@@ -177,29 +177,6 @@ p.product__text.caption-with-letter-spacing {
 
 /* Price */
 
-/* .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular { float:left;}
-
-.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular span, .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__sale span {
-    font-family: Grafier;
-    font-weight: 800;
-    font-size: 24px;
-}
-
-.price--sold-out .price__badge-sold-out, .price--on-sale .price__badge-sale {
-    float: right;
-}
-
-.price.price--large.price--show-badge::after {
-    content: "Including VAT";
-    float: left;
-    opacity: .5;
-    font-size: 14px;
-  	width:100%;
-}
-
-.price--large {
-    margin-bottom: 40px;
-} */
 
 .price.price--large {
     margin-bottom: 3rem;
@@ -215,6 +192,13 @@ p.product__text.caption-with-letter-spacing {
     letter-spacing: 0;
 }
 .price.price--large .price__container .price__sale span s{opacity:.6;}
+
+.price.price--large::after {
+    content: 'Including Vat';
+    font-size: 1.4rem;
+    float: left;
+    opacity: .8;
+}
 
 /* Product description */
 
