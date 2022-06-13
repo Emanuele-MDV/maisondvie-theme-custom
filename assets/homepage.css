@@ -174,6 +174,18 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     display: none;
 }
 
+ .categories-hp .card--standard>.card__content .card__information h3:after {
+    content: "Shop now >";
+    font-family: Wotfard;
+    font-size: 1.4rem;
+}
+  
+  .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
+  	content: "View products >";
+    font-family: Wotfard;
+    font-size: 1.4rem;
+  }
+
 /* DESIGNERS COLLECTION SPECIFIC */
 
 .custom-designer-collection .title-wrapper-with-link h2, .custom-designer-collection .title-wrapper-with-link p {
@@ -294,20 +306,6 @@ section#shopify-section-template--16077895434495__image_banner {
   .categories-hp .card--standard>.card__content .card__information h3 {
     font-size:1.8rem;
 }
-  
-
-  
- .categories-hp .card--standard>.card__content .card__information h3:after {
-    content: "Shop now >";
-    font-family: Wotfard;
-    font-size: 1.4rem;
-}
-  
-  .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
-  	content: "View products >";
-    font-family: Wotfard;
-    font-size: 1.4rem;
-  }
   
   .custom-designer-collection .card:not(.ratio)>.card__content h3 {
     font-size:1.8rem;
