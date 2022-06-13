@@ -204,6 +204,8 @@ p.product__text.caption-with-letter-spacing {
     opacity: .8;
 }
 
+.price--on-sale .price__badge-sale{ float:right; }
+
 /* Product description */
 
 .rich-text__wrapper.rich-text__wrapper--left.page-width .rich-text__blocks {
