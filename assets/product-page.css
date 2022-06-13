@@ -190,8 +190,7 @@ p.product__text.caption-with-letter-spacing {
     float: left;
     opacity: .5;
     font-size: 14px;
-  	margin-top: 10px;
-    margin-left: 15px;
+  	width:100%;
 }
 
 /* Product description */
