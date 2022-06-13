@@ -363,6 +363,10 @@ h3.accordion__title {
   
   .price.price--large:after {
     margin-top: 6px;
+	}
+  
+  .price__container {
+    min-width: 70%;
 }
   
 }
