@@ -46,6 +46,15 @@
 -%}
 
 
+
+{% assign vendor_handle = vendor | handleize %}
+{% for product in all_products[vendor_handle].vendor %}
+  <a href="{{ product.url }}" title="{{ product.title }}">
+         <img src="{{ product.images.first | product_img_url: 'small' }}" alt="{{ product.title }}" />
+{% endfor %}
+
+
+
 {% assign vendor = product.vendor %}
 {% assign prod_link = product.url %}
 
@@ -65,7 +74,7 @@
       <ul id="Slider-{{ section.id }}" class="grid product-grid contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ section.settings.columns_desktop }}-col-desktop{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}" role="list" aria-label="{{ 'sections.featured_collection.slider' | t }}">
         {%- for product in collections['all'].all_products limit: section.settings.products_to_show -%}
           
-        {% unless current_product.vendor == product.vendor %}
+        {% if vendor == product.vendor %}
         
         
         
@@ -85,7 +94,7 @@
         
         	{% endif %}
         
-        {% endunless %}
+        {% endif %}
         
         {%- else -%}
           {%- for i in (1..4) -%}
