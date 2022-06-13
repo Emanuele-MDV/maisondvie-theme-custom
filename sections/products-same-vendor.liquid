@@ -126,6 +126,18 @@
   </div>
 </div>
 
+
+
+{% assign mycollection = product.vendor | handle %}
+
+				{%- for product in collections[mycollection].products limit: 5 -%}
+              		
+					Test
+                
+             	{%- endfor -%}
+
+
+
 {% schema %}
 {
   "name": "Same brand products",
