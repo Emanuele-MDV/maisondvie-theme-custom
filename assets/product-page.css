@@ -185,6 +185,10 @@ p.product__text.caption-with-letter-spacing {
     font-size: 24px;
 }
 
+.price--sold-out .price__badge-sold-out, .price--on-sale .price__badge-sale {
+    float: right;
+}
+
 /* .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__container::after {
     content: "Including VAT";
     float: left;
