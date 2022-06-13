@@ -119,4 +119,18 @@ max-height:40rem;
 
 
 
-/* */
+/* RESPONSIVE STARTS HERE  */
+
+
+@media screen and (max-width:480px){
+
+section#shopify-section-template--16077895434495__image_banner {
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+
+
+
+
+}
