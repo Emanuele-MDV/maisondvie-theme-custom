@@ -238,9 +238,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
   
   
-  .custom-designer-collection{
-  	
-  }
+  .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
+    height: 18rem;
+    max-height: 18rem;
+}
   
   
 
