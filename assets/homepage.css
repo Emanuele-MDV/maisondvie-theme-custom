@@ -88,6 +88,24 @@ button.slider-button:hover .icon{
 }
 
 
+.price__sale span:nth-child(2) {
+    display: none;
+}
+
+  .card__heading {
+    font-size: 1.4rem;
+}
+  
+  .card-information>.price {
+    font-size: 1.2rem;
+    font-family: Grafier;
+}
+  
+  .caption-with-letter-spacing.light {
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+}
+
 
 
 /* CATEGORIES GRID */
@@ -192,9 +210,7 @@ section#shopify-section-template--16077895434495__image_banner {
     max-width: calc(50% - 20px);
 }
   
-  .price__sale span:nth-child(2) {
-    display: none;
-}
+  
   
   .section-template--16077895434495__featured_collection-padding {
     padding-bottom: 0;
