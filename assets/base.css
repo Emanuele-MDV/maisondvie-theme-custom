@@ -3118,6 +3118,24 @@ ul.mega-menu__list div:last-of-type {
     font-family: Grafier;
 }
   
+  input#NewsletterForm--footer {
+    padding-left: 100px;
+    position: relative;
+}
+  
+  .newsletter-form__field-wrapper .field__input {
+    padding-left: 100px;
+}
+  
+  .field label {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: 8px;
+    transform: translateY(-50%);
+    opacity: .7;
+}
+  
   /* CUSTOM MOBILE */
   
   @media screen and (max-width:480px){
