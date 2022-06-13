@@ -240,6 +240,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     color: white!important;
 }
   
+  .card--standard>.card__content .card__information h3 span {
+    display: none;
+}
+  
+  .card--standard>.card__content .card__information h3::after{
+  	content:'Shop now >';
+  }
+  
   
 
 }
