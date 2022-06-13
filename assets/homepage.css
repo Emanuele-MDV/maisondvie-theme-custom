@@ -137,51 +137,7 @@ max-height:40rem;
 }
 
 
-
-/* RESPONSIVE STARTS HERE  */
-
-
-@media screen and (max-width:480px){
-  
-  
-  section {
-    margin-bottom: 22px;
-}
-  
-  .page-width {
-    padding-top: 0;
-}
-  
-  
-  .section-description, .section-description p {
-    text-align: center;
-    margin-bottom: 0;
-}
-  
-  
-  
-  /* Banner */
-
-section#shopify-section-template--16077895434495__image_banner {
-    margin-top: 0;
-    margin-bottom: 22px;
-}
-
-  .homepage-banner .banner__media, .homepage-banner:after{
-  	max-width:unset;
-  }
-  
-  .banner__buttons, .banner__buttons a {
-    width: 100%;
-}
-  
-  .slider-homepage .section-description {
-    padding: 0 20px;
-}
-  
-  
-  
-  /* Product badges */
+/* Product badges */
   
   .section-template--16077895434495__featured_collection-padding {
     padding-bottom: 0!important;
@@ -284,6 +240,49 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
   .custom-designer-collection .card:not(.ratio)>.card__content h3 {
     font-size:1.8rem;
 }
+
+
+/* RESPONSIVE STARTS HERE  */
+
+
+@media screen and (max-width:480px){
+  
+  
+  section {
+    margin-bottom: 22px;
+}
+  
+  .page-width {
+    padding-top: 0;
+}
+  
+  
+  .section-description, .section-description p {
+    text-align: center;
+    margin-bottom: 0;
+}
+  
+  
+  
+  /* Banner */
+
+section#shopify-section-template--16077895434495__image_banner {
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+  .homepage-banner .banner__media, .homepage-banner:after{
+  	max-width:unset;
+  }
+  
+  .banner__buttons, .banner__buttons a {
+    width: 100%;
+}
+  
+  .slider-homepage .section-description {
+    padding: 0 20px;
+}
+  
   
   /* NEW COLLECTIONS BANNER */
   
