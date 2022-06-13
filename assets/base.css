@@ -3081,6 +3081,18 @@ ul.mega-menu__list div:last-of-type {
     padding-bottom: 62px;
 }
   
+  .footer-block__newsletter {
+    color: white;
+    width: 48%;
+    max-width: 48%;
+}
+  
+  
+  .footer-block__newsletter h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+}
   
   
   /* CUSTOM MOBILE */
