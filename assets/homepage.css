@@ -194,14 +194,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     margin: 0;
 }
 
-.custom-designer-collection slider-component.slider-mobile-gutter ul li:nth-child(1),
+/* .custom-designer-collection slider-component.slider-mobile-gutter ul li:nth-child(1),
 .custom-designer-collection slider-component.slider-mobile-gutter ul li:nth-child(2),
 .custom-designer-collection slider-component.slider-mobile-gutter ul li:nth-child(3),
 .custom-designer-collection slider-component.slider-mobile-gutter ul li:nth-child(4){
     width: 25%;
     max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 4 / 5);
 }
-
+ */
 
 
 /* RESPONSIVE STARTS HERE  */
