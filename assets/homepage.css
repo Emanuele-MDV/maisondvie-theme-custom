@@ -188,7 +188,7 @@ section {
     width: 100%;
 }
   
-  .categories-hp .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner {
+  .categories-hp .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner, .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
     max-height: 18rem;
     height: 18rem;
 }
@@ -222,12 +222,12 @@ background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
   
-  .categories-hp .card--standard>.card__content .card__information h3 {
+  .categories-hp .card--standard>.card__content .card__information h3, .custom-designer-collection .card:not(.ratio)>.card__content h3 {
     color: white!important;
     font-size:1.8rem;
 }
   
- .categories-hp .card--standard>.card__content .card__information h3 span {
+ .categories-hp .card--standard>.card__content .card__information h3 span, .custom-designer-collection .card:not(.ratio)>.card__content h3 span {
     display: none;
 }
   
@@ -237,12 +237,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     font-size: 1.4rem;
 }
   
-  
-  .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
-    height: 18rem;
-    max-height: 18rem;
-}
-  
+  .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
+  	content: "View products >";
+    font-family: Wotfard;
+    font-size: 1.4rem;
+  }
   
 
 }
