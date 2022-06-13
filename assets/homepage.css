@@ -166,8 +166,15 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     z-index: 1;
 }
 
+  .categories-hp .card--standard>.card__content .card__information h3 {
+    color: white!important;
+}
 
-/* DESIGNERS COLLECTION */
+ .categories-hp .card--standard>.card__content .card__information h3 span, .custom-designer-collection .card:not(.ratio)>.card__content h3 span {
+    display: none;
+}
+
+/* DESIGNERS COLLECTION SPECIFIC */
 
 .custom-designer-collection .title-wrapper-with-link h2, .custom-designer-collection .title-wrapper-with-link p {
     text-align: center;
@@ -285,13 +292,10 @@ section#shopify-section-template--16077895434495__image_banner {
   
   
   .categories-hp .card--standard>.card__content .card__information h3 {
-    color: white!important;
     font-size:1.8rem;
 }
   
- .categories-hp .card--standard>.card__content .card__information h3 span, .custom-designer-collection .card:not(.ratio)>.card__content h3 span {
-    display: none;
-}
+
   
  .categories-hp .card--standard>.card__content .card__information h3:after {
     content: "Shop now >";
