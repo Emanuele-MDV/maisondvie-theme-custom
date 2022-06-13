@@ -209,6 +209,10 @@ p.product__text.caption-with-letter-spacing {
     border-top: 1px solid #c7c7c7;
 }
 
+.price.price--large .price__container span {
+    font-family: Grafier;
+}
+
 /* Product description */
 
 .rich-text__wrapper.rich-text__wrapper--left.page-width .rich-text__blocks {
