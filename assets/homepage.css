@@ -139,11 +139,22 @@ section {
     margin-bottom: 22px;
 }
   
+  .page-width {
+    padding-top: 0;
+}
+  
   /* Product badges */
   
   .price__sale span:nth-child(2) {
     display: none;
 }
+  
+  .section-template--16077895434495__featured_collection-padding {
+    padding-bottom: 0;
+}
 
+  .section-title.title-wrapper-with-link {
+    margin-top: 0;
+}
 
 }
