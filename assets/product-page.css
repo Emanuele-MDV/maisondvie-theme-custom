@@ -189,13 +189,13 @@ p.product__text.caption-with-letter-spacing {
     float: right;
 }
 
-/* .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__container::after {
+.price.price--large.price--show-badge::after {
     content: "Including VAT";
     float: left;
     opacity: .5;
     font-size: 14px;
   	width:100%;
-} */
+}
 
 /* Product description */
 
