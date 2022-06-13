@@ -214,6 +214,7 @@ p.product__text.caption-with-letter-spacing {
   	font-size: 2rem;
     letter-spacing: 0;
 }
+.price.price--large .price__container .price__sale span s{opacity:.6;}
 
 /* Product description */
 
