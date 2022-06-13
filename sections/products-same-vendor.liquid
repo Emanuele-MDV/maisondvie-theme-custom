@@ -129,10 +129,15 @@
 
 
 {% assign mycollection = product.vendor | handle %}
+{% assign current_product = product.title %}
 
 				{%- for product in collections[mycollection].products limit: 5 -%}
+
+					{% unless product.title == current_product %}
               		
 <p>Test {{ product.title }} </p>
+
+					{% endunless %}
                 
              	{%- endfor -%}
 
