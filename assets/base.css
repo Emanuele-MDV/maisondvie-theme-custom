@@ -3102,13 +3102,8 @@ ul.mega-menu__list div:last-of-type {
 }
   
   .newsletter-form__field-wrapper {
-    max-width: initial;
+    max-width: initial!important;
 }
-  
-  label.field__label {
-    display: none;
-}
-  
   
   /* CUSTOM MOBILE */
   
