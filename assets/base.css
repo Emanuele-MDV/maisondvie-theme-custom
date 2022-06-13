@@ -3109,6 +3109,15 @@ ul.mega-menu__list div:last-of-type {
     margin-bottom: 0;
 }
   
+  .newsletter-form__button {
+    width: fit-content;
+    padding: 20px;
+    background-color: black!important;
+    color: white;
+    border: 1px solid;
+    font-family: Grafier;
+}
+  
   /* CUSTOM MOBILE */
   
   @media screen and (max-width:480px){
