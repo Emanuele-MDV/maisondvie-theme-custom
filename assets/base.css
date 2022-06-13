@@ -3078,7 +3078,7 @@ ul.mega-menu__list div:last-of-type {
   background-color:#373737;
   }
   
-  footer > .page-width:first-of-type {
+  footer > .footer-block--newsletter.page-width {
     padding-top: 62px;
     padding-bottom: 62px;
 }
