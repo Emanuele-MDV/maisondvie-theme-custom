@@ -65,8 +65,8 @@
     {% assign products = collection.products %}
     
     {% for product in products %}
-    {% if product.collections contains vendor %} 
-    <p>{{ product.title }}</p>
+    {% if product.collections contains product.vendor %} 
+    	<p>{{ product.title }}</p>
     {% endif %}
     {% endfor %}
     
