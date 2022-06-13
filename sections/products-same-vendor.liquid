@@ -45,22 +45,6 @@
   endif
 -%}
 
-{% assign same_vendor = false %}
-{% assign same_type = false %}
-
-{% for product in collection.products %}
-      {% unless product.handle == current_product.handle %}
-         {% unless same_vendor and current_product.vendor != product.vendor %}
-           {% unless same_type and current_product.type != product.type %}
-
-<p>Products...</p>
-
-           {% endunless %}
-        {% endunless %}
-      {% endunless %}
-    {% endfor %}
-
-
 
 {% assign vendor = product.vendor %}
 {% assign prod_link = product.url %}
