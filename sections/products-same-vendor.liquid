@@ -47,16 +47,29 @@
 
 
 
-{% assign vendor_handle = vendor | handleize %}
-{% for product in all_products[vendor_handle].vendor %}
-  <a href="{{ product.url }}" title="{{ product.title }}">
-         <img src="{{ product.images.first | product_img_url: 'small' }}" alt="{{ product.title }}" />
-{% endfor %}
-
-
 
 {% assign vendor = product.vendor %}
 {% assign prod_link = product.url %}
+
+
+{% assign limit = 4 %}
+{% assign count = 0 %}
+
+{% for related in collection.products %}
+
+    {% for vendor in related.vendors %}
+        {% if vendor contains vendor and count < limit %}
+            {% assign count = count | plus: 1 %}
+            SHOW PRODUCT INFO HERE
+        {% endif %}
+        {% if count >= limit %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    {% if count >= limit %}
+        {% break %}
+    {% endif %}
+{% endfor %}
 
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
