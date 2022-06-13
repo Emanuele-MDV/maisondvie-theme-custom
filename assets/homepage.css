@@ -196,21 +196,6 @@ section {
     width: calc(50% - 6px);
 }
   
-  /*
-  
-  .card--standard.card--media .card__inner .card__information {
-    display: flex;
-}
-  
-  .card--standard.card--media .card__inner .card__information p.card__caption {
-    display: none;
-}
-  
-  .card--media .card__inner .card__content {
-    align-items: flex-end;
-    display: flex;
-} */
-  
   
   .categories-hp .card.card--standard.card--media.card--extend-height {
     position: relative;
