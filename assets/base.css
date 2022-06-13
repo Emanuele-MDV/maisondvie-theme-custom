@@ -3118,9 +3118,11 @@ ul.mega-menu__list div:last-of-type {
     font-family: Grafier;
 }
   
-  input#NewsletterForm--footer {
+input#NewsletterForm--footer {
+    padding: 10px;
     padding-left: 100px;
     position: relative;
+  padding-left: 100px;
 }
   
   .newsletter-form__field-wrapper .field__input {
