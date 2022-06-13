@@ -277,7 +277,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "section_css_class": "homepage-banner page-width-desktop"
+        "section_css_class": "page-width-desktop"
       }
     },
     "1654765667c246d5f8": {
