@@ -181,7 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 }
   
   .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
-  	content: "View products >";
+  	content: "Designer's clothes >";
     font-family: Wotfard;
     font-size: 1.4rem;
   }
