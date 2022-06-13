@@ -12,7 +12,7 @@ h2 {
 
 /* BANNER */
 
-.homepage-banner .banner__media, .homepage-banner::after {
+.homepage-banner .banner__media, .homepage-banner::after, .new-collection .banner__media.media, .new-collection::after {
     
     width: 100%;
     max-width: calc(100% - 10rem);
