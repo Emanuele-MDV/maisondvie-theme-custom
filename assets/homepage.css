@@ -187,7 +187,7 @@ section {
     width: 100%;
 }
   
-  .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner {
+  .categories-hp .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner {
     max-height: 18rem;
     height: 18rem;
 }
@@ -211,18 +211,18 @@ section {
 } */
   
   
-  .card.card--standard.card--media.card--extend-height {
+  .categories-hp .card.card--standard.card--media.card--extend-height {
     position: relative;
 }
   
-.card:not(.ratio)>.card__content {
+.categories-hp .card:not(.ratio)>.card__content {
     position: absolute;
     top: 45%;
     width: 100%;
     z-index: 1;
 }
   
-  .card__inner.color-background-2.gradient.ratio::after {
+  .categories-hp .card__inner.color-background-2.gradient.ratio::after {
     content: '';
     display: block;
     position: absolute;
@@ -236,16 +236,16 @@ background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
   
-  .card--standard>.card__content .card__information h3 {
+  .categories-hp.card--standard>.card__content .card__information h3 {
     color: white!important;
     font-size:1.8rem;
 }
   
-  .card--standard>.card__content .card__information h3 span {
+ .categories-hp .card--standard>.card__content .card__information h3 span {
     display: none;
 }
   
-  .card--standard>.card__content .card__information h3:after {
+ .categories-hp .card--standard>.card__content .card__information h3:after {
     content: "Shop now >";
     font-family: Wotfard;
     font-size: 1.4rem;
