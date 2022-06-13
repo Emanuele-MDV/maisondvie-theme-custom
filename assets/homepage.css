@@ -183,7 +183,7 @@ section {
   
   /* Collections */
   
-/*   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
+   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
     width: 100%;
 }
   
@@ -194,6 +194,8 @@ section {
   .categories-hp .collage.collage--mobile .collage__item {
     width: calc(50% - 10px);
 }
+  
+  /*
   
   .card--standard.card--media .card__inner .card__information {
     display: flex;
