@@ -24,7 +24,6 @@
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
   endif
-  assign show_desktop_slider = false
 -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient {{ section.settings.section_css_class }}">
@@ -56,7 +55,7 @@
       </div>
     {%- endunless -%}
   
-    <slider-component class="slider-mobile-gutter {% if show_desktop_slider %} slider-component-desktop{% endif %}">
+    <slider-component class="slider-mobile-gutter">
       <ul class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down{% if section.settings.swipe_on_mobile %} slider slider--tablet grid--peek{% endif %} collection-list--{{ section.blocks.size }}-items"
         id="Slider-{{ section.id }}"
         role="list"
@@ -196,12 +195,6 @@
     {
       "type": "header",
       "content": "t:sections.collection-list.settings.header_mobile.content"
-    },
-	{
-      "type": "checkbox",
-      "id": "enable_desktop_slider",
-      "label": "t:sections.featured-collection.settings.enable_desktop_slider.label",
-      "default": false
     },
     {
       "type": "select",
