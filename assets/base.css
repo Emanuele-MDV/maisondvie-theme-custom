@@ -3094,6 +3094,21 @@ ul.mega-menu__list div:last-of-type {
     text-align: left;
 }
   
+  .newsletter-form {
+    width: 48%;
+    max-width: 48%;
+    align-items: flex-end;
+    margin: 0;
+}
+  
+  .newsletter-form__field-wrapper {
+    max-width: initial;
+}
+  
+  label.field__label {
+    display: none;
+}
+  
   
   /* CUSTOM MOBILE */
   
