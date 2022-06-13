@@ -155,6 +155,17 @@ background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
+  .categories-hp .card.card--standard.card--media.card--extend-height {
+    position: relative;
+}
+  
+.categories-hp .card:not(.ratio)>.card__content {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    z-index: 1;
+}
+
 
 /* DESIGNERS COLLECTION */
 
@@ -269,16 +280,7 @@ section#shopify-section-template--16077895434495__image_banner {
 }
   
   
-  .categories-hp .card.card--standard.card--media.card--extend-height {
-    position: relative;
-}
-  
-.categories-hp .card:not(.ratio)>.card__content {
-    position: absolute;
-    top: 45%;
-    width: 100%;
-    z-index: 1;
-}
+
   
   
   
