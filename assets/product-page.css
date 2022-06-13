@@ -209,7 +209,7 @@ p.product__text.caption-with-letter-spacing {
     border-top: 1px solid #c7c7c7;
 }
 
-.price.price--large .price__container span {
+.price.price--large .price__container .price__sale span, .price.price--large .price__container .price__regular span, .price.price--large .price__container .price__sale span s {
     font-family: Grafier;
 }
 
