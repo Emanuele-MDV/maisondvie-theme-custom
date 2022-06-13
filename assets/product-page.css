@@ -197,6 +197,10 @@ p.product__text.caption-with-letter-spacing {
   	width:100%;
 }
 
+div#price-template--16077895598335__main {
+    margin-bottom: 40px;
+}
+
 /* Product description */
 
 .rich-text__wrapper.rich-text__wrapper--left.page-width .rich-text__blocks {
