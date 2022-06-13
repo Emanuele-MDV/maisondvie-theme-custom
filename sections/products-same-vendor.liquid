@@ -62,12 +62,12 @@
         {%- endif -%}
       </div>
     
-    {% assign collection_handles = collection.products | map: 'collections'  | map: 'handle' | uniq %}
+    {% assign products = collection.products %}
     
-    {% for handle in collection_handles %}
-    
-    <p>{{ product.name }}</p>
-    
+    {% for product in products %}
+    {% if product.collections contains vendor %} 
+    <p>{{ product.title }}</p>
+    {% endif %}
     {% endfor %}
     
     
