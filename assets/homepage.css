@@ -151,6 +151,7 @@ section {
   
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item, .grid--peek .grid__item {
     width: calc(50% - 20px);
+    max-width: calc(50% - 20px);
 }
   
   .price__sale span:nth-child(2) {
@@ -251,6 +252,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     font-size: 1.4rem;
 }
   
+  
+  .custom-designer-collection{
+  	
+  }
   
   
 
