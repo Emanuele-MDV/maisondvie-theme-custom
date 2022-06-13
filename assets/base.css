@@ -3084,7 +3084,7 @@ ul.mega-menu__list div:last-of-type {
   .footer-block__newsletter {
     color: white;
     width: 48%;
-    max-width: 48%;
+    max-width: 48%!important;
 }
   
   
