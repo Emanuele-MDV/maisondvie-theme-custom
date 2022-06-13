@@ -227,8 +227,8 @@ section#shopify-section-template--16077895434495__image_banner {
 }
   
   .categories-hp .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner, .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
-    max-height: 18rem;
-    height: 18rem;
+    max-height: 20rem;
+    height: 20rem;
 }
   .categories-hp .collage.collage--mobile .collage__item {
     width: calc(50% - 6px);
