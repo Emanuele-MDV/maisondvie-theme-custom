@@ -285,5 +285,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     font-size:1.8rem;
 }
   
+  /* NEW COLLECTIONS BANNER */
+  
+  .new-collection .banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {
+    padding-top: 120px;
+}
+  
 
 }
