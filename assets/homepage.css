@@ -123,6 +123,8 @@ max-height:40rem;
 
 
 @media screen and (max-width:480px){
+  
+  /* Banner */
 
 section#shopify-section-template--16077895434495__image_banner {
     margin-top: 0;
@@ -135,6 +137,12 @@ section#shopify-section-template--16077895434495__image_banner {
 
 section {
     margin-bottom: 22px;
+}
+  
+  /* Product badges */
+  
+  .price__sale span:nth-child(2) {
+    display: none;
 }
 
 
