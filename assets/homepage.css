@@ -291,5 +291,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     padding-top: 120px;
 }
   
+  .new-collection img {
+    object-position: 85% center;
+}
+  
 
 }
