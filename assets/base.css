@@ -930,7 +930,7 @@ summary::-webkit-details-marker {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 1rem;
+  gap: .6rem;
   margin-bottom: 3rem;
   flex-wrap: wrap;
 }
