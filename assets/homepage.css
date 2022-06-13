@@ -295,5 +295,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     object-position: 85% center;
 }
   
+  .new-collection .banner__text.body{
+  	color:white;
+  }
+  
 
 }
