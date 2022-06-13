@@ -177,7 +177,7 @@ p.product__text.caption-with-letter-spacing {
 
 /* Price */
 
-.product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular { float:left;}
+/* .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular { float:left;}
 
 .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__regular span, .product__info-wrapper.grid__item.product__info-wrapper--extra-padding .price__sale span {
     font-family: Grafier;
@@ -199,6 +199,14 @@ p.product__text.caption-with-letter-spacing {
 
 .price--large {
     margin-bottom: 40px;
+} */
+
+.price.price--large {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c7c7c7;
 }
 
 /* Product description */
