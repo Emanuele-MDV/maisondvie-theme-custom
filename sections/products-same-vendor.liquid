@@ -51,7 +51,7 @@
 {% assign mycollection = product.vendor | handle %}
 {% assign current_product = product.title %}
 
-{% if mycollection.size > 1 %}
+{% if mycollection.size >= 2 %}
 <p>Have products</p>
 {% endif %}
 
