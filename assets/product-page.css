@@ -211,6 +211,8 @@ p.product__text.caption-with-letter-spacing {
 
 .price.price--large .price__container .price__sale span, .price.price--large .price__container .price__regular span, .price.price--large .price__container .price__sale span s {
     font-family: Grafier;
+  	font-size: 2rem;
+    letter-spacing: 0;
 }
 
 /* Product description */
