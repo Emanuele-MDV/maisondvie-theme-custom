@@ -134,6 +134,10 @@ section#shopify-section-template--16077895434495__image_banner {
   .homepage-banner .banner__media, .homepage-banner:after{
   	max-width:unset;
   }
+  
+  .banner__buttons, .banner__buttons a {
+    width: 100%;
+}
 
 section {
     margin-bottom: 22px;
@@ -142,6 +146,8 @@ section {
   .page-width {
     padding-top: 0;
 }
+  
+  
   
   /* Product badges */
   
