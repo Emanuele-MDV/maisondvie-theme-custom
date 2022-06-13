@@ -353,4 +353,12 @@ h3.accordion__title {
     margin-bottom: 28px;
 }
   
+  /* Price */
+  
+  .price.price--large .price__container .price__sale span, .price.price--large .price__container .price__regular span, .price.price--large .price__container .price__sale span s {
+    font-family: Grafier;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+	}
+  
 }
