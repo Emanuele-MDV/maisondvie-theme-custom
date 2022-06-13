@@ -3127,13 +3127,18 @@ ul.mega-menu__list div:last-of-type {
     padding-left: 100px;
 }
   
-  .field label {
+.field label {
     position: absolute;
     top: 50%;
     z-index: 2;
     left: 8px;
     transform: translateY(-50%);
     opacity: .7;
+    padding-right: 8px;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #787878;
 }
   
   /* CUSTOM MOBILE */
