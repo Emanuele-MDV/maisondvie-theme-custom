@@ -183,7 +183,7 @@ section {
   
   /* Collections */
   
-  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
+/*   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
     width: 100%;
 }
   
@@ -206,6 +206,35 @@ section {
   .card--media .card__inner .card__content {
     align-items: flex-end;
     display: flex;
+} */
+  
+  
+  .card.card--standard.card--media.card--extend-height {
+    position: relative;
 }
+  
+.card:not(.ratio)>.card__content {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    z-index: 1;
+}
+  
+  .card__inner.color-background-2.gradient.ratio::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 1;
+    opacity: .3;
+}
+  
+  .card--standard>.card__content .card__information h3 {
+    color: white!important;
+}
+  
+  
 
 }
