@@ -357,8 +357,8 @@ h3.accordion__title {
   
   .price.price--large .price__container .price__sale span, .price.price--large .price__container .price__regular span, .price.price--large .price__container .price__sale span s {
     font-family: Grafier;
-    font-size: 1.6rem;
-    letter-spacing: 0;
+    font-size: 1.7rem;
+    letter-spacing: -0.5px;
 	}
   
   .price.price--large:after {
