@@ -51,6 +51,10 @@
 {% assign mycollection = product.vendor | handle %}
 {% assign current_product = product.title %}
 
+{% if mycollection.count > 1 %}
+<p>Have products</p>
+{% endif %}
+
 
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.settings.section_css_class }}">
@@ -119,20 +123,6 @@
     {%- endif -%}
   </div>
 </div>
-
-
-
-
-
-				{%- for product in collections[mycollection].products limit: 5 -%}
-
-					{% unless product.title == current_product %}
-              		
-						<p>{{ product.title }} </p>
-
-					{% endunless %}
-                
-             	{%- endfor -%}
 
 
 
