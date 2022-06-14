@@ -278,6 +278,9 @@ padding:0;
     width: 100%;
 }
 
+.size-chart table > tbody > tr > td:not(:nth-child(1)) {
+    text-align: center;
+}
 
 
 /* Related products */
