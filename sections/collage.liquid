@@ -22,6 +22,8 @@
 <div class="color-{{ section.settings.color_scheme }} gradient isolate {{ section.settings.section_css_class }}">
   <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
     
+    {% if section.settings.use_basic_structure == blank %}
+    
     <div class="section-title title-wrapper-with-link">
     
     
@@ -45,7 +47,30 @@
     
     </div>
     
+    {% else %}
     
+    <div class='standard-heading'>
+    {% if section.settings.is_on_top_of_title == true %}
+        
+        {% if section.settings.custom_paragraph %}
+        	<p>{{ section.settings.custom_paragraph }}</p>
+        {% endif %}
+        
+    {% endif %}
+      
+      <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+      
+      {% if section.settings.is_on_top_of_title == false %}
+        
+        {% if section.settings.custom_paragraph %}
+        	<p>{{ section.settings.custom_paragraph }}</p>
+        {% endif %}
+        
+    {% endif %}
+      
+    </div>
+    
+    {% endif %}
     
     
     <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
