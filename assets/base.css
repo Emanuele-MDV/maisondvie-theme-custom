@@ -3216,5 +3216,7 @@ input#NewsletterForm--footer {
     line-height: 2.2rem;
 	}
     
+    .card__badge.bottom.left{left:0;}
+    
     
   }
