@@ -3207,9 +3207,13 @@ input#NewsletterForm--footer {
 	}
     
     
-    
     .standard-heading {
     margin-bottom: 2rem;
+	}
+    
+    .standard-heading p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
 	}
     
     
