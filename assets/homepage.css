@@ -198,6 +198,8 @@ max-height:40rem;
     content: "Shop now >";
     font-family: Wotfard;
     font-size: 1.4rem;
+    display:block;
+    font-weight: 600;
 }
   
 /*   .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
