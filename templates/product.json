@@ -115,7 +115,7 @@
           "settings": {
             "heading": "Size & fit",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.my_fields.size_fit | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ product.metafields.my_fields.size_fit.value }}<\/p>",
             "page": ""
           }
         },
