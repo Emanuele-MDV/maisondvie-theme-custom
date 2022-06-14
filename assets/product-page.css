@@ -249,7 +249,9 @@ button.quantity__button.no-js-hidden {
 
 
 /* Accordion */
-.custom-tabs {
+
+
+.collapsible-section-layout.custom-tabs {
     padding-top: 0;
 }
 
