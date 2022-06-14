@@ -2747,7 +2747,7 @@ details-disclosure > details {
   }
 }
 
-.badge {
+/* .badge {
   border: 1px solid transparent;
   border-radius: var(--badge-corner-radius);
   display: inline-block;
@@ -2760,7 +2760,7 @@ details-disclosure > details {
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-foreground));
   word-break: break-word;
-}
+} */
 
 .gradient {
   background: rgb(var(--color-background));
@@ -3165,6 +3165,15 @@ input#NewsletterForm--footer {
     letter-spacing: 1.2px;
     padding: 0 24px;
 }
+  
+  
+  /* BADGE SALES */
+  
+  .card__badge.bottom.left {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+	}
   
   
   /* CUSTOM MOBILE */
