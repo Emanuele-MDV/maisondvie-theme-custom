@@ -3171,10 +3171,12 @@ input#NewsletterForm--footer {
   
 .card__badge.bottom.left {
     position: absolute;
-    background-color: #000;
-    width: 100%;
+    background-color: rgb(var(--color-background));
+    width: auto;
     display: flex;
     justify-content: center;
+    top: 0;
+    left: -5px;
 }
   
   .card__badge.bottom.left span.badge {
