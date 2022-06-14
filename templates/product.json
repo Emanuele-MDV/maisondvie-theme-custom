@@ -133,7 +133,7 @@
           "settings": {
             "heading": "Size chart",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>collection.metafields.my_fields.size_chart<\/p>",
             "page": ""
           }
         },
