@@ -204,6 +204,14 @@ p.product__text.caption-with-letter-spacing {
 
 .price--on-sale .price__badge-sale{ float:right; }
 
+span.badge.price__badge-sale.color-accent-2 {
+    background-color: black;
+    padding: 2px 8px;
+    font-size: 1.6rem;
+}
+
+
+
 /* Product description */
 
 .rich-text__wrapper.rich-text__wrapper--left.page-width .rich-text__blocks {
