@@ -271,6 +271,15 @@ padding:0;
 }
 
 
+/* Size chart */
+
+
+.size-chart table {
+    width: 100%;
+}
+
+
+
 /* Related products */
 
 .card--standard>.card__content, .card-information, .card__content .price, .caption-with-letter-spacing.light {
