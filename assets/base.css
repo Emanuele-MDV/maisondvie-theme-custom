@@ -3180,9 +3180,11 @@ input#NewsletterForm--footer {
   transition:all 200ms ease-in;
 }
   
-  .card__badge.bottom.left span.badge {
+.card__badge.bottom.left span.badge {
     border: 0;
     background: transparent;
+    padding: 0px 16px;
+    text-transform: uppercase;
 }
   
   
