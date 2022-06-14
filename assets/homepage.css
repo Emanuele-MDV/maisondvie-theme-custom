@@ -187,13 +187,13 @@ max-height:40rem;
     display:block;
     font-weight: 600;
     transition:all 200ms ease-in;
+    opacity:.7;
 }
-  
-/*   .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
-  	content: "Designer's clothes >";
-    font-family: Wotfard;
-    font-size: 1.4rem;
-  } */
+
+.categories-hp .card--standard:hover>.card__content .card__information h3:after, .custom-designer-collection .card:not(.ratio):hover>.card__content p.the_description::after{
+	opacity:1;
+    font-weight:900;
+}
 
 /* DESIGNERS COLLECTION SPECIFIC */
 
