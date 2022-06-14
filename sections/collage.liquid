@@ -45,6 +45,9 @@
     
     </div>
     
+    
+    
+    
     <div class="collage{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
       {%- for block in section.blocks -%}
         <div class="collage__item collage__item--{{ block.type }} collage__item--{{ section.settings.desktop_layout }}" {{ block.shopify_attributes }}>
@@ -235,6 +238,12 @@
       ],
       "default": "collage",
       "label": "t:sections.collage.settings.mobile_layout.label"
+    },
+	{
+      "type": "checkbox",
+      "id": "use_basic_structure",
+      "label": "Use my custom structure",
+      "default": false
     },
     {
       "type": "select",
