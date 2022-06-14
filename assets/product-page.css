@@ -257,7 +257,9 @@ button.quantity__button.no-js-hidden {
 }
 
 .custom-tabs .collapsible-content__wrapper .collapsible-content-wrapper-narrow {
-    padding: 0 0 0 0!important;
+    padding: 0!important;
+    width: 100%;
+    max-width: 100%;
 }
 
 .custom-tabs .collapsible-content__wrapper .collapsible-content-wrapper-narrow .accordion__content{
