@@ -190,10 +190,6 @@ max-height:40rem;
     opacity:.7;
 }
 
-.categories-hp .card--standard:hover>.card__content .card__information h3:after, .custom-designer-collection .card:not(.ratio):hover>.card__content p.the_description::after{
-	opacity:1;
-    font-weight:900;
-}
 
 /* DESIGNERS COLLECTION SPECIFIC */
 
