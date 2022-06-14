@@ -61,6 +61,17 @@ section#shopify-section-template--16077895434495__image_banner{
 margin-top:0;
 }
 
+section p:first-of-type {
+    width: fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    padding: 0 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
 
 /* FEATURED PRODUCTS */
 
