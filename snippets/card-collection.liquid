@@ -95,7 +95,7 @@
           </h3>
           
           {% if section.settings.show_description != blank %}
-          	<span>{{- card_collection.description | strip_html | truncatewords: 12 -}}</span>
+          	<p class='the_description'>{{- card_collection.description | strip_html | truncatewords: 12 -}}</p>
           {% endif %}
           
           
