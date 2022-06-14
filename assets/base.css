@@ -3152,6 +3152,7 @@ input#NewsletterForm--footer {
     justify-content: center;
     gap: 0.2rem;
     margin-bottom: 6rem;
+      text-align:center;
 }
   
   .standard-heading h2 {
