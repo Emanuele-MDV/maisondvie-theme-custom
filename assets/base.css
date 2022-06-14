@@ -3169,11 +3169,13 @@ input#NewsletterForm--footer {
   
   /* BADGE SALES */
   
-  .card__badge.bottom.left {
+.card__badge.bottom.left {
     position: absolute;
-    background-color: black;
+    background-color: #000;
     width: 100%;
-	}
+    display: flex;
+    justify-content: center;
+}
   
   
   /* CUSTOM MOBILE */
