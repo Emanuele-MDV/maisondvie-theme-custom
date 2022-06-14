@@ -3154,7 +3154,17 @@ input#NewsletterForm--footer {
 	
   }
   
+  .standard-heading h2 {
+    margin: 0;
+	}
   
+  .standard-heading p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #3a3a3a;
+    letter-spacing: 1.2px;
+    padding: 0 24px;
+}
   
   
   /* CUSTOM MOBILE */
