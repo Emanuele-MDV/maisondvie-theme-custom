@@ -3175,9 +3175,9 @@ input#NewsletterForm--footer {
     width: auto;
     display: flex;
     justify-content: center;
-    top: 0;
+    top: 10px;
     left: -5px;
-  transition:all 200ms ease-in;
+  	transition:all 200ms ease-in;
 }
   
 .card__badge.bottom.left span.badge {
