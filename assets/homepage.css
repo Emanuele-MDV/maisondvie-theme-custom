@@ -205,7 +205,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
 .custom-designer-collection .title-wrapper-with-link h2, .custom-designer-collection .title-wrapper-with-link p {
     text-align: center;
     width: 100%;
-    margin: 0;
 }
 
 /* .custom-designer-collection slider-component.slider-mobile-gutter ul li:nth-child(1),
