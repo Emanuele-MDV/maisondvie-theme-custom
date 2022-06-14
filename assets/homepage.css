@@ -210,6 +210,19 @@ p.the_description {
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
 
+@media screen and (max-width:1280px){
+
+  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
+    width: 49.2%;
+}
+  
+  .categories-hp .collage.collage--mobile .collage__item {
+    width: 23.6%;
+}
+  
+}
+
+
 @media screen and (max-width:480px){
   
   
