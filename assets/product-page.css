@@ -192,7 +192,7 @@ p.product__text.caption-with-letter-spacing {
 }
 
 .price__container {
-    min-width: 80%;
+    min-width: 75%;
 }
 
 .price.price--large .price__container .price__sale span, .price.price--large .price__container .price__regular span, .price.price--large .price__container .price__sale span s {
