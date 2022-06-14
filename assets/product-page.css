@@ -260,6 +260,10 @@ button.quantity__button.no-js-hidden {
     padding: 0 0 0 0!important;
 }
 
+.custom-tabs .collapsible-content__wrapper .collapsible-content-wrapper-narrow .accordion__content{
+padding:0;
+}
+
 
 /* Related products */
 
