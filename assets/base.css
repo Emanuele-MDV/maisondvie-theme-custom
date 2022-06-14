@@ -3187,6 +3187,10 @@ input#NewsletterForm--footer {
     text-transform: uppercase;
 }
   
+  .slider.slider--desktop.contains-card--standard .slider__slide:not(.collection-list__item--no-media):hover .card__badge.bottom.left {
+    background-color: red ;
+  }
+  
   
   .card__content {
     grid-template-rows: minmax(0,0fr) max-content minmax(0,1fr)!important;
