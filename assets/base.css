@@ -3183,6 +3183,11 @@ input#NewsletterForm--footer {
 }
   
   
+  .card__content {
+    grid-template-rows: minmax(0,0fr) max-content minmax(0,1fr);
+}
+  
+  
   /* CUSTOM MOBILE */
   
   @media screen and (max-width:480px){
