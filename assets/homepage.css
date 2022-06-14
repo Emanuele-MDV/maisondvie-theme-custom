@@ -188,7 +188,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     display: none;
 }
 
- .categories-hp .card--standard>.card__content .card__information h3:after, .custom-designer-collection .card:not(.ratio)>.card__content h3::after {
+ .categories-hp .card--standard>.card__content .card__information h3:after, .custom-designer-collection .card:not(.ratio)>.card__content p.the_description::after {
     content: "Shop now >";
     font-family: Wotfard;
     font-size: 1.4rem;
