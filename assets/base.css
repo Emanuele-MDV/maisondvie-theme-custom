@@ -3219,7 +3219,7 @@ input#NewsletterForm--footer {
     .card__badge.bottom.left{left:0;}
     
     .card__heading {
-    font-size: 1.6rem;
+    font-size: 1.6rem!important;
 	}
     
     
