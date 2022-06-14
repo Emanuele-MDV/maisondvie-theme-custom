@@ -124,7 +124,7 @@
           "settings": {
             "heading": "Design details & care",
             "icon": "none",
-            "row_content": "<p>{{ product.metafields.my_fields.design_details_care | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ product.metafields.my_fields.design_details_care.value }}<\/p>",
             "page": ""
           }
         },
