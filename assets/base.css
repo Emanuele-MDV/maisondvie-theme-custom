@@ -3177,6 +3177,11 @@ input#NewsletterForm--footer {
     justify-content: center;
 }
   
+  .card__badge.bottom.left span.badge {
+    border: 0;
+    background: transparent;
+}
+  
   
   /* CUSTOM MOBILE */
   
