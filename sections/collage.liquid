@@ -24,51 +24,54 @@
     
     {% if section.settings.use_basic_structure == blank %}
     
-    <div class="section-title title-wrapper-with-link">
+      <div class="section-title title-wrapper-with-link">
+
+
+      {% if section.settings.is_on_top_of_title == true %}
+
+          {% if section.settings.custom_paragraph %}
+              <p>{{ section.settings.custom_paragraph }}</p>
+          {% endif %}
+
+      {% endif %}
+
+      <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+
+      {% if section.settings.is_on_top_of_title == false %}
+
+          {% if section.settings.custom_paragraph %}
+              <p>{{ section.settings.custom_paragraph }}</p>
+          {% endif %}
+
+      {% endif %}
+
+      </div>
     
     
-    {% if section.settings.is_on_top_of_title == true %}
-        
-        {% if section.settings.custom_paragraph %}
-        	<p>{{ section.settings.custom_paragraph }}</p>
-        {% endif %}
-        
-    {% endif %}
-    
-    <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
-    
-    {% if section.settings.is_on_top_of_title == false %}
-        
-        {% if section.settings.custom_paragraph %}
-        	<p>{{ section.settings.custom_paragraph }}</p>
-        {% endif %}
-        
-    {% endif %}
-    
-    </div>
-    
-    <!-- CUSTOM HEADING STYLE  -->
     
     {% else %}
     
+    <!-- CUSTOM HEADING STYLE  -->
+    
     <div class='standard-heading'>
-    {% if section.settings.is_on_top_of_title == true %}
-        
-        {% if section.settings.custom_paragraph %}
-        	<p>{{ section.settings.custom_paragraph }}</p>
-        {% endif %}
-        
-    {% endif %}
       
-      <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+      {% if section.settings.is_on_top_of_title == true %}
+
+          {% if section.settings.custom_paragraph %}
+              <p>{{ section.settings.custom_paragraph }}</p>
+          {% endif %}
+
+      {% endif %}
+      
+      <h2 class="collage-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
       
       {% if section.settings.is_on_top_of_title == false %}
         
-        {% if section.settings.custom_paragraph %}
-        	<p>{{ section.settings.custom_paragraph }}</p>
-        {% endif %}
+          {% if section.settings.custom_paragraph %}
+              <p>{{ section.settings.custom_paragraph }}</p>
+          {% endif %}
         
-    {% endif %}
+	  {% endif %}
       
     </div>
     
