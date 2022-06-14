@@ -248,28 +248,13 @@ button.quantity__button.no-js-hidden {
     max-width: 100%!important;
 }
 
-/* Long description block */
-
-
-.rich-text__blocks {
-    max-width: unset;
-}
-
 
 
 /* Accordion */
 
-.custom-tabs .collapsible-content__wrapper.section-template--16077895598335__165450710886c266e6-padding.content-container.color-background-2.gradient .collapsible-content-wrapper-narrow {
-    max-width: 100%;
-    padding: 0 50px;
+.custom-tabs .collapsible-content__wrapper {
+    background-color: white;
 }
-
-h3.accordion__title {
-    font-family: Wotfard;
-    font-weight: 600;
-    font-size: 18px;
-}
-
 
 
 /* Related products */
