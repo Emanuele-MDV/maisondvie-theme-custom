@@ -251,6 +251,9 @@ button.quantity__button.no-js-hidden {
 
 
 /* Accordion */
+.custom-tabs {
+    padding-top: 0;
+}
 
 .custom-tabs .collapsible-content__wrapper {
     background-color: white;
