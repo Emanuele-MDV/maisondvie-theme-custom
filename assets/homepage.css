@@ -200,6 +200,7 @@ max-height:40rem;
     font-size: 1.4rem;
     display:block;
     font-weight: 600;
+    transition:all 200ms ease-in;
 }
   
 /*   .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
