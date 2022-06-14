@@ -222,8 +222,12 @@ p.the_description {
   
 }
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1024px){
+  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
+    width: 49%;
+}
   
+
   
 }
 

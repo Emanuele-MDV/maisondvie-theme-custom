@@ -3200,6 +3200,16 @@ input#NewsletterForm--footer {
   
   /* CUSTOM MOBILE */
   
+  
+  @media screen and (max-width:1024px){
+  
+    .caption-with-letter-spacing.light {
+    font-size: 1.2rem;
+    letter-spacing: .4px;
+}
+    
+}
+  
   @media screen and (max-width:480px){
     
   	h1, .h1 {
