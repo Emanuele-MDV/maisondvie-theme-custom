@@ -174,17 +174,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     display: none;
 }
 
- .categories-hp .card--standard>.card__content .card__information h3:after {
+ .categories-hp .card--standard>.card__content .card__information h3:after, .custom-designer-collection .card:not(.ratio)>.card__content h3::after {
     content: "Shop now >";
     font-family: Wotfard;
     font-size: 1.4rem;
 }
   
-  .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
+/*   .custom-designer-collection .card:not(.ratio)>.card__content h3::after{
   	content: "Designer's clothes >";
     font-family: Wotfard;
     font-size: 1.4rem;
-  }
+  } */
 
 /* DESIGNERS COLLECTION SPECIFIC */
 
