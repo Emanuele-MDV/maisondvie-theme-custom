@@ -187,7 +187,8 @@ max-height:40rem;
     display:block;
     font-weight: 600;
     transition:all 200ms ease-in;
-    opacity:.7;
+    opacity:.8;
+    margin-top:6px;
 }
 
 
