@@ -61,7 +61,13 @@ section#shopify-section-template--16077895434495__image_banner{
 margin-top:0;
 }
 
-section p:first-of-type {
+section p{
+	width: fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+/* section p:first-of-type {
     width: fit-content;
     max-width: fit-content;
     margin: 0 auto;
@@ -70,7 +76,7 @@ section p:first-of-type {
     padding: 0 28px;
     font-weight: 300;
     letter-spacing: 2px;
-}
+} */
 
 
 /* FEATURED PRODUCTS */
@@ -163,10 +169,10 @@ max-height:40rem;
     height: 100%;
     z-index: 1;
     background: rgb(0,0,0);
-background: -moz-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
-background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
-background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(0,0,0,0) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
   .categories-hp .card.card--standard.card--media.card--extend-height {
