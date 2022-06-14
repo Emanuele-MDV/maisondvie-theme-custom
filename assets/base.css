@@ -3145,14 +3145,14 @@ input#NewsletterForm--footer {
   /* HEADING SECTIONS STANDARD */
   
   
-  .standard-heading {
+	.standard-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.2rem;
-	
-  }
+    margin-bottom: 6rem;
+}
   
   .standard-heading h2 {
     margin: 0;
