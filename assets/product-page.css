@@ -253,6 +253,7 @@ button.quantity__button.no-js-hidden {
 
 .collapsible-section-layout.custom-tabs {
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 .custom-tabs .collapsible-content__wrapper {
