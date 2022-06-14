@@ -256,6 +256,10 @@ button.quantity__button.no-js-hidden {
     background-color: white;
 }
 
+.custom-tabs .collapsible-content__wrapper .collapsible-content-wrapper-narrow {
+    padding: 0 0 0 0!important;
+}
+
 
 /* Related products */
 
