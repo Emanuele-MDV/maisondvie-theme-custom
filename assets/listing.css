@@ -215,6 +215,8 @@ aside#main-collection-filters {
   .facets-container {
     display: flex!important;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
   
   menu-drawer.mobile-facets__wrapper.medium-hide.large-up-hide {
