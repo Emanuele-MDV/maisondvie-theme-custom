@@ -245,7 +245,18 @@ aside#main-collection-filters {
     content: "1";
   }
   
+  .active-facets__button--light .active-facets__button-inner {
+    padding: 10px 4px;
+    border-radius: 1px;
+  }
   
+  a.active-facets__button-remove.underlined-link {
+    padding: 8px 11px;
+    color: white;
+    background-color: black;
+    border-radius: 1px;
+    text-decoration: none;
+  }
   
   
 }
