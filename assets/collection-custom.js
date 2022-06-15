@@ -36,11 +36,13 @@ $( document ).ready(function() {
 
         $(this).toggleClass('large small');
         
-        if (width >= 1201  ) {
-
-            $('ul#product-grid').toggleClass('grid--4-col-desktop grid--3-col-desktop');
-
-          }
+        if( (width >= 1201  ) ){
+			$('ul#product-grid').toggleClass('grid--4-col-desktop grid--3-col-desktop');
+		}
+        
+        if((width <= 1200) && (width > 1023)){
+        	$('ul#product-grid').toggleClass('grid--3-col-desktop grid--2-col-desktop');
+        }
 
 
       } );
