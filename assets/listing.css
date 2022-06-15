@@ -76,6 +76,7 @@ content:'Read less';
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 800;
+      position: relative;
 }
 
 .collection-hero__description.rte.readmore p:after {
