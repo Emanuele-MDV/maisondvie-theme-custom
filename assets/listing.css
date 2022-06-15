@@ -203,7 +203,7 @@ aside#main-collection-filters {
 
 @media screen and (max-width:480px){
   
-  .section-template--16077895500031__product-grid-padding{padding-top:0;}
+  .section-template--16077895500031__product-grid-padding{padding-top:0!important;}
   
   aside#main-collection-filters {
     padding-right: 0;
