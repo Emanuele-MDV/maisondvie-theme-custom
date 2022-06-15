@@ -241,6 +241,13 @@
     
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
+      
+      {% if template == "collection" %}
+      <script>
+      	var banner = $('section#banner_section'); $('aside').prepend( banner );
+      </script>
+      {% endif %}
+      
     </main>
 
     {% section 'footer' %}
