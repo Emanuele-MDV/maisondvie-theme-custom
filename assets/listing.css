@@ -6,3 +6,20 @@ section#banner_section {
     max-width: fit-content;
     min-width: unset;
 }
+
+
+section#banner_section .collection-hero__inner {
+    flex-direction: column;
+  	gap: 2rem;
+}
+
+.collection-hero__image-container.media.gradient {
+    width: 100%;
+    margin: 0;
+    min-width: 100%;
+}
+
+section#banner_section .collection-hero__inner .collection-hero__text-wrapper {
+    padding: 0;
+    width: 100%;
+}
