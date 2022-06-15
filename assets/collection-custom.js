@@ -48,7 +48,7 @@ $( document ).ready(function() {
         	$('ul#product-grid').toggleClass('grid--2-col-desktop grid--3-col-desktop');
         }
         
-        if((width <= 990) && (width > 768)){
+        if(width <= 990){
         	$('ul#product-grid').toggleClass('grid--2-col-tablet-down grid--1-col-tablet-down');
         }
 
