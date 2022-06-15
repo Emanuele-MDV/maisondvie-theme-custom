@@ -283,6 +283,10 @@
     
     {% if template == "product" %}
     <script src="{{ 'product-page-custom.js' | asset_url }}" defer="defer"></script>
+    
+    {% elsif template == "collection" %}
+    <script src="{{ 'collection-custom.js' | asset_url }}" defer="defer"></script>
+    
     {% endif %}
 
     {%- if settings.predictive_search_enabled -%}
