@@ -199,3 +199,13 @@ aside#main-collection-filters {
   }
 
 }
+
+
+@media screen and (max-width:480px){
+  
+  aside#main-collection-filters {
+    padding-right: 0;
+  }
+  
+  
+}
