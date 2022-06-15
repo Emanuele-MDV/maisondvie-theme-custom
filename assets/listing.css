@@ -151,8 +151,9 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
     cursor: pointer;
 }
 
-.columns::after{
-content:url('https://cdn.shopify.com/s/files/1/0647/1650/5343/files/ico-columns.svg?v=1655287380');
+.columns:after {
+    content: url(https://cdn.shopify.com/s/files/1/0647/1650/5343/files/ico-columns.svg?v=1655287380);
+    margin-left: 5px;
 }
 
 .columns.large::before{
