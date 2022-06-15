@@ -24,12 +24,8 @@ $( document ).ready(function() {
       $('div#columns').click( function(){
       	
         if (width >= 1200  ) {
-        
-          $('#columns').toggle(function() {
-              $(this).text('3');
-          }, function() {
-              $(this).text('4');
-          });
+          
+          $(this).toggleClass('large small');
         
         }
       
