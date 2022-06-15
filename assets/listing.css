@@ -49,6 +49,9 @@ h1.collection-hero__title span {
     display: block;
 }
 
+
+/* Description with rean more */
+
 .collection-hero__description.rte{
 	position:relative;
 }
@@ -92,4 +95,11 @@ content:'Read less';
     background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(255,255,255,0) 100%);
     background: linear-gradient(0deg, rgba(255,255,255,1) 6%, rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
+
+
+/* Product counter & sort options */
+
+facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidden {
+    padding: 0;
 }
