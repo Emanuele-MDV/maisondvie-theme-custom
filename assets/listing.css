@@ -46,11 +46,11 @@ h1.collection-hero__title span {
 }
 
 
-.readmore {
+.readmore p {
     max-height: 100px;
     overflow: hidden;
 }
 
-.readless{
+.readless p{
 	max-height:unset;
 }
