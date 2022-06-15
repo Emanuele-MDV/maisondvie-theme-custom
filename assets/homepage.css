@@ -236,6 +236,10 @@ p.the_description {
     padding: 0 12%;
 }
   
+  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2), .categories-hp .collage.collage--mobile .collage__item {
+    width: 48.5%;
+}
+  
 
   
 }
