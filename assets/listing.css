@@ -120,5 +120,5 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 }
 
 .facet-filters__sort+.icon-caret {
-    right: 12px;
+    right: 12px!important;
 }
