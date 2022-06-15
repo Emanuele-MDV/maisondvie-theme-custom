@@ -182,8 +182,18 @@ aside#main-collection-filters {
   
 .columns.large:before {
     content: "2";
-}
-  
+}  
 
+
+}
+
+@media screen and (max-width:990px){
+
+  aside#main-collection-filters {
+    min-width: 42%;
+    padding-right: 4rem;
+  }
+  
+  
 
 }
