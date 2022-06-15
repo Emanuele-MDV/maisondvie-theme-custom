@@ -3,9 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
   
   //console.log('loading content');
   
-  var banner = $('section#banner_section');
   
-  $('aside').prepend( banner );
   
   
 });
