@@ -195,7 +195,7 @@ aside#main-collection-filters {
   }
   
   .facets__form-vertical {
-    width: 100%;
+    max-width: 100%;
   }
 
 }
