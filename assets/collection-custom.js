@@ -24,6 +24,13 @@ $( document ).ready(function() {
         $('ul#product-grid').removeClass('grid--4-col-desktop');
         $('ul#product-grid').addClass('grid--3-col-desktop');
     }
+  
+  
+  	if(width <= 1024){
+        $('ul#product-grid').removeClass('grid--4-col-desktop');
+        $('ul#product-grid').addClass('grid--2-col-desktop');
+    }
+
 
     
      
