@@ -3261,5 +3261,9 @@ input#NewsletterForm--footer {
     font-size: 1.6rem!important;
 	}
     
+    .footer-block__newsletter p {
+    text-align: left;
+	}
+    
     
   }
