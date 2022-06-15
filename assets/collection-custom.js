@@ -17,20 +17,21 @@ $( document ).ready(function() {
   });
   
   
-	var width = $(window).width();  
+  
+	var width = $(window).width();
 
     
      
       $('div#columns').click( function(){
-      	
-        if (width >= 1200  ) {
-          
-          $(this).toggleClass('large small');
-          $('ul#product-grid').toggleClass('grid--4-col-desktop grid--3-col-desktop');
-        
-        }
-      
-      
+
+          if (width >= 1200  ) {
+
+            $(this).toggleClass('large small');
+            $('ul#product-grid').toggleClass('grid--4-col-desktop grid--3-col-desktop');
+
+          }
+
+
       } );
   
   
