@@ -14,7 +14,7 @@ section#banner_section .collection-hero__inner {
   	gap: 2rem;
 }
 
-.collection-hero__image-container.media.gradient {
+section#banner_section .collection-hero__image-container.media.gradient {
     width: 100%;
     margin: 0;
     min-width: 100%;
