@@ -44,9 +44,9 @@ aside#main-collection-filters {
 
 h1.collection-hero__title span {
     font-family: Wotfard;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
     display: block;
 }
 
@@ -55,6 +55,10 @@ h1.collection-hero__title span {
 
 .collection-hero__description.rte{
 	position:relative;
+}
+
+.collection-hero__description.rte p{
+font-weight:300;
 }
 
 .readmore p {
