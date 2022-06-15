@@ -227,6 +227,10 @@ aside#main-collection-filters {
     width: 80%;
   }
   
+  details.mobile-facets__disclosure.disclosure-has-popup {
+    width: 100%;
+  }
+  
   .product-count.light.medium-hide.large-up-hide {
     order: 1;
     width: -webkit-fill-available;
