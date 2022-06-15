@@ -36,3 +36,11 @@ aside#main-collection-filters {
 .facets__form-vertical {
     width: 100%;
 }
+
+h1.collection-hero__title span {
+    font-family: Wotfard;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: block;
+}
