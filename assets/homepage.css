@@ -403,5 +403,12 @@ p.the_description {
     max-height: 22rem;
   }
   
+  
+  /* Designers section */
+  
+  p.the_description {
+    display: none;
+}
+  
 
 }
