@@ -20,6 +20,14 @@ $( document ).ready(function() {
   
 	var width = $(window).width();
   
+  if ( width < 750 ) {
+    
+    var buttonColumns = '<div id="columns" class="columns large"></div>';
+    
+    $('.facets-container').append(buttonColumns);
+  
+  }
+  
     if((width <= 1200) && (width > 1024)){
         $('ul#product-grid').removeClass('grid--4-col-desktop');
         $('ul#product-grid').addClass('grid--3-col-desktop');
@@ -54,6 +62,9 @@ $( document ).ready(function() {
 
 
       } );
+  
+  
+  
   
   
     
