@@ -23,3 +23,11 @@ section#banner_section .collection-hero__inner .collection-hero__text-wrapper {
     padding: 0;
     width: 100%;
 }
+
+
+
+/* Aside */
+
+aside#main-collection-filters {
+    min-width: 22%;
+}
