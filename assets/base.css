@@ -3241,6 +3241,10 @@ input#NewsletterForm--footer {
   
   @media screen and (max-width:480px){
     
+    a.header__heading-link.link.link--text.focus-inset {
+    max-width: 70%;
+	}
+    
   	h1, .h1 {
     font-size: calc(var(--font-heading-scale) * 2.4rem);
 	}
