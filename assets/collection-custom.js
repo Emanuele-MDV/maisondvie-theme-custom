@@ -19,12 +19,22 @@ $( document ).ready(function() {
   
 	var width = $(window).width();  
 
-    if (width >= 1200  ) {
-     console.log('desktop');
+    
      
+      $('div#columns').click( function(){
+      	
+        if (width >= 1200  ) {
+        
+          $('#columns').toggle(function() {
+              $(this).text('3');
+          }, function() {
+              $(this).text('4');
+          });
+        
+        }
       
       
-    }
+      } );
   
   
   
