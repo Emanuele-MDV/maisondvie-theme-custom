@@ -49,7 +49,7 @@ $( document ).ready(function() {
         }
         
         if((width <= 990) && (width > 768)){
-        	$('ul#product-grid').toggleClass('grid--2-col-tablet-down grid--3-col-tablet-down');
+        	$('ul#product-grid').toggleClass('grid--2-col-tablet-down grid--1-col-tablet-down');
         }
 
 
