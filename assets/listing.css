@@ -150,3 +150,7 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
     line-height: 1.2rem;
     cursor: pointer;
 }
+
+.columns.large::before{
+	content:'4';
+}
