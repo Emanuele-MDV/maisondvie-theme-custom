@@ -304,6 +304,14 @@ aside#main-collection-filters {
     min-height: 240px;
   }
   
+  h1.collection-hero__title {
+    bottom: 0;
+    color: white;
+    top: unset!important;
+    height: unset!important;
+    z-index: 1;
+    padding: 40px 1rem;
+  }
   
   
   
