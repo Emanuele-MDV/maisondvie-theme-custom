@@ -44,3 +44,13 @@ h1.collection-hero__title span {
     font-weight: 300;
     display: block;
 }
+
+
+.readmore {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.readless{
+	max-height:unset;
+}
