@@ -236,6 +236,10 @@ aside#main-collection-filters {
     margin: 0;
   }
   
+  .facets-vertical .active-facets__button {
+    padding: 4px;
+  }
+  
   .columns.small:before {
     content: "1";
   }
