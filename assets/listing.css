@@ -108,3 +108,17 @@ content:'Read less';
 facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidden {
     padding: 0;
 }
+
+.facets-vertical-form {
+    align-items: center;
+}
+
+.select {
+    padding: 12px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+}
+
+.facet-filters__sort+.icon-caret {
+    right: 12px;
+}
