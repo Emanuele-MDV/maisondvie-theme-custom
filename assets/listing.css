@@ -287,6 +287,12 @@ aside#main-collection-filters {
   .collection-hero__image-container.media.gradient::after {
     content: '';
     display: block;
+    position:absolute;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0) 95%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0) 95%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
   }
   
   section#banner_section .collection-hero__image-container.media.gradient {
