@@ -391,5 +391,13 @@ p.the_description {
     	width: calc(100% - 3rem);
 	}
   
+  
+  
+  /* Categories section */
+  
+  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2){
+  	width:100%;
+  }
+  
 
 }
