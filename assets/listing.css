@@ -317,5 +317,10 @@ aside#main-collection-filters {
   }
   
   
+  section#banner_section {
+    width: 100%;
+    max-width: 100%;
+  }
+  
   
 }
