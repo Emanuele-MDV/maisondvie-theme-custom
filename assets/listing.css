@@ -262,7 +262,8 @@ aside#main-collection-filters {
   }
   
   facet-remove {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
+    margin-left: 0!important;
   }
   
   
