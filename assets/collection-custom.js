@@ -28,9 +28,10 @@ $( document ).ready(function() {
      
       $('div#columns').click( function(){
 
-          if (width >= 1199  ) {
+        $(this).toggleClass('large small');
+        
+        if (width >= 1199  ) {
 
-            $(this).toggleClass('large small');
             $('ul#product-grid').toggleClass('grid--4-col-desktop grid--3-col-desktop');
 
           }
