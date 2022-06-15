@@ -399,5 +399,9 @@ p.the_description {
   	width:100%;
   }
   
+  .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner {
+    max-height: 22rem;
+  }
+  
 
 }
