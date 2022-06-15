@@ -35,7 +35,7 @@ $( document ).ready(function() {
       } );
   
   
-  if(width =< 1199){
+  if(width <= 1199){
   	console.log('laptop');
   }
   
