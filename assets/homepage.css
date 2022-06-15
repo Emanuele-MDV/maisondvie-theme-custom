@@ -410,5 +410,20 @@ p.the_description {
     display: none;
 }
   
+  .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
+    height: 22rem;
+}
+  
+  .custom-designer-collection .card:not(.ratio)>.card__content h3:after{
+  	content: "Shop now >";
+    font-family: Wotfard;
+    font-size: 1.4rem;
+    display: block;
+    font-weight: 600;
+    transition: all .2s ease-in;
+    opacity: .8;
+    margin-top: 6px;
+  }
+  
 
 }
