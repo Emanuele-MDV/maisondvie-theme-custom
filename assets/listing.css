@@ -212,6 +212,34 @@ aside#main-collection-filters {
     font-size: 1.1rem;
   }
   
+  .facets-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  menu-drawer.mobile-facets__wrapper.medium-hide.large-up-hide {
+    order: 1;
+    width: 40%;
+  }
+  
+  .product-count.light.medium-hide.large-up-hide {
+    order: 2;
+  }
+  
+  div#columns {
+    order: 3;
+  }
+  
+  .active-facets.active-facets-mobile.medium-hide.large-up-hide {
+    order: 4;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .columns.small:before {
+    content: "1";
+  }
+  
   
   
   
