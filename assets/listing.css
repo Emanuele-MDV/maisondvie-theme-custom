@@ -137,7 +137,7 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 }
 
 .columns {
-    display: flex;
+    display: flex!important;
     height: 100%;
     min-width: 50px;
     padding: 16px;
