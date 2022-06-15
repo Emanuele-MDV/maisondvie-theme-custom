@@ -382,11 +382,14 @@ p.the_description {
   
   /* Page layout */
   
-  slider-component {
+	slider-component {
       padding: 0 1.5rem;
-  }
+	}
   
   
+	.slider-buttons {
+    	width: calc(100% - 3rem);
+	}
   
 
 }
