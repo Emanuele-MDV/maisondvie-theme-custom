@@ -30,7 +30,8 @@ section#banner_section .collection-hero__inner .collection-hero__text-wrapper {
 /* Aside */
 
 aside#main-collection-filters {
-    min-width: 22%;
+    min-width: 25%;
+  	padding-right: 5rem;
 }
 
 .facets__form-vertical {
