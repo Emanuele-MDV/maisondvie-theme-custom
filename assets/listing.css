@@ -54,3 +54,8 @@ h1.collection-hero__title span {
 .readless p{
 	max-height:unset;
 }
+
+
+.collection-hero__description.rte.readmore::after{
+content:'Read more';
+}
