@@ -105,6 +105,10 @@ content:'Read less';
 
 /* Product counter & sort options */
 
+.facets-vertical-form {
+    justify-content: space-between;
+}
+
 facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidden {
     padding: 0;
 }
