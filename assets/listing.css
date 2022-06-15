@@ -31,3 +31,7 @@ section#banner_section .collection-hero__inner .collection-hero__text-wrapper {
 aside#main-collection-filters {
     min-width: 22%;
 }
+
+.facets__form-vertical {
+    width: 100%;
+}
