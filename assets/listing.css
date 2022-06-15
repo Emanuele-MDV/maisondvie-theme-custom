@@ -37,6 +37,10 @@ aside#main-collection-filters {
     width: 100%;
 }
 
+.collection-hero__image-container.media.gradient {
+    min-height: 300px;
+}
+
 h1.collection-hero__title span {
     font-family: Wotfard;
     font-size: 1.6rem;
