@@ -21,6 +21,9 @@ $( document ).ready(function() {
 
     if (width >= 1200  ) {
      console.log('desktop');
+     
+      
+      
     }
   
   
