@@ -238,7 +238,8 @@ aside#main-collection-filters {
   }
   
   .facets-vertical .active-facets__button {
-    padding: 4px;
+    padding: 0px;
+    margin-right: 6px;
   }
   
   .columns.small:before {
@@ -256,6 +257,10 @@ aside#main-collection-filters {
     background-color: black;
     border-radius: 1px;
     text-decoration: none;
+  }
+  
+  facet-remove {
+    margin-bottom: 6px;
   }
   
   
