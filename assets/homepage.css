@@ -271,7 +271,7 @@ p.the_description {
 @media screen and (max-width:480px){
   
   
-  section {
+/*   section {
     margin-bottom: 0px;
 }
   
@@ -284,12 +284,12 @@ p.the_description {
     text-align: center;
     margin-bottom: 0;
 }
-  
+   */
   
   
   /* Banner */
 
-section#shopify-section-template--16077895434495__image_banner {
+/* section#shopify-section-template--16077895434495__image_banner {
     margin-top: 0;
     margin-bottom: 22px;
 }
@@ -305,12 +305,12 @@ section#shopify-section-template--16077895434495__image_banner {
   .slider-homepage .section-description {
     padding: 0 20px;
 }
-  
+   */
   
   
   /* Product badges */
   
-  .section-template--16077895434495__featured_collection-padding {
+/*   .section-template--16077895434495__featured_collection-padding {
     padding-bottom: 0!important;
 }
   
@@ -338,12 +338,12 @@ section#shopify-section-template--16077895434495__image_banner {
     font-size: 1.2rem;
     letter-spacing: 0.4px;
 }
-  
+   */
   
   
   /* Collections */
   
-   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
+/*    .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
     width: 100%;
 }
   
@@ -355,11 +355,6 @@ section#shopify-section-template--16077895434495__image_banner {
     width: calc(50% - 6px);
 }
   
-  
-
-  
-  
-  
   .categories-hp .card--standard>.card__content .card__information h3 {
     font-size:1.8rem;
 }
@@ -368,9 +363,11 @@ section#shopify-section-template--16077895434495__image_banner {
     font-size:1.8rem;
 }
   
+   */
+  
   /* NEW COLLECTIONS BANNER */
   
-  .new-collection .banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {
+/*   .new-collection .banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {
     padding-top: 120px;
 }
   
@@ -380,7 +377,7 @@ section#shopify-section-template--16077895434495__image_banner {
   
   .new-collection .banner__text.body{
   	color:white;
-  }
+  } */
   
 
 }
