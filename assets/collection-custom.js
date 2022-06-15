@@ -26,6 +26,7 @@ $( document ).ready(function() {
         if (width >= 1200  ) {
           
           $(this).toggleClass('large small');
+          $('ul#product-grid').toggleClass('grid--4-col-desktop grid--3-col-desktop');
         
         }
       
