@@ -3218,6 +3218,15 @@ input#NewsletterForm--footer {
     margin-bottom: 4rem;
     }
     
+    .footer-block--newsletter {
+    flex-wrap: wrap;
+	}
+    
+    .footer-block__newsletter, .newsletter-form {
+    width: 100%;
+    max-width: 100%!important;
+	}
+    
 }
   
   
