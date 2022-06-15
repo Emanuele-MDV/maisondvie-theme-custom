@@ -54,17 +54,3 @@ h1.collection-hero__title span {
 .readless{
 	max-height:unset;
 }
-
-p.collection-hero__description.rte {
-    transition: all 200ms ease-in;
-    position: relative;
-    margin-bottom: 4rem;
-}
-
-p.collection-hero__description.rte.readmore::after{
-content:"Read more";
-}
-
-p.collection-hero__description.rte.readless::after{
-content:"Read less";
-}
