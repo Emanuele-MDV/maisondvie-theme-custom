@@ -49,6 +49,9 @@ h1.collection-hero__title span {
     display: block;
 }
 
+.collection-hero__description.rte{
+	position:relative;
+}
 
 .readmore p {
     max-height: 100px;
