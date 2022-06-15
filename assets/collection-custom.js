@@ -26,7 +26,7 @@ $( document ).ready(function() {
     }
   
   
-  	if((width <= 1024) && (width > 991)){
+  	if((width <= 1024) && (width > 989)){
         $('ul#product-grid').removeClass('grid--4-col-desktop');
         $('ul#product-grid').addClass('grid--2-col-desktop');
     }
