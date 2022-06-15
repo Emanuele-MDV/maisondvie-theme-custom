@@ -194,6 +194,8 @@ aside#main-collection-filters {
     padding-right: 4rem;
   }
   
-  
+  .facets__form-vertical {
+    width: 100%;
+  }
 
 }
