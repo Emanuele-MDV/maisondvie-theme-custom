@@ -63,3 +63,11 @@ h1.collection-hero__title span {
 .collection-hero__description.rte.readmore::after{
 content:'Read more';
 }
+
+.collection-hero__description.rte.readless::after{
+content:'Read less';
+}
+
+.collection-hero__description.rte::after{
+
+}
