@@ -232,6 +232,10 @@ p.the_description {
     max-width: 49%;
 }
   
+  p.the_description {
+    padding: 0 12%;
+}
+  
 
   
 }
