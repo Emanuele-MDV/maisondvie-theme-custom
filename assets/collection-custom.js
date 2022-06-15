@@ -30,7 +30,7 @@ $( document ).ready(function() {
   
   if ( width < 480 ) {
     
-    $('.collection-hero__image-container.media.gradient').append('test');
+    $('.collection-hero__image-container.media.gradient').append( $('h1.collection-hero__title') );
   
   }
   
