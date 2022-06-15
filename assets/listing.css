@@ -212,6 +212,8 @@ aside#main-collection-filters {
     font-size: 1.1rem;
   }
   
+  /* FLTERS SETTINGS */
+  
   .facets-container {
     display: flex!important;
     flex-wrap: wrap;
@@ -277,6 +279,12 @@ aside#main-collection-filters {
   facet-remove {
     margin-bottom: 8px;
     margin-left: 0!important;
+  }
+  
+  /* BANNER SETTINGS */
+  
+  .collection-hero__image-container.media.gradient {
+    min-height: 360px;
   }
   
   
