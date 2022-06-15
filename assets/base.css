@@ -3219,7 +3219,7 @@ input#NewsletterForm--footer {
     }
     
     .footer-block--newsletter {
-    flex-wrap: wrap;
+    flex-wrap: wrap!important;
 	}
     
     .footer-block__newsletter, .newsletter-form {
