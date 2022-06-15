@@ -19,6 +19,11 @@ $( document ).ready(function() {
   
   
 	var width = $(window).width();
+  
+    if(width <= 1199){
+        $('ul#product-grid').removeClass('grid--4-col-desktop');
+        $('ul#product-grid').addClass('grid--3-col-desktop');
+    }
 
     
      
@@ -35,10 +40,7 @@ $( document ).ready(function() {
       } );
   
   
-    if(width <= 1199){
-      $('ul#product-grid').removeClass('grid--4-col-desktop');
-      $('ul#product-grid').addClass('grid--3-col-desktop');
-    }
+    
   
   
   
