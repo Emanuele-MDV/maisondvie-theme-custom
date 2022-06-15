@@ -236,10 +236,6 @@ p.the_description {
     padding: 0 12%;
 }
   
-  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2), .categories-hp .collage.collage--mobile .collage__item {
-    width: 48.5%;
-}
-  
 
   
 }
@@ -249,7 +245,7 @@ p.the_description {
   
   .homepage-banner .banner__media, .homepage-banner:after, .new-collection .banner__media.media, .new-collection:after{max-width:unset;}
   
-  slider-component.slider-mobile-gutter.slider-component-desktop {
+  slider-component {
     padding: 0 5rem;
 }
   
@@ -263,6 +259,10 @@ p.the_description {
     left: 0;
     right: 0;
     margin: 0 auto;
+}
+  
+    .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2), .categories-hp .collage.collage--mobile .collage__item {
+    width: 48.5%;
 }
   
 }
