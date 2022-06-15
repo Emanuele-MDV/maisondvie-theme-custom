@@ -173,4 +173,17 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 }
 
 
+@media screen and (max-width:1024px){
 
+aside#main-collection-filters {
+    min-width: 33.33%;
+    padding-right: 5rem;
+}
+  
+.columns.large:before {
+    content: "2";
+}
+  
+
+
+}
