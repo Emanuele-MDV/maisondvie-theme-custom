@@ -13,7 +13,7 @@ $( document ).ready(function() {
   
   $('.readmore').click(function(){
   
-  	$(this).toggleClass('readmore, readless');
+  	$(this).toggleClass('readmore readless');
   });
   
 });
