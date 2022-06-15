@@ -227,6 +227,11 @@ p.the_description {
     width: 49%;
 }
   
+  .grid--4-col-desktop .grid__item {
+    width: 49%;
+    max-width: 49%;
+}
+  
 
   
 }
