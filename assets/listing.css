@@ -149,6 +149,7 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
     font-size: 1.2rem;
     line-height: 1.2rem;
     cursor: pointer;
+  	position:relative;
 }
 
 .columns:after {
