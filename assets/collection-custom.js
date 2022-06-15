@@ -43,7 +43,7 @@ $( document ).ready(function() {
 
           }
         
-        	if ( (width < 1200) and (width > 769 ) ) {
+        	if ( (width < 1200) && (width > 769 ) ) {
 
             $(this).toggleClass('large small');
             $('ul#product-grid').toggleClass('grid--2-col-desktop grid--3-col-desktop');
