@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 $( document ).ready(function() {
     
-  var imgWidth = $('img#collection_img').outerWidth();
+  var imgWidth = $('img#collection_img').outerWidth() + "px";
   console.log( imgWidth );
   
   
