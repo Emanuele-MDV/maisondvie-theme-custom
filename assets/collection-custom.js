@@ -47,6 +47,10 @@ $( document ).ready(function() {
         if((width <= 1024) && (width > 990)){
         	$('ul#product-grid').toggleClass('grid--2-col-desktop grid--3-col-desktop');
         }
+        
+        if((width <= 990) && (width > 768)){
+        	$('ul#product-grid').toggleClass('grid--2-col-tablet-down grid--3-col-tablet-down');
+        }
 
 
       } );
