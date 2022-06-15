@@ -245,6 +245,22 @@ p.the_description {
   
   .homepage-banner .banner__media, .homepage-banner:after, .new-collection .banner__media.media, .new-collection:after{max-width:unset;}
   
+  slider-component.slider-mobile-gutter.slider-component-desktop {
+    padding: 0 5rem;
+}
+  
+  .slider.slider--tablet.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {
+    margin-left: 0;
+    width: 49%;
+}
+  
+  .slider-buttons {
+    width: calc(100% - 10rem);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+  
 }
 
 
