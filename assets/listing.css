@@ -220,12 +220,14 @@ aside#main-collection-filters {
   }
   
   menu-drawer.mobile-facets__wrapper.medium-hide.large-up-hide {
-    order: 1;
-    width: 40%;
+    order: 2;
+    padding: 10px 20px!important;
+    border: 1px solid #e8e8e8;
+    border-radius: 1px;
   }
   
   .product-count.light.medium-hide.large-up-hide {
-    order: 2;
+    order: 1;
   }
   
   div#columns {
