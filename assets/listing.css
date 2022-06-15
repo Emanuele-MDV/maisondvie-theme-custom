@@ -140,7 +140,8 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
     display: flex!important;
     height: 100%;
     min-width: 50px;
-    padding: 16px;
+    padding: 14px;
+  padding-left:20px;
     border: 1px solid #e8e8e8;
     margin-left: 2rem;
     align-items: center;
@@ -156,6 +157,12 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
     content: url(https://cdn.shopify.com/s/files/1/0647/1650/5343/files/ico-columns.svg?v=1655287380);
     margin-left: 5px;
 }
+
+.columns::before{
+	position:absolute;
+  	left:10px;
+}
+
 
 .columns.large::before{
 	content:'4';
