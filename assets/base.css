@@ -3265,5 +3265,23 @@ input#NewsletterForm--footer {
     text-align: left;
 	}
     
+    .newsletter-form__field-wrapper .field {
+    flex-direction: column;
+    border: 0;
+	}
+    
+    .field label {
+    top: 22%;
+    height: auto;
+    border-right: 1px solid #787878;
+	}
+    
+    button#Subscribe {
+    width: 100%;
+    position: relative;
+    padding: 12px;
+    margin-top: 10px;
+	}
+    
     
   }
