@@ -39,10 +39,14 @@
         {% if collection.metafields.my_fields.designer_type == true %} <span>Fashion Designer collection</span>{% endif %}
         
       </h1>
+      
+      
 
-      {%- if section.settings.show_collection_description -%}
+      {%- if collection.description!= blank and section.settings.show_collection_description -%}
       <div class="collection-hero__description rte readmore"><p>{{ collection.description }}</p></div>
       {%- endif -%}
+      
+      
     </div>
     
     
