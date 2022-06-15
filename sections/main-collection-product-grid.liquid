@@ -86,7 +86,7 @@
                           {{ 'products.facets.product_count_simple' | t: count: collection.products_count }}
                         {%- else -%}
                           {{ 'products.facets.product_count' | t: product_count: collection.products_count, count: collection.all_products_count }}
-                        {%- endif -%}
+                        {%- endif -%} found for {{ collection.title }}
                       </span>
                     </h2>
                     <div class="loading-overlay__spinner">
