@@ -135,3 +135,18 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 .facet-filters.sorting.caption {
     order: 2;
 }
+
+.columns {
+    display: flex;
+    height: 100%;
+    min-width: 50px;
+    padding: 16px;
+    border: 1px solid #e8e8e8;
+    margin-left: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    cursor: pointer;
+}
