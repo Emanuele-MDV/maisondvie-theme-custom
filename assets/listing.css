@@ -283,9 +283,13 @@ aside#main-collection-filters {
   
   /* BANNER SETTINGS */
   
-  .collection-hero__image-container.media.gradient {
+  
+  section#banner_section .collection-hero__image-container.media.gradient {
+    position: relative;
     min-height: 360px;
   }
+  
+  
   
   
 }
