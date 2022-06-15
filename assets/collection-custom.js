@@ -16,4 +16,15 @@ $( document ).ready(function() {
   	$(this).toggleClass('readmore readless');
   });
   
+  
+	var width = $(window).width();  
+
+    if (width >= 1200  ) {
+     console.log('desktop');
+    }
+  
+  
+  
+  
+  
 });
