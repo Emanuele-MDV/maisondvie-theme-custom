@@ -28,6 +28,12 @@ $( document ).ready(function() {
   
   }
   
+  if ( width < 480 ) {
+    
+    $('.collection-hero__image-container').append('h1.collection-hero__title');
+  
+  }
+  
     if((width <= 1200) && (width > 1024)){
         $('ul#product-grid').removeClass('grid--4-col-desktop');
         $('ul#product-grid').addClass('grid--3-col-desktop');
