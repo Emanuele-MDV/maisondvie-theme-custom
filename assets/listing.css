@@ -297,6 +297,7 @@ aside#main-collection-filters {
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0) 95%);
     background: linear-gradient(0deg, rgba(0,0,0,0.8015581232492998) 0%, rgba(0,0,0,0) 95%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    opacity:.8;
   }
   
   section#banner_section .collection-hero__image-container.media.gradient {
