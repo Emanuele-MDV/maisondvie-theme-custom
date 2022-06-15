@@ -34,7 +34,7 @@ aside#main-collection-filters {
 }
 
 .facets__form-vertical {
-    width: 100%;
+    min-width: 100%;
 }
 
 .collection-hero__image-container.media.gradient {
