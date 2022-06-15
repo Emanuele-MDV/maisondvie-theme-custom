@@ -213,7 +213,7 @@ aside#main-collection-filters {
   }
   
   .facets-container {
-    display: flex;
+    display: flex!important;
     flex-wrap: wrap;
   }
   
