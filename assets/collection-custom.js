@@ -11,4 +11,9 @@ $( document ).ready(function() {
   console.log( imgWidth );
   $('.collection-hero__image-container.media.gradient').css('min-height',imgWidth);
   
+  $('readmore').click(function(){
+  
+  	$(this).toggleClass('readmore, readless');
+  });
+  
 });
