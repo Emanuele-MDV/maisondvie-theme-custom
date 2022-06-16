@@ -403,9 +403,10 @@ p.the_description {
   }
   
   .homepage-banner .banner__text.body {
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 2.8rem;
-    padding: 0 60px;
+    padding: 0 40px;
+    font-weight: 400;
   }
   
   h2.banner__heading.h0 {
