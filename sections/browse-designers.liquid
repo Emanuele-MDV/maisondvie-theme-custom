@@ -4,6 +4,16 @@
   <p>{{ section.settings.description }}</p>
   
   
+  <ul class="designers-show">
+    
+    {% for collection in collections %}
+    
+    <li>{{ collection.title }}</li>
+    
+    {% endfor %}
+  </ul>
+  
+  
 </div>
 
 
