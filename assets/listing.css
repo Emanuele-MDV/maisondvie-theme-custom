@@ -84,7 +84,8 @@ content:'Read less';
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 800;
-      position: relative;
+    position: relative;
+  	cursor:pointer;
 }
 
 .collection-hero__description.rte.readmore p:after {
@@ -411,7 +412,6 @@ section.custom-designers-collections ul.designers-show li {
   .collection-hero__description.rte:after {
     margin-top: 14px;
     font-size: 1.1rem;
-    cursor:pointer;
   }
   
   /* FLTERS SETTINGS */
