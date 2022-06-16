@@ -3275,6 +3275,10 @@ input#NewsletterForm--footer {
     justify-content: center;
   }
   
+  section#info_section a:nth-child(2)::before {
+    content: url(https://cdn.shopify.com/s/files/1/0647/1650/5343/files/cash-on-delivery.svg?v=1655384943);
+  }
+  
   section#info_section a:nth-child(3)::before {
     content: url(https://cdn.shopify.com/s/files/1/0647/1650/5343/files/secure-payment.svg?v=1655384943);
   }
