@@ -25,10 +25,17 @@
         "show_collection_image": true,
         "color_scheme": "background-1"
       }
+    },
+    "1655367420a3880ba1": {
+      "type": "browse-designers",
+      "settings": {
+        "collections_show": 4
+      }
     }
   },
   "order": [
     "product-grid",
-    "banner"
+    "banner",
+    "1655367420a3880ba1"
   ]
 }
