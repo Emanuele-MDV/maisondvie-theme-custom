@@ -3263,6 +3263,10 @@ input#NewsletterForm--footer {
     padding-left: 30px;
   }
   
+  section#info_section a:before {
+    content: url('https://cdn.shopify.com/s/files/1/0647/1650/5343/files/secure-payment.svg?v=1655384943');
+  }
+  
   
   /* ------------------------------------------------------- CUSTOM RESPONSIVE ------------------------------------------------------- */
   
