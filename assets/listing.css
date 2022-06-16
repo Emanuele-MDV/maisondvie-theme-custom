@@ -313,6 +313,10 @@ section.custom-designers-collections ul.designers-show li {
     padding: 0;
   }
   
+  .facets__form-vertical{
+  	width: 100%;
+  }
+  
 
 }
 
