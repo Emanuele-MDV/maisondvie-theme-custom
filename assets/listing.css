@@ -193,7 +193,7 @@ section.custom-designers-collections ul.designers-show{
 }
 
 section.custom-designers-collections ul.designers-show li {
-	max-width:20%;
+	width:20%;
   	text-align:center;
 }
 
@@ -215,6 +215,7 @@ section.custom-designers-collections ul.designers-show li h3 span {
   	font-family:Wotfard;
   	font-weight:300;
   	text-transform:uppercase;
+  	font-size: 1.4rem;
 }
 
 
