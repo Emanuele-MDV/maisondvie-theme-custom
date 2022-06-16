@@ -185,7 +185,11 @@ section.custom-designers-collections p {
 	margin-bottom:6rem;
 }
 
-
+section.custom-designers-collections ul{
+	list-style:none;
+  	display:flex;
+  	flex-wrap:nowrap;
+}
 
 
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
