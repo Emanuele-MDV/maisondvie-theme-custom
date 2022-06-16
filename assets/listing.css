@@ -326,8 +326,14 @@ section.custom-designers-collections ul.designers-show li {
   .facet-filters__label {
     min-width: fit-content;
   }
+  
+  .columns.small:before {
+    content: "1";
+  }
 
 }
+
+
 
 @media screen and (max-width:768px){
   
