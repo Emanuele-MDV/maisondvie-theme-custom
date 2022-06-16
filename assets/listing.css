@@ -286,6 +286,11 @@ h3.card__heading {
     display: none;
 }
 
+.price__container span {
+    font-family: Grafier;
+    font-size: 1.4rem;
+}
+
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
 
 
