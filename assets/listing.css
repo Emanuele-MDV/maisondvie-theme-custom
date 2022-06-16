@@ -301,14 +301,11 @@ section.custom-designers-collections ul.designers-show li {
 
 @media screen and (max-width:768px){
 
-  aside#main-collection-filters {
-    min-width: 42%;
-    padding-right: 4rem;
+  section.custom-designers-collections ul.designers-show li {
+    width: 50%;
   }
   
-  .facets__form-vertical {
-    max-width: 100%;
-  }
+  
 
 }
 
