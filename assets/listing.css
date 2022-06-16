@@ -229,7 +229,7 @@ section.custom-designers-collections ul.designers-show li figure::after {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: all 150ms ease-in;
+    transition: all 150ms ease-in-out;
 }
 
 section.custom-designers-collections ul.designers-show li:hover figure::after{
@@ -237,7 +237,7 @@ section.custom-designers-collections ul.designers-show li:hover figure::after{
 }
 
 section.custom-designers-collections ul.designers-show li:hover figure img{
-	transform: scale(1.5);
+	transform: scale(1.1);
 }
 
 section.custom-designers-collections ul.designers-show li h3 span {
