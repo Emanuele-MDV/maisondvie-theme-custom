@@ -9,7 +9,7 @@
     
     {% assign current = collection.title %}
     
-    {% for collection in collections limit:4 %}
+    {% for collection in collections %}
     
     	{% if collection.metafields.my_fields.designer_type != blank and collection.title != current %}
     
