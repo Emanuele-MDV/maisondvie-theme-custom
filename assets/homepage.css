@@ -408,6 +408,10 @@ p.the_description {
     padding: 0 60px;
   }
   
+  h2.banner__heading.h0 {
+    font-size: 3.2rem;
+  }
+  
   
   /* Categories section */
   
