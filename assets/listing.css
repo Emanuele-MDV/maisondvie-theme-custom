@@ -305,6 +305,10 @@ section.custom-designers-collections ul.designers-show li {
     width: 50%;
   }
   
+  section.custom-designers-collections ul.designers-show li figure {
+    height: 220px;
+  }
+  
   
 
 }
