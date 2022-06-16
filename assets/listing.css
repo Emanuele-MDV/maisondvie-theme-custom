@@ -309,6 +309,9 @@ section.custom-designers-collections ul.designers-show li {
     height: 220px;
   }
   
+  section.custom-designers-collections h2, section.custom-designers-collections p {
+    padding: 0;
+  }
   
 
 }
