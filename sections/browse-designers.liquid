@@ -6,6 +6,8 @@
   
   <ul class="designers-show">
     
+    {% assign current = collection.title %}
+    
     {% for collection in collections %}
     
     	{% if collection.metafields.my_fields.designer_type != blank %}
