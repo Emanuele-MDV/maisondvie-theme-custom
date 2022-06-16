@@ -293,30 +293,6 @@ section.custom-designers-collections ul.designers-show li {
     padding-right: 4rem;
   }
   
-  .facets__form-vertical {
-    max-width: 100%;
-  }
-
-}
-
-@media screen and (max-width:768px){
-  
-  .collection-hero__image-container.media.gradient {
-    min-height: 220px;
-  }
-
-  section.custom-designers-collections ul.designers-show li {
-    width: 50%;
-  }
-  
-  section.custom-designers-collections ul.designers-show li figure {
-    height: 220px;
-  }
-  
-  section.custom-designers-collections h2, section.custom-designers-collections p {
-    padding: 0;
-  }
-  
   .facets__form-vertical{
   	width: 100%;
   }
@@ -346,6 +322,28 @@ section.custom-designers-collections ul.designers-show li {
   .facet-filters__label {
     min-width: fit-content;
   }
+
+}
+
+@media screen and (max-width:768px){
+  
+  .collection-hero__image-container.media.gradient {
+    min-height: 220px;
+  }
+
+  section.custom-designers-collections ul.designers-show li {
+    width: 50%;
+  }
+  
+  section.custom-designers-collections ul.designers-show li figure {
+    height: 220px;
+  }
+  
+  section.custom-designers-collections h2, section.custom-designers-collections p {
+    padding: 0;
+  }
+  
+  
 
 }
 
