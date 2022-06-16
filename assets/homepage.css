@@ -191,6 +191,11 @@ max-height:40rem;
 }
 
 
+.card__inner.color-background-2.gradient.ratio {
+    min-height: 400px;
+}
+
+
 /* DESIGNERS COLLECTION SPECIFIC */
 
 .custom-designer-collection .title-wrapper-with-link h2, .custom-designer-collection .title-wrapper-with-link p {
