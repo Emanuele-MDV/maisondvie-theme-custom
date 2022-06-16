@@ -411,6 +411,7 @@ section.custom-designers-collections ul.designers-show li {
   .collection-hero__description.rte:after {
     margin-top: 14px;
     font-size: 1.1rem;
+    cursor:pointer;
   }
   
   /* FLTERS SETTINGS */
