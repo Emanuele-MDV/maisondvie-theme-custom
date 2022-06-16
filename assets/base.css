@@ -3264,7 +3264,19 @@ input#NewsletterForm--footer {
   }
   
   section#info_section a:before {
-    content: url('https://cdn.shopify.com/s/files/1/0647/1650/5343/files/secure-payment.svg?v=1655384943');
+    content: '';
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-44%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section#info_section a:nth-child(1)::before {
+    content: url(https://cdn.shopify.com/s/files/1/0647/1650/5343/files/secure-payment.svg?v=1655384943);
   }
   
   
