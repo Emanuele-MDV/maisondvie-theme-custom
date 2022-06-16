@@ -233,7 +233,7 @@ section.custom-designers-collections ul.designers-show li figure::after {
 }
 
 section.custom-designers-collections ul.designers-show li:hover figure::after{
-	opacity:.4;
+	opacity:.2;
 }
 
 section.custom-designers-collections ul.designers-show li:hover figure img{
