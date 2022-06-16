@@ -3333,6 +3333,11 @@ input#NewsletterForm--footer {
   
   @media screen and (max-width:480px){
     
+    section#info_section a {
+      line-height: 1.2rem;
+      font-size: 1rem;
+    }
+    
     a.header__heading-link.link.link--text.focus-inset {
     max-width: 70%;
 	}
