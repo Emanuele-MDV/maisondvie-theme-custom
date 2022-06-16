@@ -199,14 +199,14 @@ section.custom-designers-collections ul.designers-show li {
 section.custom-designers-collections ul.designers-show li figure{
 	margin:0;
   	width:100%;
-  	max-height:280px;
+  	height:280px;
   	overflow:hidden;
 }
 
 section.custom-designers-collections ul.designers-show li figure img{
 	object-fit:cover;
-  	max-width:100%;
-  	max-height:100%;
+  	min-width:100%;
+  	min-height:100%;
 }
 
 
