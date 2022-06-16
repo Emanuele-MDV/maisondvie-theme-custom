@@ -293,6 +293,10 @@ section.custom-designers-collections ul.designers-show li {
     padding-right: 4rem;
   }
   
+  facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidden {
+    margin-bottom: 40px;
+  }
+  
   .facets__form-vertical{
   	width: 100%;
   }
