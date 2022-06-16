@@ -343,7 +343,9 @@ section.custom-designers-collections ul.designers-show li {
     width: -webkit-fill-available!important;
   }
   
-  
+  .facet-filters__label {
+    min-width: fit-content;
+  }
 
 }
 
