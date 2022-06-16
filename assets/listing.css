@@ -252,6 +252,18 @@ section.custom-designers-collections ul.designers-show li h3 span {
   	font-size: 1.4rem;
 }
 
+section.custom-designers-collections ul.designers-show li a.button-link {
+    text-decoration: none;
+    color: black;
+    opacity: .8;
+    padding: 20px;
+  	transition:all 150ms ese-in;
+}
+
+section.custom-designers-collections ul.designers-show li a.button-link:hover{
+  	opacity:1;
+  	font-weight:600;
+}
 
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
 
