@@ -187,15 +187,15 @@ section.custom-designers-collections p {
 	margin-bottom:6rem;
 }
 
-section.custom-designers-collections ul.designers-show{
-	list-style:none;
-  	display:flex;
-  	flex-wrap:nowrap;
-  	overflow:hidden;
-  	min-width:calc(100% + 20px);
-  	padding:0;
-  	margin:0 auto;
-  	margin-left:-10px;
+section.custom-designers-collections ul.designers-show {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    min-width: calc(100% + 20px);
+    padding: 0;
+    margin: 0 auto 0 -10px;
+    justify-content: center;
 }
 
 section.custom-designers-collections ul.designers-show li {
