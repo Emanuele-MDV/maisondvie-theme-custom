@@ -192,13 +192,15 @@ section.custom-designers-collections ul.designers-show{
   	display:flex;
   	flex-wrap:nowrap;
   	overflow:hidden;
+  	min-width:calc(100% + 20px);
   	padding:0;
-  	margin:0;
+  	margin:0 auto;
 }
 
 section.custom-designers-collections ul.designers-show li {
-	width:20%;
-  	text-align:center;
+    width: 20%;
+    text-align: center;
+    border: 10px solid transparent;
 }
 
 section.custom-designers-collections ul.designers-show li figure{
