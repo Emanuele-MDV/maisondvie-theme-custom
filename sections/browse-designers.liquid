@@ -14,7 +14,7 @@
     	{% if collection.metafields.my_fields.designer_type != blank and collection.title != current %}
     
     		<li class="custom-collection-card">
-              <figure>
+              <a href="{{ collection.url }}"><figure>
               <img
                 srcset="{%- if collection.featured_image.width >= 165 -%}{{ collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if collection.featured_image.width >= 330 -%}{{ collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
@@ -32,7 +32,7 @@
                 alt="View all {{ collection.title }} products"
                 loading="lazy"
                 class="motion-reduce"
-                   ></figure>
+                   ></figure></a>
               <h3>{{ collection.title }} <span>Designer's collection</span></h3>
               <a href="{{ collection.url }}">View products</a>
               
