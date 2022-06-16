@@ -265,6 +265,19 @@ section.custom-designers-collections ul.designers-show li a.button-link:hover{
   	font-weight:600;
 }
 
+
+
+/* Product grid */
+
+.caption-with-letter-spacing.light {
+    font-size: 1.6rem;
+    letter-spacing: .4px;
+}
+
+.price__sale, .price__availability, .price .price__badge-sale, .price .price__badge-sold-out, .price--on-sale .price__regular, .price--on-sale .price__availability {
+    display: none;
+}
+
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
 
 
