@@ -336,7 +336,7 @@ section.custom-designers-collections ul.designers-show li {
   }
   
   .facet-filters__field {
-    justify-content: space-between;
+    justify-content: space-between!important;
   }
 
 }
