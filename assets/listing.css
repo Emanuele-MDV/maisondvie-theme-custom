@@ -338,6 +338,10 @@ section.custom-designers-collections ul.designers-show li {
   section.custom-designers-collections ul.designers-show li h3 {
     margin-bottom: 0px;
   }
+  
+  section.custom-designers-collections p {
+    margin-bottom: 3rem;
+  }
 
 }
 
