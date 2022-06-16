@@ -3,18 +3,18 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Exclusive Fashion Designer clothing",
-            "heading_size": "h0"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "text": "End of season sales | up to 20% off",
             "text_style": "body"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exclusive Fashion Designer clothing",
+            "heading_size": "h0"
           }
         },
         "button": {
@@ -30,8 +30,8 @@
         }
       },
       "block_order": [
-        "heading",
         "text",
+        "heading",
         "button"
       ],
       "settings": {
