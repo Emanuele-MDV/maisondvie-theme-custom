@@ -210,7 +210,12 @@ section.custom-designers-collections ul.designers-show li figure img{
   	max-height:100%;
 }
 
-section.custom-designers-collections ul.designers-show li
+section.custom-designers-collections ul.designers-show li h3 span {
+	display:block;
+  	font-family:Wotfard;
+  	font-weight:300;
+  	text-transform:uppercase;
+}
 
 
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
