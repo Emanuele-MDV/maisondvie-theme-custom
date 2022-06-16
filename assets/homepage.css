@@ -33,12 +33,11 @@ section#shopify-section-template--16077895434495__image_banner {
 
 
 .homepage-banner .banner__text.body {
-    font-family: Grafier;
     text-transform: uppercase;
-    font-size: 3rem;
-    margin: 0;
+    font-size: 2.4rem;
     line-height: 3rem;
-    color: white;
+    color: #fff;
+    font-weight: 300;
 }
 
 .homepage-banner h2.banner__heading.h0 {
