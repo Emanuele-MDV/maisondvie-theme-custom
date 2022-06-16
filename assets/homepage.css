@@ -412,6 +412,10 @@ p.the_description {
     font-size: 3.2rem;
   }
   
+  .banner__box>*+.banner__buttons, .banner__box>*+.banner__buttons a {
+    width: 90%;
+  }
+  
   
   /* Categories section */
   
