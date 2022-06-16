@@ -3250,6 +3250,8 @@ input#NewsletterForm--footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-top:0;
+    min-width:100%;
   }
   
   section#info_section a {
