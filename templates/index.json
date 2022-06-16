@@ -3,17 +3,10 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "c0b59cb7-5ee7-40b3-a810-6b458b169537": {
-          "type": "text",
-          "settings": {
-            "text": "Up to",
-            "text_style": "body"
-          }
-        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "30%",
+            "heading": "Exclusive Fashion Designer clothing",
             "heading_size": "h0"
           }
         },
@@ -37,7 +30,6 @@
         }
       },
       "block_order": [
-        "c0b59cb7-5ee7-40b3-a810-6b458b169537",
         "heading",
         "text",
         "button"
