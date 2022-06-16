@@ -3340,8 +3340,12 @@ input#NewsletterForm--footer {
       padding: 0;
     }
     
-    section#info_section a:before{
-    position:relative;
+    section#info_section a:before {
+      position: relative;
+      transform: none;
+      top: 0;
+      height: 24px;
+      align-items: end;
     }
     
     a.header__heading-link.link.link--text.focus-inset {
