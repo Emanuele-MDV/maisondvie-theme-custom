@@ -57,15 +57,15 @@
   background: #1c1c1c;
 }
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: transparent;
   border: 0px none #ffffff;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-track:hover {
-  background: #ffffff;
+  background: transparent;
 }
 ::-webkit-scrollbar-track:active {
-  background: #ffffff;
+  background: transparent;
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
