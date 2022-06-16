@@ -335,6 +335,9 @@ section.custom-designers-collections ul.designers-show li {
     width: 100%;
   }
   
+  .facet-filters__field {
+    justify-content: space-between;
+  }
 
 }
 
