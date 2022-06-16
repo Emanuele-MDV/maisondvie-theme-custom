@@ -3336,6 +3336,8 @@ input#NewsletterForm--footer {
     section#info_section a {
       line-height: 1.2rem;
       font-size: 1rem;
+      text-align: center;
+      padding: 0;
     }
     
     a.header__heading-link.link.link--text.focus-inset {
