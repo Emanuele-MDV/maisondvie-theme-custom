@@ -206,7 +206,7 @@ section.custom-designers-collections ul.designers-show li figure{
 section.custom-designers-collections ul.designers-show li figure img{
 	object-fit:cover;
   	min-width:100%;
-  	min-height:100%;
+  	max-height:100%;
 }
 
 
