@@ -321,6 +321,10 @@ section.custom-designers-collections ul.designers-show li {
   	width: 100%;
   }
   
+  .facets-vertical-form {
+    flex-wrap: wrap;
+  }
+  
 
 }
 
