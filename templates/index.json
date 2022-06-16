@@ -6,7 +6,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "End of season sales | up to 20% off",
+            "text": "End of season sales, up to 20% off",
             "text_style": "body"
           }
         },
@@ -84,37 +84,37 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "test"
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "test"
           }
         },
         "37f6f81d-4797-4252-b17d-75d5c8350c39": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "test"
           }
         },
         "0880d82a-c85e-47f3-b0af-81ae1220ceb5": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "test"
           }
         },
         "094bffb1-13a3-4807-ba53-31dd185c6551": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "test"
           }
         },
         "0c5dc700-a01f-4a2d-ba6e-f84662279d09": {
           "type": "collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "test"
           }
         }
       },
