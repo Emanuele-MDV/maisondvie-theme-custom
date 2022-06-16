@@ -340,7 +340,7 @@ section.custom-designers-collections ul.designers-show li {
   }
   
   .facet-filters__field .select {
-    width: -webkit-fill-available;
+    width: -webkit-fill-available!important;
   }
   
   
