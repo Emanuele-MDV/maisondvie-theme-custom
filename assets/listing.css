@@ -173,6 +173,14 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 }
 
 
+/* Custom designers collections */
+
+section.custom-designers-collections h2, section.custom-designers-collections p{
+	text-align:center;
+  	padding: 0 12%;
+}
+
+
 
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
 
