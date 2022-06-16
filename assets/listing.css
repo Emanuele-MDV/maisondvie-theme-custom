@@ -460,6 +460,20 @@ section.custom-designers-collections ul.designers-show li {
     padding: 0;
   }
   
+  .mobile-facets__sort label {
+    min-width: fit-content;
+    padding-right: 22px;
+  }
+  
+  .mobile-facets__sort {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .mobile-facets__sort .select {
+    min-width: -webkit-fill-available;
+  }
+  
   /* BANNER SETTINGS */
   
   
