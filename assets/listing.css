@@ -474,6 +474,10 @@ section.custom-designers-collections ul.designers-show li {
     min-width: -webkit-fill-available;
   }
   
+  .mobile-facets__summary>div, .facets__summary>div span {
+    font-size: 16px;
+  }
+  
   /* BANNER SETTINGS */
   
   
