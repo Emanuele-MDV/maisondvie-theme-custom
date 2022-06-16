@@ -185,10 +185,14 @@ section.custom-designers-collections p {
 	margin-bottom:6rem;
 }
 
-section.custom-designers-collections ul{
+section.custom-designers-collections ul.designers-show{
 	list-style:none;
   	display:flex;
   	flex-wrap:nowrap;
+}
+
+section.custom-designers-collections ul.designers-show li {
+	max-width:20%;
 }
 
 
