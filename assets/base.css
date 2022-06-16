@@ -3340,6 +3340,10 @@ input#NewsletterForm--footer {
       padding: 0;
     }
     
+    section#info_section a:before{
+    position:relative;
+    }
+    
     a.header__heading-link.link.link--text.focus-inset {
     max-width: 70%;
 	}
