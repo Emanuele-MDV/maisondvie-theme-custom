@@ -3252,6 +3252,17 @@ input#NewsletterForm--footer {
     justify-content: center;
   }
   
+  section#info_section a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 6%;
+    cursor: initial;
+    font-weight: 300;
+    position: relative;
+    padding-left: 30px;
+  }
+  
   
   /* ------------------------------------------------------- CUSTOM RESPONSIVE ------------------------------------------------------- */
   
