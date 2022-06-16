@@ -278,6 +278,10 @@ aside#main-collection-filters {
 .columns.large:before {
     content: "2";
 }  
+  
+section.custom-designers-collections ul.designers-show li {
+    width: 33.33%;
+}
 
 
 }
