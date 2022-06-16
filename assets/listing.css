@@ -194,7 +194,7 @@ section.custom-designers-collections p {
 section.custom-designers-collections ul.designers-show {
     list-style: none;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     overflow: hidden;
     min-width: calc(100% + 20px);
     padding: 0;
@@ -287,6 +287,19 @@ section.custom-designers-collections ul.designers-show li {
 }
 
 @media screen and (max-width:990px){
+
+  aside#main-collection-filters {
+    min-width: 42%;
+    padding-right: 4rem;
+  }
+  
+  .facets__form-vertical {
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width:768px){
 
   aside#main-collection-filters {
     min-width: 42%;
