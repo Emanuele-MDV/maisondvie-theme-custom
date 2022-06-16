@@ -189,6 +189,7 @@ section.custom-designers-collections ul.designers-show{
 	list-style:none;
   	display:flex;
   	flex-wrap:nowrap;
+  	overflow:hidden;
 }
 
 section.custom-designers-collections ul.designers-show li {
