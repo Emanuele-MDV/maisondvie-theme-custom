@@ -1,5 +1,6 @@
 <div class="page-width">
   
+  
   <h2>{{ section.settings.title }}</h2>
   <p>{{ section.settings.description }}</p>
   
@@ -8,7 +9,7 @@
     
     {% assign current = collection.title %}
     
-    {% for collection in collections limit:2 %}
+    {% for collection in collections limit:4 %}
     
     	{% if collection.metafields.my_fields.designer_type != blank and collection.title != current %}
     
