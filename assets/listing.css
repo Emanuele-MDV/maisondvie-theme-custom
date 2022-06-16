@@ -300,6 +300,10 @@ section.custom-designers-collections ul.designers-show li {
 }
 
 @media screen and (max-width:768px){
+  
+  .collection-hero__image-container.media.gradient {
+    min-height: 220px;
+  }
 
   section.custom-designers-collections ul.designers-show li {
     width: 50%;
