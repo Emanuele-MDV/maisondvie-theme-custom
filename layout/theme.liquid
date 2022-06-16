@@ -240,6 +240,13 @@
     {% section 'header' %}
     
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      
+      {% unless template =! "index" %}
+      
+      <section id="info_section">Test</section>
+      
+      {% endunless %}
+      
       {{ content_for_layout }}
       
     </main>
