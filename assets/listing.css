@@ -478,6 +478,10 @@ section.custom-designers-collections ul.designers-show li {
     font-size: 16px;
   }
   
+  .mobile-facets__sort .select .icon-caret {
+    right: 12px;
+  }
+  
   /* BANNER SETTINGS */
   
   
