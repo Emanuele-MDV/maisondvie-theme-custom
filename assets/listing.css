@@ -175,7 +175,10 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 
 /* Custom designers collections */
 
-section.custom-designers-collections {}
+section.custom-designers-collections {
+	padding-top:80px;
+  	padding-bottom:80px;
+}
 
 section.custom-designers-collections h2, section.custom-designers-collections p{
 	text-align:center;
