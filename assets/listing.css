@@ -330,6 +330,10 @@ section.custom-designers-collections ul.designers-show li {
   .columns.small:before {
     content: "1";
   }
+  
+  section.custom-designers-collections ul.designers-show {
+    justify-content: flex-start;
+  }
 
 }
 
