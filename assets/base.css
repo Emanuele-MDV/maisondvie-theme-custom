@@ -3198,7 +3198,13 @@ input#NewsletterForm--footer {
 }
   
   
-  /* CUSTOM MOBILE */
+  
+  .footer {
+    margin-top: 0!important;
+}
+  
+  
+  /* ------------------------------------------------------- CUSTOM RESPONSIVE ------------------------------------------------------- */
   
   
   @media screen and (max-width:1024px){
