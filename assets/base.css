@@ -3125,7 +3125,17 @@ ul.mega-menu__list div:last-of-type {
   }
   
   
+  
+/* ---------------------- Large mega menu ---------------------- */
+  
+  
+  
+  
 /* ---------------------- Condensed mega menu ---------------------- */
+  
+  ul.mega-menu__list.page-width.mega-menu__list--condensed {
+    width: auto;
+  }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(1) {
     min-width: 20%;
@@ -3163,10 +3173,6 @@ ul.mega-menu__list div:last-of-type {
     margin: 0;
     color:white;
   }
-  
-  
-  
-/* ---------------------- Large mega menu ---------------------- */
   
   
   
