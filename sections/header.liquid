@@ -483,6 +483,7 @@
                           
                           <div class="mega-content-link mega-content-link-all-{{ link.title | escape }}">
                             
+                            {% assign collection_name = link.title %}
                             
                             <p>Browse all {{ link.title | escape }}</p>
                             <a href="{{ link.url | escape }} ">Shop now</a>
