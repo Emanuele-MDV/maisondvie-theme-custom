@@ -6,18 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "1655729102b70d18cc": {
-      "type": "custom-collections-grid",
-      "settings": {
-        "title": "Maison's Fashion Designers",
-        "collections_show": 4,
-        "description": ""
-      }
     }
   },
   "order": [
-    "main",
-    "1655729102b70d18cc"
+    "main"
   ]
 }
