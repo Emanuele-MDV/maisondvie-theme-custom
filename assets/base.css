@@ -3122,11 +3122,15 @@ ul.mega-menu__list div:last-of-type {
     position: relative;
     display: flex;
     flex-direction: column;
+    min-height: 400px;
+    padding: 60px 18px;
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure {
     margin: 0;
     position: absolute;
+    top:0;
+    left:0;
     width: 100%;
     height: 100%;
     overflow: hidden;
