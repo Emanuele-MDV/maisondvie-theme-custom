@@ -3132,6 +3132,12 @@ ul.mega-menu__list div:last-of-type {
     overflow: hidden;
   }
   
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p, ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a {
+    position: relative;
+    margin: 0;
+    color:white;
+  }
+  
 /* ---------------------- Large mega menu ---------------------- */
   
   
