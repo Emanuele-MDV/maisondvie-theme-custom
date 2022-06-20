@@ -173,6 +173,11 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
 	content:'3';
 }
 
+.facets__heading--vertical {
+    font-family: Grafier;
+    font-size: 2rem;
+}
+
 
 .facets-vertical .facets__summary div span {
     font-weight: 600;
