@@ -492,7 +492,7 @@
                             	
                             {% elsif link.type == 'page_link' %}
                             
-                              {% if page.metafields.custom.page_featured_image != blank %}
+                              {% if link.object.metafields.custom.page_featured_image != blank %}
                             	<p>Has image</p>
                               {% endif %}
                             
