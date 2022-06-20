@@ -486,9 +486,12 @@
                            	{% if link.object.image %}
                               {{ link.object.image | image_url: width: 500 | image_tag }}
                             
-                            {% elsif link.object == 'page' %}
-                            <p>Test</p>
+                            {% endif %}
                             
+                            
+                            
+                            {% if link.object == 'page' %}
+                            <p>Test</p>
                             {% endif %}
                             
                             <p>Browse all {{ link.title | escape }}</p>
