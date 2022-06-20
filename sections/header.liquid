@@ -485,6 +485,10 @@
                             
                            	{% if link.object.image %}
                               {{ link.object.image | image_url: width: 500 | image_tag }}
+                            
+                            {% elsif link.current == 'Designers' %}
+                            <p>Test</p>
+                            
                             {% endif %}
                             
                             <p>Browse all {{ link.title | escape }}</p>
