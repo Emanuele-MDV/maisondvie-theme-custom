@@ -19,6 +19,11 @@
 {%- endstyle -%}
 
 <div class="page-width {% if section.settings.narrow_layout == true %}page-width--narrow section-{{ section.id }}-padding{% endif %}">
+  
+  {% if page.metafields.custom.page_featured_image != blank %}
+  	Has image
+  {% endif %}
+  
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
