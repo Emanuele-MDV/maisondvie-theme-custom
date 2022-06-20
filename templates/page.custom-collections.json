@@ -3,7 +3,7 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "Collections",
+        "title": "My custom collections grid",
         "sort": "alphabetical",
         "image_ratio": "square"
       }
