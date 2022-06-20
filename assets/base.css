@@ -3119,6 +3119,10 @@ ul.mega-menu__list div:last-of-type {
     font-size: 3rem;
   }
   
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a {
+    text-decoration: none;
+    font-weight: 300;
+  }
   
   
 /* ---------------------- Condensed mega menu ---------------------- */
@@ -3160,10 +3164,16 @@ ul.mega-menu__list div:last-of-type {
     color:white;
   }
   
+  
+  
 /* ---------------------- Large mega menu ---------------------- */
   
   
-  /* Footer */
+  
+  
+  
+  
+  /* -------------------------------------------- FOOTER STARTS HERE -------------------------------------------- */
   
   footer .full{
   background-color:#373737;
