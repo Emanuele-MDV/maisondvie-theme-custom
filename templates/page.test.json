@@ -1,11 +1,10 @@
 {
   "sections": {
     "main": {
-      "type": "main-list-collections",
+      "type": "main-page",
       "settings": {
-        "title": "Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square"
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
