@@ -3130,7 +3130,7 @@ ul.mega-menu__list div:last-of-type {
   
   ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(1) {
     width: 66.66%;
-}
+  }
   
   ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) {
     width: 33.33%;
@@ -3143,11 +3143,17 @@ ul.mega-menu__list div:last-of-type {
   }
   
   
-/* ---------------------- Condensed mega menu ---------------------- */
+  /* ---------------------- Condensed mega menu ---------------------- */
+  
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(1) {
     min-width: 20%;
   }
+  
+  
+/* ---------------------- Mega menu img box ---------------------- */
+  
+  
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2), ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) {
     width: 33.33%;
