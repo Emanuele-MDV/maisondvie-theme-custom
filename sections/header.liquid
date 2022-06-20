@@ -486,14 +486,15 @@
                             {% if link.type == 'collection_link' %}
                             
                               {% if link.object.image %}
-                                {{ link.object.image | image_url: width: 500 | image_tag }}
+                            	
+                            	<figure>{{ link.object.image | image_url: width: 500 | image_tag }}</figure>
 
                               {% endif %}
                             	
                             {% elsif link.type == 'page_link' %}
                             
                               {% if link.object.metafields.custom.page_featured_image != blank %}
-                            	{{ link.object.metafields.custom.page_featured_image | image_url: width: 500 | image_tag }}
+                            	<figure>{{ link.object.metafields.custom.page_featured_image | image_url: width: 500 | image_tag }}</figure>
                               {% endif %}
                             
                             {% endif %}
