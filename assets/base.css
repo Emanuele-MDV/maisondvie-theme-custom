@@ -3110,6 +3110,11 @@ ul.mega-menu__list div:last-of-type {
    */
   
   
+  .mega-menu[open] .mega-menu__content {
+    padding: 60px 0;
+  }
+  
+  
   
 /* ---------------------- Condensed mega menu ---------------------- */
   
