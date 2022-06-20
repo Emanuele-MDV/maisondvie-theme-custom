@@ -1,0 +1,89 @@
+section.custom-designers-collections {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #e8e8e8;
+}
+
+section.custom-designers-collections h2, section.custom-designers-collections p{
+	text-align:center;
+  	padding: 0 12%;
+  	width:100%;
+}
+
+section.custom-designers-collections p {
+	margin-bottom:6rem;
+}
+
+section.custom-designers-collections ul.designers-show {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    min-width: calc(100% + 20px);
+    padding: 0;
+    margin: 0 auto 0 -10px;
+    justify-content: center;
+}
+
+section.custom-designers-collections ul.designers-show li {
+    width: 20%;
+    text-align: center;
+    border: 10px solid transparent;
+}
+
+section.custom-designers-collections ul.designers-show li figure{
+	margin:0;
+  	width:100%;
+  	height:280px;
+  	overflow:hidden;
+  	position: relative;
+}
+
+section.custom-designers-collections ul.designers-show li figure img{
+	object-fit:cover;
+  	min-width:100%;
+  	max-height:100%;
+  	transition: all 400ms ease-in;
+}
+
+section.custom-designers-collections ul.designers-show li figure::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 150ms ease-in-out;
+}
+
+section.custom-designers-collections ul.designers-show li:hover figure::after{
+	opacity:.2;
+}
+
+section.custom-designers-collections ul.designers-show li:hover figure img{
+	transform: scale(1.1);
+}
+
+section.custom-designers-collections ul.designers-show li h3 span {
+	display:block;
+  	font-family:Wotfard;
+  	font-weight:300;
+  	text-transform:uppercase;
+  	font-size: 1.4rem;
+}
+
+section.custom-designers-collections ul.designers-show li a.button-link {
+    text-decoration: none;
+    color: black;
+    opacity: .8;
+    padding: 20px;
+  	transition:all 150ms ese-in;
+}
+
+section.custom-designers-collections ul.designers-show li a.button-link:hover{
+  	opacity:1;
+  	font-weight:600;
+}
