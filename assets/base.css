@@ -3149,7 +3149,7 @@ ul.mega-menu__list div:last-of-type {
     min-width: 20%;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2), ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) {
     width: 33.33%;
     position: relative;
     display: flex;
@@ -3159,7 +3159,7 @@ ul.mega-menu__list div:last-of-type {
     justify-content: flex-end;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) figure {
     margin: 0;
     position: absolute;
     top:0;
@@ -3169,7 +3169,7 @@ ul.mega-menu__list div:last-of-type {
     overflow: hidden;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure img {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure img, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) figure img {
     min-height: 100%;
     object-fit: cover;
     width: auto;
