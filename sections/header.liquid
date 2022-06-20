@@ -485,6 +485,10 @@
                             
                             {% assign collection_name = link.title %}
                             
+                            {% if collection_name.image %}
+                              {{ collection_name.image | image_url: width: 2048 | image_tag }}
+                            {% endif %}
+                            
                             <p>Browse all {{ link.title | escape }}</p>
                             <a href="{{ link.url | escape }} ">Shop now</a>
                           
