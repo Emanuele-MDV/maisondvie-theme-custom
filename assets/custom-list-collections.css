@@ -76,6 +76,7 @@ section.custom-designers-collections ul.designers-show li h3 span {
   	font-weight:300;
   	text-transform:uppercase;
   	font-size: 1.8rem;
+  	margin-top:8px;
 }
 
 section.custom-designers-collections ul.designers-show li a.button-link {
