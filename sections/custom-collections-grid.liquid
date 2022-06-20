@@ -1,6 +1,13 @@
 <div class="page-width">
-
   
+  
+  {% if page.title == "Designers" %}
+  
+  {% for collection in product.collections %}
+  	{{ collection.title }}
+  {% endfor %}
+  
+  {% endif %}
 
 </div>
 
