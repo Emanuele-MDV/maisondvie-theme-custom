@@ -3120,6 +3120,8 @@ ul.mega-menu__list div:last-of-type {
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) {
     width: 33.33%;
     position: relative;
+    display: flex;
+    flex-direction: column;
   }
   
 /* ---------------------- Large mega menu ---------------------- */
