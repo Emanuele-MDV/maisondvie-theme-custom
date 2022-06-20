@@ -3114,12 +3114,12 @@ ul.mega-menu__list div:last-of-type {
     padding: 60px 0;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) p {
     font-family: 'Grafier';
     font-size: 3rem;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) a {
     text-decoration: none;
     font-weight: 300;
   }
