@@ -3114,6 +3114,11 @@ ul.mega-menu__list div:last-of-type {
     padding: 60px 0;
   }
   
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p {
+    font-family: 'Grafier';
+    font-size: 3rem;
+  }
+  
   
   
 /* ---------------------- Condensed mega menu ---------------------- */
