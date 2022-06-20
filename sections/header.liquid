@@ -483,6 +483,10 @@
                           
                           <div class="mega-content-link mega-content-link-all-{{ link.title | escape }}">
                             
+                            {% if link.object == collection %}
+                            	<p>Test</p>
+                            {% endif %}
+                            
                            	{% if link.object.image %}
                               {{ link.object.image | image_url: width: 500 | image_tag }}
                             
