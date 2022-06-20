@@ -3124,6 +3124,14 @@ ul.mega-menu__list div:last-of-type {
     flex-direction: column;
   }
   
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
 /* ---------------------- Large mega menu ---------------------- */
   
   
