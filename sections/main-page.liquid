@@ -20,7 +20,7 @@
 
 <div class="page-width {% if section.settings.narrow_layout == true %}page-width--narrow section-{{ section.id }}-padding{% endif %}">
   
-  {% if page.metafields.custom.page_featured_image != blank %}
+  {% if section.settings.show_image == true and page.metafields.custom.page_featured_image != blank %}
   	Has image
   {% endif %}
   
@@ -41,6 +41,12 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+	{
+      "type": "checkbox",
+      "id": "show_image",
+      "default": false,
+      "label": "Show page image"
     },
 	{
       "type": "checkbox",
