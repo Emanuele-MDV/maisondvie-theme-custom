@@ -486,7 +486,7 @@
                            	{% if link.object.image %}
                               {{ link.object.image | image_url: width: 500 | image_tag }}
                             
-                            {% elsif link.title == 'Designers' %}
+                            {% elsif link.object == 'page' %}
                             <p>Test</p>
                             
                             {% endif %}
