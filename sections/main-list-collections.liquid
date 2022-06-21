@@ -15,6 +15,13 @@
       assign collections = collections | reverse
     endif
   -%}
+  
+  <div class="">
+    <h2>For ladies</h2>
+  	
+  </div>
+  
+  
   <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
     {%- for collection in collections -%}
     	
@@ -121,6 +128,11 @@
       ],
       "default": "2",
       "label": "t:sections.main-list-collections.settings.columns_mobile.label"
+    },
+    {
+      "type": "richtext",
+      "id": "ladies_desc",
+      "label": "Ladies collection description"
     }
   ]
 }
