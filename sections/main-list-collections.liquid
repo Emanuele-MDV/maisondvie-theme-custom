@@ -41,8 +41,8 @@
   
   <div class="ladies-collection">
     <h2>For ladies</h2>
-  	{% if section.settings.ladies_desc != blank %}
-    	{{ section.settings.ladies_desc }}
+  	{% if section.settings.men_desc != blank %}
+    	{{ section.settings.men_desc }}
     {% endif %}
   
   
@@ -160,6 +160,11 @@
       "type": "richtext",
       "id": "ladies_desc",
       "label": "Ladies collection description"
+    },
+	{
+      "type": "richtext",
+      "id": "men_desc",
+      "label": "Men collection description"
     }
   ]
 }
