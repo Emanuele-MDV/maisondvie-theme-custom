@@ -191,7 +191,7 @@ max-height:40rem;
 }
 
 
-.card__inner.color-background-2.gradient.ratio {
+.categories-hp .card__inner.color-background-2.gradient.ratio , .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
     min-height: 400px;
 }
 
