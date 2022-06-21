@@ -200,12 +200,9 @@ p.product__text.caption-with-letter-spacing {
 }
 .price.price--large .price__container .price__sale span s{opacity:.6;}
 
-/* .price.price--large::after {
-    content: 'Including Vat';
-    font-size: 1.4rem;
-    float: left;
-    opacity: .8;
-} */
+.product__tax {
+    margin-bottom: 3rem;
+}
 
 .price--on-sale .price__badge-sale{ float:right; }
 
