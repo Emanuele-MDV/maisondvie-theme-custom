@@ -16,27 +16,29 @@
     endif
   -%}
   
-  <div class="">
+  <div class="ladies-collection">
     <h2>For ladies</h2>
   	{% if section.settings.ladies_desc != blank %}
     	{{ section.settings.ladies_desc }}
     {% endif %}
+  
+  
+  
+    <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
+      {%- for collection in collections -%}
+
+          {% if collection.metafields.my_fields.designer_type == blank and collection.metafields.custom.show_in_collections == blank and collection.metafields.custom.gender == blank %}
+              <li class="collection-list__item grid__item">
+                {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 3 %}
+              </li>
+          {% endif %}
+
+
+
+      {%- endfor -%}
+    </ul>
   </div>
   
-  
-  <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
-    {%- for collection in collections -%}
-    	
-    	{% if collection.metafields.my_fields.designer_type == blank and collection.metafields.custom.show_in_collections == blank and collection.metafields.custom.gender == blank %}
-    		<li class="collection-list__item grid__item">
-              {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 3 %}
-            </li>
-    	{% endif %}
-    
-    
-      
-    {%- endfor -%}
-  </ul>
 </div>
 {% schema %}
 {
