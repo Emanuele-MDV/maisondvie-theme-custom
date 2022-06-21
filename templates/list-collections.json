@@ -7,7 +7,8 @@
         "sort": "alphabetical",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "columns_mobile": "2"
+        "columns_mobile": "2",
+        "ladies_desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus. Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Nulla aliquet enim tortor at auctor urna nunc id. Sed viverra ipsum nunc aliquet bibendum enim facilisis.<\/p>"
       }
     }
   },

@@ -18,7 +18,9 @@
   
   <div class="">
     <h2>For ladies</h2>
-  	
+  	{% if section.settings.ladies_desc != blank %}
+    	{{ section.settings.ladies_desc }}
+    {% endif %}
   </div>
   
   
