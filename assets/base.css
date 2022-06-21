@@ -3389,6 +3389,10 @@ input#NewsletterForm--footer {
   
   @media screen and (max-width:820px){
     
+    header-drawer {
+      display: flex;
+    }
+    
     .footer {
     margin-top: 0px!important;
 	}
