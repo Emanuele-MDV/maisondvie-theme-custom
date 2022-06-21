@@ -426,26 +426,20 @@ p.the_description {
   }
   
   
-  /* Categories section */
+  /* Categories and designers section */
   
   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2){
   	width:100%;
   }
   
-  .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner {
-    max-height: 22rem;
+  
+  .categories-hp .card__inner.color-background-2.gradient.ratio , .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
+    min-height: 22rem;
   }
-  
-  
-  /* Designers section */
-  
+
   p.the_description {
     display: none;
-}
-  
-  .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
-    height: 22rem;
-}
+  }
   
   .custom-designer-collection .card:not(.ratio)>.card__content h3:after{
   	content: "Shop now >";
