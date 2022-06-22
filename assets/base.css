@@ -3153,9 +3153,11 @@ ul.mega-menu__list div:last-of-type {
   
   
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed > div:nth-child(2), ul.mega-menu__list.page-width.mega-menu__list--large > div:nth-child(2) {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2), ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2) {
     width: 33.33%;
-    padding: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
   }
   
 /*   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) figure {
