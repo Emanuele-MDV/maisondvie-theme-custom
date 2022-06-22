@@ -3397,6 +3397,12 @@ input#NewsletterForm--footer {
       position: relative;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
+    }
+    
+    .mega-content-link a div figure {
+      margin: 0;
+      position: absolute;
     }
     
 }
