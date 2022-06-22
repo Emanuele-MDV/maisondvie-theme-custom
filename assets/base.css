@@ -2506,7 +2506,14 @@ menu-drawer + .header__search {
 details[open] > .search-modal {
   opacity: 1;
   animation: animateMenuOpen var(--duration-default) ease;
+    
+  /* CUSTOM STYLE */
+    
+  height: 100vh;
+  
 }
+  
+  
 
 details[open] .modal-overlay {
   display: block;
@@ -3043,6 +3050,11 @@ details-disclosure > details {
     bottom: 4px;
     font-size: 4rem;
     opacity: .6;
+  }
+  
+  .search-modal.modal__content.gradient button.modal__close-button.link.link--text.focus-inset {
+    position: absolute;
+    top: 40px;
   }
   
   
