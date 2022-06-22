@@ -3218,6 +3218,7 @@ ul.mega-menu__list div:last-of-type {
     min-height: 100%;
     min-width: 100%;
     object-position: center center;
+    transition:all 200ms ease-in-out;
   }
   
   /* -------------------------------------------- FOOTER STARTS HERE -------------------------------------------- */
