@@ -3387,6 +3387,10 @@ input#NewsletterForm--footer {
       padding: 0 3.2rem;
     }
     
+    .mega-content-link a {
+    	text-decoration:none;
+    }
+    
     .mega-content-link a:not(:last-of-type) {
       border-bottom:20px solid white;
     }
@@ -3417,6 +3421,14 @@ input#NewsletterForm--footer {
       max-height: 100%;
       object-fit: cover;
       object-position: center center;
+    }
+
+    .mega-content-link a div p {
+      position: relative;
+      color: white;
+      margin: 0;
+      font-family: Grafier;
+      font-size: 2rem;
     }
     
 }
