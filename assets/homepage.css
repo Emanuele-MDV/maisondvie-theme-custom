@@ -321,6 +321,10 @@ p.the_description {
   
   /* Categories and designers section */
   
+  ul#Slider-template--16077895434495__16557979229193694e {
+    padding: 0;
+  }
+  
   .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2){
   	width:100%;
   }
