@@ -3478,6 +3478,10 @@ input#NewsletterForm--footer {
       line-height:2.2rem;
     }
     
+    .mega-content-link a div p span {
+    	display:block;
+    }
+    
 }
   
   
