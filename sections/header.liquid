@@ -566,22 +566,20 @@
                             
                             {% if link.type == 'collection_link' %}
                             
-                            {% comment %}
-                            
-                            	{% if link.object.image %}
-                            	
-                            	<figure>{{ link.object.image | image_url: width: 500 | image_tag }}</figure>
+                              {% comment %}
 
-                              	{% endif %}
+                                  {% if link.object.image %}
+
+                                  <figure>{{ link.object.image | image_url: width: 500 | image_tag }}</figure>
+
+                                  {% endif %}
+
+                              {% endcomment %}
+
+                              <div class="main-new">Content 2</div>
+
+                              <div class="main-sales">Content 1</div>
                             
-                            {% endcomment %}
-                            
-                            
-                            <div>Content 1</div>
-                            
-                            <div>Content 2</div>
-                            
-                              
                             	
                             {% elsif link.type == 'page_link' %}
                             
