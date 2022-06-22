@@ -3211,7 +3211,7 @@ ul.mega-menu__list div:last-of-type {
     background-color: black;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure img {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a div figure img {
     object-fit: cover;
     max-width: 100%;
     max-height: 100%;
