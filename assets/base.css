@@ -3154,7 +3154,7 @@ details-disclosure > details {
     min-height: 100%;
     min-width: 100%;
     object-position: center center;
-    transition:all 150ms ease-in-out;
+    transition:all 260ms ease-in-out;
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a:hover div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a:hover div figure img{
