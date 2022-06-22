@@ -3387,6 +3387,10 @@ input#NewsletterForm--footer {
       padding: 0 3.2rem;
     }
     
+    .mega-content-link a:not(:last-of-type) {
+      border-bottom:20px solid white;
+    }
+    
     .mega-content-link a div {
       width: 100%;
       padding: 0;
