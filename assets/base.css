@@ -3200,7 +3200,7 @@ ul.mega-menu__list div:last-of-type {
   	width:calc(50% - 6px);
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a div figure, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a div figure {
     margin: 0;
     position: absolute;
     top: 0;
