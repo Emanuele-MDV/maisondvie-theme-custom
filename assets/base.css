@@ -3384,7 +3384,7 @@ input#NewsletterForm--footer {
     .mega-content-link {
       width: 100%;
       overflow: hidden;
-      padding: 1.1rem 3.2rem;
+      padding: 0 3.2rem;
     }
     
     .mega-content-link a:not(:last-of-type) {
