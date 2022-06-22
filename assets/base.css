@@ -3470,6 +3470,12 @@ input#NewsletterForm--footer {
   
   @media screen and (max-width:480px){
     
+    /* MEGA MENU */
+    
+    .mega-content-link a div {
+      min-height: 240px;
+    }
+    
     section#info_section a {
       line-height: 1.2rem;
       font-size: 1rem;
