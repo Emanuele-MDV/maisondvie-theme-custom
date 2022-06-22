@@ -3222,7 +3222,7 @@ ul.mega-menu__list div:last-of-type {
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a:hover div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a:hover div figure img{
-  	transform:scale(105%);
+  	transform:scale(110%);
     opacity:.7;
   }
   
