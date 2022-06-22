@@ -3475,6 +3475,7 @@ input#NewsletterForm--footer {
       margin: 0;
       font-family: Grafier;
       font-size: 2rem;
+      line-height:2.2rem;
     }
     
 }
