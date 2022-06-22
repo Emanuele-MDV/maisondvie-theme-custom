@@ -3360,6 +3360,10 @@ input#NewsletterForm--footer {
       width: 100%;
     }
     
+    ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2) {
+      flex-direction: row;
+      height: 380px;
+    }
 }
   
   
