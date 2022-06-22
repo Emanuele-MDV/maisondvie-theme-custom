@@ -321,7 +321,7 @@ p.the_description {
   
   /* Categories and designers section */
   
-  .men-women-homepage ul {
+  .men-women-homepage ul.collection-list.contains-card {
     padding: 0;
   }
   
