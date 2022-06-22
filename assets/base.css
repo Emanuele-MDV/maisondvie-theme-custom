@@ -615,6 +615,10 @@ table:not([class]) th {
   padding: 1em;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
 }
+  
+  table:last-of-type{
+    margin-top: 4rem;
+  }
 
 .hidden {
   display: none !important;
