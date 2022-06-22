@@ -3364,6 +3364,11 @@ input#NewsletterForm--footer {
       flex-direction: row;
       height: 380px;
     }
+    
+    ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a {
+      min-width: calc(50% - 6px);
+      max-height: unset;
+    }
 }
   
   
