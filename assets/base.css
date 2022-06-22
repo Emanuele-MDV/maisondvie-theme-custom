@@ -3521,6 +3521,8 @@ input#NewsletterForm--footer {
     
     form.search.search-modal__form:before {
       bottom: unset;
+      position: relative;
+      font-size: 2rem;
     }
     
     .search__input.field__input {
