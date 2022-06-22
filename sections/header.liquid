@@ -600,6 +600,7 @@
                             		{% else %}
                             
                             			<div class="main-new-women full">
+                                          <figure>{{ new_women.image | image_url: width: 500 | image_tag }}</figure>
                                           <p>What's new for women</p>
                                           <a href="{{ new_women.url | escape }}">Shop now ></a>
                                         </div>
