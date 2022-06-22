@@ -3476,6 +3476,10 @@ input#NewsletterForm--footer {
       min-height: 220px;
     }
     
+    
+    /* Section info topbar */
+    
+    
     section#info_section a {
       line-height: 1.2rem;
       font-size: 1rem;
