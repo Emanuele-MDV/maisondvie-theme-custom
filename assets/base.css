@@ -3338,9 +3338,7 @@ input#NewsletterForm--footer {
     
     /* MEGA MENU */
     
-    .mega-menu .mega-menu__list--condensed {
-      flex-direction: column;
-    }
+    
     
     ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(1) {
       width: 100%;
