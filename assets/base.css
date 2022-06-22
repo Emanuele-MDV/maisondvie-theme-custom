@@ -3189,10 +3189,20 @@ ul.mega-menu__list div:last-of-type {
     overflow: hidden;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div.full figure, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div.full figure {
-  	margin:0;
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    background-color: black;
   }
   
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure img {
+  	
+  }
   
   
   /* -------------------------------------------- FOOTER STARTS HERE -------------------------------------------- */
