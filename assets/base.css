@@ -3308,12 +3308,25 @@ input#NewsletterForm--footer {
   /* ------------------------------------------------------- CUSTOM RESPONSIVE ------------------------------------------------------- */
   
   
+  @media screen and (max-width:1280px){
+  
+    ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2), ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2){
+      flex-direction: column;
+      position: relative;
+    }
+    
+}
+  
+  
+  
   @media screen and (max-width:1024px){
   
     .caption-with-letter-spacing.light {
-    font-size: 1.2rem;
-    letter-spacing: .4px;
-}
+      font-size: 1.2rem;
+      letter-spacing: .4px;
+    }
+    
+    
     
 }
   
