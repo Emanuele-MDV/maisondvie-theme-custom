@@ -2510,6 +2510,7 @@ details[open] > .search-modal {
   /* CUSTOM STYLE */
     
   height: 100vh;
+  background-color:transparent;
   
 }
   
@@ -2986,7 +2987,7 @@ details-disclosure > details {
   }
 
   .search-modal__content.search-modal__content-bottom {
-    background-color: black;
+    background-color: #000000eb;
   }
 
   .modal__close-button .icon {
