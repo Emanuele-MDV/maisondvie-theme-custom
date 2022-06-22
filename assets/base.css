@@ -3128,14 +3128,14 @@ ul.mega-menu__list div:last-of-type {
   
 /* ---------------------- Large mega menu ---------------------- */
   
-  ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(1) {
+  ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(1) {
     width: 66.66%;
     display: flex;
     justify-content: space-between;
     padding-right: 5rem;
   }
   
-  ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(1) > li {
+  ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(1) > li {
     width: fit-content;
     padding-right: 20px;
   }
