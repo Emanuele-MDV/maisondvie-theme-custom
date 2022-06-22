@@ -3315,8 +3315,10 @@ input#NewsletterForm--footer {
       position: relative;
     }
     
-    ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a{
-    	min-width:100%;
+    ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a {
+      min-width: 100%;
+      max-height: 160px;
+      overflow: hidden;
     }
     
 }
