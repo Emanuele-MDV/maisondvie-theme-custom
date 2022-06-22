@@ -3427,7 +3427,7 @@ input#NewsletterForm--footer {
     .mega-content-link {
       width: 100%;
       overflow: hidden;
-      padding: 1.3rem 3.2rem 0;
+      padding: 1.3rem 3.2rem;
     }
     
     .mega-content-link a {
@@ -3477,7 +3477,7 @@ input#NewsletterForm--footer {
       margin: 0;
       font-family: Grafier;
       font-size: 2rem;
-      line-height:2.2rem;
+      line-height:2.4rem;
     }
     
     .mega-content-link a div p span {
