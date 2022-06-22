@@ -3513,6 +3513,22 @@ input#NewsletterForm--footer {
   
   @media screen and (max-width:480px){
     
+    /* SEARCH PANEL */
+    
+    .search-modal__content{
+      padding: 0 1rem;
+    }
+    
+    form.search.search-modal__form:before {
+      bottom: unset;
+    }
+    
+    .search__input.field__input {
+      padding-left: 0;
+      font-size: 1.4rem;
+      padding-bottom: 30px;
+    }
+    
     /* MEGA MENU */
     
     .mega-content-link a div {
