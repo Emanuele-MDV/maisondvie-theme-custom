@@ -2512,7 +2512,7 @@ details[open] .modal-overlay {
   display: block;
 }
 
-details[open] .modal-overlay::after {
+/* details[open] .modal-overlay::after {
   position: absolute;
   content: '';
   background-color: rgb(var(--color-foreground), 0.5);
@@ -2520,7 +2520,7 @@ details[open] .modal-overlay::after {
   left: 0;
   right: 0;
   height: 100vh;
-}
+} */
 
 .no-js details[open] > .header__icon--search {
   top: 1rem;
