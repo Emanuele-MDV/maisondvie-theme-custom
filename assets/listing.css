@@ -269,8 +269,8 @@ section.custom-designers-collections ul.designers-show li a.button-link {
     text-decoration: none;
     color: black;
     opacity: .8;
-    padding: 20px;
-  	transition:all 150ms ese-in;
+    padding: 20px 0;
+  	transition: all 150ms ese-in;
 }
 
 section.custom-designers-collections ul.designers-show li a.button-link:hover{
