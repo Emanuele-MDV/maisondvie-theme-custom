@@ -3377,6 +3377,18 @@ input#NewsletterForm--footer {
 }
   
   
+  @media screen and (max-width:990px){
+  
+  /* MEGA MENU */
+    
+    .mega-content-link {
+      width: 100%;
+      overflow: hidden;
+      padding: 1.1rem 3.2rem;
+    }
+    
+}
+  
   
   @media screen and (max-width:820px){
     
