@@ -577,7 +577,11 @@
                               {% endcomment %}
 
                               <div class="main-new">
-								{{ link.url }}
+								{% if link.url contains "women" %}
+                                	Women
+                                {% elsif link.url contains "men" %}
+                                	Men
+                                {% endif %}
                               </div>
 
                               <div class="main-sales">Content 1</div>
