@@ -3088,6 +3088,8 @@ label.field__label {
     position: relative;
     overflow: hidden;
     min-height: 40rem;
+    align-items: flex-end;
+    display: flex;
   }
   
   .full{
