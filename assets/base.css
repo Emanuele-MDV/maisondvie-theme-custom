@@ -3405,6 +3405,7 @@ input#NewsletterForm--footer {
       overflow: hidden;
       min-height: 300px;
       padding: 4rem 2rem;
+      justify-content: flex-end;
     }
     
     .mega-content-link a div figure {
