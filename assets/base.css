@@ -3221,6 +3221,11 @@ ul.mega-menu__list div:last-of-type {
     transition:all 200ms ease-in-out;
   }
   
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a:hover div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a:hover div figure img{
+  	transform:scale(105%);
+    opacity:.7;
+  }
+  
   /* -------------------------------------------- FOOTER STARTS HERE -------------------------------------------- */
   
   footer .full{
