@@ -275,114 +275,6 @@ p.the_description {
 @media screen and (max-width:480px){
   
   
-/*   section {
-    margin-bottom: 0px;
-}
-  
-  .page-width {
-    padding-top: 0;
-}
-  
-  
-  .section-description, .section-description p {
-    text-align: center;
-    margin-bottom: 0;
-}
-   */
-  
-  
-  /* Banner */
-
-/* section#shopify-section-template--16077895434495__image_banner {
-    margin-top: 0;
-    margin-bottom: 22px;
-}
-
-  .homepage-banner .banner__media, .homepage-banner:after{
-  	max-width:unset;
-  }
-  
-  .banner__buttons, .banner__buttons a {
-    width: 100%;
-}
-  
-  .slider-homepage .section-description {
-    padding: 0 20px;
-}
-   */
-  
-  
-  /* Product badges */
-  
-/*   .section-template--16077895434495__featured_collection-padding {
-    padding-bottom: 0!important;
-}
-  
-  .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item, .grid--peek .grid__item {
-    width: calc(50% - 20px);
-    max-width: calc(50% - 20px);
-}
-  
-  
-  
-  .section-template--16077895434495__featured_collection-padding {
-    padding-bottom: 0;
-}
-
-  .section-title.title-wrapper-with-link {
-    margin-top: 0;
-}
-  
-  .card-information>.price {
-    font-size: 1.2rem;
-    font-family: Grafier;
-}
-  
-  .caption-with-letter-spacing.light {
-    font-size: 1.2rem;
-    letter-spacing: 0.4px;
-}
-   */
-  
-  
-  /* Collections */
-  
-/*    .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
-    width: 100%;
-}
-  
-  .categories-hp .card--extend-height.card--standard.card--text .card__inner, .card--extend-height.card--media .card__inner, .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
-    max-height: 20rem;
-    height: 20rem;
-}
-  .categories-hp .collage.collage--mobile .collage__item {
-    width: calc(50% - 6px);
-}
-  
-  .categories-hp .card--standard>.card__content .card__information h3 {
-    font-size:1.8rem;
-}
-  
-  .custom-designer-collection .card:not(.ratio)>.card__content h3 {
-    font-size:1.8rem;
-}
-  
-   */
-  
-  /* NEW COLLECTIONS BANNER */
-  
-/*   .new-collection .banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {
-    padding-top: 120px;
-}
-  
-  .new-collection img {
-    object-position: 85% center;
-}
-  
-  .new-collection .banner__text.body{
-  	color:white;
-  } */
-  
   
   /* Page layout */
   
@@ -411,6 +303,7 @@ p.the_description {
     font-size: 2.2rem;
     line-height: 2.8rem;
     font-weight: 400;
+    padding: 0 20px;
   }
   
   h2.banner__heading.h0 {
