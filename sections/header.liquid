@@ -239,34 +239,32 @@
                                         {% assign new_men = collections['new-products-men'] %}
                                         {% assign sale_men = collections['men-sales'] %}
 
-                                        {% if sale_men.products_count > 0 %}
+                                          {% if sale_men.products_count > 0 %}
 
-                                        <a href="{{ new_men.url | escape }}" class="fifty">
-                                          <div class="main-new men">
-                                            <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
-                                            <p>What's new <span>for men</span></p>
-                                          </div>
-                                        </a>
+                                            <a href="{{ new_men.url | escape }}" class="fifty">
+                                              <div class="main-new men">
+                                                <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
+                                                <p>What's new <span>for men</span></p>
+                                              </div>
+                                            </a>
 
-                                        <a href="{{ sale_men.url | escape }}" class="fifty">
-                                          <div class="main-sale men">
-                                            <figure>{{ sale_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
-                                            <p>Sales <span>for men</span></p>
-                                          </div>
-                                        </a>
+                                            <a href="{{ sale_men.url | escape }}" class="fifty">
+                                              <div class="main-sale men">
+                                                <figure>{{ sale_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
+                                                <p>Sales <span>for men</span></p>
+                                              </div>
+                                            </a>
 
-                                        {% else %}
+                                            {% else %}
 
-                                        <a href="{{ new_men.url | escape }}" class="full">
-                                          <div class="main-new men">
-                                            <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
-                                            <p>What's new <span>for men</span></p>
-                                          </div>
-                                        </a>
+                                            <a href="{{ new_men.url | escape }}" class="full">
+                                              <div class="main-new men">
+                                                <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
+                                                <p>What's new <span>for men</span></p>
+                                              </div>
+                                            </a>
 
-
-
-                                        {% endif %}
+                                          {% endif %}
 
                                   	{% endif %}
 
