@@ -582,34 +582,57 @@
                             		{% assign new_women = collections['new-products-women'] %}
                             		{% assign sale_women = collections['women-sales'] %}
                             
-                            		{% if sale_women.products_count > 0 %}Has products{% else %} No products available{% endif %}
+                            		{% if sale_women.products_count > 0 %}
                             
-                            		<div class="main-new-women fifty">
-                                      <p>What's new for women</p>
-                              		  <a href="{{ new_women.url | escape }}">Shop now ></a>
-                            		</div>
+                            			<div class="main-new-women fifty">
+                                          <p>What's new for women</p>
+                                          <a href="{{ new_women.url | escape }}">Shop now ></a>
+                                        </div>
+
+                                        <div class="main-sale-women fifty">
+                                          <p>Sales for women</p>
+                                          <a href="{{ sale_women.url | escape }}">Shop now ></a>
+                                        </div>
                             
-                            		<div class="main-sale-women fifty">
-                                      <p>Sales for women</p>
-                              		  <a href="{{ sale_women.url | escape }}">Shop now ></a>
-                            		</div>
+                            
+                            		{% else %}
+                            
+                            			<div class="main-new-women full">
+                                          <p>What's new for women</p>
+                                          <a href="{{ new_women.url | escape }}">Shop now ></a>
+                                        </div>
+                            
+                            		{% endif %}
+                            
+                            		
                                 	
                                 {% elsif link.url contains "men" %}
                             
                             		{% assign new_men = collections['new-products-men'] %}
                             		{% assign sale_men = collections['men-sales'] %}
                             
-                            		{% if sale_men.products_count > 0 %}Has products{% else %} No products available{% endif %}
+                            		{% if sale_men.products_count > 0 %}
+                            		
+                                        <div class="main-new-men fifty">
+                                          <p>What's new for men</p>
+                                          <a href="{{ new_men.url | escape }}">Shop now ></a>
+                                        </div>
+
+                                        <div class="main-sale-men fifty">
+                                          <p>Sales for men</p>
+                                          <a href="{{ sale_men.url | escape }}">Shop now ></a>
+                                        </div>
                             
-                                	<div class="main-new-men fifty">
-                                      <p>What's new for men</p>
-                              		  <a href="{{ new_men.url | escape }}">Shop now ></a>
-                            		</div>
+                            		{% else %}
+                            			
+                            			<div class="main-new-men full">
+                                          <p>What's new for men</p>
+                                          <a href="{{ new_men.url | escape }}">Shop now ></a>
+                                        </div>
+                            		
+                            		{% endif %}
                             
-                            		<div class="main-sale-men fifty">
-                                      <p>Sales for men</p>
-                              		  <a href="{{ sale_men.url | escape }}">Shop now ></a>
-                            		</div>
+                                	
                             
                                 {% endif %}
                             
