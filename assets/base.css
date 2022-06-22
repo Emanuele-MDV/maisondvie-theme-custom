@@ -3458,6 +3458,7 @@ input#NewsletterForm--footer {
       height: 100%;
       left:0;
       top:0;
+      background: black;
     }
     
     .mega-content-link a div figure img {
@@ -3467,6 +3468,7 @@ input#NewsletterForm--footer {
       max-height: 100%;
       object-fit: cover;
       object-position: center center;
+      opacity: .8;
     }
 
     .mega-content-link a div p {
