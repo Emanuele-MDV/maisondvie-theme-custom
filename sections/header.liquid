@@ -580,13 +580,16 @@
 								{% if link.url contains "women" %}
                             
                             		{% assign new_women = collections['new-products-women'] %}
+                            		
                             
                             		<div class="main-new-women fifty">
                                       <p>What's new for women</p>
-                              		  <a href="{{ new_women.url }}">Shop now ></a>
+                              		  <a href="{{ new_women.url | escape }}">Shop now ></a>
                             		</div>
                                 	
                                 {% elsif link.url contains "men" %}
+                            
+                            		{% assign new_men = collections['new-products-men'] %}
                             
                                 	<div class="main-new-men fifty">
                                       <p>What's new for men</p>
