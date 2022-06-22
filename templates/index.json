@@ -58,7 +58,7 @@
         "show_description": false,
         "use_basic_structure": true,
         "description_style": "body",
-        "collection": "new-products",
+        "collection": "new-products-women",
         "products_to_show": 10,
         "columns_desktop": 5,
         "full_width": false,
@@ -279,7 +279,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now >",
-            "button_link_1": "shopify:\/\/collections\/new-products",
+            "button_link_1": "shopify:\/\/collections\/new-products-women",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
