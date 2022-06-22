@@ -3201,7 +3201,7 @@ ul.mega-menu__list div:last-of-type {
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure img, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure img {
-  	
+  	object-fit:cover;
   }
   
   
