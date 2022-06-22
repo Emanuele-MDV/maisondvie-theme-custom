@@ -3387,6 +3387,18 @@ input#NewsletterForm--footer {
       padding: 1.1rem 3.2rem;
     }
     
+    .mega-content-link a:not(:last-of-type) {
+      margin-bottom:20px;
+    }
+    
+    .mega-content-link a div {
+      width: 100%;
+      padding: 0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    
 }
   
   
