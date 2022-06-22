@@ -635,12 +635,16 @@
                             	
                             {% elsif link.type == 'page_link' %}
                             
-                              {% if link.object.metafields.custom.page_featured_image != blank %}
-                            	<figure>{{ link.object.metafields.custom.page_featured_image | image_url: width: 500 | image_tag }}</figure>
-                              {% endif %}
-                            
-                              <p>Browse {{ link.title | escape }}</p>
-                              <a href="{{ link.url | escape }} ">Shop now ></a>
+                                  <div class="full">
+
+                                    {% if link.object.metafields.custom.page_featured_image != blank %}
+                                    <figure>{{ link.object.metafields.custom.page_featured_image | image_url: width: 500 | image_tag }}</figure>
+                                    {% endif %}
+
+                                    <p>Browse {{ link.title | escape }}</p>
+                                    <a href="{{ link.url | escape }} ">Shop now ></a>
+
+                                  </div>
                             
                             {% endif %}
                             
