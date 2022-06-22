@@ -3182,11 +3182,15 @@ ul.mega-menu__list div:last-of-type {
     color:white;
   } */
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div.full, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div.full {
-    width: 100%;
+  
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div {
     padding: 60px 18px;
     position: relative;
     overflow: hidden;
+  }
+  
+  .full{
+  	width:100%;
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure {
