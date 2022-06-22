@@ -3185,7 +3185,7 @@ ul.mega-menu__list div:last-of-type {
   } */
   
   
-  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div {
+  ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a>div, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a>div {
     padding: 60px 18px;
     position: relative;
     overflow: hidden;
