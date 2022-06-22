@@ -585,7 +585,7 @@
                             		{% if sale_women.products_count > 0 %}
                             
                             			<div class="main-new-women fifty">
-                                          <figure>{{ new_women.image | image_url: width: 500 | image_tag }}</figure>
+                                          <figure>{{ new_women.image | image_url: width: 500 | image_tag: loading: 'lazy' }}</figure>
                                           <p>What's new for women</p>
                                           <a href="{{ new_women.url | escape }}">Shop now ></a>
                                         </div>
