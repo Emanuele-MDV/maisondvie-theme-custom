@@ -599,6 +599,8 @@
                             		{% assign new_men = collections['new-products-men'] %}
                             		{% assign sale_men = collections['men-sales'] %}
                             
+                            		{% if sale_men.products_count > 0 %}Has products{% else %} No products available{% endif %}
+                            
                                 	<div class="main-new-men fifty">
                                       <p>What's new for men</p>
                               		  <a href="{{ new_men.url | escape }}">Shop now ></a>
