@@ -595,16 +595,19 @@
                                 {% elsif link.url contains "men" %}
                             
                             		{% assign new_men = collections['new-products-men'] %}
+                            		{% assign sale_men = collections['men-sales'] %}
                             
                                 	<div class="main-new-men fifty">
                                       <p>What's new for men</p>
                               		  <a href="{{ new_men.url | escape }}">Shop now ></a>
                             		</div>
                             
+                            		<div class="main-sale-men fifty">
+                                      <p>Sales for men</p>
+                              		  <a href="{{ sale_men.url | escape }}">Shop now ></a>
+                            		</div>
+                            
                                 {% endif %}
-                              
-
-                              <div class="main-sales">Content 1</div>
                             
                             	
                             {% elsif link.type == 'page_link' %}
