@@ -3030,6 +3030,21 @@ details-disclosure > details {
     display: none;
   }
   
+  form.search.search-modal__form{
+  	position:relative;
+  }
+  
+  form.search.search-modal__form::before {
+    content: 'Search:';
+    position: absolute;
+    color: white;
+    font-family: 'Wotfard';
+    font-weight: 300;
+    bottom: 4px;
+    font-size: 4rem;
+    opacity: .6;
+  }
+  
   
 /* MEGA MENU */
   
