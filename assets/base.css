@@ -3115,13 +3115,14 @@ ul.mega-menu__list div:last-of-type {
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) p {
-    font-family: 'Grafier';
-    font-size: 3rem;
+    font-family: Grafier;
+    font-size: 2.2rem;
+    position: relative;
+    color: white;
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) a {
     text-decoration: none;
-    font-weight: 300;
   }
   
   
@@ -3159,30 +3160,6 @@ ul.mega-menu__list div:last-of-type {
     display: flex;
     justify-content: space-between;
   }
-  
-/*   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) figure {
-    margin: 0;
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) figure img, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) figure img {
-    min-height: 100%;
-    object-fit: cover;
-    width: auto;
-    object-position: center center;
-  }
-  
-  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p, ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a,
-  ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) p, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) a {
-    position: relative;
-    margin: 0;
-    color:white;
-  } */
   
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>a>div, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>a>div {
