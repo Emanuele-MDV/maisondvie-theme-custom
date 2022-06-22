@@ -3119,6 +3119,7 @@ ul.mega-menu__list div:last-of-type {
     font-size: 2.2rem;
     position: relative;
     color: white;
+    margin:0;
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) a {
