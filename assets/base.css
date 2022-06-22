@@ -3073,9 +3073,14 @@ details-disclosure > details {
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) p {
     font-family: Grafier;
     font-size: 2.2rem;
+    line-height: 2.8rem;
     position: relative;
     color: white;
     margin:0;
+  }
+  
+  ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) p span, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) p span {
+    display: block;
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed div:nth-child(2) a, ul.mega-menu__list.page-width.mega-menu__list--large div:nth-child(2) a {
