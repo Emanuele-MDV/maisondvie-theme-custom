@@ -565,16 +565,6 @@
                           <div class="mega-content-link mega-content-link-all-{{ link.title | handleize }}">
                             
                             {% if link.type == 'collection_link' %}
-                            
-                              {% comment %}
-
-                                  {% if link.object.image %}
-
-                                  <figure>{{ link.object.image | image_url: width: 500 | image_tag }}</figure>
-
-                                  {% endif %}
-
-                              {% endcomment %}
 
                               
 								{% if link.url contains "women" %}
@@ -584,13 +574,13 @@
                             
                             		{% if sale_women.products_count > 0 %}
                             
-                            			<div class="main-new-women fifty">
+                            			<div class="main-new women fifty">
                                           <figure>{{ new_women.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                                           <p>What's new for women</p>
                                           <a href="{{ new_women.url | escape }}">Shop now ></a>
                                         </div>
 
-                                        <div class="main-sale-women fifty">
+                                        <div class="main-sale women fifty">
                                           <figure>{{ sale_women.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                                           <p>Sales for women</p>
                                           <a href="{{ sale_women.url | escape }}">Shop now ></a>
@@ -599,7 +589,7 @@
                             
                             		{% else %}
                             
-                            			<div class="main-new-women full">
+                            			<div class="main-new women full">
                                           <figure>{{ new_women.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                                           <p>What's new for women</p>
                                           <a href="{{ new_women.url | escape }}">Shop now ></a>
@@ -616,19 +606,19 @@
                             
                             		{% if sale_men.products_count > 0 %}
                             		
-                                        <div class="main-new-men fifty">
+                                        <div class="main-new men fifty">
                                           <p>What's new for men</p>
                                           <a href="{{ new_men.url | escape }}">Shop now ></a>
                                         </div>
 
-                                        <div class="main-sale-men fifty">
+                                        <div class="main-sale men fifty">
                                           <p>Sales for men</p>
                                           <a href="{{ sale_men.url | escape }}">Shop now ></a>
                                         </div>
                             
                             		{% else %}
                             			
-                            			<div class="main-new-men full">
+                            			<div class="main-new men full">
                                           <p>What's new for men</p>
                                           <a href="{{ new_men.url | escape }}">Shop now ></a>
                                         </div>
