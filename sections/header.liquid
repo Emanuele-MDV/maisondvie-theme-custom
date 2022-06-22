@@ -575,7 +575,7 @@
                             		{% if sale_women.products_count > 0 %}
                             
                             			<a href="{{ new_women.url | escape }}">
-                                          <div class="main-new women full">
+                                          <div class="main-new women fifty">
                                             <figure>{{ new_women.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                                             <p>What's new for women</p>
                                           </div>
@@ -610,7 +610,7 @@
                             		{% if sale_men.products_count > 0 %}
                             		
                                         <a href="{{ new_men.url | escape }}">
-                                          <div class="main-new men full">
+                                          <div class="main-new men fifty">
                                             <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                                             <p>What's new for men</p>
                                           </div>
