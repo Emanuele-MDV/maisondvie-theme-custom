@@ -3530,7 +3530,7 @@ input#NewsletterForm--footer {
     border: 0;
 	}
     
-    .field label {
+    .newsletter-form__field-wrapper .field label {
     top: 22%;
     height: auto;
     border-right: 1px solid #787878;
