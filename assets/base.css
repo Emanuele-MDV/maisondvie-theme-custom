@@ -3197,7 +3197,7 @@ ul.mega-menu__list div:last-of-type {
   }
   
   .fifty{
-  	width:calc(50% - 6px)%;
+  	width:calc(50% - 6px);
   }
   
   ul.mega-menu__list.page-width.mega-menu__list--condensed>div:nth-child(2)>div figure, ul.mega-menu__list.page-width.mega-menu__list--large>div:nth-child(2)>div figure {
