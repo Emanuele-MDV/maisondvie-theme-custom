@@ -566,11 +566,17 @@
                             
                             {% if link.type == 'collection_link' %}
                             
-                              {% if link.object.image %}
+                            {% comment %}
+                            
+                            	{% if link.object.image %}
                             	
                             	<figure>{{ link.object.image | image_url: width: 500 | image_tag }}</figure>
 
-                              {% endif %}
+                              	{% endif %}
+                            
+                            {% endcomment %}
+                            
+                              
                             	
                             {% elsif link.type == 'page_link' %}
                             
