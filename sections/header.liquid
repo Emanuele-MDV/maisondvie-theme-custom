@@ -576,13 +576,23 @@
 
                               {% endcomment %}
 
-                              <div class="main-new">
+                              
 								{% if link.url contains "women" %}
-                                	Women
+                            
+                            		<div class="main-new-women">
+                                      <p>What's new for women</p>
+                              		  <a href="">Shop now ></a>
+                            		</div>
+                                	
                                 {% elsif link.url contains "men" %}
-                                	Men
+                            
+                                	<div class="main-new-men">
+                                      <p>What's new for men</p>
+                              		  <a href="">Shop now ></a>
+                            		</div>
+                            
                                 {% endif %}
-                              </div>
+                              
 
                               <div class="main-sales">Content 1</div>
                             
