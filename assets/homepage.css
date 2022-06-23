@@ -272,7 +272,13 @@ a.collection-single article h3 {
 
 a.collection-single article button {
     position: relative;
-    color: white;
+    color: #fff;
+    font-family: Wotfard;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 1rem;
 }
 
 
