@@ -321,6 +321,7 @@ a.collection-single article h3 {
     position: relative;
     color: #fff;
     margin: 0;
+  	font-size: 2rem;
 }
 
 a.collection-single article button {
