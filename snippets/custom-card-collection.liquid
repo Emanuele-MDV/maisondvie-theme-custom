@@ -13,7 +13,9 @@
 
 {% endcomment %}
 
-<a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="collection-single">
+{% if section.settings.show_description == blank %}
+
+<a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="collection-single no-desc">
   <article>
 
     <figure>
@@ -38,6 +40,10 @@
            >
     </figure>
     
+    
+    
+    
+    
     <h3 class="{% if section.settings.heading == blank %}h1{% endif %}">
       {%- if card_collection.title != blank -%}
         {{- card_collection.title | escape -}}
@@ -46,11 +52,64 @@
         {%- endif -%}
     </h3>
     
-    {% if section.settings.show_description != blank %}
-    	<p class='the_description'>{{- card_collection.description | strip_html | truncatewords: 12 -}}</p>
-    {% endif %}
-    
     <button>Shop now <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></button>
+    
+    
 
   </article>
 </a>
+
+{% else %}
+
+
+<a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="collection-single have-desc">
+  <article>
+
+    <figure>
+      <img
+           srcset="{%- if card_collection.featured_image.width >= 165 -%}{{ card_collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
+                   {%- if card_collection.featured_image.width >= 330 -%}{{ card_collection.featured_image | image_url: width: 330 }} 330w,{%- endif -%}
+                   {%- if card_collection.featured_image.width >= 535 -%}{{ card_collection.featured_image | image_url: width: 535 }} 535w,{%- endif -%}
+                   {%- if card_collection.featured_image.width >= 750 -%}{{ card_collection.featured_image | image_url: width: 750 }} 750w,{%- endif -%}
+                   {%- if card_collection.featured_image.width >= 1000 -%}{{ card_collection.featured_image | image_url: width: 1000 }} 1000w,{%- endif -%}
+                   {%- if card_collection.featured_image.width >= 1500 -%}{{ card_collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                   {%- if card_collection.featured_image.width >= 3000 -%}{{ card_collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                   {{ card_collection.featured_image | image_url }} {{ card_collection.featured_image.width }}w"
+           src="{{ card_collection.featured_image | image_url: width: 750 }}"
+           sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
+                  (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
+                  calc(100vw - 3rem)"
+           alt="{{- card_collection.title -}}"
+           height="{{ card_collection.featured_image.height }}"
+           width="{{ card_collection.featured_image.width }}"
+           loading="lazy"
+           class="motion-reduce"
+           >
+    </figure>
+    
+    
+    
+    
+    
+    <h3 class="{% if section.settings.heading == blank %}h1{% endif %}">
+      {%- if card_collection.title != blank -%}
+        {{- card_collection.title | escape -}}
+        {%- else -%}
+        {{ 'onboarding.collection_title' | t }}
+        {%- endif -%}
+    </h3>
+    
+    {% if card_collection.description != blank %}
+    <p class='the_description'>{{- card_collection.description | strip_html | truncatewords: 12 -}}</p>
+    {%- endif -%}
+    
+    <button>Shop now <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></button>
+    
+    
+
+  </article>
+</a>
+
+
+
+{% endif %}
