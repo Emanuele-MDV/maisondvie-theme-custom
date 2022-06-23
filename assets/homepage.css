@@ -211,6 +211,15 @@ p.the_description {
 }
 
 
+/* CUSTOM GRID COLLECTIONS */
+
+.custom-grid-collections.columns-2{
+	display:flex;
+}
+
+
+
+
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
 
