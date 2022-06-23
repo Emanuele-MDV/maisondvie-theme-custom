@@ -105,6 +105,7 @@
         "padding_bottom": 36,
         "custom_paragraph": "",
         "is_on_top_of_title": false,
+        "show_description": false,
         "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 1,
@@ -166,6 +167,7 @@
         "padding_bottom": 36,
         "custom_paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
         "is_on_top_of_title": false,
+        "show_description": false,
         "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 4,
@@ -209,7 +211,7 @@
         "show_description": true,
         "is_slider": false,
         "columns_mobile": "2",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "section_css_class": "custom-"
       }
     },
