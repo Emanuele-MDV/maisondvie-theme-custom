@@ -344,6 +344,7 @@ a.collection-single.have-desc article p {
 	color:black;
   	font-size:1.6rem;
   	line-height: 2rem;
+  	font-weight:300;
 }
 
 a.collection-single.have-desc article button {
