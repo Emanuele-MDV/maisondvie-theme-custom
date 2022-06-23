@@ -213,6 +213,8 @@ p.the_description {
 
 /* CUSTOM GRID COLLECTIONS SETINGS */
 
+
+
 .custom-grid-collections {
   display: flex;
   justify-content: space-between;
@@ -223,10 +225,14 @@ p.the_description {
   width: 100%;
 }
 
+/* 2 columns */
+
 .custom-grid-collections.columns-2 a.collection-single {
   width: 50%;
   max-width: calc(50% - 20px);
 }
+
+/* 6 columns */
 
 .custom-grid-collections.columns-6 a.collection-single {
   width: 25%;
@@ -237,6 +243,8 @@ p.the_description {
   width: 50%;
   max-width: calc(50% - 1rem);
 }
+
+
 
 /* CUSTOM CARD SETTINGS */
 
