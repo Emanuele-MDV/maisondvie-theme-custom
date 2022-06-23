@@ -172,68 +172,6 @@
         "section_css_class": "top-categories"
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "37f6f81d-4797-4252-b17d-75d5c8350c39": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "0880d82a-c85e-47f3-b0af-81ae1220ceb5": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "094bffb1-13a3-4807-ba53-31dd185c6551": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "0c5dc700-a01f-4a2d-ba6e-f84662279d09": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1",
-        "37f6f81d-4797-4252-b17d-75d5c8350c39",
-        "0880d82a-c85e-47f3-b0af-81ae1220ceb5",
-        "094bffb1-13a3-4807-ba53-31dd185c6551",
-        "0c5dc700-a01f-4a2d-ba6e-f84662279d09"
-      ],
-      "settings": {
-        "heading": "Top categories",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "use_basic_structure": true,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-        "is_on_top_of_title": false,
-        "section_css_class": "categories-hp"
-      }
-    },
     "16547630219c80648c": {
       "type": "collection-list",
       "blocks": {
@@ -398,7 +336,6 @@
     "featured_collection",
     "16559727415455c775",
     "16559791500dd9690e",
-    "collage",
     "16547630219c80648c",
     "165476914159571c64",
     "1654765667c246d5f8"
