@@ -330,8 +330,13 @@ a.collection-single.have-desc article button {
     margin: 0 auto;
 }
   
-    .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2), .categories-hp .collage.collage--mobile .collage__item {
-    width: 48.5%;
+   .custom-grid-collections.columns-2 a.collection-single article {
+    padding: 18rem 18px;
+}
+  
+  .top-categories.custom-grid-collections.columns-6 a.collection-single:nth-child(2), .top-categories.custom-grid-collections.columns-6 a.collection-single:nth-child(3){
+	width:100%;
+    max-width:100%;
 }
   
 }
