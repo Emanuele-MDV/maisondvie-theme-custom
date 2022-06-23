@@ -442,7 +442,8 @@ a.collection-single.have-desc article button {
 }
   
   a.collection-single article h3:not(.h1) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    letter-spacing: -0.2px;
 }
   
   a.collection-single article button {
@@ -465,10 +466,6 @@ a.collection-single.have-desc article button {
   
   a.collection-single.have-desc article p {
     display: none;
-}
-  
-  a.collection-single.have-desc article h3 {
-    min-height: 46px;
 }
   
 
