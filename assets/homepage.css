@@ -323,6 +323,10 @@ a.collection-single.have-desc article figure {
     overflow: hidden;
 }
 
+a.collection-single.have-desc article h3 {
+    color: black;
+}
+
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
