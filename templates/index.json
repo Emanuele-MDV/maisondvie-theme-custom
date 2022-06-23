@@ -174,9 +174,9 @@
         "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 4,
-        "has_button": false,
-        "custom_link": "",
-        "button_text": "",
+        "has_button": true,
+        "custom_link": "shopify:\/\/collections",
+        "button_text": "View all collections",
         "section_css_class": "top-categories"
       }
     },
