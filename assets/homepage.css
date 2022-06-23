@@ -338,12 +338,13 @@ a.collection-single article button {
     font-weight: 300;
     margin-top: 1rem;
   	cursor:pointer;
-    align-self: center;
-    justify-self: flex-end;
 }
 
 /* CUSTOM CARD DESCRIPTION SETTINGS */
 
+a.collection-single.have-desc {
+	margin-bottom:3.6rem;
+}
 
 a.collection-single.have-desc article {
     padding: 38rem 16px 0;
