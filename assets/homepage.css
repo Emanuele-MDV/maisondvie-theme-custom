@@ -241,10 +241,12 @@ a.collection-single article {
 }
 
 a.collection-single article figure {
-  max-width: 100%;
-  margin: 0;
-  position: absolute;
-  background-color:black;
+    max-width: 100%;
+    margin: 0;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
 }
 
 a.collection-single article figure img {
