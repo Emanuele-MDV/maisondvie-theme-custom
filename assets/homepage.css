@@ -279,6 +279,7 @@ a.collection-single article button {
     font-size: 2rem;
     font-weight: 300;
     margin-top: 1rem;
+  	cursor:pointer;
 }
 
 
