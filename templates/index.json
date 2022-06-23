@@ -111,6 +111,46 @@
         "section_css_class": "men-women-block"
       }
     },
+    "16559791500dd9690e": {
+      "type": "custom-collage-collections",
+      "blocks": {
+        "16559791508e3e922d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "ddd10492-5585-4390-b853-dacd9b82ec82": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "51179f21-a3c7-48ed-82e6-338388287c31": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        }
+      },
+      "block_order": [
+        "16559791508e3e922d-0",
+        "ddd10492-5585-4390-b853-dacd9b82ec82",
+        "51179f21-a3c7-48ed-82e6-338388287c31"
+      ],
+      "settings": {
+        "heading": "Top categories",
+        "heading_size": "h1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_paragraph": "",
+        "is_on_top_of_title": false,
+        "is_slider": false,
+        "columns_mobile": "2",
+        "columns_desktop": 4,
+        "section_css_class": "custom-"
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -336,6 +376,7 @@
     "image_banner",
     "featured_collection",
     "16559727415455c775",
+    "16559791500dd9690e",
     "collage",
     "16547630219c80648c",
     "165476914159571c64",
