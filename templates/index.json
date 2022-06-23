@@ -198,12 +198,33 @@
           "settings": {
             "collection": "vilshenko"
           }
+        },
+        "b338231e-033b-4238-b410-de6bf08f53e9": {
+          "type": "collection",
+          "settings": {
+            "collection": "kukhareva-london"
+          }
+        },
+        "bfbd930c-78ed-43ad-bae5-d94572ef1a53": {
+          "type": "collection",
+          "settings": {
+            "collection": "vilshenko"
+          }
+        },
+        "30b31bdc-531d-4ba0-b895-8aaf0cf98f16": {
+          "type": "collection",
+          "settings": {
+            "collection": "anze"
+          }
         }
       },
       "block_order": [
         "16559830335072576c-0",
         "f7cdcca5-0c12-4962-8b8b-e5554e80d975",
-        "59f90062-a76d-4305-9b8e-f60622f896d5"
+        "59f90062-a76d-4305-9b8e-f60622f896d5",
+        "b338231e-033b-4238-b410-de6bf08f53e9",
+        "bfbd930c-78ed-43ad-bae5-d94572ef1a53",
+        "30b31bdc-531d-4ba0-b895-8aaf0cf98f16"
       ],
       "settings": {
         "heading": "Fashion designers",
