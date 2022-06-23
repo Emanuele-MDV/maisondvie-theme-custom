@@ -233,7 +233,7 @@ p.the_description {
   max-width: calc(25% - 1rem);
 }
 
-.custom-grid-collections.columns-6 a.collection-single:nth-child(1), .custom-grid-collections.columns-6 a.collection-single:nth-child(2){
+.custom-grid-collections.columns-6 a.collection-single:nth-child(2), .custom-grid-collections.columns-6 a.collection-single:nth-child(3){
   width: 50%;
   max-width: calc(50% - 1rem);
 }
