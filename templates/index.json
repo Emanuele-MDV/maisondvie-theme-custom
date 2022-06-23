@@ -131,12 +131,33 @@
           "settings": {
             "collection": "dresses"
           }
+        },
+        "271c8780-0b8f-4752-800a-9cef0dc5066a": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "47910ad1-33a5-4c83-bf93-f221f4554ea1": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        },
+        "60236288-7c96-4795-849b-afed3d343d5f": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses"
+          }
         }
       },
       "block_order": [
         "16559791508e3e922d-0",
         "ddd10492-5585-4390-b853-dacd9b82ec82",
-        "51179f21-a3c7-48ed-82e6-338388287c31"
+        "51179f21-a3c7-48ed-82e6-338388287c31",
+        "271c8780-0b8f-4752-800a-9cef0dc5066a",
+        "47910ad1-33a5-4c83-bf93-f221f4554ea1",
+        "60236288-7c96-4795-849b-afed3d343d5f"
       ],
       "settings": {
         "heading": "Top categories",
