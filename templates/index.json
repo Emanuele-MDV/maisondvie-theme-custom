@@ -169,7 +169,7 @@
         "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 4,
-        "section_css_class": "custom-"
+        "section_css_class": "top-categories"
       }
     },
     "collage": {
