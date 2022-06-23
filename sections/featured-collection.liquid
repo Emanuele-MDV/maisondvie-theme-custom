@@ -80,7 +80,8 @@
         {% if section.settings.collection_secondary %}
         
         
-        	{{ section.settings.collection_secondary.title }}
+        	{% assign col1 = collections[settings.collection] %}
+			{% assign col2 = collections[settings.collection_secondary] %}
         
         
         {% else %}
