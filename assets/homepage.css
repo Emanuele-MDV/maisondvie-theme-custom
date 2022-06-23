@@ -236,12 +236,20 @@ p.the_description {
   padding: 32rem 18px;
 }
 
-/* 3 and 6 columns */
+/* 3, 6 and 9 columns */
 
-.custom-grid-collections.columns-3 a.collection-single, .custom-grid-collections.columns-6 a.collection-single {
+.custom-grid-collections.columns-3 a.collection-single, .custom-grid-collections.columns-6 a.collection-single, .custom-grid-collections.columns-9 a.collection-single {
   width: 33.33%;
   max-width: calc(33.33% - 20px);
 }
+
+/* 4 and 8 columns */
+
+.custom-grid-collections.columns-4 a.collection-single, .custom-grid-collections.columns-8 a.collection-single {
+  width: 25%;
+  max-width: calc(25% - 15px);
+}
+
 
 /* 6 columns custom */
 
