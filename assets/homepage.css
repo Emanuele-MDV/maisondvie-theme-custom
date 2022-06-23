@@ -299,6 +299,11 @@ a.collection-single.have-desc article button {
   a.collection-single article figure img {
     opacity: .8;
 }
+  
+  .custom-grid-collections.columns-4 a.collection-single, .custom-grid-collections.columns-8 a.collection-single, .top-categories.custom-grid-collections.columns-6 a.collection-single {
+    width: 50%;
+    max-width: calc(50% - 10px);
+}
 
   
 }
