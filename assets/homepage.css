@@ -343,7 +343,22 @@ a.collection-single.have-desc article button {
     padding: 12rem 18px;
 }
   
+  .custom-grid-collections.columns-3 a.collection-single, .custom-grid-collections.columns-6 a.collection-single, .custom-grid-collections.columns-9 a.collection-single {
+    width: 50%;
+    max-width: calc(50% - 10px);
+}
   
+  a.collection-single article h3:not(.h1) {
+    font-size: 2.4rem;
+}
+  
+  a.collection-single.have-desc article {
+    padding: 30rem 16px 0;
+}
+  
+  a.collection-single.have-desc article figure {
+    max-height: 28rem;
+}
   
 }
 
