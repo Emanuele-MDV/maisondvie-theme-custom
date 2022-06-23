@@ -34,13 +34,23 @@
   
   {% if section.settings.is_slider == blank %}
   
+  {% comment %}
+  	If The section Is not a slider
+  {% endcomment %}
+  
+  
     {%- for block in section.blocks -%}
 
       {% render 'custom-card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
 
     {% endfor %}
   
+  
   {% else %}
+  
+  {% comment %}
+  	If The section is a slider
+  {% endcomment %}
   
   <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
