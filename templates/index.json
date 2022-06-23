@@ -339,14 +339,21 @@
     "16559727415455c775": {
       "type": "custom-collage-collections",
       "blocks": {
+        "3352403f-9a7f-4b22-9578-2ffa5d947a3b": {
+          "type": "collection",
+          "settings": {
+            "collection": "women-clothing"
+          }
+        },
         "1655972741c5131009-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "men-clothing"
           }
         }
       },
       "block_order": [
+        "3352403f-9a7f-4b22-9578-2ffa5d947a3b",
         "1655972741c5131009-0"
       ],
       "settings": {
