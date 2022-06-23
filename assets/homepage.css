@@ -438,7 +438,7 @@ a.collection-single.have-desc article button {
 }
   
   a.collection-single.have-desc article figure {
-    max-height: 16rem;
+    max-height: 17rem;
 }
   
   a.collection-single article h3:not(.h1) {
@@ -450,8 +450,21 @@ a.collection-single.have-desc article button {
 }
   
   .custom-grid-collections a.collection-single.have-desc {
+    width: 50%;
+    max-width: calc(50% - 10px);
+}
+  
+  a.collection-single.have-desc {
+    margin-bottom: 2.6rem;
+}
+  
+  .custom-grid-collections a.button.button--secondary {
+    margin: 2rem auto 4rem;
     width: 100%;
-    max-width: unset;
+}
+  
+  a.collection-single.have-desc article p {
+    display: none;
 }
   
 
