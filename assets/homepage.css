@@ -219,8 +219,13 @@ p.the_description {
     flex-wrap: wrap;
 }
 
-.custom-grid-collections.columns-2 a.collection-single{
-	width:50%;
+.custom-grid-collections.columns-2 a.collection-single {
+    width: 50%;
+    max-width: calc(50% - 1rem);
+}
+
+a.collection-single {
+    overflow: hidden;
 }
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
