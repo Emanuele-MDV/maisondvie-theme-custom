@@ -109,6 +109,8 @@
         "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 1,
+        "has_button": false,
+        "custom_link": "",
         "section_css_class": "men-women-block"
       }
     },
@@ -171,6 +173,8 @@
         "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 4,
+        "has_button": false,
+        "custom_link": "",
         "section_css_class": "top-categories"
       }
     },
@@ -212,7 +216,9 @@
         "is_slider": true,
         "columns_mobile": "2",
         "columns_desktop": 4,
-        "section_css_class": "custom-"
+        "has_button": false,
+        "custom_link": "",
+        "section_css_class": "designers-homepage"
       }
     },
     "16547630219c80648c": {
