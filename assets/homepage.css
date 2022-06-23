@@ -320,7 +320,7 @@ a.collection-single.have-desc article button {
   
   .slider.slider--tablet.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {
     margin-left: 0;
-    width: 49%;
+    width: 33%;
     max-width: unset;
 }
   
