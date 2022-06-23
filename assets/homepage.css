@@ -213,32 +213,37 @@ p.the_description {
 
 /* CUSTOM GRID COLLECTIONS SETINGS */
 
-.custom-grid-collections {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+  .custom-grid-collections {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
 
-.custom-grid-collections.columns-2 a.collection-single {
-    width: 50%;
-    max-width: calc(50% - 1rem);
-}
+  .custom-grid-collections.columns-2 a.collection-single {
+      width: 50%;
+      max-width: calc(50% - 1rem);
+  }
 
 /* CUSTOM CARD SETTINGS */
 
-a.collection-single {
-    overflow: hidden;
-}
+  a.collection-single {
+      overflow: hidden;
+  }
 
-a.collection-single article {
-	position:relative;
-}
+  a.collection-single article {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
 
-a.collection-single article figure {
-    max-width: 100%;
-    margin: 0;
-    position: absolute;
-}
+  a.collection-single article figure {
+      max-width: 100%;
+      margin: 0;
+      position: absolute;
+  }
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
