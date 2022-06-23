@@ -434,7 +434,7 @@ a.collection-single.have-desc article button {
 }
   
   a.collection-single.have-desc article {
-    padding: 18rem 16px 0;
+    padding: 18rem 0 0;
 }
   
   a.collection-single.have-desc article figure {
@@ -465,6 +465,10 @@ a.collection-single.have-desc article button {
   
   a.collection-single.have-desc article p {
     display: none;
+}
+  
+  a.collection-single.have-desc article h3 {
+    min-height: 46px;
 }
   
 
