@@ -111,6 +111,7 @@
         "columns_desktop": 1,
         "has_button": false,
         "custom_link": "",
+        "button_text": "",
         "section_css_class": "men-women-block"
       }
     },
@@ -175,6 +176,7 @@
         "columns_desktop": 4,
         "has_button": false,
         "custom_link": "",
+        "button_text": "",
         "section_css_class": "top-categories"
       }
     },
@@ -239,6 +241,7 @@
         "columns_desktop": 4,
         "has_button": true,
         "custom_link": "shopify:\/\/pages\/designers",
+        "button_text": "View all designers",
         "section_css_class": "designers-homepage"
       }
     },
