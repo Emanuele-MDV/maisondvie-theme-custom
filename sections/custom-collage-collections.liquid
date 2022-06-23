@@ -88,6 +88,12 @@
   {% endif %}
   
   
+  {% if sections.settings.has_button != blank %}
+  
+  	<a href="" class="">View all</a>
+  
+  {% endif %}
+  
 </div>
 
 {% schema %}
@@ -202,6 +208,11 @@
       "id": "has_button",
       "default": false,
       "label": "Include a button?"
+    },
+	{
+      "type": "url",
+      "id": "custom_link",
+      "label": "Set url for the button"
     },
 	{
 
