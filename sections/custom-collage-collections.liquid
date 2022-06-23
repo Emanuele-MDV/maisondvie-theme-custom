@@ -26,11 +26,15 @@
   
   {% endif %}
   
-  {%- for block in section.blocks -%}
+  {% if section.settings.is_slider == blank %}
   
-  	{% render 'custom-card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
+    {%- for block in section.blocks -%}
+
+      {% render 'custom-card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
+
+    {% endfor %}
   
-  {% endfor %}
+  {% endif %}
   
   
 </div>
