@@ -209,9 +209,9 @@
         "custom_paragraph": "Explore Maison's",
         "is_on_top_of_title": true,
         "show_description": true,
-        "is_slider": false,
+        "is_slider": true,
         "columns_mobile": "2",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "section_css_class": "custom-"
       }
     },
