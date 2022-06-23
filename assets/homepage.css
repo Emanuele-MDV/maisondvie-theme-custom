@@ -291,7 +291,10 @@ a.collection-single.have-desc article button {
 @media screen and (max-width:1024px){
   
 
-  
+  .grid--5-col-desktop .grid__item {
+    width: calc(25% - var(--grid-desktop-horizontal-spacing) * 4 / 5);
+    max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 4 / 5);
+}
 
   
 }
