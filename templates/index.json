@@ -363,6 +363,8 @@
         "padding_bottom": 36,
         "custom_paragraph": "",
         "is_on_top_of_title": false,
+        "is_slider": true,
+        "columns_desktop": 4,
         "section_css_class": "men-women-block"
       }
     }
