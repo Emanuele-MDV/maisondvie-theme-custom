@@ -338,6 +338,12 @@ a.collection-single.have-desc article h3 {
     color: black;
 }
 
+a.collection-single.have-desc article p {
+	color:black;
+  	font-size:1.6rem;
+  	line-height: 2rem;
+}
+
 a.collection-single.have-desc article button {
     color: black;
 }
