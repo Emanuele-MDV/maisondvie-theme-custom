@@ -255,6 +255,12 @@ a.collection-single article figure img {
     max-width: 100%;
     min-height: 100%;
     min-width: 100%;
+    transition: all 200ms ease-in-out;
+}
+
+a.collection-single:hover article figure img {
+	opacity:.8;
+  	transform:scale(110%);
 }
 
 
