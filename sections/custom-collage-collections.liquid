@@ -1,5 +1,7 @@
 <div class="page-width {{ section.settings.section_css_class }}">
   
+  {% if section.settings.heading %}
+  
   	<div class='standard-heading'>
       
       {% if section.settings.is_on_top_of_title == true %}
@@ -22,9 +24,11 @@
       
     </div>
   
+  {% endif %}
+  
   {%- for block in section.blocks -%}
   
-  {% render 'card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
+  	{% render 'custom-card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
   
   {% endfor %}
   
