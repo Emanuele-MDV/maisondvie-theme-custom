@@ -213,25 +213,30 @@ p.the_description {
 
 /* CUSTOM GRID COLLECTIONS SETINGS */
 
-  .custom-grid-collections {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-  }
+.custom-grid-collections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-  .custom-grid-collections .standard-heading {
-      width: 100%;
-  }
+.custom-grid-collections .standard-heading {
+  width: 100%;
+}
 
-  .custom-grid-collections.columns-2 a.collection-single {
-      width: 50%;
-      max-width: calc(50% - 1rem);
-  }
+.custom-grid-collections.columns-2 a.collection-single {
+  width: 50%;
+  max-width: calc(50% - 1rem);
+}
 
-	.custom-grid-collections.columns-6 a.collection-single {
-      width: 25%;
-      max-width: calc(25% - 1rem);
-  }
+.custom-grid-collections.columns-6 a.collection-single {
+  width: 25%;
+  max-width: calc(25% - 1rem);
+}
+
+.custom-grid-collections.columns-6 a.collection-single:nth-child(1), .custom-grid-collections.columns-6 a.collection-single:nth-child(2){
+  width: 50%;
+  max-width: calc(50% - 1rem);
+}
 
 /* CUSTOM CARD SETTINGS */
 
