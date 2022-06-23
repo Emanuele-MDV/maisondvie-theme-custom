@@ -38,7 +38,7 @@
            >
     </figure>
     
-    <h3 class="card__heading">
+    <h3 class="card__heading {% if section.settings.heading == blank %}h2{% endif %}">
       {%- if card_collection.title != blank -%}
         {{- card_collection.title | escape -}}
         {%- else -%}
