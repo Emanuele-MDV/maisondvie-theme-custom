@@ -213,7 +213,7 @@
         "custom_paragraph": "Explore Maison's",
         "is_on_top_of_title": true,
         "show_description": true,
-        "is_slider": true,
+        "is_slider": false,
         "columns_mobile": "2",
         "columns_desktop": 4,
         "has_button": true,
