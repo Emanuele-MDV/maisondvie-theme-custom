@@ -232,6 +232,10 @@ p.the_description {
   max-width: calc(50% - 20px);
 }
 
+.custom-grid-collections.columns-2 a.collection-single article{
+  padding: 32rem 18px;
+}
+
 /* 6 columns */
 
 .custom-grid-collections.columns-6 a.collection-single {
