@@ -303,7 +303,7 @@ a.collection-single article button {
     font-family: Wotfard;
     background: transparent;
     border: none;
-  	font-size:1.4rem;
+  	font-size:1.2rem!important;
     font-size: 2rem;
     font-weight: 300;
     margin-top: 1rem;
@@ -327,6 +327,9 @@ a.collection-single.have-desc article h3 {
     color: black;
 }
 
+a.collection-single.have-desc article button {
+    color: black;
+}
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
