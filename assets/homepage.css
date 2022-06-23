@@ -255,6 +255,10 @@ p.the_description {
   max-width: calc(50% - 1rem);
 }
 
+.custom-grid-collections ul {
+	margin-top:0;
+}
+
 
 
 /* CUSTOM CARD SETTINGS */
