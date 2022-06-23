@@ -230,9 +230,14 @@ a.collection-single {
     overflow: hidden;
 }
 
+a.collection-single article {
+	position:relative;
+}
+
 a.collection-single article figure {
     max-width: 100%;
     margin: 0;
+    position: absolute;
 }
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
