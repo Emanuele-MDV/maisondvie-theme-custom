@@ -211,7 +211,7 @@ p.the_description {
 }
 
 
-/* CUSTOM GRID COLLECTIONS */
+/* CUSTOM GRID COLLECTIONS SETINGS */
 
 .custom-grid-collections {
     display: flex;
@@ -224,8 +224,15 @@ p.the_description {
     max-width: calc(50% - 1rem);
 }
 
+/* CUSTOM CARD SETTINGS */
+
 a.collection-single {
     overflow: hidden;
+}
+
+a.collection-single article figure {
+    max-width: 100%;
+    margin: 0;
 }
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
