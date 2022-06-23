@@ -216,8 +216,8 @@
         "is_slider": true,
         "columns_mobile": "2",
         "columns_desktop": 4,
-        "has_button": false,
-        "custom_link": "",
+        "has_button": true,
+        "custom_link": "shopify:\/\/pages\/designers",
         "section_css_class": "designers-homepage"
       }
     },
