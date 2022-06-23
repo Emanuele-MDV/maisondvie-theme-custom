@@ -22,15 +22,14 @@
       
     </div>
   
-  {% render 'card-collection',
-  card_collection: block.settings.collection,
-  media_aspect_ratio: 'adapt',
-  columns: 2,
-  extend_height: true
-  %}
+  {%- for block in section.blocks -%}
+  
+  {% render 'card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
+  
+  {% endfor %}
   
   
-<div>
+</div>
 
 <div class="color-{{ section.settings.color_scheme }} gradient isolate {{ section.settings.section_css_class }}">
   <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
