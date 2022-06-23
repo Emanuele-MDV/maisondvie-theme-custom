@@ -236,6 +236,13 @@ p.the_description {
   padding: 32rem 18px;
 }
 
+/* 3 columns */
+
+.custom-grid-collections.columns-3 a.collection-single {
+  width: 33.33%;
+  max-width: calc(33.33% - 20px);
+}
+
 /* 6 columns */
 
 .custom-grid-collections.columns-6 a.collection-single {
