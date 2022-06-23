@@ -2,6 +2,10 @@
   
   {% if section.settings.heading %}
   
+  {% comment %}
+  	If The section has a headding the following is showing
+  {% endcomment %}
+  
   	<div class='standard-heading'>
       
       {% if section.settings.is_on_top_of_title == true %}
@@ -33,6 +37,13 @@
       {% render 'custom-card-collection', card_collection: block.settings.collection,  media_aspect_ratio: 'adapt',  columns: 2,  extend_height: true  %}
 
     {% endfor %}
+  
+  {% else %}
+  
+  <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+  <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+  
+  
   
   {% endif %}
   
