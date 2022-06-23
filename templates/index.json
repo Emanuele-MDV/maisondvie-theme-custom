@@ -78,42 +78,37 @@
         "section_css_class": "slider-homepage page-width-desktop"
       }
     },
-    "16557979229193694e": {
-      "type": "collection-list",
+    "16559727415455c775": {
+      "type": "custom-collage-collections",
       "blocks": {
-        "1655797922ce2582cb-0": {
-          "type": "featured_collection",
+        "3352403f-9a7f-4b22-9578-2ffa5d947a3b": {
+          "type": "collection",
           "settings": {
             "collection": "women-clothing"
           }
         },
-        "1655797922ce2582cb-1": {
-          "type": "featured_collection",
+        "1655972741c5131009-0": {
+          "type": "collection",
           "settings": {
             "collection": "men-clothing"
           }
         }
       },
       "block_order": [
-        "1655797922ce2582cb-0",
-        "1655797922ce2582cb-1"
+        "3352403f-9a7f-4b22-9578-2ffa5d947a3b",
+        "1655972741c5131009-0"
       ],
       "settings": {
-        "title": "",
+        "heading": "",
         "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "use_basic_structure": false,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "show_description": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "custom_paragraph": "",
         "is_on_top_of_title": false,
-        "section_css_class": "men-women-homepage"
+        "is_slider": false,
+        "columns_mobile": "2",
+        "columns_desktop": 1,
+        "section_css_class": "men-women-block"
       }
     },
     "collage": {
@@ -335,49 +330,15 @@
         "padding_bottom": 36,
         "section_css_class": "slider-homepage page-width-desktop"
       }
-    },
-    "16559727415455c775": {
-      "type": "custom-collage-collections",
-      "blocks": {
-        "3352403f-9a7f-4b22-9578-2ffa5d947a3b": {
-          "type": "collection",
-          "settings": {
-            "collection": "women-clothing"
-          }
-        },
-        "1655972741c5131009-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "men-clothing"
-          }
-        }
-      },
-      "block_order": [
-        "3352403f-9a7f-4b22-9578-2ffa5d947a3b",
-        "1655972741c5131009-0"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_paragraph": "",
-        "is_on_top_of_title": false,
-        "is_slider": false,
-        "columns_mobile": "2",
-        "columns_desktop": 1,
-        "section_css_class": "men-women-block"
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "16557979229193694e",
+    "16559727415455c775",
     "collage",
     "16547630219c80648c",
     "165476914159571c64",
-    "1654765667c246d5f8",
-    "16559727415455c775"
+    "1654765667c246d5f8"
   ]
 }
