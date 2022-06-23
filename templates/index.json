@@ -350,32 +350,11 @@
           "settings": {
             "collection": "men-clothing"
           }
-        },
-        "bcfc8e4f-1f85-468d-8f6e-60cfc39d3617": {
-          "type": "collection",
-          "settings": {
-            "collection": "dresses"
-          }
-        },
-        "f15dae3b-4ebe-4f8d-9848-e3d2d9b93e83": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "a8e08c61-8fd8-4251-b302-91b82a262d5f": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
         }
       },
       "block_order": [
         "3352403f-9a7f-4b22-9578-2ffa5d947a3b",
-        "1655972741c5131009-0",
-        "bcfc8e4f-1f85-468d-8f6e-60cfc39d3617",
-        "f15dae3b-4ebe-4f8d-9848-e3d2d9b93e83",
-        "a8e08c61-8fd8-4251-b302-91b82a262d5f"
+        "1655972741c5131009-0"
       ],
       "settings": {
         "heading": "",
