@@ -228,6 +228,7 @@ p.the_description {
 
 a.collection-single {
   overflow: hidden;
+  text-decoration:none;
 }
 
 a.collection-single article {
@@ -261,6 +262,12 @@ a.collection-single article figure img {
 a.collection-single:hover article figure img {
 	opacity:.8;
   	transform:scale(110%);
+}
+
+a.collection-single article h3 {
+    position: relative;
+    color: white;
+    line-height: 2.2rem;
 }
 
 
