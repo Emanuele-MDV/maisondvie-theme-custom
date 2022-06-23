@@ -339,6 +339,12 @@ a.collection-single.have-desc article button {
     max-width:100%;
 }
   
+  a.collection-single article {
+    padding: 12rem 18px;
+}
+  
+  
+  
 }
 
 
