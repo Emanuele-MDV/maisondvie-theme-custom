@@ -210,7 +210,7 @@
         "heading_size": "h1",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_paragraph": "Explore Maison's",
+        "custom_paragraph": "Explore Maison's featured",
         "is_on_top_of_title": true,
         "show_description": true,
         "is_slider": false,
@@ -219,86 +219,6 @@
         "has_button": true,
         "custom_link": "shopify:\/\/pages\/designers",
         "section_css_class": "designers-homepage"
-      }
-    },
-    "16547630219c80648c": {
-      "type": "collection-list",
-      "blocks": {
-        "1654763021a07d1887-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vilshenko"
-          }
-        },
-        "1654763021a07d1887-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "anze"
-          }
-        },
-        "1654763021a07d1887-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kukhareva-london"
-          }
-        },
-        "5c26acb4-c200-47bf-840d-4564e370294e": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vilshenko"
-          }
-        },
-        "38d8a862-9805-4453-b6f7-7e5c1b8a6db4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vilshenko"
-          }
-        },
-        "1a006258-d7ce-4aa6-9e0f-5fc8594b6e4a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vilshenko"
-          }
-        },
-        "988a1122-03a4-43b6-ba97-bb612a0873ec": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vilshenko"
-          }
-        },
-        "5572f61b-9319-4c04-9d9c-bf8969123a7d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vilshenko"
-          }
-        }
-      },
-      "block_order": [
-        "1654763021a07d1887-0",
-        "1654763021a07d1887-1",
-        "1654763021a07d1887-2",
-        "5c26acb4-c200-47bf-840d-4564e370294e",
-        "38d8a862-9805-4453-b6f7-7e5c1b8a6db4",
-        "1a006258-d7ce-4aa6-9e0f-5fc8594b6e4a",
-        "988a1122-03a4-43b6-ba97-bb612a0873ec",
-        "5572f61b-9319-4c04-9d9c-bf8969123a7d"
-      ],
-      "settings": {
-        "title": "Designer's collection",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "use_basic_structure": true,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "show_description": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_paragraph": "Shop by",
-        "is_on_top_of_title": true,
-        "section_css_class": "custom-designer-collection"
       }
     },
     "165476914159571c64": {
@@ -386,7 +306,6 @@
     "16559727415455c775",
     "16559791500dd9690e",
     "1655983033da6f73dd",
-    "16547630219c80648c",
     "165476914159571c64",
     "1654765667c246d5f8"
   ]
