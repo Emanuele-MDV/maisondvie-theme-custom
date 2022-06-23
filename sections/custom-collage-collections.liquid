@@ -2,7 +2,7 @@
 
 <div class="page-width {{ section.settings.section_css_class }} custom-grid-columns-{{ section.blocks | size }}">
   
-  {% if section.settings.heading %}
+  {% if section.settings.heading != blank %}
   
   {% comment %}
   	If The section has a headding the following is showing
