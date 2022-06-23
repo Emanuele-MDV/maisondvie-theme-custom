@@ -319,6 +319,8 @@ a.collection-single article button {
     font-weight: 300;
     margin-top: 1rem;
   	cursor:pointer;
+    align-self: center;
+    justify-self: flex-end;
 }
 
 /* CUSTOM CARD DESCRIPTION SETTINGS */
