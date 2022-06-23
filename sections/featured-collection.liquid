@@ -85,7 +85,7 @@
         
         
         {% assign items = "settings.collection_secondary, settings.collection" | split: ", " %}
-		{% for product in items %}{{ item }}{% endfor %}
+		{% for product in items %}{{ product.title }}{% endfor %}
         
         
         {% else %}
