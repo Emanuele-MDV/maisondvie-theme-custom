@@ -284,29 +284,13 @@ a.collection-single.have-desc article button {
 
 @media screen and (max-width:1280px){
 
-  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
-    width: 49.2%;
-}
-  
-  .categories-hp .collage.collage--mobile .collage__item {
-    width: 23.6%;
-}
+
   
 }
 
 @media screen and (max-width:1024px){
-  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2) {
-    width: 49%;
-}
   
-  .grid--4-col-desktop .grid__item {
-    width: 49%;
-    max-width: 49%;
-}
-  
-  p.the_description {
-    padding: 0 12%;
-}
+
   
 
   
