@@ -82,17 +82,10 @@
         
         	{% assign col1 = collections[settings.collection] %}
 			{% assign col2 = collections[settings.collection_secondary] %}
-       		
         
-            {% for i in (col1..col2) %}
         
-            	{% capture col %}collection{i}{% endcapture %}
-
-                {% for product in collecitons.settings[col] %}
-                {{product.title}}
-                {% endfor %}
-
-            {% endfor %}
+        {% assign items = "settings.collection_secondary, settings.collection" | split: ", " %}
+		{% for product in items %}{{ item }}{% endfor %}
         
         
         {% else %}
