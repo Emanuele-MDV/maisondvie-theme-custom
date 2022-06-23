@@ -243,6 +243,7 @@ p.the_description {
 a.collection-single {
   overflow: hidden;
   text-decoration:none;
+  margin-bottom:1rem;
 }
 
 a.collection-single article {
