@@ -384,7 +384,8 @@
         "padding_bottom": 36,
         "custom_paragraph": "",
         "is_on_top_of_title": false,
-        "is_slider": true,
+        "is_slider": false,
+        "columns_mobile": "2",
         "columns_desktop": 1,
         "section_css_class": "men-women-block"
       }
