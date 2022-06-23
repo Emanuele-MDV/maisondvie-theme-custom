@@ -411,35 +411,43 @@ a.collection-single.have-desc article button {
   }
   
   
+  /* sliders */
+  
+  .slider.slider--tablet.contains-card--standard .slider__slide:not(.collection-list__item--no-media) {
+    width: 50%;
+}
+  
+  
   /* Categories and designers section */
   
-  .men-women-homepage ul.collection-list.contains-card {
-    padding: 0;
-  }
+  .custom-grid-collections.columns-2 a.collection-single {
+    width: 100%;
+    max-width: 100%;
+}
   
-  .categories-hp .collage.collage--mobile .collage__item:nth-child(1), .categories-hp .collage.collage--mobile .collage__item:nth-child(2){
-  	width:100%;
-  }
+  .custom-grid-collections.columns-2 a.collection-single article {
+    padding: 14rem 18px;
+}
   
+  a.collection-single article {
+    padding: 7rem 12px;
+}
   
-  .categories-hp .card__inner.color-background-2.gradient.ratio , .custom-designer-collection .card__inner.color-background-2.gradient.ratio {
-    min-height: 22rem;
-  }
-
-  p.the_description {
-    display: none;
-  }
+  a.collection-single.have-desc article {
+    padding: 18rem 16px 0;
+}
   
-  .custom-designer-collection .card:not(.ratio)>.card__content h3:after{
-  	content: "Shop now >";
-    font-family: Wotfard;
-    font-size: 1.4rem;
-    display: block;
-    font-weight: 600;
-    transition: all .2s ease-in;
-    opacity: .8;
-    margin-top: 6px;
-  }
+  a.collection-single.have-desc article figure {
+    max-height: 16rem;
+}
+  
+  a.collection-single article h3:not(.h1) {
+    font-size: 1.8rem;
+}
+  
+  a.collection-single article button {
+    font-size: 1.4rem!important;
+}
   
 
 }
