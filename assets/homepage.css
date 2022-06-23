@@ -310,6 +310,19 @@ a.collection-single article button {
   	cursor:pointer;
 }
 
+/* CUSTOM CARD DESCRIPTION SETTINGS */
+
+
+a.collection-single.have-desc article {
+    padding: 36rem 0 0;
+}
+
+a.collection-single.have-desc article figure {
+    max-height: 36rem;
+    top: 0;
+    overflow: hidden;
+}
+
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
