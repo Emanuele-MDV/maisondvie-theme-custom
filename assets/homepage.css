@@ -449,5 +449,10 @@ a.collection-single.have-desc article button {
     font-size: 1.4rem!important;
 }
   
+  .custom-grid-collections a.collection-single.have-desc {
+    width: 100%;
+    max-width: unset;
+}
+  
 
 }
