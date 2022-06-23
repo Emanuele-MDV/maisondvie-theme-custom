@@ -270,6 +270,11 @@ a.collection-single article h3 {
     line-height: 2.2rem;
 }
 
+a.collection-single article button {
+    position: relative;
+    color: white;
+}
+
 
 /* ---------------------------------------------- RESPONSIVE STARTS HERE ---------------------------------------------- */
 
