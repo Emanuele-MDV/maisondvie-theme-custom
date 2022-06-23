@@ -50,6 +50,8 @@
     {% if section.settings.show_description != blank %}
     	<p class='the_description'>{{- card_collection.description | strip_html | truncatewords: 12 -}}</p>
     {% endif %}
+    
+    <button>Shop now <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></button>
 
   </article>
 </a>
