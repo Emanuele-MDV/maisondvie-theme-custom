@@ -261,7 +261,7 @@ a.collection-single article figure img {
 
 a.collection-single:hover article figure img {
 	opacity:.8;
-  	transform:scale(110%);
+  	transform:scale(105%);
 }
 
 a.collection-single article h3 {
