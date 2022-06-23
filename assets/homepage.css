@@ -266,8 +266,8 @@ a.collection-single:hover article figure img {
 
 a.collection-single article h3 {
     position: relative;
-    color: white;
-    line-height: 2.2rem;
+    color: #fff;
+    margin: 0;
 }
 
 a.collection-single article button {
