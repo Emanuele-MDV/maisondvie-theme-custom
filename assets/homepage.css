@@ -259,6 +259,9 @@ p.the_description {
 	margin-top:0;
 }
 
+.custom-grid-collections a.button.button--secondary {
+    margin: 4rem auto 0;
+}
 
 
 /* CUSTOM CARD SETTINGS */
