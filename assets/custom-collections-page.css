@@ -30,3 +30,10 @@ button.selector {
     cursor:pointer;
   	transition:all 200ms ease-out;
 }
+
+button.selector:hover{
+	color:white;
+  	background-color:black;
+  	border-clor:black;
+  
+}
