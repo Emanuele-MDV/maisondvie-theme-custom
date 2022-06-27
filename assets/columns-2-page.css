@@ -16,3 +16,8 @@ aside {
     width: 66.66%;
     padding-left: 4rem;
 }
+
+aside span {
+    text-transform: uppercase;
+    margin: 0;
+}
