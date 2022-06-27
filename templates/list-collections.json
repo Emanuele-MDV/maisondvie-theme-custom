@@ -39,7 +39,7 @@
         "has_button": false,
         "custom_link": "",
         "button_text": "",
-        "section_css_class": "collections-women"
+        "section_css_class": "collections women active"
       }
     },
     "1656312084eff935ee": {
@@ -69,7 +69,7 @@
         "has_button": false,
         "custom_link": "",
         "button_text": "",
-        "section_css_class": "collections-men"
+        "section_css_class": "collections men"
       }
     }
   },
