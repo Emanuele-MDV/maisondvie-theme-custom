@@ -71,6 +71,11 @@ a.collection-single {
   margin-bottom:2rem;
 }
 
+a.collection-single {
+    width: calc(25% - 20px);
+    border: 20px solid transparent;
+}
+
 a.collection-single article {
   position: relative;
   display: flex;
