@@ -240,6 +240,10 @@ a.collection-single.have-desc article button {
       padding: 10rem 12px;
     }
     
+    a.collection-single article h3 {
+      font-size: 1.6rem;
+    }
+    
 }
   
   
