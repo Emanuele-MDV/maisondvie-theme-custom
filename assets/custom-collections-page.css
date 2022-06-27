@@ -52,3 +52,103 @@ button.selector:hover, button.selector.active {
 .page-width.collections:not(.active){
 	display:none;
 }
+
+
+/* CUSTOM CARD SETTINGS */
+
+a.collection-single {
+  overflow: hidden;
+  text-decoration:none;
+  margin-bottom:2rem;
+}
+
+a.collection-single article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 18rem 18px;
+}
+
+a.collection-single article figure {
+    max-width: 100%;
+    margin: 0;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+a.collection-single article figure img {
+    object-fit: cover;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    transition: all 280ms ease-out;
+}
+
+a.collection-single:hover article figure img {
+	opacity:.75;
+  	transform:scale(105%);
+}
+
+a.collection-single:hover article button {
+	font-weight:600;
+}
+
+a.collection-single article h3 {
+    position: relative;
+    color: #fff;
+    margin: 0;
+}
+
+a.collection-single article h3:not(.h1){
+	font-size:2.8rem;
+}
+
+a.collection-single article button {
+    position: relative;
+    color: #fff;
+    font-family: Wotfard;
+    background: transparent;
+    border: none;
+  	font-size:1.6rem!important;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+  	cursor:pointer;
+}
+
+/* CUSTOM CARD DESCRIPTION SETTINGS */
+
+a.collection-single.have-desc {
+	margin-bottom:3.6rem;
+}
+
+a.collection-single.have-desc article {
+    padding: 38rem 16px 0;
+}
+
+a.collection-single.have-desc article figure {
+    max-height: 36rem;
+    top: 0;
+    overflow: hidden;
+}
+
+a.collection-single.have-desc article h3 {
+    color: black;
+}
+
+a.collection-single.have-desc article p {
+	color:black;
+  	font-size:1.6rem;
+  	line-height: 2rem;
+  	font-weight:300;
+}
+
+a.collection-single.have-desc article button {
+    color: black;
+}
