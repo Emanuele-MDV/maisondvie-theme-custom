@@ -300,6 +300,9 @@
     {% elsif template == "collection" %}
     <script src="{{ 'collection-custom.js' | asset_url }}"></script>
     
+    {% elsif template == "list-collections" %}
+    <script src="{{ 'custom-collections-page.js' | asset_url }}"></script>
+    
     {% endif %}
 
     {%- if settings.predictive_search_enabled -%}
