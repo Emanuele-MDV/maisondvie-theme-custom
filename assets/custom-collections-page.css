@@ -28,4 +28,5 @@ button.selector {
     border: 1px solid #b1b1b1;
     min-width: 16%;
     cursor:pointer;
+  	transition:all 200ms ease-out;
 }
