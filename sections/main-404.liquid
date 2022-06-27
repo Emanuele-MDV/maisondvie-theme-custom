@@ -17,7 +17,7 @@
   <h1 class="title">
     {% if section.settings.custom_text == blank %}{{ 'templates.404.title' | t }}{% else %}{{ section.settings.custom_text }}{% endif %}
   </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
+  <a href="{% if section.settings.custom_button != blank %}{{ section.settings.custom_button }}{% else %}{{ routes.all_products_collection_url }}{% endif %}" class="button">
     {{ 'general.continue_shopping' | t }}
   </a>
 </div>
