@@ -31,12 +31,13 @@
 }
 
 .title-container h1 {
-    position: relative;
-    color: white;
-    text-align: center;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 article.rte.narrow-content {
   max-width: 72.6rem;
   padding: 0;
+  margin: 6rem auto;
 }
