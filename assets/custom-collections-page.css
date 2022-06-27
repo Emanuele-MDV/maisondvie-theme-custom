@@ -2,6 +2,7 @@ section#shopify-section-template--16077895303423__main .page-width {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  	position:relative;
 }
 
 h1.title.title--primary {
