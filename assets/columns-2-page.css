@@ -45,3 +45,7 @@ form#ContactForm {
 .mapouter, .gmap_canvas, iframe#gmap_canvas {
     min-width: 100%;
 }
+
+iframe#gmap_canvas {
+    filter: saturate(0);
+}
