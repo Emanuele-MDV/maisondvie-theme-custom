@@ -7,9 +7,39 @@
         "custom_button": "shopify:\/\/collections",
         "custom_css_class": ""
       }
+    },
+    "16563289473b6ef6f3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You might be interested in...",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "use_basic_structure": false,
+        "description_style": "body",
+        "collection": "new-arrivals",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_css_class": "custom-"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16563289473b6ef6f3"
   ]
 }
