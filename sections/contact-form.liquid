@@ -18,7 +18,8 @@
     
     <aside>
       
-      <h1>{% if section.settings.page_title != blank %}{{ section.settings.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
+      <p></p>
+      <h1>{% if section.settings.page_title != blank %}{{ section.settings.page_title }}{% else %}{{ page.title | t }}{% endif %}</h1>
       
     </aside>
     
