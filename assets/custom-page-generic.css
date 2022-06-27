@@ -1,0 +1,14 @@
+/* PAGE TITLE WITH BANNER */
+
+.title-container {
+  position: relative;
+  min-height:360px;
+}
+
+.title-container figure {
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
