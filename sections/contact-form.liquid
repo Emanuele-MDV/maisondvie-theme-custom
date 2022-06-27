@@ -6,6 +6,7 @@
       
       {% if section.settings.heading_parag != blank %}<p>{{ section.settings.heading_parag }}</p>{% endif %}
       <h1>{% if section.settings.page_title != blank %}{{ section.settings.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
+      <h2>Get in touch</h2>
       
     </aside>
     
@@ -140,6 +141,11 @@
       "id":"show_map",
 	  "default": false,
 	  "label":"Show map?"
+    },
+    {
+		"type": "richtext",
+		"id":"the_map",
+		"label":"Paste google map iframe"
     }
   ],
   "presets": [
