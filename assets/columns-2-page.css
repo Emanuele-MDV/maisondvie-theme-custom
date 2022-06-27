@@ -41,3 +41,7 @@ aside p a {
 form#ContactForm {
     margin-bottom: 4rem;
 }
+
+.mapouter, .gmap_canvas, iframe#gmap_canvas {
+    min-width: 100%;
+}
