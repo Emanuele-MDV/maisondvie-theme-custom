@@ -229,6 +229,9 @@
     {% elsif template == "page.custom-list-collections" %} 
      <link rel="stylesheet" href="{{ 'custom-list-collections.css' | asset_url }}" media="print" onload="this.media='all'">
     
+    {% elsif template == "page" %} 
+     <link rel="stylesheet" href="{{ 'custom-page-generic.css' | asset_url }}" media="print" onload="this.media='all'">
+    
     
     {% endif %}
     
