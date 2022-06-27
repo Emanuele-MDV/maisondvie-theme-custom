@@ -10,6 +10,8 @@ $('.page-width button').click(function(){
     
     if( $(this).html() == 'Men' ){
     	console.log('Men active')
+    } else{
+    	console.log('Women active')
     }
     
   }
