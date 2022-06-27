@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     width: 100%;
-    margin: 6rem auto 2rem;
+    margin: 6rem auto 2rem!important;
 }
 
 section.custom-designers-collections {
