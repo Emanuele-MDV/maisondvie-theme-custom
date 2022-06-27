@@ -24,7 +24,7 @@
                   {%- if collection.featured_image.width >= 1500 -%}{{ collection.featured_image | image_url: width: 1500 }} 1500w,{%- endif -%}
                   {%- if collection.featured_image.width >= 3000 -%}{{ collection.featured_image | image_url: width: 3000 }} 3000w,{%- endif -%}
                   {{ collection.featured_image | image_url }} {{ collection.featured_image.width }}w"
-                src="{{ collection.featured_image | image_url: width: 1500 }}"
+                src="{{ collection.featured_image | image_url: width: 750 }}"
                 sizes="
                 (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: columns }}px,
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
