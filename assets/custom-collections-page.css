@@ -171,8 +171,9 @@ a.collection-single.have-desc article button {
 
 @media screen and (max-width:1440px){
 
-  .page-width.collections{
-  	padding: 0 5rem!important;
+  .page-width.collections {
+    padding-left: calc(5rem - 10px)!important;
+    padding-right: calc(5rem - 10px)!important;
   }
   
   h1.title.title--primary:after {
@@ -183,4 +184,23 @@ a.collection-single.have-desc article button {
   }
 
 
+}
+
+@media screen and (max-width:1024px){
+
+  a.collection-single {
+    width: 33.33%;
+    border: 10px solid transparent;
+  }
+  
+  a.collection-single article {
+    padding: 14rem 18px;
+  }
+  
+  a.collection-single article figure img {
+    opacity: .8;
+  }
+  
+  
+  
 }
