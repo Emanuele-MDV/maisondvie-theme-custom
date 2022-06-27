@@ -227,6 +227,7 @@ a.collection-single.have-desc article button {
     
     a.collection-single {
       width: 50%;
+      margin-bottom:0;
     }
     
     .page-width.collections {
