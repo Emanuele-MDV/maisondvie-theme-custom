@@ -11,9 +11,40 @@
         "columns_mobile": "2",
         "pg_description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>"
       }
+    },
+    "165631187625e148df": {
+      "type": "custom-collage-collections",
+      "blocks": {
+        "1656311876c8232d30-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656311876c8232d30-0"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_paragraph": "",
+        "is_on_top_of_title": false,
+        "show_description": false,
+        "is_slider": false,
+        "columns_mobile": "2",
+        "columns_desktop": 4,
+        "has_button": false,
+        "custom_link": "",
+        "button_text": "",
+        "section_css_class": "collections-women"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165631187625e148df"
   ]
 }
