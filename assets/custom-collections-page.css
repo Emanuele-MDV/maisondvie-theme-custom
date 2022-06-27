@@ -55,6 +55,7 @@ button.selector:hover, button.selector.active {
     align-items: center;
     justify-content: flex-start;
     margin-top: 2rem;
+  	margin-bottom:6rem;
     flex-wrap: wrap;
     max-width: calc(var(--page-width) + 20px);
 }
