@@ -1,3 +1,9 @@
+h1 {
+    text-align: center;
+    width: 100%;
+    margin: 6rem auto 2rem;
+}
+
 section.custom-designers-collections {
     padding-top: 80px;
     padding-bottom: 80px;
