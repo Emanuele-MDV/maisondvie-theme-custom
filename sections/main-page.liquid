@@ -30,7 +30,7 @@
   
   {% endif %}
   
-  <article class="rte {% if section.settinga.narrow_layout == true %}narrow-content{% endif %}">
+  <article class="rte {% if section.settinga.narrow_text == true %}narrow-content{% endif %}">
     <p>{{ page.content }}</p>
   </article>
 </div>
@@ -56,6 +56,12 @@
       "id": "narrow_layout",
       "default": false,
       "label": "Is the layout narrow?"
+    },
+	{
+      "type": "checkbox",
+      "id": "narrow_text",
+      "default": false,
+      "label": "Is the tect content narrow?"
     },
 	{
       "type": "checkbox",
