@@ -71,5 +71,9 @@ iframe#gmap_canvas {
     width: 100%;
     padding-left: 0;
   }
+  
+  button.button {
+    width: 100%;
+  }
 
 }
