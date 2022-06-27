@@ -4,7 +4,7 @@
       "type": "main-page",
       "settings": {
         "show_image": true,
-        "narrow_layout": true,
+        "narrow_layout": false,
         "narrow_text": true,
         "col_2_layout": false,
         "custom_css_class": "about-page"
