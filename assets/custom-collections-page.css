@@ -31,7 +31,7 @@ button.selector {
   	transition:all 200ms ease-out;
 }
 
-button.selector:hover{
+button.selector:hover, button.selector.active {
 	color:white;
   	background-color:black;
   	border-clor:black;
