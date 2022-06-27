@@ -8,5 +8,9 @@ $('.page-width button').click(function(){
     //$('.page-width button').removeClass('active');
 	$('.page-width button').toggleClass('active');
     
+    if( $(this).html() == 'Men' ){
+    	console.log('Men active')
+    }
+    
   }
 });
