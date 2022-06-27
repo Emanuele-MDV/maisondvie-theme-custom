@@ -26,11 +26,18 @@
           "settings": {
             "collection": "casual-dresses"
           }
+        },
+        "af533b6d-77da-4398-8715-0308c2e2b7fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "midi-dresses"
+          }
         }
       },
       "block_order": [
         "1656311876c8232d30-0",
-        "147bb7be-c72b-400a-9c51-64e201878a3a"
+        "147bb7be-c72b-400a-9c51-64e201878a3a",
+        "af533b6d-77da-4398-8715-0308c2e2b7fb"
       ],
       "settings": {
         "heading": "",
