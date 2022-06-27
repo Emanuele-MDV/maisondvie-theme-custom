@@ -37,3 +37,7 @@ aside p a {
 .contact__button {
     margin-top: unset;
 }
+
+form#ContactForm {
+    margin-bottom: 4rem;
+}
