@@ -3,7 +3,7 @@
     "main": {
       "type": "main-404",
       "settings": {
-        "custom_text": "The page you are looking for does not exist",
+        "custom_text": "The page you are looking for no longer exist",
         "custom_button": "shopify:\/\/collections",
         "custom_css_class": ""
       }
