@@ -49,8 +49,13 @@ button.selector:hover, button.selector.active {
   
 }
 
-.page-width.collections{
-	padding:0!important;
+.page-width.collections {
+    padding: 0!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  	flex-wrap:wrap;
 }
 
 .page-width.collections:not(.active){
