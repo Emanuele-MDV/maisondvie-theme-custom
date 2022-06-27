@@ -73,7 +73,7 @@ a.collection-single {
 
 a.collection-single {
     width: calc(25% - 20px);
-    border: 20px solid transparent;
+    border: 10px solid transparent;
 }
 
 a.collection-single article {
