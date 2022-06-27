@@ -3008,7 +3008,7 @@ details-disclosure > details {
   }
 
 
-  label.field__label {
+  footer label.field__label {
     color: white;
     font-weight: 200;
     font-size: 40px;
