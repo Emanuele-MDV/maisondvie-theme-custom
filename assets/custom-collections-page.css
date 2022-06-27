@@ -208,6 +208,8 @@ a.collection-single.have-desc article button {
     opacity: .8;
   }
   
+}
+  
   @media screen and (max-width:990px){
   
     button.selector {
@@ -216,6 +218,11 @@ a.collection-single.have-desc article button {
     
   }
   
+  @media screen and (max-width:480px){
+  
+    
+    
+  }
   
   
-}
+  
