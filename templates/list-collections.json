@@ -45,12 +45,6 @@
     "1656312084eff935ee": {
       "type": "custom-collage-collections",
       "blocks": {
-        "16563120847f3c475d-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "155ea675-8064-40d2-a026-d04413455daf": {
           "type": "collection",
           "settings": {
@@ -59,7 +53,6 @@
         }
       },
       "block_order": [
-        "16563120847f3c475d-0",
         "155ea675-8064-40d2-a026-d04413455daf"
       ],
       "settings": {
