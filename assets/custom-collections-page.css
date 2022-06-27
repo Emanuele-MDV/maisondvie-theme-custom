@@ -11,9 +11,19 @@ h1.title.title--primary {
     margin: 6rem auto 2rem;
 }
 
+h1.title.title--primary::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #b1b1b1;
+    left: 0;
+    bottom: 0;
+}
+
 section#shopify-section-template--16077895303423__main .page-width p {
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     margin-top: 0;
     padding: 0 16%;
 }
@@ -38,3 +48,4 @@ button.selector:hover, button.selector.active {
   	border-clor:black;
   
 }
+
