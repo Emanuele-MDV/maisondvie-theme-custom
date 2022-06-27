@@ -220,8 +220,11 @@
     {% elsif template == "collection" %} 
      <link rel="stylesheet" href="{{ 'listing.css' | asset_url }}" media="print" onload="this.media='all'">
     
+    {% elsif template == "list-collections" %} 
+     <link rel="stylesheet" href="{{ 'listing.css' | asset_url }}" media="print" onload="this.media='all'">
+    
     {% elsif template == "page.custom-list-collections" %} 
-     <link rel="stylesheet" href="{{ 'custom-list-collections.css' | asset_url }}" media="print" onload="this.media='all'">
+     <link rel="stylesheet" href="{{ 'custom-collections-page.css' | asset_url }}" media="print" onload="this.media='all'">
     
     
     {% endif %}
