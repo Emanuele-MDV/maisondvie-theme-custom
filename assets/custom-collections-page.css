@@ -230,9 +230,13 @@ a.collection-single.have-desc article button {
     }
     
     .page-width.collections {
-    padding-left: calc(1.5rem - 10px)!important;
-    padding-right: calc(1.5rem - 10px)!important;
-  }
+      padding-left: calc(1.5rem - 10px)!important;
+      padding-right: calc(1.5rem - 10px)!important;
+    }
+    
+    a.collection-single article {
+      padding: 10rem 12px;
+    }
     
 }
   
