@@ -1,0 +1,13 @@
+.contact.page-width {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+aside {
+    width: 33.33%;
+    padding-right: 4rem;
+    border-right: 1px solid #e8e8e8;
+}
