@@ -53,11 +53,11 @@ button.selector:hover, button.selector.active {
     padding: 0!important;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: 2rem;
-  	flex-wrap:wrap;
+    flex-wrap: wrap;
+    max-width: calc(var(--page-width) + 20px);
 }
-
 .page-width.collections:not(.active){
 	display:none;
 }
