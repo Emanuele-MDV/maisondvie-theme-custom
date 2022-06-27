@@ -25,3 +25,7 @@ aside span {
 h1 {
     margin-top: 0;
 }
+
+aside p a {
+    color: black;
+}
