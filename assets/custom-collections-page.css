@@ -1,9 +1,10 @@
+section#shopify-section-template--16077895303423__main .page-width {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1.title.title--primary {
   text-align: center;
   width:100%;
 }
 
-.page-width {
-    display: flex;
-    flex-wrap: wrap;
-}
