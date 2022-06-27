@@ -49,3 +49,26 @@ form#ContactForm {
 iframe#gmap_canvas {
     filter: saturate(0);
 }
+
+
+/* ------------------------------------------------------ RESPONSIVE STARTS HERE ------------------------------------------------------ */
+
+
+@media screen and (max-width:90px){
+  
+  .contact.page-width {
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    padding: 0 0 4rem 0;
+    width: 100%;
+    border-right:0;
+  }
+  
+  .form-container {
+    width: 100%;
+    padding-left: 0;
+  }
+
+}
