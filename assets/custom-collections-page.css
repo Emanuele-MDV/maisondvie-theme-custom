@@ -190,6 +190,10 @@ a.collection-single.have-desc article button {
 }
 
 @media screen and (max-width:1024px){
+  
+  section#shopify-section-template--16077895303423__main .page-width p{
+  	padding:0;
+  }
 
   a.collection-single {
     width: 33.33%;
