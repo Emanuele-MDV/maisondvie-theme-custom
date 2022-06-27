@@ -43,7 +43,7 @@
   
   {% endif %}
   
-  <article class="rte">
+  <article class="rte {% if section.settinga.narrow_layout == true %}narrow-content{% endif %}">
     <p>{{ page.content }}</p>
   </article>
 </div>
