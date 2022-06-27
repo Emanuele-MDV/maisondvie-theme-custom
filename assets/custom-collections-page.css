@@ -220,9 +220,20 @@ a.collection-single.have-desc article button {
   
   @media screen and (max-width:480px){
   
+    button.selector {
+      margin: 0;
+      width: 50%;
+    }
     
+    a.collection-single {
+      width: 50%;
+    }
     
-  }
+    .page-width.collections{
+      padding:0 1.5rem!important;
+    }
+    
+}
   
   
   
