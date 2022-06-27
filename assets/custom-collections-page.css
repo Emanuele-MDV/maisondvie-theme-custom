@@ -49,6 +49,10 @@ button.selector:hover, button.selector.active {
   
 }
 
+.page-width.collections{
+	padding:0!important;
+}
+
 .page-width.collections:not(.active){
 	display:none;
 }
