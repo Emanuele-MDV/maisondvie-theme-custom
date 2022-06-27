@@ -4,7 +4,7 @@
     
     <aside>
       
-      <p></p>
+      {% if section.settings.heading_parag != blank %}<p>{{ section.settings.heading_parag }}</p>{% endif %}
       <h1>{% if section.settings.page_title != blank %}{{ section.settings.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
       
     </aside>
