@@ -8,6 +8,9 @@
 
 <div class="page-width">
   <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
+  {% if section.settings.pg_description != blank %}
+    	{{ section.settings.pg_description.value }}
+    {% endif %}
   {%- liquid
     case section.settings.sort
       when 'products_high' or 'products_low'
@@ -25,9 +28,7 @@
    
   <div class="ladies-collection">
     <h2>For ladies</h2>
-  	{% if section.settings.ladies_desc != blank %}
-    	{{ section.settings.ladies_desc }}
-    {% endif %}
+  	
   
   
   
@@ -48,9 +49,7 @@
   
   <div class="ladies-collection">
     <h2>For Men</h2>
-  	{% if section.settings.men_desc != blank %}
-    	{{ section.settings.men_desc }}
-    {% endif %}
+  	
   
   
   
