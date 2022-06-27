@@ -50,10 +50,17 @@
           "settings": {
             "collection": ""
           }
+        },
+        "155ea675-8064-40d2-a026-d04413455daf": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-shirts-for-men"
+          }
         }
       },
       "block_order": [
-        "16563120847f3c475d-0"
+        "16563120847f3c475d-0",
+        "155ea675-8064-40d2-a026-d04413455daf"
       ],
       "settings": {
         "heading": "",
