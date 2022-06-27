@@ -166,3 +166,14 @@ a.collection-single.have-desc article button {
 
 
 /* ------------------------------------------------------ RESPONSIVE STARTS HERE ------------------------------------------------------ */
+
+
+
+@media screen and (max-width:1440px){
+
+  .page-width.collections{
+  	padding: 0 5rem!important;
+  }
+
+
+}
