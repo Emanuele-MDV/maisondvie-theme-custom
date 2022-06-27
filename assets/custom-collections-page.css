@@ -183,6 +183,9 @@ a.collection-single.have-desc article button {
     margin: 0 auto;
   }
 
+  a.collection-single article h3 {
+    font-size: 2rem;
+  }
 
 }
 
@@ -200,6 +203,7 @@ a.collection-single.have-desc article button {
   a.collection-single article figure img {
     opacity: .8;
   }
+  
   
   
   
