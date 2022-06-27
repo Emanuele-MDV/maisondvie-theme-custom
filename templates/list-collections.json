@@ -20,10 +20,17 @@
           "settings": {
             "collection": "long-dresses"
           }
+        },
+        "147bb7be-c72b-400a-9c51-64e201878a3a": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual-dresses"
+          }
         }
       },
       "block_order": [
-        "1656311876c8232d30-0"
+        "1656311876c8232d30-0",
+        "147bb7be-c72b-400a-9c51-64e201878a3a"
       ],
       "settings": {
         "heading": "",
