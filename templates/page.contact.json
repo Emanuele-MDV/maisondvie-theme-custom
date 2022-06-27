@@ -7,7 +7,8 @@
         "heading_parag": "Let us help you",
         "heading": "Can we help?",
         "heading_size": "h2",
-        "show_map": true
+        "show_map": true,
+        "the_map": "<p><a href=\"https:\/\/2piratebay.org\">pirate bay<\/a>.mapouter&lcub;position:relative;text-align:right;height:500px;width:600px;&rcub;<a href=\"https:\/\/www.embedgooglemap.net\">google maps embed zoom<\/a>.gmap_canvas &lcub;overflow:hidden;background:none!important;height:500px;width:600px;&rcub;<\/p>"
       }
     }
   },
