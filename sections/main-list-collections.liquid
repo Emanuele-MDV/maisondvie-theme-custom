@@ -16,6 +16,8 @@
     endif
   -%}
   
+  {% if section.settings.custom_grid != true %}
+   
   <div class="ladies-collection">
     <h2>For ladies</h2>
   	{% if section.settings.ladies_desc != blank %}
@@ -61,6 +63,8 @@
       {%- endfor -%}
     </ul>
   </div>
+  
+  {% endif %}
   
 </div>
 {% schema %}
