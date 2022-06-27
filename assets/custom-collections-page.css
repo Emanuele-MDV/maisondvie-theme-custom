@@ -45,7 +45,7 @@ button.selector {
 button.selector:hover, button.selector.active {
 	color:white;
   	background-color:black;
-  	border-clor:black;
+  	border-color:black;
   
 }
 
