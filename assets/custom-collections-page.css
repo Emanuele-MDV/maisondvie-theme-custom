@@ -49,6 +49,6 @@ button.selector:hover, button.selector.active {
   
 }
 
-.collections::not(.active){
+.page-width.collections:not(.active){
 	display:none;
 }
