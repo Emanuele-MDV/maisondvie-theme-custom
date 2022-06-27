@@ -3222,7 +3222,7 @@ input#NewsletterForm--footer {
   padding-left: 120px;
 }
   
-.field label {
+footer .field label {
     position: absolute;
     top: 50%;
     z-index: 2;
