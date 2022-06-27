@@ -1,7 +1,16 @@
+/* HEADING */
+
 h1 {
     text-align: center;
     width: 100%;
     margin: 6rem auto 2rem!important;
+}
+
+section .page-width p {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    padding: 0 16%;
 }
 
 section.custom-designers-collections {
