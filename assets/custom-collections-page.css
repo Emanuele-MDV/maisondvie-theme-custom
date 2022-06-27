@@ -1,3 +1,9 @@
 h1.title.title--primary {
-    text-align: center;
+  text-align: center;
+  width:100%;
+}
+
+.page-width {
+    display: flex;
+    flex-wrap: wrap;
 }
