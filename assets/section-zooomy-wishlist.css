@@ -70,6 +70,12 @@ span.zprice::after {
   	cursor:pointer;
 }
 
+.zbodyaction .zopencartlink.z_w_soldout {
+    color: #858585!important;
+    background-color: #c1c1c1;
+    cursor: not-allowed;
+}
+
 /* IMAGE */
 
 li.zbodypimg a {
