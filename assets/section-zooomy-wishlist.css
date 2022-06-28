@@ -45,5 +45,5 @@ span.zprice::after {
     right: -1rem;
     border-radius: 100%;
     min-height: 34px;
-    min-width: 34px;
+    min-width: 34px!important;
 }
