@@ -41,11 +41,12 @@ span.zprice::after {
 }
 
 .zooomybtn.removefromwishlist.zremovefromwish {
-    top: 1rem;
-    right: -1rem;
-    border-radius: 100%;
-    min-height: 34px;
-    min-width: 34px!important;
+  top: 1rem;
+  right: -1rem;
+  border-radius: 100%;
+  min-height: 34px;
+  min-width: 34px!important;
+  z-index: 1;
 }
 
 #wishlist_page_product_text, .zbodyaction .zopencartlink {
@@ -64,4 +65,12 @@ span.zprice::after {
 .zbodyaction .zopencartlink {
     padding: 20px;
     margin: 0!important;
+}
+
+/* IMAGE */
+
+li.zbodypimg a {
+    display: block;
+    position: relative;
+    background: black;
 }
