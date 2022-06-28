@@ -108,6 +108,24 @@ li.zbodypimg a:hover img{
 .ZoomyWishlistPageGrid {
     max-width: 33.33%;
 }
+  
+  #ZoomyWishlistPage li.zbodytitle a {
+    font-size: 1.8rem!important;
+}
+  
+  li.zbodyinfo div select {
+    padding: 8px;
+    width: 100%;
+}
+  
+  li.zbodyinfo div {
+    min-width: 100%;
+    max-width: 100%;
+}
+  
+  
+  
+  
 
 }
 
