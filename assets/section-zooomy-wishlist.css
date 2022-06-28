@@ -70,7 +70,15 @@ span.zprice::after {
 /* IMAGE */
 
 li.zbodypimg a {
-    display: block;
+    display: flex;
     position: relative;
     background: black;
+}
+
+li.zbodypimg a img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    border: 0!important;
+    transition: all 200ms ease-out;
 }
