@@ -86,7 +86,10 @@
 </div>
 
 
-<div class="light-banner {% if section.settings.full_width == true %}page-width{% endif %}">
+
+
+
+<div class="light-banner {% if section.settings.full_width == true %}page-width{% endif %} {% if section.settings.section_css_class != blank %}{{ section.settings.section_css_class }}{% endif %}">
 
 
 </div>
@@ -121,12 +124,7 @@
 
     "type": "text",
         "id": "section_css_class",
-        "label": {
-          "en": "Custom CSS Class"
-        },
-        "default": {
-          "en": "Custom CSS"
-        }
+        "label": "Custom CSS class"
       }
   ],
   "blocks": [
