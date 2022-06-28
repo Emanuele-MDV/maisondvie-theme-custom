@@ -82,3 +82,7 @@ li.zbodypimg a img {
     border: 0!important;
     transition: all 200ms ease-out;
 }
+
+li.zbodypimg a:hover img{
+	transform:scale(105%);
+}
