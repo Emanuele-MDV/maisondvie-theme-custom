@@ -91,8 +91,23 @@
 
 <div class="light-banner {% if section.settings.full_width == true %}page-width{% endif %} {% if section.settings.section_css_class != blank %}{{ section.settings.section_css_class }}{% endif %}">
 
+  <figure>
+    {{ section.settings.image | image_url: width: 1600 | image_tag:
+          loading: 'lazy',
+          width: section.settings.image.width,
+          height: image_height,
+          class: image_class,
+          sizes: sizes,
+          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+          alt: section.settings.image.alt | escape
+      }}
+  </figure>
+  
+  
 
 </div>
+
+
 
 {% schema %}
 {
@@ -113,12 +128,6 @@
       "label": "Is the banner full width?"
     },
     {
-      "type": "checkbox",
-      "id": "show_text_first",
-      "default": true,
-      "label": "Show text before the title?"
-    },
-	{
 
     "type": "text",
         "id": "section_css_class",
