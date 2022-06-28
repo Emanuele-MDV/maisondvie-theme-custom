@@ -4,6 +4,10 @@ div#ZoomyWishlistPage {
   margin-left: -10px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .ZoomyWishlistPageGrid {
     max-width: 25%;
     padding: 0!important;
