@@ -319,6 +319,9 @@ p.zooomypwishmsg {
     cursor: pointer;
 }
 
+p.zooomypwishmsg:hover{
+	color:white;
+}
 
 
 /* ------------------------------------------------------------------ RESPONSIVE STARTS HERE ------------------------------------------------------------------ */
