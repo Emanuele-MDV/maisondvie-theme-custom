@@ -236,7 +236,7 @@
     
   </head>
 
-  <body class="gradient">
+  <body class="gradient {% if template == "collection" and collection.metafields.my_fields.designer_type != blank %}designer-collection{% endif %}">
     
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
