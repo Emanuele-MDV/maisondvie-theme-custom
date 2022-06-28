@@ -5,7 +5,7 @@
       "settings": {
         "show_image": true,
         "narrow_layout": false,
-        "narrow_text": true,
+        "narrow_text": false,
         "col_2_layout": false,
         "custom_css_class": "wishlist-page"
       }
