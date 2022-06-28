@@ -4,6 +4,9 @@ div#ZoomyWishlistPage {
 
 .ZoomyWishlistPageGrid {
     max-width: 25%;
+    padding: 0!important;
+    margin: 0!important;
+    border: 10px solid transparent!important;
 }
 
 #ZoomyWishlistPage li.zbodytitle a {
@@ -36,3 +39,4 @@ li.zbodyinfo div select {
 span.zprice::after {
     content: ' AED';
 }
+
