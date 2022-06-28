@@ -47,3 +47,17 @@ span.zprice::after {
     min-height: 34px;
     min-width: 34px!important;
 }
+
+#wishlist_page_product_text, .zbodyaction .zopencartlink {
+    margin: 0 0 1.2rem 0!important;
+    padding: 12px;
+}
+
+#wishlist_page_product_text {
+    background-color: #e8e8e8!important;
+}
+
+.zbodyaction .zopencartlink {
+    padding: 20px;
+    margin: 0!important;
+}
