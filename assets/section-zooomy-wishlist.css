@@ -1,5 +1,7 @@
 div#ZoomyWishlistPage {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
+  min-width: calc(100% + 20px);
+  margin-left: -10px;
 }
 
 .ZoomyWishlistPageGrid {
