@@ -65,6 +65,7 @@ span.zprice::after {
 .zbodyaction .zopencartlink {
     padding: 20px!important;
     margin: 0!important;
+  	cursor:pointer;
 }
 
 /* IMAGE */
