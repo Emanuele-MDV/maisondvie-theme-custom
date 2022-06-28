@@ -313,8 +313,15 @@ padding:0;
 }
 
 
+/* Wishlist button */
 
-/* RESPONSIVE STARTS HERE */
+p.zooomypwishmsg {
+    cursor: pointer;
+}
+
+
+
+/* ------------------------------------------------------------------ RESPONSIVE STARTS HERE ------------------------------------------------------------------ */
 
 
 
