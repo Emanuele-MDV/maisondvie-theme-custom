@@ -59,7 +59,7 @@ span.zprice::after {
 }
 
 #wishlist_page_product_text a {
-    color: black;
+    color: black!important;
 }
 
 .zbodyaction .zopencartlink {
