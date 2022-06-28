@@ -86,4 +86,5 @@ li.zbodypimg a img {
 
 li.zbodypimg a:hover img{
 	transform:scale(105%);
+  	opacity:.8;
 }
