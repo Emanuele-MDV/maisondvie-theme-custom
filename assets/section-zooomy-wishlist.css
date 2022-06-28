@@ -40,3 +40,10 @@ span.zprice::after {
     content: ' AED';
 }
 
+.zooomybtn.removefromwishlist.zremovefromwish {
+    top: 1rem;
+    right: -1rem;
+    border-radius: 100%;
+    min-height: 34px;
+    min-width: 34px;
+}
