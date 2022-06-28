@@ -1,8 +1,12 @@
+{% comment %}
+
 <link rel="stylesheet" href="{{ 'section-zooomy-wishlist.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-zooomy-wishlist.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% endcomment %}
 
 
 <div class="page-width {% if section.settings.narrow_layout == true %}page-width--narrow section-{{ section.id }}-padding{% endif %} {% if section.settings.custom_css_class != blank %}{{ section.settings.custom_css_class }}{% endif %} {% if section.settings.show_image == true and page.metafields.custom.page_featured_image != blank %}has-banner{% endif %}">
