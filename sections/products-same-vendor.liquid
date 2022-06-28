@@ -71,7 +71,7 @@
         
         {% if product.tags contains 'men' %}
         
-          {% unless product.title == current_product %}
+          {% if product.title != current_product %}
 
                           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
                             {% render 'card-product',
@@ -85,7 +85,7 @@
                             %}
                           </li>
 
-          {% endunless %}
+          {% endif %}
         
         {% endif %}
         
