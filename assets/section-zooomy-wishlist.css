@@ -131,6 +131,10 @@ li.zbodypimg a:hover img{
   #wishlist_page_product_text {
     display: none;
 }
+  .zbodyaction .zopencartlink {
+    padding: 14px!important;
+}
+  
   
 
 }
