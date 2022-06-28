@@ -57,7 +57,8 @@ span.zprice::after {
 }
 
 #wishlist_page_product_text {
-    background-color: #e8e8e8!important;
+    background-color: #ffffff!important;
+    border: 1px solid #747474!important;
 }
 
 #wishlist_page_product_text a {
