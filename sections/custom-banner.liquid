@@ -112,20 +112,18 @@
       "default": false,
       "label": "Is the banner full width?"
     },
-    
-    
     {
       "type": "checkbox",
       "id": "show_text_first",
       "default": true,
-      "label": "Paragraph is displaying before the title?"
+      "label": "Show text before the title?"
     },
 	{
 
     "type": "text",
         "id": "section_css_class",
         "label": "Custom CSS class"
-      }
+    }
   ],
   "blocks": [
     {
@@ -141,22 +139,19 @@
         },
         {
           "type": "select",
-          "id": "heading_size",
+          "id": "is_h1",
+		  "label": "Select a heading tag",
           "options": [
             {
               "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
+              "label": "Simple section title"
             },
             {
               "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
+              "label": "Page title"
             }
           ],
-          "default": "h1",
+          "default": "h2",
           "label": "t:sections.all.heading_size.label"
         }
       ]
