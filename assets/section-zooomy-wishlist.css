@@ -73,6 +73,7 @@ li.zbodypimg a {
     display: flex;
     position: relative;
     background: black;
+    overflow: hidden;
 }
 
 li.zbodypimg a img {
