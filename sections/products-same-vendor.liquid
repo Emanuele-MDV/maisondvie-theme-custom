@@ -46,11 +46,7 @@
 -%}
 
 
-
-{% assign vendor_products = product.vendor | handle %}
-
-
-{% assign mycollection = vendor_products | sort: 'date' %}
+{% assign mycollection = product.vendor | handle %}
 {% assign current_product = product.title %}
 
 
