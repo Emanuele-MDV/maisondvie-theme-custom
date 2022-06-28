@@ -311,6 +311,13 @@ h3.card__heading {
     font-size: 1.4rem;
 }
 
+
+
+
+/* Specific designer collection */
+
+body.designer-collection details#Details-3-template--16077895500031__product-grid{display:none;}
+
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
 
 
