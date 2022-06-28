@@ -31,3 +31,7 @@ li.zbodyinfo div select {
     padding: 16px;
     width: 100%;
 }
+
+span.zprice::after {
+    content: ' AED';
+}
