@@ -15,7 +15,8 @@ li.zbodyinfo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  	margin-bottom:2rem;
+  	margin-top:1.4rem;
+  	margin-bottom:1.4rem;
   	flex-wrap:wrap;
 }
 
