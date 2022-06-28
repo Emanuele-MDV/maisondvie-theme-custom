@@ -10,3 +10,15 @@ div#ZoomyWishlistPage {
     font-family: Grafier;
     font-size: 2.2rem!important;
 }
+
+li.zbodyinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li.zbodyinfo div {
+    min-width: 49%;
+    display: flex;
+    justify-content: center;
+}
