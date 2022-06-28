@@ -69,6 +69,8 @@
         
         {%- for product in collections[mycollection].products limit: 4 -%}
         
+        {{ product.title }}
+        
         {% unless product.title == current_product %}
               		
 						<li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
