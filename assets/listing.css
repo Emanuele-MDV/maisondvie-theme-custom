@@ -188,6 +188,10 @@ facet-filters-form.facets.facets-vertical-sort.page-width.small-hide.no-js-hidde
     text-transform: uppercase;
 }
 
+label.facet-checkbox.facet-checkbox--disabled {
+    display: none;
+}
+
 
 /* Custom designers collections */
 
