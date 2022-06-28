@@ -326,8 +326,8 @@
     "165641829923b74351": {
       "type": "custom-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/explore-design-dresses-collection.webp",
         "full_width": false,
-        "show_text_first": true,
         "section_css_class": ""
       }
     }
