@@ -139,3 +139,20 @@ li.zbodypimg a:hover img{
 
 }
 
+
+@media screen and (max-width:768px){
+
+  .ZoomyWishlistPageGrid {
+    max-width: 50%;
+  }
+
+  #ZoomyWishlistPage li.zbodytitle a {
+    font-size: 1.6rem!important;
+  }
+  
+  span.zprice {
+    font-size: 1.4rem;
+  }
+  
+}
+
