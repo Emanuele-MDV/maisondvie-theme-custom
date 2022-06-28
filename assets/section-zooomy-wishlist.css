@@ -16,6 +16,7 @@ li.zbodyinfo {
     align-items: center;
     justify-content: space-between;
   	margin-bottom:2rem;
+  	flex-wrap:wrap;
 }
 
 li.zbodyinfo div {
@@ -23,4 +24,9 @@ li.zbodyinfo div {
     display: flex;
     justify-content: center;
   	margin:0!important;
+}
+
+li.zbodyinfo div select {
+    padding: 16px;
+    width: 100%;
 }
