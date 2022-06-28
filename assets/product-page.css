@@ -95,9 +95,9 @@ slider-component#GalleryThumbnails-template--16077895598335__main {
     transition: all 200ms ease-in;
     z-index:2;
     background: rgb(255,255,255);
-    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,0.700717787114846) 10%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,0.700717787114846) 10%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,0.700717787114846) 10%, rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
 }
   
