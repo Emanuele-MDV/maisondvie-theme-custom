@@ -3,5 +3,5 @@ div#ZoomyWishlistPage {
 }
 
 .ZoomyWishlistPageGrid {
-    width: 25%;
+    max-width: 25%;
 }
