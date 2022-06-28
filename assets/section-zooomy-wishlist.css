@@ -124,7 +124,13 @@ li.zbodypimg a:hover img{
     margin-bottom: 10px!important;
 }
   
-    
+   li.zbodyinfo {
+    margin-bottom: 0;
+} 
+  
+  #wishlist_page_product_text {
+    display: none;
+}
   
 
 }
