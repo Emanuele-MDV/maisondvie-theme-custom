@@ -320,8 +320,9 @@ p.zooomypwishmsg {
   	transition: all 200ms ease-out;
 }
 
-p.zooomypwishmsg:hover{
-	color:white;
+.zooomypwishmsg:hover {
+    background: black!important;
+    color: white!important;
 }
 
 
