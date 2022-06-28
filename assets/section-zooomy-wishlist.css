@@ -57,6 +57,10 @@ span.zprice::after {
     background-color: #e8e8e8!important;
 }
 
+#wishlist_page_product_text a {
+    color: black;
+}
+
 .zbodyaction .zopencartlink {
     padding: 20px;
     margin: 0!important;
