@@ -325,6 +325,18 @@
     },
     "165641829923b74351": {
       "type": "custom-banner",
+      "blocks": {
+        "a27e4af0-5af7-4bc3-81ba-4ad58149efc4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "is_h1": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "a27e4af0-5af7-4bc3-81ba-4ad58149efc4"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/explore-design-dresses-collection.webp",
         "full_width": false,
