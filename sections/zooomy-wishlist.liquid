@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="{{ 'section-zooomy-wishlist.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-zooomy-wishlist.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+
+<div class="page-width {% if section.settings.narrow_layout == true %}page-width--narrow section-{{ section.id }}-padding{% endif %} {% if section.settings.custom_css_class != blank %}{{ section.settings.custom_css_class }}{% endif %} {% if section.settings.show_image == true and page.metafields.custom.page_featured_image != blank %}has-banner{% endif %}">
+  
+  {% if section.settings.show_image == true and page.metafields.custom.page_featured_image != blank %}
+  
+  <div class="title-container">
+  
+  <figure>
+  	{{ page.metafields.custom.page_featured_image | image_url: width: 1600 | image_tag | loading: lazy }}
+  </figure>
+  
+  
+  <h1 class="zooomy-wishlist-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+    
+  </div>
+  
+  {% else %}
+  
+  <h1 class="zooomy-wishlist-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  
+  {% endif %}
+  
+  <article class="rte {% if section.settings.narrow_text == true %}narrow-content{% endif %}">
+   {{page.content}} <div  id='ZoomyWishlistPage'></div><script src='https://zooomyapps.com/wishlist/ListWishlist.js' data-shop-id='{{shop.permanent_domain}}' data-customer-id='{{customer.id}}' data-customer-email='{{customer.email}}' ></script>
+
+  </article>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.zooomy-wishlist.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+	{
+      "type": "checkbox",
+      "id": "show_image",
+      "default": false,
+      "label": "Show page image"
+    },
+	{
+      "type": "checkbox",
+      "id": "narrow_layout",
+      "default": false,
+      "label": "Is the layout narrow?"
+    },
+	{
+      "type": "checkbox",
+      "id": "narrow_text",
+      "default": false,
+      "label": "Is the text content narrow?"
+    },
+	{
+      "type": "checkbox",
+      "id": "col_2_layout",
+      "default": false,
+      "label": "Show 2 columns?"
+    },
+    
+	{
+		"type":"text",
+		"id":"custom_css_class",
+		"label":"Add custom class?"
+	}
+  ]
+}
+{% endschema %}
