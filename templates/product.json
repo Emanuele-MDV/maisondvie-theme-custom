@@ -53,6 +53,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "ead14985-0b59-443e-bdd4-e0e8a5b97ee3": {
+          "type": "shopify:\/\/apps\/wishlist-wishify\/blocks\/product\/e14a43b5-34c6-492d-b46f-3ad2eda08696",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -64,7 +69,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "share"
+        "share",
+        "ead14985-0b59-443e-bdd4-e0e8a5b97ee3"
       ],
       "settings": {
         "enable_sticky_info": true,
