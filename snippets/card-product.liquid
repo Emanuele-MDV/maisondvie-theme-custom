@@ -90,6 +90,8 @@
           </div>
         {%- endif -%}
         
+        {% assign product = product.handle %}
+        
         {%- render 'button-wishlist', product: product -%}
         
         
