@@ -103,3 +103,6 @@ li.zbodypimg a:hover img{
 
 /* -------------------------------------------------- RESPONSIVE STARTS HERE -------------------------------------------------- */
 
+.ZoomyWishlistPageGrid {
+    max-width: 33.33%;
+}
