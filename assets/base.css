@@ -3204,6 +3204,7 @@ details-disclosure > details {
   
   .footer-block__newsletter p {
     margin-bottom: 0;
+    padding-right: 20%;
 }
   
   .newsletter-form__button {
@@ -3245,6 +3246,10 @@ footer .field label {
   .footer-block strong {
     text-transform: uppercase;
     font-weight: 600;
+}
+  
+  .footer-block strong, .footer-block ul li a, .footer-block p {
+    font-size: 14px;
 }
   
   
