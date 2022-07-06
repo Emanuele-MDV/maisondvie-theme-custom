@@ -3237,6 +3237,12 @@ footer .field label {
 }
   
   
+  .footer__content-top {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+  
+  
   /* HEADING SECTIONS STANDARD */
   
   
