@@ -6,7 +6,7 @@ section#shopify-section-newsletter-popup.show {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 180ms ease-out;
+    transition: all 280ms ease-out;
     top: 100%;
 }
 
