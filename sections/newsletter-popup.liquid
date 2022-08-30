@@ -112,6 +112,8 @@
   if (!sessionStorage.alreadyClicked) {
     console.log('Show popup!');
     sessionStorage.alreadyClicked = 1;
+  } else{
+    console.log('Destroy popup!');
   }
 
   jQuery(document).ready(function() {
