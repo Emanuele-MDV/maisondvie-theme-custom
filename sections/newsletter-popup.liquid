@@ -7,9 +7,9 @@
     <img src="{{ section.settings.image_popup | img_url: '500x500' }}">
   </figure>
   <h2 class="h1">{{ section.settings.title_popup }}</h2>
-  {% if section.settings.subtitle_popup %}<strong class="">{{ section.settings.subtitle_popup }}</strong>{% endif %}
-  {% if section.settings.text_popup %}<p class="">{{ section.settings.text_popup }}</p>{% endif %}
-  {% if section.settings.disclaimer_popup %}<small class="">{{ section.settings.disclaimer_popup }}</small>{% endif %}
+  {% if section.settings.subtitle_popup %}<strong>{{ section.settings.subtitle_popup }}</strong>{% endif %}
+  {% if section.settings.text_popup %}<p>{{ section.settings.text_popup }}</p>{% endif %}
+  {% if section.settings.disclaimer_popup %}<small>{{ section.settings.disclaimer_popup }}</small>{% endif %}
 
 
 {%- form 'customer', id: 'ContactPopup', class: 'popup-newsletter' -%}
