@@ -200,6 +200,17 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "show_popup": true,
+          "image_popup": "shopify:\/\/shop_images\/explore-maisondvie-new-collection.webp",
+          "title_popup": "Get 15% discount*",
+          "subtitle_popup": "Subscribe to our newsletter",
+          "text_popup": "Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.",
+          "disclaimer_popup": "*You will receive a 15% off promo code valid for one order from our Shop."
+        }
       }
     },
     "content_for_index": [
