@@ -142,3 +142,27 @@ button#Subscribe {
     cursor: pointer;
     transition: all 100ms ease-out;
 }
+
+@media screen and (max-device-width:480px){
+
+  div#popupNl {
+    width: calc(100% - 3rem);
+  }
+
+  div#popupNl h2 {
+    font-size: 3.2rem;
+  }
+
+  div#popupNl strong {
+    font-size: 2rem;
+  }
+
+  div#popupNl small {
+    padding: 0 16%;
+  }
+
+  form#ContactPopup {
+    padding: 0 1rem;
+  }
+  
+}
