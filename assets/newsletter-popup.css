@@ -149,7 +149,7 @@ h3#ContactFooter-success {
     right: 0;
     width: 100%;
     height: 100%;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 4rem;
@@ -166,7 +166,6 @@ h3#ContactFooter-success {
 @-webkit-keyframes display-none-transition {
   0% {
     opacity: 1;
-    display:flex;
   }
   100% {
     opacity: 0;
@@ -176,7 +175,6 @@ h3#ContactFooter-success {
 @keyframes display-none-transition {
   0% {
     opacity: 1;
-    display:flex;
   }
   100% {
     opacity: 0;
