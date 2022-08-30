@@ -113,4 +113,13 @@
     console.log('Show popup!');
     sessionStorage.alreadyClicked = 1;
   }
+
+  jQuery(document).ready(function() {
+    setTimeout(function() {
+         $('section#shopify-section-newsletter-popup').css('top','0');
+    }, 4000);
+  });
+
+
+  
 {% endjavascript %}
