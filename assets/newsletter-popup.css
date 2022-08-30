@@ -201,8 +201,9 @@ button#Subscribe {
     height: 100%;
   }
 
-  div#popupNl strong, div#popupNl small, div#popupNl p{
+  div#popupNl strong, div#popupNl small, div#popupNl p, div#popupNl h2{
     position:relative;
+    text-align:left;
   }
   
 }
