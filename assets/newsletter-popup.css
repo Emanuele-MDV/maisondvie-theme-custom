@@ -147,6 +147,16 @@ button#Subscribe {
 
   div#popupNl {
     width: calc(100% - 3rem);
+    padding-bottom: 5rem;
+    padding-top: 300px;
+  }
+
+  div#popupNl figure {
+    height: 324px;
+  }
+
+  div#popupNl {
+    width: calc(100% - 3rem);
   }
 
   div#popupNl h2 {
