@@ -17,6 +17,19 @@ span.close.bg {
     cursor: pointer;
 }
 
+span.close.btn {
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: white;
+    z-index: 1;
+    border-radius: 100%;
+    top: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
+
 div#popupNl {
     position: relative;
     width: 480px;
