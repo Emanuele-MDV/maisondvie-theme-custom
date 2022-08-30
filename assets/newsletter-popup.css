@@ -105,3 +105,14 @@ div#popupNl strong {
     text-transform: uppercase;
     margin: 0;
 }
+
+div#popupNl p {
+    margin-bottom: 2rem;
+}
+
+div#popupNl small {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+    padding: 0 20%;
+}
