@@ -183,8 +183,17 @@ button#Subscribe {
   div#popupNl {
     flex-direction: row;
     width: 90%;
-    padding: 1.5rem 26%;
+    padding: 1.5rem 33% 1.5rem 8.5rem;
     flex-wrap: wrap;
+  }
+  
+  form#ContactPopup {
+    position: absolute;
+    width: 33%;
+    padding: 0;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 1.5rem;
   }
 
   div#popupNl figure {
