@@ -159,6 +159,27 @@ h3#ContactFooter-success {
     cursor: pointer;
     flex-direction: column;
     margin: 0;
+    -webkit-transition: 350ms display-none-transition;
+}
+
+@-webkit-keyframes display-none-transition {
+  0% {
+      display: flex; 
+      opacity: 1;
+      }
+  
+  100% 
+      {
+      display: none; 
+      opacity: 0;
+      }
+}
+
+h3#ContactFooter-success svg.icon.icon-success {
+    width: 100px;
+    height: 60px;
+    margin: 0;
+  
 }
 
 @media screen and (max-device-width:480px){
