@@ -62,5 +62,10 @@
 {% endstylesheet %}
 
 {% javascript %}
-  console.log('Email to be subscribed');
+  
+
+  if (!sessionStorage.alreadyClicked) {
+    console.log('Show popup!');
+    sessionStorage.alreadyClicked = 1;
+  }
 {% endjavascript %}
