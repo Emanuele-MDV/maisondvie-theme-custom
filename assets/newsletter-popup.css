@@ -189,9 +189,9 @@ button#Subscribe {
   
   form#ContactPopup {
     position: absolute;
-    width: 35%;
+    width: 34%;
     padding: 0;
-    right: 1.5rem;
+    right: 2.5rem;
     bottom: 2.5rem;
   }
 
