@@ -4,7 +4,7 @@
 <div id="popupNl" class="vertical">
   <span class="close btn"></span>
   <figure>
-    <img src="{{ section.settings.image_popup | img_url: '500x500' }}" loading="lazy">
+    <img src="{{ section.settings.image_popup | img_url: '500x500' }}" loading="lazy" alt="Newsletter subscription">
   </figure>
   <h2 class="h1">{{ section.settings.title_popup }}</h2>
   {% if section.settings.subtitle_popup %}<strong>{{ section.settings.subtitle_popup }}</strong>{% endif %}
