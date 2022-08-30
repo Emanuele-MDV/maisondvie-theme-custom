@@ -1,3 +1,11 @@
+<span class="close bg"></span>
+<div id="popupNl" class="show">
+  <span class="close button"></span>
+  <figure></figure>
+  <h2 class="h1"></h2>
+  <strong class=""></strong>
+  <p class=""></p>
+  <small class=""></small>
 
 
 {%- form 'customer', id: 'ContactPopup', class: 'popup-newsletter' -%}
@@ -37,6 +45,7 @@
     <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
   {%- endif -%}
 {%- endform -%}
+</div>
 
 
 {% schema %}
