@@ -111,10 +111,9 @@
 
   if (!sessionStorage.alreadyClicked) {
     console.log('Show popup!');
-    $('section#shopify-section-newsletter-popup').toggleClass('show hide')
     sessionStorage.alreadyClicked = 1;
   } else{
-    
+    console.log('Destroy popup!');
   }
 
   jQuery(document).ready(function() {
