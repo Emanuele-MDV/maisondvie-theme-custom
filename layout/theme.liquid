@@ -271,6 +271,7 @@
 
     {% if template.name == "index" and customer.accepts_marketing != true %}
 
+      <link rel="stylesheet" href="{{ 'newsletter-popup.css' | asset_url }}" media="print" onload="this.media='all'">
       {% section 'newsletter-popup' %}
       
     {% endif %}
