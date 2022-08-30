@@ -1,3 +1,5 @@
+{% if section.settings.show_popup == true %}
+
 <span class="close bg"></span>
 <div id="popupNl" class="vertical">
   <span class="close button"></span>
@@ -49,6 +51,7 @@
 {%- endform -%}
 </div>
 
+{% endif %}
 
 {% schema %}
   {
