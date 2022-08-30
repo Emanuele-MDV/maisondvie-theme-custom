@@ -109,8 +109,8 @@
 {% javascript %}
   
 
-  if (sessionStorage.alreadyClicked) {
-    console.log('Do not Show popup!');
+  if (!sessionStorage.alreadyClicked) {
+    console.log('Show popup!');
     sessionStorage.alreadyClicked = 1;
   }
 
