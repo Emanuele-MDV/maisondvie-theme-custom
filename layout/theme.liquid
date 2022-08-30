@@ -276,6 +276,8 @@
       
     {% endif %}
 
+    
+
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
@@ -327,5 +329,18 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
   <script src="https://zooomyapps.com/wishlist/ZooomyColl.js" data-shop-id="dev-maisondvie.myshopify.com" data-cus-id="{{customer.id}}" data-cus-email="{{customer.email}}" data-cus-name="{{customer.first_name}} {{customer.last_name}}" data-page="{{template}}" ></script>
-</body>
+
+    <script>
+      
+    if( $('h3#ContactFooter-success')[0] ){
+      jQuery(document).ready(function() {
+        setTimeout(function() {
+             $('h3#ContactFooter-success').remove();
+        }, 4000);
+      });
+    }
+      
+    </script>
+  
+  </body>
 </html>
