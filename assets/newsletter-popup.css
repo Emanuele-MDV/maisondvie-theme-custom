@@ -176,9 +176,11 @@ h3#ContactFooter-success {
 @keyframes display-none-transition {
   0% {
     opacity: 1;
+    display:flex;
   }
   100% {
     opacity: 0;
+    display:none;
   }
 }
 
