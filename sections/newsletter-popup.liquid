@@ -2,12 +2,12 @@
 <div id="popupNl" class="vertical">
   <span class="close button"></span>
   <figure>
-    <img src="{{ section.settings.image_popup | img_url: '200x200' }}">
+    <img src="{{ section.settings.image_popup | img_url: '500x500' }}">
   </figure>
-  <h2 class="h1"></h2>
-  <strong class=""></strong>
-  <p class=""></p>
-  <small class=""></small>
+  <h2 class="h1">{{ section.settings.title_popup }}</h2>
+  {% if section.settings.subtitle_popup %}<strong class=""></strong>{% endif %}
+  {% if section.settings.text_popup %}<p class=""></p>{% endif %}
+  {% if section.settings.disclaimer_popup %}<small class=""></small>{% endif %}
 
 
 {%- form 'customer', id: 'ContactPopup', class: 'popup-newsletter' -%}
@@ -56,6 +56,12 @@
     "tag": "section",
     "class": "show",
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_popup",
+        "default": false,
+        "label": "Show newsletter subscription popup?"
+      },
       {
         "type": "image_picker",
         "id": "image_popup",
