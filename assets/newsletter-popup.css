@@ -183,7 +183,7 @@ button#Subscribe {
   div#popupNl {
     flex-direction: row;
     width: 90%;
-    padding: 1.5rem 33% 1.5rem 8.5rem;
+    padding: 2.5rem 33% 2.5rem 8.5rem;
     flex-wrap: wrap;
   }
   
@@ -201,10 +201,12 @@ button#Subscribe {
     height: 100%;
   }
 
-  div#popupNl strong, div#popupNl small, div#popupNl p, div#popupNl h2{
-    position:relative;
-    text-align:left;
-  }
+  div#popupNl strong, div#popupNl small, div#popupNl p, div#popupNl h2 {
+    position: relative;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
   
 }
 
