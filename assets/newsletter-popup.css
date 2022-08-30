@@ -159,8 +159,8 @@ h3#ContactFooter-success {
     cursor: pointer;
     flex-direction: column;
     margin: 0;
-    -webkit-animation: display-none-transition 1s both;
-    animation: display-none-transition 1s both;
+    -webkit-animation: display-none-transition 4s both;
+    animation: display-none-transition 4s both;
 }
 
 @-webkit-keyframes display-none-transition {
