@@ -183,8 +183,8 @@ button#Subscribe {
   div#popupNl {
     flex-direction: row;
     width: 90%;
-    padding: 1.5rem;
-    padding-left: 26%;
+    padding: 1.5rem 26%;
+    flex-wrap: wrap;
   }
 
   div#popupNl figure {
