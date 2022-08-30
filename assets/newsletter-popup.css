@@ -180,7 +180,17 @@ button#Subscribe {
 
 @media screen and (max-device-width:920px) and (max-device-height:480px){
 
-  
+  div#popupNl {
+    flex-direction: row;
+    width: 90%;
+    padding: 1.5rem;
+    padding-left: 26%;
+  }
+
+  div#popupNl figure {
+    width: 25%;
+    height: 100%;
+  }
   
 }
 
