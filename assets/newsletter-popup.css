@@ -143,51 +143,6 @@ button#Subscribe {
     transition: all 100ms ease-out;
 }
 
-h3#ContactFooter-success {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    color: white;
-    background: #000000db;
-    z-index: 3;
-    cursor: pointer;
-    flex-direction: column;
-    margin: 0;
-    -webkit-animation: display-none-transition 4s both;
-    animation: display-none-transition 4s both;
-}
-
-@-webkit-keyframes display-none-transition {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    display:none;
-  }
-}
-@keyframes display-none-transition {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    display:none;
-  }
-}
-
-h3#ContactFooter-success svg.icon.icon-success {
-    width: 100px;
-    height: 60px;
-    margin: 0;
-  
-}
 
 @media screen and (max-device-width:480px){
 
