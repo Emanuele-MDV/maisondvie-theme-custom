@@ -206,7 +206,12 @@ button#Subscribe {
     text-align: left;
     padding: 0;
     margin: 0;
-}
+  }
+  
+  div#popupNl p {
+    line-height: 2.2rem;
+    margin-bottom: 1rem;
+  }
   
 }
 
