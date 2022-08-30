@@ -37,16 +37,17 @@ span.close.btn {
     justify-content: center;
 }
 
-span.close.btn::before, span.close.btn::after {
-    content: '';
+span.close.btn:before, span.close.btn:after {
+    content: "";
     display: block;
     width: 65%;
     height: 2px;
-    background-color: black;
+    background-color: #a3a3a3;
     top: 50%;
-    opacity: .4;
+    opacity: 1;
     border-radius: 2px;
     transform: rotate(45deg);
+    position: absolute;
 }
 
 span.close.btn::after {
