@@ -166,9 +166,11 @@ h3#ContactFooter-success {
 @-webkit-keyframes display-none-transition {
   0% {
     opacity: 1;
+    display:flex;
   }
   100% {
     opacity: 0;
+    display:none;
   }
 }
 @keyframes display-none-transition {
