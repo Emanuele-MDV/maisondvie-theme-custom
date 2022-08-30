@@ -57,7 +57,7 @@
   {
     "name": "Newsletter popup",
     "tag": "section",
-    "class": "hide",
+    "class": "show",
     "settings": [
       {
         "type": "checkbox",
@@ -112,9 +112,10 @@
   if (!sessionStorage.alreadyClicked) {
     console.log('Show popup!');
     sessionStorage.alreadyClicked = 1;
-    $('section#shopify-section-newsletter-popup').toggleClass('hide show');
+    //$('section#shopify-section-newsletter-popup').toggleClass('hide show');
   } else{
     console.log('Destroy popup!');
+    $('section#shopify-section-newsletter-popup').remove();
   }
 
   jQuery(document).ready(function() {
