@@ -35,6 +35,6 @@ div#popupNl figure {
     left: 0;
     width: 100%;
     margin: 0;
-    max-height: 250px;
+    height: 250px;
     overflow: hidden;
 }
