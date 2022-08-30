@@ -6,6 +6,8 @@ section#shopify-section-newsletter-popup.show {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 180ms ease-out;
+    top: 0;
 }
 
 span.close.bg {
