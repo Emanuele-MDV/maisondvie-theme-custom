@@ -189,16 +189,16 @@ button#Subscribe {
   
   form#ContactPopup {
     position: absolute;
-    width: 33%;
+    width: 35%;
     padding: 0;
-    transform: translateY(-50%);
-    top: 50%;
     right: 1.5rem;
+    bottom: 2.5rem;
   }
 
   div#popupNl figure {
-    width: 55%;
+    width: 60%;
     height: 100%;
+    opacity: .7;
   }
 
   div#popupNl strong, div#popupNl small, div#popupNl p, div#popupNl h2 {
