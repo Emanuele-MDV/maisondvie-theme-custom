@@ -104,7 +104,7 @@
             
             
             <div class="loading-overlay gradient"></div>
-            <div id="collection-loop" >
+            <div id="AjaxinateLoop" >
             <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
@@ -134,7 +134,7 @@
             </ul>
               </div>
 
-            <div id="colelction-pagination">
+            <div id="AjaxinatePagination">
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
@@ -150,10 +150,9 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var endlessScroll = new Ajaxinate({
-      container: '#collection_loop',
-      pagination: '#collection-pagination'
+      container: '#AjaxinateLoop',
+      pagination: '#AjaxinatePagination'
     });
-     
   });
 </script>
 
