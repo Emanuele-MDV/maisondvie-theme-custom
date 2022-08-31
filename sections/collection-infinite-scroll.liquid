@@ -4,11 +4,7 @@
   <p class="infinite-scroll-last">{{section.settings.status_end}}</p>
   <p class="infinite-scroll-error">No more pages to load</p>
 </div>
-{%  assign container_selector = section.settings.container_selector %}
-{%  assign path = section.settings.path | default: ".pagination a" %}
-{%  assign append = section.settings.append | default: false %}
-{%  assign hide_nav = section.settings.hide_nav | default: ".pagination"  %}
-{%  assign status = section.settings.status | default: ".page-load-status" %}
+
 <script>
   var isSettings = '{ "container" : "{{section.settings.container_selector}}", "path" : "{{section.settings.path}}", "append" : "{{section.settings.append}}", "hideNav" : "{{section.settings.hide_nav}}", "status" : "{{section.settings.status}}" }';
 </script>
