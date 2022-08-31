@@ -105,7 +105,7 @@
             
             <div class="loading-overlay gradient"></div>
             
-            <ul id="AjaxinateLoop" data-id="{{ section.id }}" class="
+            <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               
@@ -129,18 +129,9 @@
               {%- endfor -%}
           
             </ul>
-
-            <div id="AjaxinatePagination">
-              {% if paginate.next %}
-                <a href="{{ paginate.next.url }}">Loading More</a>
-              {% endif %}
-            </div>
-
-            {% comment %}
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
-            {% endcomment %}
             
           </div>
         {%- endif -%}
@@ -148,16 +139,6 @@
     </div>
   </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/ajaxinate@3.0.1/src/ajaxinate.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var endlessScroll = new Ajaxinate({
-      container: '#AjaxinateLoop',
-      pagination: '#AjaxinatePagination'
-    });
-  });
-</script>
 
 {% schema %}
 {
