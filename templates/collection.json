@@ -23,7 +23,7 @@
       "settings": {
         "enable_infinite_scroll": true,
         "container_selector": "#product-grid",
-        "path": "",
+        "path": ".pagination__item--prev",
         "append": "",
         "hide_nav": "",
         "status": "",
