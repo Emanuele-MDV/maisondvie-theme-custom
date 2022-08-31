@@ -146,11 +146,15 @@
   </div>
 </div>
 
+<script src="//cdn.shopify.com/s/files/1/0382/4185/files/ajaxinate.js?937" type="text/javascript"></script>
 <script>
+  function callbackInfiniteScroll(){}
   document.addEventListener("DOMContentLoaded", function() {
     var endlessScroll = new Ajaxinate({
       container: '#Huratips-Loop',
-      pagination: '#Huratips-Pagination'
+      pagination: '#Huratips-Pagination',
+      loadingText: 'Loading...',
+      callback: callbackInfiniteScroll
     });
   });
 </script>
