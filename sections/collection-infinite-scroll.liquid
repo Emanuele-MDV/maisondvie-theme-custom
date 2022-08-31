@@ -10,7 +10,7 @@
 {%  assign hide_nav = section.settings.hide_nav | default: ".pagination"  %}
 {%  assign status = section.settings.status | default: ".page-load-status" %}
 <script>
-  var isSettings = '{ "container" : "{{container_selector}}", "path" : "{{path}}", "append" : "{{append}}", "hideNav" : "{{hide_nav}}", "status" : "{{status}}" }';
+  var isSettings = '{ "container" : "{{section.settings.container_selector}}", "path" : "{{section.settings.path}}", "append" : "{{section.settings.append}}", "hideNav" : "{{section.settings.hide_nav}}", "status" : "{{section.settings.status}}" }';
 </script>
 <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
 <script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
