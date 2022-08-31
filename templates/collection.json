@@ -1,5 +1,18 @@
 {
   "sections": {
+    "1661940534fa007f1c": {
+      "type": "collection-infinite-scroll",
+      "settings": {
+        "enable_infinite_scroll": true,
+        "container_selector": ".product-grid",
+        "path": ".pagination__item--prev",
+        "append": ".product-grid .grid__item",
+        "hide_nav": ".pagination__list",
+        "status": ".pagination",
+        "status_info": "Loading...",
+        "status_end": "No more product to load!"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -33,25 +46,12 @@
         "collections_show": 4,
         "description": "<p>Maison D’Vie is proud to be home to a carefully selected range of emerging and well-established high-end fashion brands from the US, UK, Italy, and Europe. Our global style teams are passionate about uncovering exciting fashion finds that are fresh, unique, and sustainable…exactly the kind of discoveries for the people of now. This is your house of life.<\/p>"
       }
-    },
-    "1661940534fa007f1c": {
-      "type": "collection-infinite-scroll",
-      "settings": {
-        "enable_infinite_scroll": true,
-        "container_selector": ".product-grid",
-        "path": ".pagination__item--prev",
-        "append": ".product-grid .grid__item",
-        "hide_nav": ".pagination__list",
-        "status": ".pagination",
-        "status_info": "Loading...",
-        "status_end": "No more product to load!"
-      }
     }
   },
   "order": [
+    "1661940534fa007f1c",
     "product-grid",
     "banner",
-    "1655367420a3880ba1",
-    "1661940534fa007f1c"
+    "1655367420a3880ba1"
   ]
 }
