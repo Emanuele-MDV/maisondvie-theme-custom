@@ -1,6 +1,6 @@
-var element = document.querySelector(isSettings.container);
+var Element = document.querySelector(isSettings.container);
 if($(isSettings.path).length > 0){
-  var infScroll = new InfiniteScroll( element, {
+  var infScroll = new InfiniteScroll( Element, {
     path: isSettings.path,
     append: isSettings.append,
     history: false,
