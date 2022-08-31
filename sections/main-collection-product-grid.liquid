@@ -105,7 +105,7 @@
             
             <div class="loading-overlay gradient"></div>
             
-            <ul id="Huratips-Loop" data-id="{{ section.id }}" class="
+            <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               
@@ -130,11 +130,11 @@
           
             </ul>
               
-            <div id="Huratips-Pagination">
+            
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
-            </div>
+          
             
           </div>
         {%- endif -%}
@@ -142,19 +142,6 @@
     </div>
   </div>
 </div>
-
-<script src="//cdn.shopify.com/s/files/1/0382/4185/files/ajaxinate.js?937" type="text/javascript"></script>
-<script>
-  function callbackInfiniteScroll(){}
-  document.addEventListener("DOMContentLoaded", function() {
-    var endlessScroll = new Ajaxinate({
-      container: '#Huratips-Loop',
-      pagination: '#Huratips-Pagination',
-      loadingText: 'Loading...',
-      callback: callbackInfiniteScroll
-    });
-  });
-</script>
 
 
 {% schema %}
