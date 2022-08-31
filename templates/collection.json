@@ -25,8 +25,8 @@
         "container_selector": ".product-grid",
         "path": ".pagination__item--prev",
         "append": ".product-grid .grid__item",
-        "hide_nav": "",
-        "status": "",
+        "hide_nav": ".pagination__list",
+        "status": ".pagination",
         "status_info": "Loading...",
         "status_end": "No more product to load!"
       }
