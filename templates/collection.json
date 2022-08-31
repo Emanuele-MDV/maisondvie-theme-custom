@@ -38,7 +38,7 @@
       "type": "collection-infinite-scroll",
       "settings": {
         "enable_infinite_scroll": true,
-        "container_selector": "product-grid",
+        "container_selector": ".product-grid",
         "path": ".pagination__item--prev",
         "append": ".product-grid .grid__item",
         "hide_nav": ".pagination__list",
