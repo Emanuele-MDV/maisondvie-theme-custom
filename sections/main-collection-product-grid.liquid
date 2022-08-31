@@ -150,7 +150,14 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/ajaxinate@3.0.1/src/ajaxinate.min.js"></script>
-
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var endlessScroll = new Ajaxinate({
+      container: '#AjaxinateLoop',
+      pagination: '#AjaxinatePagination'
+    });
+  });
+</script>
 
 {% schema %}
 {
