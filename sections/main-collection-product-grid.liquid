@@ -109,7 +109,7 @@
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               
-              
+              <div id="AjaxinateLoop" >
                 
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
@@ -130,14 +130,14 @@
                   %}
                 </li>
               {%- endfor -%}
-          
+              </div>
             </ul>
               
-
+            <div id="AjaxinatePagination">
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
-            
+            </div>
           </div>
         {%- endif -%}
       {%- endpaginate -%}
