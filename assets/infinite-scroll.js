@@ -4,7 +4,7 @@ if($(isSettings.path).length > 0){
     path: isSettings.path,
     append: isSettings.append,
     history: false,
-    hideNav: isSettingsObj.hideNav,
-    status: isSettingsObj.status
+    hideNav: isSettings.hideNav,
+    status: isSettings.status
   });
 }
