@@ -105,7 +105,7 @@
             
             <div class="loading-overlay gradient"></div>
             
-            <ul id="AjaxinateLoop" data-id="{{ section.id }}" class="
+            <ul id="product-grid" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               
@@ -129,12 +129,18 @@
               {%- endfor -%}
           
             </ul>
-              
+
             <div id="AjaxinatePagination">
-            {% if paginate.next %}
+              {% if paginate.next %}
+                <a href="{{ paginate.next.url }}">Loading More</a>
+              {% endif %}
+            </div>
+
+            {% comment %}
+            {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
-            </div>
+            {% endcomment %}
             
           </div>
         {%- endif -%}
