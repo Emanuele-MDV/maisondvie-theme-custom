@@ -105,7 +105,7 @@
             
             <div class="loading-overlay gradient"></div>
             
-            <ul id="" data-id="{{ section.id }}" class="
+            <ul id="Huratips-Loop" data-id="{{ section.id }}" class="
               grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
               grid--{{ section.settings.columns_desktop }}-col-desktop">
               
@@ -133,10 +133,11 @@
           
             </ul>
               
-
+            <div id="Huratips-Pagination">
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}
+            </div>
             
           </div>
         {%- endif -%}
