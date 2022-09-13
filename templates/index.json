@@ -228,7 +228,7 @@
     "16630632700bc54f04": {
       "type": "link-banner",
       "settings": {
-        "custom_class": "new-collection",
+        "custom_class": "new-collection dark",
         "image_position": "full",
         "image": "shopify:\/\/shop_images\/trendy-designer-fashion-collections.webp",
         "text_label": "Check out our latest pieces",
