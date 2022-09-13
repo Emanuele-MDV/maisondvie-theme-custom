@@ -35,6 +35,10 @@
     flex-direction:row-reverse;
   }
 
+  .link-banner .page-width:not(.full) figure, .link-banner .page-width:not(.full) article{
+    width:50%;
+  }
+
   .link-banner .page-width figure {
     margin: 0;
     display: flex;
@@ -43,9 +47,21 @@
     overflow: hidden;
   }
 
-  .link-banner .page-width:not(.full) figure, .link-banner .page-width:not(.full) article{
-    width:50%;
+  .link-banner .page-width:not(.full) article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 6rem;
+    position: relative;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,67,67,1) 100%);
+    background: -webkit-linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,67,67,1) 100%);
+    background: linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,67,67,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#444343",GradientType=1);
   }
+
+  
   
 </style>
 
