@@ -89,7 +89,7 @@
         "image": "shopify:\/\/shop_images\/visit-our-store-reserve-your-space.webp",
         "text_label": "Would you like <br>to try new outfits?",
         "banner_title": "Visit Maison D'Vie Concept Store",
-        "banner_content": "<p>We are now open to customers to visit us in Dubai Digital Park, Building A2.<br\/>Please fill the form to make an appointment and reserve your space.<\/p>",
+        "banner_content": "<p><strong>We are now open to customers to visit us in Dubai Digital Park, Building A2<\/strong>. Please fill the form to make an appointment and reserve your space.<\/p>",
         "btn_txt": "Make an appointment",
         "btn_link": "#",
         "outline_btn": true
