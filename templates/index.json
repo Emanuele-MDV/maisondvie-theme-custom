@@ -45,6 +45,7 @@
     },
     "16559727415455c775": {
       "type": "custom-collage-collections",
+      "disabled": true,
       "blocks": {
         "3352403f-9a7f-4b22-9578-2ffa5d947a3b": {
           "type": "collection",
@@ -78,6 +79,19 @@
         "custom_link": "",
         "button_text": "",
         "section_css_class": "men-women-block"
+      }
+    },
+    "16630620193a9ad795": {
+      "type": "link-banner",
+      "settings": {
+        "custom_class": "dark",
+        "image_position": "left",
+        "text_label": "",
+        "banner_title": "",
+        "banner_content": "",
+        "btn_txt": "Shop now",
+        "btn_link": "",
+        "outline_btn": false
       }
     },
     "16559791500dd9690e": {
@@ -293,6 +307,7 @@
     "166305123918b33308",
     "featured_collection",
     "16559727415455c775",
+    "16630620193a9ad795",
     "16559791500dd9690e",
     "1655983033da6f73dd",
     "165476914159571c64",
