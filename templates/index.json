@@ -5,7 +5,12 @@
       "settings": {
         "custom_class": "banner-best-sellers",
         "image_position": "right",
-        "image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.webp"
+        "image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.webp",
+        "text_label": "Check our",
+        "banner_title": "Best Sellers",
+        "banner_content": "<p>Discover our daily selection of iconic dresses, accessories, clothing and more<\/p>",
+        "btn_txt": "Shop now",
+        "btn_link": "shopify:\/\/collections\/best-sellers"
       }
     },
     "featured_collection": {
