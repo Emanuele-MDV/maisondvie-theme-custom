@@ -2,7 +2,7 @@
   <figure>
     {% liquid
     if section.settings.image_position != full 
-      assign sizes = "(min-width: 320px) 375px, (min-width: 750px) 550px, (min-width: 990px) 750px"
+      assign sizes = "(min-width: 320px) 375w, (min-width: 750px) 550w, (min-width: 990px) 750w"
     else
       assign sizes = "(min-device-width: 750px) 750px, 550px"
     endif
