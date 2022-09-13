@@ -4,7 +4,8 @@
       "type": "link-banner",
       "settings": {
         "custom_class": "banner-best-sellers",
-        "image_position": "right"
+        "image_position": "right",
+        "image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.webp"
       }
     },
     "featured_collection": {
