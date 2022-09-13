@@ -3,7 +3,7 @@
     "166305123918b33308": {
       "type": "link-banner",
       "settings": {
-        "custom_class": "banner-best-sellers dark",
+        "custom_class": "banner-best-sellers dark outlined",
         "image_position": "right",
         "image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.webp",
         "text_label": "Check our",
@@ -86,12 +86,13 @@
       "settings": {
         "custom_class": "dark",
         "image_position": "left",
-        "text_label": "",
-        "banner_title": "",
-        "banner_content": "",
-        "btn_txt": "Shop now",
-        "btn_link": "",
-        "outline_btn": false
+        "image": "shopify:\/\/shop_images\/visit-our-store-reserve-your-space.webp",
+        "text_label": "Would you like <br>to try new outfits?",
+        "banner_title": "Visit Maison D'Vie Concept Store",
+        "banner_content": "<p>We are now open to customers to visit us in Dubai Digital Park, Building A2.<br\/>Please fill the form to make an appointment and reserve your space.<\/p>",
+        "btn_txt": "Make an appointment",
+        "btn_link": "#",
+        "outline_btn": true
       }
     },
     "16559791500dd9690e": {
