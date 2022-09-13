@@ -3,7 +3,7 @@
     "166305123918b33308": {
       "type": "link-banner",
       "settings": {
-        "custom_class": "banner-best-sellers",
+        "custom_class": "banner-best-sellers dark",
         "image_position": "right",
         "image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.webp",
         "text_label": "Check our",
