@@ -1,5 +1,5 @@
-<div class="page-width narrow">
-  
+<div class="page-width narrow col-2">
+  <h1 class="h0">{% if section.settings.page_title %}{{ section.settings.page_title }}{% else %}{{ page.title }}{% endif %}</h1>
 </div>
 
 {% schema %}
@@ -7,7 +7,13 @@
     "name": "Store visit request form",
     "tag": "section",
     "class": "reservations-section",
-    "settings": [],
+    "settings": [
+      {
+        "type":"text",
+        "id":"page_title",
+        "label":"Custom title to show in the page"
+      }
+    ],
     "presets":[
       {
         "name": "Store visit request form"
