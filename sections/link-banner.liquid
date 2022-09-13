@@ -1,5 +1,6 @@
-<div class="page-width image-{{ section.settings.image_position }}">
-  
+<div class="page-width image-{{ section.settings.image_position }} {{ section.settings.custom_class }}">
+  <figure></figure>
+  <article></article>
 </div>
 
 {% schema %}
@@ -8,6 +9,11 @@
     "tag": "section",
     "class": "link-banner",
     "settings": [
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Add a class to your banner"
+      },
       {
         "type": "select",
         "id": "image_position",
@@ -26,6 +32,11 @@
             "label": "Full (background)"
           }
         ]
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Select an image for your banner"
       }
     ],
     "presets": [
