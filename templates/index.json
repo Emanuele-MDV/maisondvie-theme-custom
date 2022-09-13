@@ -84,7 +84,7 @@
     "16630620193a9ad795": {
       "type": "link-banner",
       "settings": {
-        "custom_class": "dark",
+        "custom_class": "dark reservation-link",
         "image_position": "left",
         "image": "shopify:\/\/shop_images\/visit-our-store-reserve-your-space.webp",
         "text_label": "Would you like <br>to try new outfits?",
