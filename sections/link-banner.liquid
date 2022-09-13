@@ -15,6 +15,16 @@
       widths: '375, 550, 750, 1600',
       alt: section.settings.image.alt | escape
     }}
+
+    {% assign image = section.settings.image %}
+    <img src="{{ image.src | img_url: '480x' }}" alt="{{ image.alt | escape }}"
+        srcset="
+        {% if image.width > 640 %}{{ image.src | img_url: '640x' }} 640w{% endif %}
+        {% if image.width > 720 %},{{ image.src | img_url: '720x' }} 720w{% endif %}
+        {% if image.width > 900 %},{{ image.src | img_url: '900x' }} 900w{% endif %} 
+        " 
+        sizes="(min-width: 960px) 450px, (min-width: 720px) 50vw, 100vw"
+    />
   </figure>
   <article>
     
