@@ -61,8 +61,16 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#444343",GradientType=1);
   }
 
-  .link-banner .banner-best-sellers article::before{
-    content:'';
+  .link-banner .banner-best-sellers article::before {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    border: 1px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .link-banner .page-width:not(.full) article h2, .link-banner .page-width:not(.full) article p, .link-banner .page-width:not(.full) article a{
