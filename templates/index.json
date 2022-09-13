@@ -11,7 +11,7 @@
         "banner_content": "<p>Discover our selection of iconic dresses, accessories, clothing and more<\/p>",
         "btn_txt": "Shop now",
         "btn_link": "shopify:\/\/collections\/best-sellers",
-        "outline_btn": true
+        "outline_btn": false
       }
     },
     "featured_collection": {
