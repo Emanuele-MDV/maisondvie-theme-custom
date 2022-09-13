@@ -6,7 +6,7 @@
         srcset="
         {% if image.width > 340 %}{{ image.src | img_url: '350x' }} 350w, {{ image.src | img_url: '550x' }} 550w, {% endif %}
         {% if image.width > 640 %}{{ image.src | img_url: '640x' }} 640w{% endif %},
-        {% if image.width > 720 %}{{ image.src | img_url: '750x' }} 720w{% endif %},
+        {% if image.width > 720 %}{{ image.src | img_url: '770x' }} 770w{% endif %},
         {% if image.width > 900 %}{{ image.src | img_url: '1600x' }} 900w{% endif %}
         " 
         sizes="(min-width: 960px) 450px, (min-width: 720px) 50vw, 100vw"
