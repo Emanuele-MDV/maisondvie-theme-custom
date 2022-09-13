@@ -57,12 +57,18 @@
 
   .link-banner .page-width.image-full figure {
     position: absolute;
-    width: calc(100% - 10rem);
+    width: calc(100% - 3rem);
     top: 0;
     left: 0;
     right: 0;
     margin: 0 auto;
     background: rgb(0,0,0);
+  }
+
+  @media screen and (min-device-width:750px){
+  .link-banner .page-width.image-full figure {
+    width: calc(100% - 10rem);
+  }
   }
 
   .link-banner .page-width.image-full figure img {
