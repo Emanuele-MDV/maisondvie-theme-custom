@@ -13,7 +13,9 @@
     />
   </figure>
   <article>
-    
+    {% if section.settings.text_label %}<p class="label-title">{{ section.settings.text_label }}</p>{% endif %}
+    {% if section.settings.banner_title %}<h2 class="h1">{{ section.settings.banner_title.value }}</h2>{% endif %}
+    {% if section.settings.banner_content %}{{ section.settings.banner_content }}{% endif %}
   </article>
 </div>
 
