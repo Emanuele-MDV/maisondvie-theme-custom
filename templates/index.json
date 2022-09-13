@@ -3,6 +3,7 @@
     "166305123918b33308": {
       "type": "link-banner",
       "settings": {
+        "custom_class": "banner-best-sellers",
         "image_position": "right"
       }
     },
