@@ -225,53 +225,18 @@
         "section_css_class": "designers-homepage"
       }
     },
-    "165476914159571c64": {
-      "type": "image-banner",
-      "blocks": {
-        "16547691411000c76a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "New Collection 2022 is available now.",
-            "heading_size": "h1"
-          }
-        },
-        "16547691411000c76a-1": {
-          "type": "text",
-          "settings": {
-            "text": "Check out the latest pieces from your favorite brand",
-            "text_style": "body"
-          }
-        },
-        "16547691411000c76a-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop now >",
-            "button_link_1": "shopify:\/\/collections\/new-products-women",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16547691411000c76a-0",
-        "16547691411000c76a-1",
-        "16547691411000c76a-2"
-      ],
+    "16630632700bc54f04": {
+      "type": "link-banner",
       "settings": {
+        "custom_class": "new-collection",
+        "image_position": "full",
         "image": "shopify:\/\/shop_images\/trendy-designer-fashion-collections.webp",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "section_css_class": "page-width-desktop new-collection"
+        "text_label": "Check out our latest pieces",
+        "banner_title": "New Collection 2022 is available now.",
+        "banner_content": "",
+        "btn_txt": "Shop now",
+        "btn_link": "#",
+        "outline_btn": true
       }
     },
     "1654765667c246d5f8": {
@@ -311,7 +276,7 @@
     "16630620193a9ad795",
     "16559791500dd9690e",
     "1655983033da6f73dd",
-    "165476914159571c64",
+    "16630632700bc54f04",
     "1654765667c246d5f8"
   ]
 }
