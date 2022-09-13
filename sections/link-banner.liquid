@@ -3,7 +3,7 @@
     
     {{ section.settings.image | image_url: width: 1600 | image_tag:
       loading: 'lazy',
-      width: 750,
+      width: section.settings.image.width,
       height: 550,
       widths: '375, 550, 750, 1600',
       alt: section.settings.image.alt | escape
