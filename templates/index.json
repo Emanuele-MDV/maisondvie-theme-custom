@@ -1,52 +1,9 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Exclusive Fashion Designer clothing",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "End of season sales, up to 20% off",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop now >",
-            "button_link_1": "shopify:\/\/collections\/women-sales",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "https:\/\/dev-maisondvie.myshopify.com\/collections\/all?sort_by=title-ascending&filter.p.m.my_fields.sale=10%25+Off&filter.p.m.my_fields.sale=15%25+Off",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
+    "166305123918b33308": {
+      "type": "link-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/explore-design-dresses-collection.webp",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "section_css_class": "homepage-banner page-width-desktop"
+        "image_position": "left"
       }
     },
     "featured_collection": {
@@ -325,7 +282,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "166305123918b33308",
     "featured_collection",
     "16559727415455c775",
     "16559791500dd9690e",
