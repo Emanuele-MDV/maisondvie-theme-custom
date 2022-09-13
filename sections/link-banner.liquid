@@ -39,7 +39,7 @@
     flex-direction:row-reverse;
   }
 
-  .link-banner .page-width figure, .link-banner .page-width article{
+  .link-banner .page-width figure, .link-banner .page-width:not(.image-full) article{
     height:100%;
   }
 
@@ -85,6 +85,11 @@
     background: -webkit-linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,67,67,1) 100%);
     background: linear-gradient(30deg, rgba(0,0,0,1) 0%, rgba(68,67,67,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#444343",GradientType=1);
+  }
+
+  .link-banner .page-width.image-full {
+    justify-content: center;
+    align-items: center;
   }
 
   .link-banner .outlined article::before {
