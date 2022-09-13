@@ -1,6 +1,6 @@
 <div class="page-width image-{{ section.settings.image_position }} {{ section.settings.custom_class }}">
+  
   <figure>
-
     {% assign image = section.settings.image %}
     <img src="{{ image.src | img_url: '480x' }}" alt="{{ image.alt | escape }}"
         srcset="
@@ -18,6 +18,8 @@
     {% if section.settings.banner_content %}{{ section.settings.banner_content }}{% endif %}
     {% if section.settings.btn_link %}<a href="{{ section.settings.btn_link }}" class="btn {% if section.settings.outline_btn %}outline{% endif %}">{{ section.settings.btn_txt }}{% render 'icon-arrow' %}</a>{% endif %}
   </article>
+
+  
 </div>
 
 
