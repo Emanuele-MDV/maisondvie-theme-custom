@@ -16,7 +16,7 @@
     {% if section.settings.text_label %}<p class="label-title">{{ section.settings.text_label }}</p>{% endif %}
     {% if section.settings.banner_title %}<h2 class="h1">{{ section.settings.banner_title }}</h2>{% endif %}
     {% if section.settings.banner_content %}{{ section.settings.banner_content }}{% endif %}
-    {% if section.settings.btn_link %}<a href="{{ section.settings.btn_link }}" class="btn outline">{{ section.settings.btn_txt }}{% render 'icon-arrow' %}</a>{% endif %}
+    {% if section.settings.btn_link %}<a href="{{ section.settings.btn_link }}" class="btn {% if section.settings.outline_btn %}outline{% endif %}">{{ section.settings.btn_txt }}{% render 'icon-arrow' %}</a>{% endif %}
   </article>
 </div>
 
@@ -168,6 +168,11 @@
         "type": "url",
         "id": "btn_link",
         "label": "Select a page or collection to link"
+      },
+      {
+        "type": "checkbox",
+        "id": "outline_btn",
+        "label": "Outline the button"
       }
     ],
     "presets": [
