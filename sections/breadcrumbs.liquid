@@ -16,13 +16,13 @@
       
       
       {%- when 'product' -%}
-        {% assign mycollection_url = product.type | handle %}
+        {% assign mycollection_handle = product.type | handle %}
         {% assign mycollection_name = product.type | name %}
-        {{ mycollection_url }}
+        {{ mycollection_mycollection_handle }}
         {{ mycollection_name }}
         
         <li class="breadcrumbs__item">
-          {{ mycollection_url.title | link_to: mycollection_name.url }}
+          <a href="">
         </li>
     
         <li class="breadcrumbs__item">
