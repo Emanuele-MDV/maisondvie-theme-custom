@@ -17,12 +17,13 @@
         </li>
 
       {%- when 'list-collections' -%}
+      
         <li class="breadcrumbs last">
           <a href="{{ shop.secure_url }}">Home</a>
         </li>
     
         <li class="breadcrumbs">
-          <a href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+          <a href="{{ list-collections.url }}" aria-current="page">{{ page.title }}</a>
         </li>
       
       
