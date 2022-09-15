@@ -3,19 +3,25 @@
 
 <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
   <ol class="breadcrumbs__list">
-    <li class="breadcrumbs_home">
-      <a href="/">Home</a>
-    </li>
+    
     {%- case t -%}
       
       
       {%- when 'page' -%}
+        <li class="breadcrumbs last">
+          <a href="{{ shop.secure_url }}">Home</a>
+        </li>
+    
         <li class="breadcrumbs">
-          <a class="last" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+          <a href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
         </li>
       
       
       {%- when 'product' -%}
+
+        <li class="breadcrumbs">
+          <a href="{{ shop.secure_url }}">Home</a>
+        </li>
 
         <li class="breadcrumbs">
           <a href="{{ shop.secure_url }}/collections/">Collections</a>
@@ -23,7 +29,7 @@
     
         {% assign mycollection_handle = product.type | handle %}
         {% assign mycollection_name = product.type | name %}
-        <li class="breadcrumbs">
+        <li class="breadcrumbs last">
           <a href="{{ shop.secure_url }}/collections/{{ mycollection_handle }}">{{ mycollection_name }}</a>
         </li>
     
@@ -34,15 +40,19 @@
       
       {%- when 'collection' and collection.handle -%}
 
+        <li class="breadcrumbs">
+          <a href="{{ shop.secure_url }}">Home</a>
+        </li>
+
         {% if collection.metafields.my_fields.designer_type == true %}
 
-          <li class="breadcrumbs">
+          <li class="breadcrumbs last">
             <a href="{{ shop.secure_url }}/pages/designers">Designers</a>
           </li>
 
         {% else %}
 
-          <li class="breadcrumbs">
+          <li class="breadcrumbs last">
             <a href="{{ shop.secure_url }}/collections">Collections</a>
           </li>
 
@@ -68,6 +78,11 @@
       
       
       {%- when 'blog' -%}
+
+        <li class="breadcrumbs">
+          <a href="{{ shop.secure_url }}">Home</a>
+        </li>
+    
         {%- if current_tags -%}
           <li class="breadcrumbs">
             {{ blog.title | link_to: blog.url }}
@@ -84,8 +99,13 @@
       
       
       {%- when 'article' -%}
+
         <li class="breadcrumbs">
-          {{ blog.title | link_to: blog.url }}
+          <a href="{{ shop.secure_url }}">Home</a>
+        </li>
+    
+        <li class="breadcrumbs">
+          {{ blog.title | link_to: blog.url, class: 'last' }}
         </li>
         <li class="breadcrumbs">
           <a  href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
@@ -93,6 +113,11 @@
       
       
       {%- else -%}
+
+        <li class="breadcrumbs">
+          <a href="{{ shop.secure_url }}">Home</a>
+        </li>
+    
         <li class="breadcrumbs">
           <a  href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
         </li>
