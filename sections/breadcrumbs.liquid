@@ -33,6 +33,11 @@
       
       
       {%- when 'collection' and collection.handle -%}
+
+        <li class="breadcrumbs__item">
+          <a href="{{ shop.secure_url }}/collections/">Collections</a>
+        </li>
+    
         {%- if current_tags -%}
           <li class="breadcrumbs__item">
             {{ collection.title | link_to: collection.url }}
