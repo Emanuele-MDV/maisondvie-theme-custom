@@ -16,13 +16,15 @@
       
       
       {%- when 'product' -%}
+
+        <li class="breadcrumbs__item">
+          <a href="{{ shop.secure_url }}/collections/">Collections</a>
+        </li>
+    
         {% assign mycollection_handle = product.type | handle %}
         {% assign mycollection_name = product.type | name %}
-        {{ mycollection_mycollection_handle }}
-        {{ mycollection_name }}
-        
         <li class="breadcrumbs__item">
-          <a href="{{ shop.secure_url }}">
+          <a href="{{ shop.secure_url }}/collections/{{ mycollection_handle }}">{{ mycollection_name }}</a>
         </li>
     
         <li class="breadcrumbs__item">
