@@ -104,9 +104,10 @@
           <a href="{{ shop.secure_url }}">Home</a>
         </li>
     
-        <li class="breadcrumbs">
-          {{ blog.title | link_to: blog.url, class: 'last' }}
+        <li class="breadcrumbs last">
+          {{ blog.title | link_to: blog.url }}
         </li>
+    
         <li class="breadcrumbs">
           <a  href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
         </li>
@@ -114,7 +115,7 @@
       
       {%- else -%}
 
-        <li class="breadcrumbs">
+        <li class="breadcrumbs last">
           <a href="{{ shop.secure_url }}">Home</a>
         </li>
     
