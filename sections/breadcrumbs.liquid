@@ -3,7 +3,7 @@
 
 <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
   <ol class="breadcrumbs__list">
-    <li class="breadcrumbs">
+    <li class="breadcrumbs_home">
       <a href="/">Home</a>
     </li>
     {%- case t -%}
@@ -28,7 +28,7 @@
         </li>
     
         <li class="breadcrumbs last">
-          <a class="last" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+          <a href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
         </li>
       
       
@@ -55,13 +55,13 @@
           </li>
           <li class="breadcrumbs">
             {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
-            <a class="last" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
+            <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
           </li>
     
         {%- else -%}
           
           <li class="breadcrumbs">
-            <a class="last" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+            <a href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
           </li>
     
         {%- endif -%}
