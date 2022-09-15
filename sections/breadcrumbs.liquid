@@ -1,5 +1,11 @@
 {% unless template == "index" %}
-  test
+  <nav class="breadcrumb-navigation">
+    <ul>
+      <li>
+        <a href="{{ shop.secure_url }}">Home</a>
+      </li>
+    </ul>
+  </nav>
 {% endunless %}
 
 {% schema %}
