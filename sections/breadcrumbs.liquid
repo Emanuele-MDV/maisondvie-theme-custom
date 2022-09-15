@@ -20,11 +20,11 @@
         {% assign mycollection_name = product.type | name %}
         {{ mycollection_url }}
         {{ mycollection_name }}
-        {%- if mycollection.url -%}
-          <li class="breadcrumbs__item">
-            {{ collection.title | link_to: collection.url }}
-          </li>
-        {%- endif -%}
+        
+        <li class="breadcrumbs__item">
+          {{ mycollection_name.title | link_to: mycollection_name.url }}
+        </li>
+    
         <li class="breadcrumbs__item">
           <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
         </li>
