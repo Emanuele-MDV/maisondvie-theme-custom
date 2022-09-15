@@ -3,32 +3,32 @@
 
 <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
   <ol class="breadcrumbs__list">
-    <li class="breadcrumbs__item">
-      <a class="breadcrumbs__link" href="/">Home</a>
+    <li class="breadcrumbs">
+      <a href="/">Home</a>
     </li>
     {%- case t -%}
       
       
       {%- when 'page' -%}
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+        <li class="breadcrumbs">
+          <a class="last" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
         </li>
       
       
       {%- when 'product' -%}
 
-        <li class="breadcrumbs__item">
+        <li class="breadcrumbs">
           <a href="{{ shop.secure_url }}/collections/">Collections</a>
         </li>
     
         {% assign mycollection_handle = product.type | handle %}
         {% assign mycollection_name = product.type | name %}
-        <li class="breadcrumbs__item">
+        <li class="breadcrumbs">
           <a href="{{ shop.secure_url }}/collections/{{ mycollection_handle }}">{{ mycollection_name }}</a>
         </li>
     
-        <li class="breadcrumbs__item last">
-          <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+        <li class="breadcrumbs last">
+          <a class="last" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
         </li>
       
       
@@ -36,13 +36,13 @@
 
         {% if collection.metafields.my_fields.designer_type == true %}
 
-          <li class="breadcrumbs__item">
+          <li class="breadcrumbs">
             <a href="{{ shop.secure_url }}/pages/designers">Designers</a>
           </li>
 
         {% else %}
 
-          <li class="breadcrumbs__item">
+          <li class="breadcrumbs">
             <a href="{{ shop.secure_url }}/collections">Collections</a>
           </li>
 
@@ -50,18 +50,18 @@
     
         {%- if current_tags -%}
           
-          <li class="breadcrumbs__item">
+          <li class="breadcrumbs">
             {{ collection.title | link_to: collection.url }}
           </li>
-          <li class="breadcrumbs__item">
+          <li class="breadcrumbs">
             {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+"}}{%- endcapture -%}
-            <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
+            <a class="last" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
           </li>
     
         {%- else -%}
           
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+          <li class="breadcrumbs">
+            <a class="last" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
           </li>
     
         {%- endif -%}
@@ -69,32 +69,32 @@
       
       {%- when 'blog' -%}
         {%- if current_tags -%}
-          <li class="breadcrumbs__item">
+          <li class="breadcrumbs">
             {{ blog.title | link_to: blog.url }}
           </li>
-          <li class="breadcrumbs__item">
+          <li class="breadcrumbs">
             {%- capture tag_url -%}{{blog.url}}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
-            <a class="breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
+            <a  href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
           </li>
         {%- else -%}
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+          <li class="breadcrumbs">
+            <a  href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
           </li>
         {%- endif -%}
       
       
       {%- when 'article' -%}
-        <li class="breadcrumbs__item">
+        <li class="breadcrumbs">
           {{ blog.title | link_to: blog.url }}
         </li>
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+        <li class="breadcrumbs">
+          <a  href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
         </li>
       
       
       {%- else -%}
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+        <li class="breadcrumbs">
+          <a  href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
         </li>
     {%- endcase -%}
 
