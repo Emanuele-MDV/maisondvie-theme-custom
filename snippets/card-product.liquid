@@ -31,6 +31,10 @@
     endif
   -%}
   <div class="card-wrapper underline-links-hover">
+
+  {%- render 'button-wishlist', product: product -%}
+
+  
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
