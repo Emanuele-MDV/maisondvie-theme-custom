@@ -10,6 +10,13 @@
 {%- if product.handle != blank -%}
   <button type="button" aria-label="Add to wishlist" class="wishlist-ico-btn" button-wishlist data-product-handle="{{ product.handle }}">
     <style scoped>
+      button.wishlist-ico-btn {
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        z-index: 2;
+      }
+      
       .icon {
         fill: transparent;
         stroke: #000000;
