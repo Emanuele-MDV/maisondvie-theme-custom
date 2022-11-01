@@ -3687,3 +3687,8 @@ nav#mainNavigation {
     min-width: 100%;
 }
 
+nav#mainNavigation .menu-container {
+    background: white;
+    width: 88%;
+    padding: 2rem 1.5rem;
+}
