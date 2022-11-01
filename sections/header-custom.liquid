@@ -25,7 +25,11 @@
     {%- for link in section.settings.menu.links -%}
       <li>
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
-
+        <figure>
+          <img
+          src="{{ link.featured_image }}"
+          />
+        </figure>
         {% if link.levels >= 1 %}
           <ul>
             {%- for childlink in link.links -%}
@@ -47,6 +51,8 @@
     {% endfor %}
   </ul>
 </nav>
+
+
 
 {% schema %}
   {
