@@ -3723,7 +3723,7 @@ nav#mainNavigation .menu-container > ul > li > ul, nav#mainNavigation .menu-cont
     transition:all 160ms ease-out;
 }
 
-nav#mainNavigation .menu-container>ul>li>ul.open, nav#mainNavigation .menu-container>ul>li>ul>li>ul.open {
+nav#mainNavigation .menu-container ul.open {
     left: 0;
     height: 100%;
 }
