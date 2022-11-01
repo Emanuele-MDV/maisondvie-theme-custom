@@ -3686,7 +3686,8 @@ nav#mainNavigation {
     z-index: 10;
     min-width: 100%;
     overflow: scroll;
-    max-height: 100vh;
+    height: 100vh;
+    padding: 0!important;
 }
 
 nav#mainNavigation .menu-container {
