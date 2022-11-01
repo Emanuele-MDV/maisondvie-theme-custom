@@ -61,7 +61,24 @@
                 {% if link.levels >= 2 %}
                   <ul>
                     {%- for grandchildlink in childlink.links -%}
-                      <li><a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>{{ grandchildlink.title | escape }}</a></li>
+                      <li>
+                        <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>{{ grandchildlink.title | escape }}</a>
+
+                        {% if grandchildlink.type == 'collection_link' and grandchildlink.object.image %}
+                        <figure>            
+                        <img
+                        src="{{ grandchildlink.object.image | img_url: '100x100', crop:'center' }}"
+                        alt=""
+                        width=""
+                        height=""
+                        srcset=""
+                        sizes=""
+                        loading="lazy"
+                        />
+                        </figure>
+                      {% endif %}
+                        
+                      </li>
                     {%- endfor -%}
                   </ul>
                 {% endif %} 
