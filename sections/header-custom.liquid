@@ -22,7 +22,12 @@
 <nav id="mainNavigation">
   <ul>
     {%- for link in section.settings.menu.links -%}
-      <li>Test</li>
+      <li>
+        <a>{{ link.title | escape }}</a>
+        <ul>
+          
+        </ul>
+      </li>
     {% endfor %}
   </ul>
 </nav>
