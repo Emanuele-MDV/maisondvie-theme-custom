@@ -137,6 +137,7 @@
 
 {% render 'navbar' %}
 
+<header-drawer data-breakpoint="tablet">
       <details-modal class="header__search">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
@@ -158,7 +159,7 @@
                 <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
                   <div class="field">
                     <input class="search__input field__input"
-                      id="Search-In-Modal-1"
+                      id="Search-In-Modal"
                       type="search"
                       name="q"
                       value=""
@@ -176,7 +177,7 @@
                         spellcheck="false"
                       {%- endif -%}
                     >
-                    <label class="field__label" for="Search-In-Modal-1">{{ 'general.search.search' | t }}</label>
+                    <label class="field__label" for="Search-In-Modal">{{ 'general.search.search' | t }}</label>
                     <input type="hidden" name="options[prefix]" value="last">
                     <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
                       <svg class="icon icon-search" aria-hidden="true" focusable="false" role="presentation">
@@ -200,7 +201,7 @@
               {%- if settings.predictive_search_enabled -%}
                 </predictive-search>
               {%- endif -%}
-              <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
+              <button type="button" class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
                 <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                   <use href="#icon-close">
                 </svg>
@@ -210,6 +211,7 @@
         </details>
       </details-modal>
 
+</header-drawer>
 
 
     {% javascript %}
