@@ -25,11 +25,13 @@
     {%- for link in section.settings.menu.links -%}
       <li>
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
-        <figure>
-          <img
-          src="{{ link.image | image_url: width: '100x' }}"
-          />
-        </figure>
+        {% if link.type == 'collection_link' %}
+          <figure>
+            <img
+            src="{{ link.image | image_url: width: '100x' }}"
+            />
+          </figure>
+        {% endif %}
         {% if link.levels >= 1 %}
           <ul>
             {%- for childlink in link.links -%}
