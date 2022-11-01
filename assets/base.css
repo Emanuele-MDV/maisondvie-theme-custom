@@ -3693,6 +3693,7 @@ nav#mainNavigation .menu-container {
     background: white;
     width: 88%;
     padding: 4.4rem 1.5rem;
+    height:100%;
 }
 
 nav#mainNavigation .menu-container ul {
@@ -3704,6 +3705,14 @@ nav#mainNavigation .menu-container ul {
 nav#mainNavigation .menu-container > ul > li {
     position: relative;
     overflow: hidden;
+    width: 100%;
+}
+
+nav#mainNavigation .menu-container > ul > li > ul {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 100%;
 }
 
 
