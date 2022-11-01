@@ -6,11 +6,13 @@
     alt="{{ logo | default: shop.name | escape }}"
     srcset="
     {% if logo.width > 120 %}{{ logo.src | img_url: '120x' }} 420w{% endif %},
-    {% if logo.width > 180 %}{{ logo.src | img_url: '180x' }} 640w{% endif %},
+    {% if logo.width > 200 %}{{ logo.src | img_url: '180x' }} 640w{% endif %},
     {% if logo.width > 220 %}{{ logo.src | img_url: '220' }} 1000w{% endif %}
     "
     sizes="
-    
+    {% if logo.width > 1000 %}(min-width: 1024px) 220px{% endif %},
+    {% if logo.width > 600 %}(min-width: 600px) 180px{% endif %},
+    {% if logo.width > 340 %}(min-width: 320px) 120px{% endif %},
     100vw"
     width=""
     height=""
