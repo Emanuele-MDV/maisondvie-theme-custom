@@ -4,7 +4,8 @@
 </div>
 
 <nav id="mainNavigation" class="close">
-  <ul>
+  <div class="menu-container">
+    <ul>
     {%- for link in section.settings.menu.links -%}
       <li>
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>
@@ -86,4 +87,5 @@
       </li>
     {% endfor %}
   </ul>
+  </div>
 </nav>
