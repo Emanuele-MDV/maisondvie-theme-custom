@@ -7,8 +7,8 @@
   <div class="menu-container">
     <ul>
     {%- for link in section.settings.menu.links -%}
-      <li>
-        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %} {% if link.levels >= 1 %}class="has-childlink"{% endif %}>
+      <li {% if link.levels >= 1 %}class="has-childlink"{% endif %}>
+        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %} >
         <span>{{ link.title | escape }}</span>
         
         {% if link.type == 'collection_link' and link.object.image %}
@@ -56,8 +56,8 @@
                 {% if link.levels >= 2 %}
                   <ul>
                     {%- for grandchildlink in childlink.links -%}
-                      <li>
-                        <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %} {% if link.levels >= 2 %}class="has-grandchildlink"{% endif %}>
+                      <li {% if link.levels >= 2 %}class="has-grandchildlink"{% endif %}>
+                        <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>
                         <span>{{ grandchildlink.title | escape }}</span>
 
                         {% if grandchildlink.type == 'collection_link' %}
