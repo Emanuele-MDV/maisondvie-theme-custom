@@ -1,10 +1,15 @@
 <a id="siteBranding">
   <figure>
+    {% assign logo = section.settings.logo %}
     <img
-    src="{{ section.settings.logo | image_url: width: '120x' }}"
-    alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
-    srcset=""
-    sizes=""
+    src="{{ logo | image_url: width: '120x' }}"
+    alt="{{ logo | default: shop.name | escape }}"
+    srcset="
+    
+    "
+    sizes="
+    
+    80vw"
     width=""
     height=""
     />
