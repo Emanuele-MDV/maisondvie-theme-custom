@@ -30,7 +30,7 @@
         
         {% if link.levels >= 1 %}
           <ul>
-            <li class="back">{{ link.title | escape }}</li>
+            <li class="back"><a>{{ link.title | escape }}</a></li>
             {%- for childlink in link.links -%}
               <li>
               <a href="{{ childlink.url }}" {% if childlink.current %} aria-current="page"{% endif %}>
