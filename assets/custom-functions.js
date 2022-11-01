@@ -4,7 +4,9 @@ $( document ).ready(function() {
   
   if (window.matchMedia("(max-width: 990px)").matches) {
 
-    var buttonClose = '<div class="hamburger close"><span></span><span></span></div>'
+    var buttonClose = '<div class="hamburger close"><span></span><span></span></div>';
+
+    $('header#shopify-section-header').prepend(buttonClose);
     
     $(".has-childlink > a").removeAttr("href");
     $(".has-grandchildlink > a").removeAttr("href");
