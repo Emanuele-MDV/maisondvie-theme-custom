@@ -3704,7 +3704,9 @@ header#shopify-section-header form.search.search-modal__form:before{
 }
 
 .hamburger span {
-  
+  background-color:black;
+  width:100%;
+  height:3px;
 }
 
 nav#mainNavigation {
