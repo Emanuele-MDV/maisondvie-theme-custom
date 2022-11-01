@@ -3711,6 +3711,7 @@ header#shopify-section-header form.search.search-modal__form:before{
   background-color:black;
   width:100%;
   height:3px;
+  transition:all 160ms ease-out;
 }
 
 .hamburger.open span {
