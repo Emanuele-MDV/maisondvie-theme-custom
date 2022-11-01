@@ -3693,6 +3693,20 @@ header#shopify-section-header form.search.search-modal__form:before{
   content:unset;
 }
 
+.hamburger {
+    display: flex;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    left: 1.5rem;
+    cursor: pointer;
+    padding:6px;
+}
+
+.hamburger span {
+  
+}
+
 nav#mainNavigation {
     position: fixed;
     top: 0;
