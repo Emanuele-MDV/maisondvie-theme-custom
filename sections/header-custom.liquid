@@ -20,7 +20,11 @@
   </figure>
 </a>
 <nav id="mainNavigation">
-  
+  <ul>
+    {%- for link in section.settings.menu.links -%}
+      <li>Test</li>
+    {% endfor %}
+  </ul>
 </nav>
 
 {% schema %}
