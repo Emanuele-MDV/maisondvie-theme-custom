@@ -25,11 +25,9 @@
     {%- for link in section.settings.menu.links -%}
       <li>
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
-        {% if link.type == 'collection_link' %}
+        {% if link.type == 'collection_link' and link.object.image %}
           <figure>
-            <img
-            src="{{ link.image | image_url: width: '100x' }}"
-            />
+            
           </figure>
         {% endif %}
         {% if link.levels >= 1 %}
