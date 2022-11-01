@@ -3721,8 +3721,8 @@ nav#mainNavigation {
     min-width: 100%;
     overflow-y: scroll;
     height: 100vh;
-    transition:all 160ms ease-out;
-  left:-100%;
+    transition:all 160ms ease-in-out;
+    left:-100%;
 }
 
 nav#mainNavigation.open{
