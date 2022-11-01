@@ -3685,6 +3685,14 @@ header#shopify-section-header {
     padding: 1.5rem;
 }
 
+a#siteBranding figure {
+    margin: 0;
+}
+
+header#shopify-section-header form.search.search-modal__form:before{
+  content:unset;
+}
+
 nav#mainNavigation {
     position: fixed;
     top: 0;
