@@ -27,7 +27,7 @@
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
         <figure>
           <img
-          src="{{ link.featured_image | image_url: width: '100x' }}"
+          src="{{ link.image | image_url: width: '100x' }}"
           />
         </figure>
         {% if link.levels >= 1 %}
