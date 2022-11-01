@@ -26,7 +26,7 @@
       <li>
         <a href="{{ link.url }}">{{ link.title | escape }}</a>
 
-        {% if link.levels >= 2 %}
+        {% if link.levels >= 1 %}
         <ul>
           {%- for childlink in link.links -%}
             <li>
