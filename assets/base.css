@@ -3722,10 +3722,11 @@ nav#mainNavigation {
     overflow-y: scroll;
     height: 100vh;
     transition:all 160ms ease-out;
+  left:-100%;
 }
 
-nav#mainNavigation.close{
-  left:-100%;
+nav#mainNavigation.open{
+  left:0;
 }
 
 nav#mainNavigation .menu-container {
