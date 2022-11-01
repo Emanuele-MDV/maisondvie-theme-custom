@@ -211,6 +211,17 @@
           "text_popup": "Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.",
           "disclaimer_popup": "*You will receive a 15% off promo code valid for one order from our Shop."
         }
+      },
+      "header-custom": {
+        "type": "header-custom",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/maison-d-vie-official.webp"
+        }
+      },
+      "breadcrumbs": {
+        "type": "breadcrumbs",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
