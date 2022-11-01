@@ -13,7 +13,7 @@ if (window.matchMedia("(max-width: 990px)").matches) {
   });
 
   $( "li.back" ).on('click', function(){
-    $( this ).parent('ul').removeClass('open');
+    $( this ).parent('ul').toggleClass('open');
   })
 
   
