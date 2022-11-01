@@ -3678,6 +3678,13 @@ h3#ContactFooter-success svg.icon.icon-success {
 
 /* CUSTOM HEADER */
 
+header#shopify-section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
 nav#mainNavigation {
     position: fixed;
     top: 0;
