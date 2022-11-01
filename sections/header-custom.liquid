@@ -27,7 +27,9 @@
         <a href="{{ link.url }}">{{ link.title | escape }}</a>
         <ul>
           {%- for childlink in link.links -%}
-            <li>Test</li>
+            <li>
+              <a href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
+            </li>
           {%- endfor -%}
         </ul>
       </li>
