@@ -7,6 +7,10 @@ $( document ).ready(function() {
     var buttonClose = '<div class="hamburger close"><span></span><span></span></div>';
 
     $('header#shopify-section-header').prepend(buttonClose);
+
+    $(buttonClose).on('click', function(){
+      $('nav#mainNavigation').toggleClass('close open')
+    });
     
     $(".has-childlink > a").removeAttr("href");
     $(".has-grandchildlink > a").removeAttr("href");
