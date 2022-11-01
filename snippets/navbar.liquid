@@ -27,7 +27,7 @@
         {% if link.levels >= 1 %}
           <ul>
             <li class="back">
-              <a>{{ link.title | escape }}</a>
+              <a>Menu</a>
             </li>
             {%- for childlink in link.links -%}
               <li {% if link.levels >= 2 %}class="has-grandchildlink"{% endif %}>
@@ -54,7 +54,7 @@
                 {% if link.levels >= 2 %}
                   <ul>
                     <li class="back">
-                      <a>{{ childlink.title | escape }}</a>
+                      <a>{{ link.title | escape }}</a>
                     </li>
                             
                     {%- for grandchildlink in childlink.links -%}
