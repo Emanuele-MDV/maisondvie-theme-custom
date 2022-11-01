@@ -6,8 +6,9 @@ if (window.matchMedia("(max-width: 990px)").matches) {
 
   $('.has-childlink').each(function(){
     
-    $( '.has-childlink').on('click', function(){
-      $( this ).children('ul').addClass('open');
+    $( '.has-childlink a').on('click', function(){
+      console.log('Click!')
+      //$( this ).children('ul').addClass('open');
     });
     
   });
