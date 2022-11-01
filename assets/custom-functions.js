@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
     $('header#shopify-section-header').prepend(buttonClose);
 
-    $(buttonClose).on('click', function(){
+    $('.hamburger').on('click', function(){
       $('nav#mainNavigation').toggleClass('close open')
     });
     
