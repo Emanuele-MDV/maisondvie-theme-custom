@@ -3693,7 +3693,8 @@ nav#mainNavigation .menu-container {
     background: white;
     width: 88%;
     padding: 4.4rem 1.5rem;
-    height:100%;
+    padding-right: 0;
+    height: 100%;
 }
 
 nav#mainNavigation .menu-container ul {
@@ -3702,10 +3703,14 @@ nav#mainNavigation .menu-container ul {
     margin: 0;
 }
 
-nav#mainNavigation .menu-container > ul > li {
+nav#mainNavigation .menu-container>ul>li {
     position: relative;
     overflow: hidden;
     width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 nav#mainNavigation .menu-container > ul > li > ul {
@@ -3715,6 +3720,19 @@ nav#mainNavigation .menu-container > ul > li > ul {
     left: 100%;
 }
 
+nav#mainNavigation .menu-container>ul>li>a {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav#mainNavigation .menu-container>ul>li>a>figure {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
 
 
 
