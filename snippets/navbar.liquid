@@ -8,7 +8,7 @@
     <ul>
     {%- for link in section.settings.menu.links -%}
       <li>
-        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>
+        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %} {% if link.levels >= 1 %}class="has-submenu"{% endif %}>
         <span>{{ link.title | escape }}</span>
         
         {% if link.type == 'collection_link' and link.object.image %}
