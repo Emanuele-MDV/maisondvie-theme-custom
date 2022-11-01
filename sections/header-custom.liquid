@@ -2,7 +2,7 @@
   <figure>
     {% assign logo = section.settings.logo %}
     <img
-    src="{{ logo | image_url: width: '80x' }}"
+    src="{{ logo | image_url: width: '100x' }}"
     alt="{{ logo | default: shop.name | escape }}"
     srcset="
     {% if logo.width > 120 %}{{ logo.src | img_url: '120x' }} 420w{% endif %},
