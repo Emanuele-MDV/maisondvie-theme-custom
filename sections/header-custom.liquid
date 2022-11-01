@@ -23,7 +23,7 @@
   <ul>
     {%- for link in section.settings.menu.links -%}
       <li>
-        <a href="{{ link.url }}">{{ link.title | escape }}</a>
+        <a href="{{ link.url }}" title="{{ link.title | escape }}">{{ link.title | escape }}</a>
         <ul>
           
         </ul>
