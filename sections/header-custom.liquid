@@ -25,13 +25,18 @@
     {%- for link in section.settings.menu.links -%}
       <li>
         <a href="{{ link.url }}">{{ link.title | escape }}</a>
+
+        {% if childlink.count > 0 %}
         <ul>
           {%- for childlink in link.links -%}
             <li>
               <a href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
+              
             </li>
           {%- endfor -%}
         </ul>
+        {% endif %}
+      
       </li>
     {% endfor %}
   </ul>
