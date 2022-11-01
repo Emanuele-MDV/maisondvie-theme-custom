@@ -137,12 +137,14 @@
               {% render 'icon-close' %}
             </span>
           </summary>
+
+      {% comment %}
       
           <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
             <div class="menu-drawer__inner-container">
               <div class="menu-drawer__navigation-container">
 
-                {% comment %}
+                
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in section.settings.menu.links -%}
@@ -400,11 +402,14 @@
                   </ul>
                 </div>
 
-      {% endcomment %}
+      
       
               </div>
             </div>
           </div>
+
+      {% endcomment %}
+      
         </details>
         
         <details-modal class="header__search">
