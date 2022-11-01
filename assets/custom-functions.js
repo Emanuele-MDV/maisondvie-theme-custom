@@ -9,6 +9,7 @@ $( document ).ready(function() {
     $('header#shopify-section-header').prepend(buttonClose);
 
     $('.hamburger').on('click', function(){
+      $(this).toggleClass('close open')
       $('nav#mainNavigation').toggleClass('close open')
     });
     
