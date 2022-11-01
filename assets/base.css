@@ -3728,7 +3728,7 @@ nav#mainNavigation .menu-container ul.open {
     height: 100%;
 }
 
-nav#mainNavigation .menu-container>ul>li>a, nav#mainNavigation .menu-container>ul>li>ul>li>a {
+nav#mainNavigation .menu-container>ul>li>a, nav#mainNavigation .menu-container>ul>li>ul>li>a, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a {
     display: flex;
     width: 100%;
     height: 100px;
@@ -3736,7 +3736,7 @@ nav#mainNavigation .menu-container>ul>li>a, nav#mainNavigation .menu-container>u
     align-items: center;
 }
 
-nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure {
+nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a>figure {
     width: 100px;
     height: 100px;
     margin: 0;
