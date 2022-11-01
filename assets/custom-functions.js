@@ -6,7 +6,7 @@ if (window.matchMedia("(max-width: 990px)").matches) {
 
   $('.has-childlink').each(function(){
     
-    $(this).on('click', function(){
+    $(this).children('a').on('click', function(){
       $( this ).children('ul').addClass('open');
     });
     
