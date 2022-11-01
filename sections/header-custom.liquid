@@ -64,7 +64,7 @@
                       <li>
                         <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>{{ grandchildlink.title | escape }}</a>
 
-                        {% if grandchildlink.type == 'collection_link' and grandchildlink.object.image %}
+                        {% if grandchildlink.type == 'collection_link' %}
                         <figure>            
                         <img
                         src="{{ grandchildlink.object.image | img_url: '100x100', crop:'center' }}"
