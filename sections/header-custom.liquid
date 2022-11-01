@@ -24,7 +24,9 @@
   <ul>
     {%- for link in section.settings.menu.links -%}
       <li>
-        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>
+        <span>{{ link.title | escape }}</span>
+        
         {% if link.type == 'collection_link' and link.object.image %}
           <figure>            
           <img
@@ -38,11 +40,17 @@
           />
           </figure>
         {% endif %}
+
+          
+        </a>
+        
         {% if link.levels >= 1 %}
           <ul>
             {%- for childlink in link.links -%}
               <li>
-                <a href="{{ childlink.url }}" {% if childlink.current %} aria-current="page"{% endif %}>{{ childlink.title | escape }}</a>
+              <a href="{{ childlink.url }}" {% if childlink.current %} aria-current="page"{% endif %}>
+              
+              <span>{{ childlink.title | escape }}</span>
                 
               {% if childlink.type == 'collection_link' and childlink.object.image %}
                 <figure>            
@@ -57,12 +65,15 @@
                 />
                 </figure>
               {% endif %}
+
+              </a>
               
                 {% if link.levels >= 2 %}
                   <ul>
                     {%- for grandchildlink in childlink.links -%}
                       <li>
-                        <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>{{ grandchildlink.title | escape }}</a>
+                        <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>
+                        <span>{{ grandchildlink.title | escape }}</span>
 
                         {% if grandchildlink.type == 'collection_link' %}
                         <figure>            
@@ -77,6 +88,8 @@
                         />
                         </figure>
                       {% endif %}
+
+                      </a>
                         
                       </li>
                     {%- endfor -%}
