@@ -27,7 +27,7 @@
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
         {% if link.type == 'collection_link' and link.object.image %}
           <figure>
-            
+            {{ link.object.image | img_url: '100x' | img_tag }}
           </figure>
         {% endif %}
         {% if link.levels >= 1 %}
