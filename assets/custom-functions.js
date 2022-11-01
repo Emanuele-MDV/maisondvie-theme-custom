@@ -14,6 +14,15 @@ if (window.matchMedia("(max-width: 990px)").matches) {
     
   });
 
+  $('.has-grandchildlink').each(function(){
+    
+    $( '.has-grandchildlink a').on('click', function(){
+      //console.log('Click!');
+      $( this ).siblings('ul').addClass('open');
+    });
+    
+  });
+
   $( "li.back" ).on('click', function(){
     $( this ).parent('ul').removeClass('open');
   })
