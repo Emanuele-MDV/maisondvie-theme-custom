@@ -3700,3 +3700,13 @@ nav#mainNavigation .menu-container ul {
     padding: 0;
     margin: 0;
 }
+
+nav#mainNavigation .menu-container > ul > li {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
