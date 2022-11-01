@@ -3711,7 +3711,7 @@ header#shopify-section-header form.search.search-modal__form:before{
   background-color:black;
   width:100%;
   height:3px;
-  transition:all 160ms ease-out;
+  transition:all 220ms ease-out;
 }
 
 .hamburger.open span {
@@ -3732,7 +3732,7 @@ nav#mainNavigation {
     min-width: 100%;
     overflow-y: scroll;
     height: 100vh;
-    transition:all 160ms ease-in-out;
+    transition:all 220ms ease-in-out;
     transform:translateX(-100%);
 }
 
