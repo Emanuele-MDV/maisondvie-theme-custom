@@ -1,4 +1,12 @@
-
+<a id="siteBranding">
+  <figure>
+    <img
+    src=""
+    alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+    
+    />
+  </figure>
+</a>
 
 
 {% schema %}
@@ -6,6 +14,12 @@
     "name": "Customized header",
     "tag":"header",
     "class":"header-custom",
-    "settings": []
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:sections.header.settings.logo.label"
+      }
+    ]
   }
 {% endschema %}
