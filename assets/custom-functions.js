@@ -8,8 +8,8 @@ if (window.matchMedia("(max-width: 990px)").matches) {
     
     $( '.has-childlink a').on('click', function(){
       console.log('Click!');
-      $(this).closest('ul').addClass('open');
-      //$( this ).children('ul').addClass('open');
+      
+      $( this ).siblings('ul').addClass('open');
     });
     
   });
