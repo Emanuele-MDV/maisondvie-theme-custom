@@ -5,9 +5,9 @@
     src="{{ logo | image_url: width: '100x' }}"
     alt="{{ logo | default: shop.name | escape }}"
     srcset="
-    {% if logo.width > 120 %}{{ logo.src | img_url: '120x' }} 420w{% endif %},
-    {% if logo.width > 200 %}{{ logo.src | img_url: '180x' }} 640w{% endif %},
-    {% if logo.width > 220 %}{{ logo.src | img_url: '220' }} 1000w{% endif %}
+    {% if logo.width > 120 %}{{ logo.src | img_url: '120x' }} 120w{% endif %},
+    {% if logo.width > 200 %}{{ logo.src | img_url: '180x' }} 180w{% endif %},
+    {% if logo.width > 220 %}{{ logo.src | img_url: '220' }} 220w{% endif %}
     "
     sizes="
     {% if logo.width > 1000 %}(min-width: 1024px) 220px{% endif %},
