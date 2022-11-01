@@ -26,8 +26,7 @@
       <li>
         <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
         {% if link.type == 'collection_link' and link.object.image %}
-          <figure>
-            
+          <figure>            
           <img
           src="{{ link.object.image | img_url: '100x100', crop:'center' }}"
           alt=""
@@ -44,6 +43,21 @@
             {%- for childlink in link.links -%}
               <li>
                 <a href="{{ childlink.url }}" {% if childlink.current %} aria-current="page"{% endif %}>{{ childlink.title | escape }}</a>
+                
+              {% if childlink.type == 'collection_link' and childlink.object.image %}
+                <figure>            
+                <img
+                src="{{ childlink.object.image | img_url: '100x100', crop:'center' }}"
+                alt=""
+                width=""
+                height=""
+                srcset=""
+                sizes=""
+                loading="lazy"
+                />
+                </figure>
+              {% endif %}
+              
                 {% if link.levels >= 2 %}
                   <ul>
                     {%- for grandchildlink in childlink.links -%}
