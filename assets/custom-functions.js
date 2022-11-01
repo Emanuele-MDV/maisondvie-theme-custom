@@ -3,6 +3,8 @@ $( document ).ready(function() {
   // MENU MOBILE NAVIGATION
   
   if (window.matchMedia("(max-width: 990px)").matches) {
+
+    var buttonClose = '<div class="hamburger close"><span></span><span></span></div>'
     
     $(".has-childlink > a").removeAttr("href");
     $(".has-grandchildlink > a").removeAttr("href");
