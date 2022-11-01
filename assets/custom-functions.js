@@ -3,6 +3,7 @@
 if (window.matchMedia("(max-width: 990px)").matches) {
   
   $(".has-childlink > a").removeAttr("href");
+  $(".has-grandchildlink > a").removeAttr("href");
 
   $('.has-childlink').each(function(){
     
@@ -12,8 +13,6 @@ if (window.matchMedia("(max-width: 990px)").matches) {
     });
     
   });
-
-  $(".has-grandchildlink > a").removeAttr("href");
 
   $( "li.back" ).on('click', function(){
     $( this ).parent('ul').removeClass('open');
