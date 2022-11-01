@@ -3687,6 +3687,11 @@ nav#mainNavigation {
     min-width: 100%;
     overflow-y: scroll;
     height: 100vh;
+    transition:all 160ms ease-out;
+}
+
+nav#mainNavigation.close{
+  left:-100%;
 }
 
 nav#mainNavigation .menu-container {
