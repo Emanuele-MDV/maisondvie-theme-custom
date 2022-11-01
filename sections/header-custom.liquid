@@ -10,9 +10,9 @@
     {% if logo.width > 220 %}{{ logo.src | img_url: '220' }} 220w{% endif %}
     "
     sizes="
-    {% if logo.width > 1000 %}(min-width: 1024px) 220px{% endif %},
-    {% if logo.width > 600 %}(min-width: 600px) 180px{% endif %},
-    {% if logo.width > 340 %}(min-width: 320px) 120px{% endif %},
+    {% if logo.width > 220 %}(min-width: 1024px) 220px{% endif %},
+    {% if logo.width > 200 %}(min-width: 600px) 180px{% endif %},
+    {% if logo.width > 120 %}(min-width: 320px) 120px{% endif %},
     100vw"
     width=""
     height=""
