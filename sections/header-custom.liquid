@@ -24,17 +24,17 @@
   <ul>
     {%- for link in section.settings.menu.links -%}
       <li>
-        <a href="{{ link.url }}">{{ link.title | escape }}</a>
+        <a href="{{ link.url }}" {% if link.current %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
 
         {% if link.levels >= 1 %}
           <ul>
             {%- for childlink in link.links -%}
               <li>
-                <a href="{{ childlink.url }}">{{ childlink.title | escape }}</a>
+                <a href="{{ childlink.url }}" {% if childlink.current %} aria-current="page"{% endif %}>{{ childlink.title | escape }}</a>
                 {% if link.levels >= 2 %}
                   <ul>
                     {%- for grandchildlink in childlink.links -%}
-                      <li><a href="{{ grandchildlink.url }}">{{ grandchildlink.title | escape }}</a></li>
+                      <li><a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>{{ grandchildlink.title | escape }}</a></li>
                     {%- endfor -%}
                   </ul>
                 {% endif %} 
