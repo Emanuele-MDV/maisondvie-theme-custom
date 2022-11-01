@@ -30,9 +30,11 @@
         
         {% if link.levels >= 1 %}
           <ul>
-            <li class="back"><a>{{ link.title | escape }}</a></li>
+            <li class="back">
+              <a>{{ link.title | escape }}</a>
+            </li>
             {%- for childlink in link.links -%}
-              <li>
+              <li {% if link.levels >= 2 %}class="has-grandchildlink"{% endif %}>
               <a href="{{ childlink.url }}" {% if childlink.current %} aria-current="page"{% endif %}>
               
               <span>{{ childlink.title | escape }}</span>
@@ -56,7 +58,7 @@
                 {% if link.levels >= 2 %}
                   <ul>
                     {%- for grandchildlink in childlink.links -%}
-                      <li {% if link.levels >= 2 %}class="has-grandchildlink"{% endif %}>
+                      <li>
                         <a href="{{ grandchildlink.url }}" {% if grandchildlink.current %} aria-current="page"{% endif %}>
                         <span>{{ grandchildlink.title | escape }}</span>
 
