@@ -19,13 +19,16 @@
     />
   </figure>
 </a>
+
 <nav id="mainNavigation">
   <ul>
     {%- for link in section.settings.menu.links -%}
       <li>
         <a href="{{ link.url }}">{{ link.title | escape }}</a>
         <ul>
-          
+          {%- for childlink in link.links -%}
+            Test
+          {%- endfor -%}
         </ul>
       </li>
     {% endfor %}
