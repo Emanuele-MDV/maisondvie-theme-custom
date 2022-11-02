@@ -3694,17 +3694,17 @@ a#siteBranding figure {
     margin: 0;
 }
 
-header predictive-search.search-modal__form .field:after{
+header#shopify-section-header predictive-search.search-modal__form .field:after{
   box-shadow:none;
 }
 
-header predictive-search.search-modal__form input#Search-In-Modal {
+header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal {
     padding: 0.4rem;
     padding-right: 4rem;
     border: 1px solid gainsboro;
 }
 
-header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
+header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
     opacity: .5;
     font-family: 'Wotfard';
     letter-spacing: 1px;
@@ -3712,6 +3712,13 @@ header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
 
 header#shopify-section-header form.search.search-modal__form:before{
   content:unset;
+}
+
+header#shopify-section-header predictive-search.search-modal__form .search__button .icon {
+    min-height: 2.8rem;
+    min-width: 2.8rem;
+    color: #fff;
+    opacity: .5;
 }
 
 .hamburger {
