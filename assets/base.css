@@ -3800,6 +3800,12 @@ nav#mainNavigation {
     transform:translateX(-100%);
 }
 
+nav#mainNavigation a {
+    color: #3a3a3a;
+    font-family: var(--font-body-family);
+    text-decoration: none;
+}
+
 nav#mainNavigation.open{
     transform:none;
 }
