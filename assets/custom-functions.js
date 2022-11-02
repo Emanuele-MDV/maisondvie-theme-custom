@@ -1,20 +1,17 @@
 $( document ).ready(function() {
 
-  componentDidMount() {
-    this.prev = window.scrollY;
-    window.addEventListener('scroll', e => this.handleNavigation(e));
-  }
-  
-  handleNavigation = (e) => {
-    const window = e.currentTarget;
-  
-    if (this.prev > window.scrollY) {
-        console.log("scrolling up");
-    } else if (this.prev < window.scrollY) {
-        console.log("scrolling down");
-    }
-    this.prev = window.scrollY;
-  };
+  var lastScrollTop = 0;
+
+  // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
+  element.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
+     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+     if (st > lastScrollTop){
+        // downscroll code
+     } else {
+        // upscroll code
+     }
+     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+  }, false);
     
   // MENU MOBILE NAVIGATION
   
