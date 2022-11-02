@@ -121,6 +121,6 @@ const resetWishlist = () => {
 
 
 // CUSTOM
-var counter = event.detail.wishlist;
+var counter = (event.detail.wishlist);
 console.log(counts[counter]);
 
