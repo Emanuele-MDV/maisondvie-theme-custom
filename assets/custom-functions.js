@@ -36,6 +36,10 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+if(window.scrollY==0){
+ $('header').removeClass('nav-down')
+}
+
 
 $( document ).ready(function() {
   
