@@ -3690,7 +3690,7 @@ header#shopify-section-header {
     padding: 1.5rem;
     transition: all .16s ease-out;
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     width: 100%;
 }
 
@@ -3700,7 +3700,6 @@ header#shopify-section-header.nav-up{
 
 header#shopify-section-header.nav-down {
     transform: translateY(0);
-    position: fixed;
     width: 100%;
 }
 
