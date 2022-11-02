@@ -1,19 +1,50 @@
-$( document ).ready(function() {
+const body = document.body;
+const triggerMenu = document.querySelector(".shopify-section section-header .trigger-menu");
+const nav = document.querySelector(".shopify-section section-header nav");
+const menu = document.querySelector(".shopify-section section-header .menu-container");
+const lottieWrapper = document.querySelector(".lottie-wrapper");
+const lottiePlayer = document.querySelector("lottie-player");
+const scrollUp = "scroll-up";
+const scrollDown = "scroll-down";
+let lastScroll = 0;
 
-  var position = $(window).scrollTop();
- 
-  $(window).scroll(function() {
-      var scroll = $(window).scrollTop();
-      if (scroll > position) {
-          console.log('scrollDown');
-          $('header').addClass('hide');
-      } else {
-          console.log('scrollUp');
-          $('header').toggleClass('hide sticky');
-          
-      }
-      position = scroll;
-  });
+triggerMenu.addEventListener("click", () => {
+  body.classList.toggle("menu-open");
+});
+
+lottieWrapper.addEventListener("click", (e) => {
+  e.preventDefault();
+  triggerMenu.click();
+  body.classList.toggle("menu-open-with-lottie");
+});
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= 0) {
+    body.classList.remove(scrollUp);
+    return;
+  }
+
+  if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+    // down
+    body.classList.remove(scrollUp);
+    body.classList.add(scrollDown);
+    lottiePlayer.play();
+  } else if (
+    currentScroll < lastScroll &&
+    body.classList.contains(scrollDown)
+  ) {
+    // up
+    body.classList.remove(scrollDown);
+    body.classList.add(scrollUp);
+    lottiePlayer.stop();
+  }
+  lastScroll = currentScroll;
+});
+
+
+
+$( document ).ready(function() {
   
     
   // MENU MOBILE NAVIGATION
