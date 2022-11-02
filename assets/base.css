@@ -3702,11 +3702,6 @@ header#shopify-section-header.nav-down {
     width: 100%;
 }
 
-header#shopify-section-header.nav-down{
-  transform:translateY(0);
-  position:fixed;
-}
-
 a#siteBranding figure {
     margin: 0;
 }
