@@ -3913,6 +3913,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     justify-content: center;
     width: 100%;
     overflow: visible;
+    border-bottom: 1px solid #7f7f7f;
   }
 
   nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a>figure{
