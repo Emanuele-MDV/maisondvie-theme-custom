@@ -16,6 +16,9 @@
 {% render 'header-search' %}
 
 {% javascript %}
+
+  console.log('header sticky');
+  
   class StickyHeader extends HTMLElement {
     constructor() {
       super();
@@ -106,7 +109,9 @@
 
   customElements.define('sticky-header', StickyHeader);
 
-  console.log('header sticky');
+  
+
+  
 {% endjavascript %}
 
 <script type="application/ld+json">
