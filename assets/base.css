@@ -3932,6 +3932,10 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     overflow:visible;
   }
 
+  li.back {
+    display: none;
+  }
+
   nav#mainNavigation .menu-container>ul>li>ul {
     left: 0;
     top: 100%;
