@@ -3691,6 +3691,10 @@ header#shopify-section-header {
     transition:all 160ms ease-out;
 }
 
+header#shopify-section-header.nav-up{
+  transform:translateY(-100%);
+}
+
 a#siteBranding figure {
     margin: 0;
 }
