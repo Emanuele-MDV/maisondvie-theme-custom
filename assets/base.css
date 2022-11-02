@@ -3902,7 +3902,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   }
 
   nav#mainNavigation .menu-container {
-    width: calc(100% - 300px);
+    width: 100%;
     margin: 0 auto;
     padding: 0;
   }
