@@ -3871,6 +3871,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     padding: 5rem;
     flex-direction: initial;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   a#siteBranding {
@@ -3887,6 +3888,11 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   
   nav#mainNavigation {
     order: 4;
+    position: relative;
+    transform: none;
+    height: auto;
+    background: white;
+    width: 100%;
   }
 
   predictive-search.search-modal__form, .header-icons {
