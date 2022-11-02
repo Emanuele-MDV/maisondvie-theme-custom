@@ -3941,12 +3941,14 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     left: 0;
     top: 0;
     display: none;
-    visibility:hidden;
+    visibility: hidden;
+    border: 0;
+    padding: 6rem 2.5rem;
   }
 
   nav#mainNavigation .menu-container>ul>li:hover >ul{
     top:100%;
-    display:block;
+    display:inline-flex;
     visibility:visible;
   }
   
