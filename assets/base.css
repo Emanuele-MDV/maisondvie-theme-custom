@@ -3953,6 +3953,8 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     visibility: hidden;
     border: 0;
     padding: 6rem 5rem;
+    padding-right:calc(5rem + 5px);
+    padding-left:calc(5rem + 5px);
     transition: all .2s ease-out;
     width: calc( var(--page-width) + 10px);
   }
