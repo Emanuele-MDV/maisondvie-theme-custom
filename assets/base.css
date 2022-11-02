@@ -3944,6 +3944,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     visibility: hidden;
     border: 0;
     padding: 6rem 2.5rem;
+    transition:all 200ms ease-out;
   }
 
   nav#mainNavigation .menu-container>ul>li:hover >ul{
