@@ -3973,6 +3973,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
 
   nav#mainNavigation .menu-container>ul>li>ul>li, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li, nav#mainNavigation .menu-container>ul>li>ul>li a, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li a {
     height: unset;
+    border: 0;
   }
 
   nav#mainNavigation .menu-container>ul>li>ul>li>a {
