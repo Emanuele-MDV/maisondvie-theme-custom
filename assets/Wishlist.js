@@ -118,3 +118,9 @@ const wishlistContains = (handle) => {
 const resetWishlist = () => {
   return setWishlist([]);
 };
+
+
+// CUSTOM
+
+console.log(counts[Shopify Wishlist]);
+
