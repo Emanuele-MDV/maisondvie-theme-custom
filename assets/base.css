@@ -3704,6 +3704,12 @@ header predictive-search.search-modal__form input#Search-In-Modal {
     border: 1px solid gainsboro;
 }
 
+header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
+    opacity: .5;
+    font-family: 'Wotfard';
+    letter-spacing: 1px;
+}
+
 header#shopify-section-header form.search.search-modal__form:before{
   content:unset;
 }
