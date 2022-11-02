@@ -3937,15 +3937,17 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     display: none!important;
   }
 
+  nav#mainNavigation .menu-container>ul>li>ul {
+    left: 0;
+    top: 0;
+    display: none;
+    visibility:hidden;
+  }
+
   nav#mainNavigation .menu-container>ul>li:hover >ul{
     top:100%;
     display:block;
-  }
-
-  nav#mainNavigation .menu-container>ul>li>ul {
-    left: 0;
-    top: 50%;
-    display: none;
+    visibility:visible;
   }
   
 }
