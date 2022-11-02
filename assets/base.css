@@ -3694,6 +3694,16 @@ a#siteBranding figure {
     margin: 0;
 }
 
+header predictive-search.search-modal__form .field:after{
+  box-shadow:none;
+}
+
+header predictive-search.search-modal__form input#Search-In-Modal {
+    padding: 0.4rem;
+    padding-right: 4rem;
+    border: 1px solid gainsboro;
+}
+
 header#shopify-section-header form.search.search-modal__form:before{
   content:unset;
 }
