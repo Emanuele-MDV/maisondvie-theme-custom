@@ -3689,10 +3689,17 @@ header#shopify-section-header {
     align-items: center;
     padding: 1.5rem;
     transition:all 160ms ease-out;
+  background-color:white;
 }
 
 header#shopify-section-header.nav-up{
   transform:translateY(-100%);
+}
+
+header#shopify-section-header.nav-down {
+    transform: translateY(0);
+    position: fixed;
+    width: 100%;
 }
 
 header#shopify-section-header.nav-down{
