@@ -1,47 +1,40 @@
-const body = document.body;
-const triggerMenu = document.querySelector(".shopify-section section-header .trigger-menu");
-const nav = document.querySelector(".shopify-section section-header nav");
-const menu = document.querySelector(".shopify-section section-header .menu-container");
-const lottieWrapper = document.querySelector(".lottie-wrapper");
-const lottiePlayer = document.querySelector("lottie-player");
-const scrollUp = "scroll-up";
-const scrollDown = "scroll-down";
-let lastScroll = 0;
+// Hide header on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
 
-triggerMenu.addEventListener("click", () => {
-  body.classList.toggle("menu-open");
+$(window).scroll(function(event){
+    didScroll = true;
 });
 
-lottieWrapper.addEventListener("click", (e) => {
-  e.preventDefault();
-  triggerMenu.click();
-  body.classList.toggle("menu-open-with-lottie");
-});
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
 
-window.addEventListener("scroll", () => {
-  const currentScroll = window.pageYOffset;
-  if (currentScroll <= 0) {
-    body.classList.remove(scrollUp);
-    return;
-  }
-
-  if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
-    // down
-    body.classList.remove(scrollUp);
-    body.classList.add(scrollDown);
-    lottiePlayer.play();
-  } else if (
-    currentScroll < lastScroll &&
-    body.classList.contains(scrollDown)
-  ) {
-    // up
-    body.classList.remove(scrollDown);
-    body.classList.add(scrollUp);
-    lottiePlayer.stop();
-  }
-  lastScroll = currentScroll;
-});
-
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If scrolled down and past the navbar, add class .nav-up.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+  
+    lastScrollTop = st;
+}
 
 
 $( document ).ready(function() {
