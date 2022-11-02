@@ -3870,6 +3870,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   header#shopify-section-header {
     padding: 5rem;
     flex-direction: initial;
+    justify-content: space-between;
   }
 
   a#siteBranding {
@@ -3885,6 +3886,10 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   nav#mainNavigation {
     order: 4;
   }
+
+  predictive-search.search-modal__form, .header-icons {
+    width: 30%;
+}
   
 }
 
