@@ -3902,9 +3902,16 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   }
 
   nav#mainNavigation .menu-container {
-    width: 100%;
-    margin: 0;
+    width: calc(100% - 300px);
+    margin: 0 auto;
     padding: 0;
+  }
+
+  nav#mainNavigation .menu-container > ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a>figure{
