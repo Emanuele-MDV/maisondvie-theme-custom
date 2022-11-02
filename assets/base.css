@@ -3917,6 +3917,25 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a>figure{
     display:none;
   }
+
+  nav#mainNavigation .menu-container>ul>li {
+    width: fit-content;
+    border: none;
+    padding: 0 1.4rem;
+  }
+
+  nav#mainNavigation .menu-container>ul>li {
+    width: fit-content;
+    border: none;
+    padding: 0 1.4rem;
+    height: unset;
+    overflow:visible;
+  }
+
+  nav#mainNavigation .menu-container>ul>li>ul {
+    left: 0;
+    top: 100%;
+  }
   
 }
 
