@@ -3951,6 +3951,17 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     display:inline-flex;
     visibility:visible;
   }
+
+  nav#mainNavigation .menu-container>ul>li>ul>li>ul {
+    left: 0;
+    position: initial;
+  }
+
+  nav#mainNavigation .menu-container>ul>li>ul>li {
+    flex-direction: column;
+    overflow: visible;
+    height: auto;
+  }
   
 }
 
