@@ -6,10 +6,11 @@ $( document ).ready(function() {
       var scroll = $(window).scrollTop();
       if (scroll > position) {
           console.log('scrollDown');
-          //$('div').text('Scrolling Down Scripts');
+          $('header').addClass('hide');
       } else {
           console.log('scrollUp');
-          //$('div').text('Scrolling Up Scripts');
+          $('header').toggleClass('hide sticky');
+          
       }
       position = scroll;
   });
