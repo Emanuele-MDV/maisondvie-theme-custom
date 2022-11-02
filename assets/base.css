@@ -3907,11 +3907,12 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     padding: 0;
   }
 
-  nav#mainNavigation .menu-container > ul {
+  nav#mainNavigation .menu-container>ul {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow: visible;
   }
 
   nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a>figure{
