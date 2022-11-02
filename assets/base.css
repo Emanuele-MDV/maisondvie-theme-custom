@@ -3934,7 +3934,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   }
 
   li.back {
-    display: none;
+    display: none!important;
   }
 
   nav#mainNavigation .menu-container>ul>li>ul {
