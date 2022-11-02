@@ -3895,9 +3895,16 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     width: 100%;
     overflow: unset;
   }
+  
 
   predictive-search.search-modal__form, .header-icons {
     width: 30%;
+  }
+
+  nav#mainNavigation .menu-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
 }
