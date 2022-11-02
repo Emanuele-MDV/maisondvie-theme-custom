@@ -1,4 +1,18 @@
 $( document ).ready(function() {
+
+  var position = $(window).scrollTop();
+ 
+  $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > position) {
+          console.log('scrollDown');
+          //$('div').text('Scrolling Down Scripts');
+      } else {
+          console.log('scrollUp');
+          //$('div').text('Scrolling Up Scripts');
+      }
+      position = scroll;
+  });
   
     
   // MENU MOBILE NAVIGATION
