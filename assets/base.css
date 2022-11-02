@@ -3893,6 +3893,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     height: auto;
     background: white;
     width: 100%;
+    overflow: unset;
   }
 
   predictive-search.search-modal__form, .header-icons {
