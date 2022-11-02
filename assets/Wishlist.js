@@ -121,6 +121,6 @@ const resetWishlist = () => {
 
 
 // CUSTOM
-
-//console.log(counts[Shopify Wishlist]);
+var counter = event.detail.wishlist;
+console.log(counts[counter]);
 
