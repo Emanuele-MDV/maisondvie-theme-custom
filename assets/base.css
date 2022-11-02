@@ -3875,6 +3875,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
 
   header#shopify-section-header {
     padding: 5rem;
+    padding-bottom:0;
     flex-direction: initial;
     justify-content: space-between;
     flex-wrap: wrap;
