@@ -3945,13 +3945,14 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   }
 
   nav#mainNavigation .menu-container>ul>li>ul {
-    left: 0;
+    left: -5px;
     top: 0;
     display: none;
     visibility: hidden;
     border: 0;
     padding: 6rem 2.5rem;
-    transition:all 200ms ease-out;
+    transition: all .2s ease-out;
+    min-width: calc(100% + 10px);
   }
 
   nav#mainNavigation .menu-container>ul>li:hover >ul{
