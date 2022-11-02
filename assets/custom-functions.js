@@ -31,10 +31,15 @@ function hasScrolled() {
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
         }
+        if(document.body.scrollTop === 0){
+          $('header').removeClass('nav-down');
+        }
     }
   
     lastScrollTop = st;
 }
+
+
 
 
 $( document ).ready(function() {
