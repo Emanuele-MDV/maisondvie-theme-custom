@@ -3968,6 +3968,15 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
   nav#mainNavigation .menu-container>ul>li>ul>li, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li, nav#mainNavigation .menu-container>ul>li>ul>li a, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li a {
     height: unset;
   }
+
+  nav#mainNavigation .menu-container>ul>li>ul>li>a {
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+
+  nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a {
+    margin-bottom: 1.2rem;
+  }
   
 }
 
