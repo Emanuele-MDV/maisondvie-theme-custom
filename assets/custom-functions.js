@@ -11,6 +11,7 @@ $( document ).ready(function() {
     $('.hamburger').on('click', function(){
       $(this).toggleClass('close open')
       $('nav#mainNavigation').toggleClass('close open')
+      $('body').toggleClass('fixed')
     });
     
     $(".has-childlink > a").removeAttr("href");
