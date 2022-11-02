@@ -3970,6 +3970,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     flex-direction: column;
     overflow: visible;
     height: auto;
+    max-width: 14%;
   }
 
   nav#mainNavigation .menu-container>ul>li>ul>li, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li, nav#mainNavigation .menu-container>ul>li>ul>li a, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li a {
