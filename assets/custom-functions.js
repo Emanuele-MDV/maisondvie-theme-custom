@@ -15,7 +15,7 @@ setInterval(function() {
     }
 }, 250);
 
-$('main').css('padding',navbarHeight);
+$('main').css('padding-top',navbarHeight);
 
 function hasScrolled() {
     var st = $(this).scrollTop();
