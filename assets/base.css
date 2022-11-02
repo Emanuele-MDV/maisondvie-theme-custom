@@ -3939,7 +3939,8 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
 
   nav#mainNavigation .menu-container>ul>li>ul {
     left: 0;
-    top: 100%;
+    top: 50%;
+    display: none;
   }
   
 }
