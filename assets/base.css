@@ -3952,7 +3952,7 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     border: 0;
     padding: 6rem 5rem;
     transition: all .2s ease-out;
-    min-width: calc( (var(--page-width)) + 10px);
+    width: calc( var(--page-width) + 10px);
   }
 
   nav#mainNavigation .menu-container>ul>li:hover >ul{
