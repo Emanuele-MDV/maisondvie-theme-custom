@@ -3906,6 +3906,10 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     margin: 0;
     padding: 0;
   }
+
+  nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>a>figure, nav#mainNavigation .menu-container>ul>li>ul>li>ul>li>a>figure{
+    display:none;
+  }
   
 }
 
