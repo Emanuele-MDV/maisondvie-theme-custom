@@ -3729,6 +3729,10 @@ header#shopify-section-header form.search.search-modal__form:before{
   content:unset;
 }
 
+button.search__button.field__button .icon {
+    padding: 4px;
+}
+
 header#shopify-section-header predictive-search.search-modal__form .search__button .icon {
     min-height: 2.8rem;
     min-width: 2.8rem;
@@ -3853,6 +3857,12 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     margin: 0;
 }
 
+@media screen and (min-device-width:990px){
 
+  header#shopify-section-header{
+    padding:5rem;
+  }
+  
+}
 
 
