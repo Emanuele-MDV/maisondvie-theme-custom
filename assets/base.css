@@ -3950,9 +3950,9 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     display: none;
     visibility: hidden;
     border: 0;
-    padding: 6rem 2.5rem;
+    padding: 6rem 5rem;
     transition: all .2s ease-out;
-    min-width: calc(100% + 10px);
+    min-width: calc( (var(--page-width)) + 10px);
   }
 
   nav#mainNavigation .menu-container>ul>li:hover >ul{
