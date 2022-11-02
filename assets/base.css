@@ -3699,9 +3699,11 @@ header#shopify-section-header predictive-search.search-modal__form .field:after{
 }
 
 header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal {
-    padding: 0.4rem;
-    padding-right: 4rem;
+    padding: 0.4rem 4rem 0.4rem 0.4rem;
     border: 1px solid gainsboro;
+    color: black;
+    font-family: 'Wotfard';
+    letter-spacing: 1px;
 }
 
 header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
