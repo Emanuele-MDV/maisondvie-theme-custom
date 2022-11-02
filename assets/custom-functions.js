@@ -1,4 +1,20 @@
 $( document ).ready(function() {
+
+  componentDidMount() {
+    this.prev = window.scrollY;
+    window.addEventListener('scroll', e => this.handleNavigation(e));
+  }
+  
+  handleNavigation = (e) => {
+    const window = e.currentTarget;
+  
+    if (this.prev > window.scrollY) {
+        console.log("scrolling up");
+    } else if (this.prev < window.scrollY) {
+        console.log("scrolling down");
+    }
+    this.prev = window.scrollY;
+  };
     
   // MENU MOBILE NAVIGATION
   
