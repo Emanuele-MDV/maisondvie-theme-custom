@@ -3859,8 +3859,23 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
 
 @media screen and (min-device-width:990px){
 
-  header#shopify-section-header{
-    padding:5rem;
+  header#shopify-section-header {
+    padding: 5rem;
+    flex-direction: initial;
+  }
+
+  a#siteBranding {
+    order: 2;
+  }
+
+  .header-icons {
+    position: initial;
+    order: 3;
+    right: unset;
+  }
+  
+  nav#mainNavigation {
+    order: 4;
   }
   
 }
