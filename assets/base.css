@@ -3857,7 +3857,15 @@ nav#mainNavigation .menu-container>ul>li>a>figure, nav#mainNavigation .menu-cont
     margin: 0;
 }
 
+.desktop-hide {
+  display:none;
+}
+
 @media screen and (min-device-width:990px){
+
+  .desktop-hide {
+  display:block;
+  }
 
   header#shopify-section-header {
     padding: 5rem;
