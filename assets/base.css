@@ -3758,13 +3758,9 @@ h3#ContactFooter-success svg.icon.icon-success {
       right: 1.5rem;
   }
   
-  .header-icons svg.icon {
-      opacity: .7;
-  }
-  
   a.header__icon.header__icon--account.link.focus-inset svg {
     stroke-color: #333;
-    opacity: .5;
+    opacity: 1;
     width: 22px;
     height: 30px;
   }
