@@ -3678,6 +3678,28 @@ h3#ContactFooter-success svg.icon.icon-success {
 
 /* CUSTOM HEADER */
 
+/* ALL DEVICES */
+
+header#shopify-section-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem;
+      transition: all .16s ease-out;
+      background-color: #fff;
+      position: fixed;
+      width: 100%;
+  }
+  
+  header#shopify-section-header.nav-up{
+    transform:translateY(-100%);
+  }
+  
+  header#shopify-section-header.nav-down {
+      transform: translateY(0);
+      width: 100%;
+  }
+
 /* MOBILE VIEW */
 
 @media screen and (min-device-width:20px) and (max-device-width:990px){
