@@ -4022,10 +4022,16 @@ header#shopify-section-header {
     position: relative;
   }
 
-  /* TEMPORARY */
-
   nav#mainNavigation ul li ul {
     display: flex;
+    position: absolute;
+    left: 0;
+    background: white;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    min-height: 50vh;
+    visibility: hidden;
   }
   
 }
