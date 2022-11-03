@@ -4026,6 +4026,8 @@ header#shopify-section-header {
     display: flex;
     position: absolute;
     left: 0;
+    right:0;
+    margin:0 auto;
     background: white;
     width: 100%;
     padding: 0;
@@ -4072,6 +4074,10 @@ header#shopify-section-header {
     max-width: 100%;
     object-fit: cover;
     position: absolute;
+  }
+
+  nav#mainNavigation .menu-container>ul>li>ul>li>a {
+    font-weight: 600;
   }
   
 }
