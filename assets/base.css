@@ -3754,7 +3754,7 @@ header#shopify-section-header predictive-search.search-modal__form .search__butt
 }
 
 a.header__icon.header__icon--account.link.focus-inset svg {
-  stroke: #333;
+  stroke-color: #333;
   stroke-width: 1px;
   opacity: 1;
   width: 22px;
