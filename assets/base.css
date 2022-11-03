@@ -3948,6 +3948,10 @@ header#shopify-section-header {
     width:100%;
   }
 
+  .header-icons, predictive-search.search-modal__form {
+    width: 25%;
+  }
+
   /* TEMPORARY */
 
   nav#mainNavigation {
