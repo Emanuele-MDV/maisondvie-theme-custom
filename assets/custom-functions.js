@@ -92,5 +92,12 @@ $( document ).ready(function() {
     
   } 
 
+  // MENU DESKTOP NAVIGATION
+
+  if (window.matchMedia("(min-width: 991px)").matches) {
+    var windoWidth = $(window).width();
+    console.log(windoWidth);
+  }
+
 
 });
