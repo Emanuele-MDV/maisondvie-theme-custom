@@ -4034,12 +4034,14 @@ header#shopify-section-header {
     visibility: hidden;
     justify-content: space-between;
     top: 0;
+    opacity:0;
     transition: all 180ms ease-in-out;
   }
 
   nav#mainNavigation ul li:hover ul{
     visibility: visible;
     top: 100%;
+    opacity:1;
   }
   
 }
