@@ -15,7 +15,7 @@ setInterval(function() {
     }
 }, 250);
 
-$('main').css('padding-top',navbarHeight);
+
 
 function hasScrolled() {
     var st = $(this).scrollTop();
@@ -45,6 +45,8 @@ function hasScrolled() {
 
 
 $( document ).ready(function() {
+
+  $('main').css('padding-top',navbarHeight);
   
     
   // MENU MOBILE NAVIGATION
