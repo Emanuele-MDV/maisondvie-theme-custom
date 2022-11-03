@@ -3720,6 +3720,7 @@ header#shopify-section-header predictive-search.search-modal__form input#Search-
 }
 
 header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
+    opacity: .8;
     font-family: 'Wotfard';
     letter-spacing: 1px;
     color:black;
