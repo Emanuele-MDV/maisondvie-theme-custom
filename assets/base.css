@@ -3934,10 +3934,6 @@ header#shopify-section-header {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 0;
-    max-width: 1024px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
   }
 
   header#shopify-section-header predictive-search.search-modal__form {
