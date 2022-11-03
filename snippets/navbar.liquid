@@ -25,6 +25,8 @@
         </a>
         
         {% if link.levels >= 1 %}
+
+          <div>
           <ul {% if link.levels < 2 %}class="single-column"{% endif %}>
             <li class="back">
               <a>Back</a>
@@ -148,7 +150,7 @@
           </ul>
         {% endif %}
 
-        
+        </div>
       
       </li>
     {% endfor %}
