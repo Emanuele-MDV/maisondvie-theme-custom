@@ -4090,7 +4090,11 @@ header#shopify-section-header {
     position: absolute;
   }
 
-  
+  ul.single-column {
+    flex-direction: column;
+    justify-content: flex-start!important;
+    align-items: flex-start;
+  }
   
 }
 
