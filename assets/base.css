@@ -4032,6 +4032,9 @@ header#shopify-section-header {
     list-style: none;
     min-height: 50vh;
     visibility: hidden;
+    justify-content: space-between;
+    top: 0;
+    transition: all 180ms ease-in-out;
   }
   
 }
