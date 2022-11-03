@@ -3974,6 +3974,11 @@ header#shopify-section-header {
     margin: 0;
   }
 
+  a.header__icon, button.search__button.field__button {
+    width: 48px;
+    height: 48px;
+  }
+
   /* TEMPORARY */
 
   nav#mainNavigation {
