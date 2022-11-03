@@ -3967,7 +3967,7 @@ header#shopify-section-header {
       left: 8px;
   }
 
-  input#Search-In-Modal {
+  header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal {
     padding: 0;
     min-height: 50px;
     border: 0;
