@@ -3926,6 +3926,11 @@ header#shopify-section-header {
   display:block;
   }
 
+  header#shopify-section-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   /* TEMPORARY */
 
   nav#mainNavigation {
