@@ -4049,6 +4049,16 @@ header#shopify-section-header {
     opacity:1;
   }
 
+  nav#mainNavigation .menu-container>ul>li>ul>li>a {
+    font-weight: 600;
+  }
+
+  nav#mainNavigation .menu-container>ul>li>ul>li>ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+/* 
   li.mega-menu-figure {
     width: 40%;
     overflow: hidden;
@@ -4075,10 +4085,8 @@ header#shopify-section-header {
     object-fit: cover;
     position: absolute;
   }
-
-  nav#mainNavigation .menu-container>ul>li>ul>li>a {
-    font-weight: 600;
-  }
+ */
+  
   
 }
 
