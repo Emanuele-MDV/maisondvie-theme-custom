@@ -3681,6 +3681,10 @@ h3#ContactFooter-success svg.icon.icon-success {
 /* MOBILE VIEW */
 
 @media screen and (min-device-width:20px) and (max-device-width:990px){
+
+  .mbl-hide{
+    display:none;
+  }
   
 
   body.fixed {
