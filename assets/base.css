@@ -3712,17 +3712,17 @@ header#shopify-section-header predictive-search.search-modal__form .field:after{
 }
 
 header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal {
-    padding: 0.4rem 4rem 0.4rem 0.4rem;
-    border: 1px solid gainsboro;
-    color: black;
-    font-family: 'Wotfard';
+    padding: 0.4rem 4rem 0.4rem 0;
+    border-bottom: 1px solid black;
+    color: #000;
+    font-family: Wotfard;
     letter-spacing: 1px;
 }
 
 header#shopify-section-header predictive-search.search-modal__form input#Search-In-Modal::placeholder {
-    opacity: .5;
     font-family: 'Wotfard';
     letter-spacing: 1px;
+    color:black;
 }
 
 header#shopify-section-header form.search.search-modal__form:before{
