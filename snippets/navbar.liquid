@@ -102,10 +102,10 @@
                     
 
                     <a href="{{ new_women.url | escape }}" class="full">
-                      <div class="main-new women">
+                      
                         <figure>{{ new_women.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                         <p>What's new <span>for women</span></p>
-                      </div>
+                      
                     </a>
 
 
@@ -118,10 +118,10 @@
                         
 
                           <a href="{{ new_men.url | escape }}" class="full">
-                            <div class="main-new men">
+                            
                               <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
                               <p>What's new <span>for men</span></p>
-                            </div>
+                            
                           </a>
 
                   {% endif %}
@@ -130,7 +130,6 @@
                 {% elsif link.type == 'page_link' %}
 
                 <a href="{{ link.url | escape }}"  class="full">
-                  <div>
 
                     {% if link.object.metafields.custom.page_featured_image != blank %}
                     <figure>{{ link.object.metafields.custom.page_featured_image | image_url: width: 500 | image_tag }}</figure>
@@ -138,7 +137,6 @@
 
                     <p>Browse all {{ link.title | escape }}</p>
 
-                  </div>
                 </a>
 
                 {% endif %}
