@@ -3946,6 +3946,10 @@ header#shopify-section-header {
     order: 2;
   }
 
+  a#siteBranding figure {
+    margin: 0;
+  }
+
   .header-icons {
     order: 3;
     display: flex;
@@ -3960,8 +3964,9 @@ header#shopify-section-header {
   }
 
   .header-icons, predictive-search.search-modal__form {
-    width: 25%;
+    width: 32%;
     min-height: 50px;
+    margin-bottom: 12px;
   }
 
   .cart-count-bubble {
