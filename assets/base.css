@@ -4005,6 +4005,11 @@ header#shopify-section-header {
     margin-top: 2.4rem;
   }
 
+  nav#mainNavigation a {
+    color: black;
+    text-decoration: none;
+  }
+
   /* TEMPORARY */
 
   nav#mainNavigation ul li ul {
