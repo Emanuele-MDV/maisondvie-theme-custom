@@ -4037,7 +4037,6 @@ header#shopify-section-header {
     opacity: 0;
     transition: all .18s ease-in-out;
     padding-top:2.6rem;
-    padding-left: 5rem;
   }
 
   nav#mainNavigation .menu-container>ul>li:hover>ul{
