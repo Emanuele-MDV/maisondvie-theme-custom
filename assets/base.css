@@ -3934,6 +3934,7 @@ header#shopify-section-header {
     padding-left:5rem;
     padding-right:5rem;
     padding-bottom:0;
+    position: relative;
   }
 
   header#shopify-section-header predictive-search.search-modal__form {
@@ -4019,7 +4020,6 @@ header#shopify-section-header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    position: relative;
   }
 
   nav#mainNavigation .menu-container>ul>li>ul {
