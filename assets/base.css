@@ -4049,10 +4049,11 @@ header#shopify-section-header {
   li.mega-menu-figure {
     width: 40%;
     overflow: hidden;
+    position: relative;
   }
 
   li.mega-menu-figure a {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
   }
