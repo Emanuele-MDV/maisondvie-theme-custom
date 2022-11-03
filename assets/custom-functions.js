@@ -86,7 +86,7 @@ $( document ).ready(function() {
       $( this ).parent('ul').removeClass('open');
     })
   
-    $('header').prepend('a.header__icon--wishilst');
+    $('header').prepend( $('a.header__icon--wishilst') );
     
   } 
 
