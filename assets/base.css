@@ -3945,6 +3945,7 @@ header#shopify-section-header {
 
   nav#mainNavigation {
     order: 4;
+    width:100%;
   }
 
   /* TEMPORARY */
