@@ -3741,6 +3741,10 @@ header#shopify-section-header predictive-search.search-modal__form .search__butt
     opacity: .5;
 }
 
+.field__input:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus.localization-form__select:after{
+  box-shadow:none!important;
+}
+
 .header-icons {
     display: flex;
     width: 25%;
