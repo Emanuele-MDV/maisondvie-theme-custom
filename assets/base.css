@@ -3752,10 +3752,15 @@ h3#ContactFooter-success svg.icon.icon-success {
   
   .header-icons {
       display: flex;
-      width: 25%;
+      width: 22%;
       justify-content: space-between;
       position: absolute;
       right: 1.5rem;
+  }
+
+  a.header__icon.header__icon--wishilst {
+    position: absolute;
+    left: 6.5rem;
   }
 
   a.header__icon{
