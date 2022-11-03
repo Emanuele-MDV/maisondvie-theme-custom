@@ -4000,6 +4000,7 @@ header#shopify-section-header {
     order: 4;
     width: 100%;
     margin-top: 2.4rem;
+    position:relative;
   }
 
   li.back {
@@ -4042,6 +4043,17 @@ header#shopify-section-header {
     visibility: visible;
     top: 100%;
     opacity:1;
+  }
+
+  li.mega-menu-figure {
+    width: 40%;
+    position: relative;
+  }
+
+  li.mega-menu-figure a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
   
 }
