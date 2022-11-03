@@ -3936,6 +3936,7 @@ header#shopify-section-header {
     padding-top:2.8rem;
     padding-left:5rem;
     padding-right:5rem;
+    flex-wrap: wrap;
   }
 
   header#shopify-section-header predictive-search.search-modal__form {
