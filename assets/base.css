@@ -3993,6 +3993,16 @@ header#shopify-section-header {
     padding: 6px;
   }
 
+  nav#mainNavigation .menu-container > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   /* TEMPORARY */
 
   nav#mainNavigation ul li ul {
