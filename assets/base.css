@@ -3742,6 +3742,7 @@ header#shopify-section-header {
       background-color: #fff;
       position: fixed;
       width: 100%;
+      max-width: var(--page-width);
   }
   
   header#shopify-section-header.nav-up{
