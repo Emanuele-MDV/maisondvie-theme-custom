@@ -3914,10 +3914,6 @@ header#shopify-section-header {
       height: 100px;
       margin: 0;
   }
-  
-  .desktop-hide {
-    display:none;
-  }
 
 
 }
@@ -3927,7 +3923,7 @@ header#shopify-section-header {
 @media screen and (min-device-width:991px){
 
   .desktop-hide {
-  display:block;
+  display:none;
   }
 
   header#shopify-section-header {
