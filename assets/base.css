@@ -3937,6 +3937,7 @@ header#shopify-section-header {
 
   header#shopify-section-header predictive-search.search-modal__form {
     order: 1;
+    border-bottom: 1px solid black;
   }
 
   a#siteBranding {
@@ -3958,6 +3959,7 @@ header#shopify-section-header {
 
   .header-icons, predictive-search.search-modal__form {
     width: 25%;
+    min-height: 50px;
   }
 
   .cart-count-bubble {
