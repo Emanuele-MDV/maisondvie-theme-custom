@@ -3945,6 +3945,10 @@ header#shopify-section-header {
 
   .header-icons {
     order: 3;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 1.4rem;
+    border-bottom: 1px solid black;
   }
 
   nav#mainNavigation {
@@ -3954,6 +3958,11 @@ header#shopify-section-header {
 
   .header-icons, predictive-search.search-modal__form {
     width: 25%;
+  }
+
+  .cart-count-bubble {
+      background: #c72626;
+      left: 8px;
   }
 
   /* TEMPORARY */
