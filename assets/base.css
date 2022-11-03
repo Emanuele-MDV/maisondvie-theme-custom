@@ -3933,6 +3933,7 @@ header#shopify-section-header {
   header#shopify-section-header {
     flex-direction: row;
     justify-content: space-between;
+    padding-top:2.8rem;
     padding-left:5rem;
     padding-right:5rem;
   }
