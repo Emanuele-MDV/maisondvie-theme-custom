@@ -90,7 +90,63 @@
               </li>
             {%- endfor -%}
 
-            <li class="placeholder"></li>
+            <li class="placeholder">
+
+              {% if link.type == 'collection_link' %}
+
+
+                    {% if link.url contains "women" %}
+
+                    {% assign new_women = collections['new-products-women'] %}
+
+                    
+
+                    <a href="{{ new_women.url | escape }}" class="full">
+                      <div class="main-new women">
+                        <figure>{{ new_women.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
+                        <p>What's new <span>for women</span></p>
+                      </div>
+                    </a>
+
+
+
+
+                    {% elsif link.url contains "men" %}
+
+                      {% assign new_men = collections['new-products-men'] %}
+
+                        
+
+                          <a href="{{ new_men.url | escape }}" class="full">
+                            <div class="main-new men">
+                              <figure>{{ new_men.image | image_url: width: 500 | image_tag: loading: 'lazy', srcset: nil }}</figure>
+                              <p>What's new <span>for men</span></p>
+                            </div>
+                          </a>
+
+                  {% endif %}
+
+
+                {% elsif link.type == 'page_link' %}
+
+                <a href="{{ link.url | escape }}"  class="full">
+                  <div>
+
+                    {% if link.object.metafields.custom.page_featured_image != blank %}
+                    <figure>{{ link.object.metafields.custom.page_featured_image | image_url: width: 500 | image_tag }}</figure>
+                    {% endif %}
+
+                    <p>Browse all {{ link.title | escape }}</p>
+
+                  </div>
+                </a>
+
+                {% endif %}
+              
+            </li>
+
+
+            
           </ul>
         {% endif %}
 
