@@ -3995,6 +3995,10 @@ header#shopify-section-header {
     margin-top: 2.4rem;
   }
 
+  li.back {
+    display: none;
+  }
+
   nav#mainNavigation a {
     color: black;
     text-decoration: none;
