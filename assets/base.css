@@ -4025,7 +4025,7 @@ header#shopify-section-header {
   /* TEMPORARY */
 
   nav#mainNavigation ul li ul {
-    display: none;
+    display: flex;
   }
   
 }
