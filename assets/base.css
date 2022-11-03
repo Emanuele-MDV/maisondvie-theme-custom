@@ -3753,6 +3753,12 @@ header#shopify-section-header predictive-search.search-modal__form .search__butt
     opacity: .7;
 }
 
+a.header__icon.header__icon--account.link.focus-inset svg {
+    fill: transparent!important;
+    stroke: #333333;
+    stroke-width: 1px;
+}
+
 .cart-count-bubble {
     background: #c72626;
     left: 8px;
