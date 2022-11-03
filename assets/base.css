@@ -4036,6 +4036,7 @@ header#shopify-section-header {
     top: 0;
     opacity: 0;
     transition: all .18s ease-in-out;
+    padding-top:2.6rem;
     padding-left: 5rem;
   }
 
