@@ -3742,7 +3742,6 @@ header#shopify-section-header {
       background-color: #fff;
       position: fixed;
       width: 100%;
-      max-width: var(--page-width);
   }
   
   header#shopify-section-header.nav-up{
@@ -3935,6 +3934,7 @@ header#shopify-section-header {
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 0;
+    max-width: var(--page-width);
   }
 
   header#shopify-section-header predictive-search.search-modal__form {
