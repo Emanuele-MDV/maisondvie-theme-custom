@@ -4022,7 +4022,7 @@ header#shopify-section-header {
     position: relative;
   }
 
-  nav#mainNavigation ul li ul {
+  nav#mainNavigation>ul>li>ul {
     display: flex;
     position: absolute;
     left: 0;
@@ -4038,7 +4038,7 @@ header#shopify-section-header {
     transition: all 180ms ease-in-out;
   }
 
-  nav#mainNavigation ul li:hover ul{
+  nav#mainNavigation>ul>li:hover>ul{
     visibility: visible;
     top: 100%;
     opacity:1;
