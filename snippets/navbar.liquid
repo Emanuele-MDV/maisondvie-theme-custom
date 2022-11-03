@@ -8,7 +8,7 @@
         <span>{{ link.title | escape }}</span>
         
         {% if link.type == 'collection_link' and link.object.image %}
-          <figure>            
+          <figure class="desktop-hide">            
           <img
           src="{{ link.object.image | img_url: '100x100', crop:'center' }}"
           alt="Shop {{ link.title | escape }} online catalogue"
@@ -37,7 +37,7 @@
               <span>{{ childlink.title | escape }}</span>
                 
               {% if childlink.type == 'collection_link' and childlink.object.image %}
-                <figure>            
+                <figure class="desktop-hide">            
                 <img
                 src="{{ childlink.object.image | img_url: '100x100', crop:'center' }}"
                 alt="Shop {{ childlink.title | escape }} online catalogue"
@@ -66,7 +66,7 @@
                         <span>{{ grandchildlink.title | escape }}</span>
 
                         {% if grandchildlink.type == 'collection_link' %}
-                        <figure>            
+                        <figure class="desktop-hide">            
                         <img
                         src="{% if grandchildlink.object.image %}{{ grandchildlink.object.image | img_url: '100x100', crop:'center' }}{% else %}{{ childlink.object.image | img_url: '100x100', crop:'center' }}{% endif %}"
                         alt="Shop {{ grandchildlink.title | escape }} online catalogue"
