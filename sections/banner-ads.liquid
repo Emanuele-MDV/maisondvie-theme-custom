@@ -25,7 +25,9 @@
 
   {% if count >= 2 %}
   <ul class="splide__list">
-    <li class="splide__slide banner-container">Slide 01</li>
+    {% for block in section.blocks %}
+      <li class="splide__slide banner-container">Slide 01</li>
+    {% endfor %}
   </ul>
   {% else %}
     <div class="banner-container">Single slide</div>
