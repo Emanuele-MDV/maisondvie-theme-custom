@@ -15,6 +15,13 @@
         "outline_btn": false
       }
     },
+    "980c09fe-9f5b-4c63-90c9-e90f5ab1b048": {
+      "type": "banner-ads",
+      "settings": {
+        "header_size": "medium",
+        "css_class": ""
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -272,6 +279,7 @@
   },
   "order": [
     "166305123918b33308",
+    "980c09fe-9f5b-4c63-90c9-e90f5ab1b048",
     "featured_collection",
     "16559727415455c775",
     "16630620193a9ad795",
