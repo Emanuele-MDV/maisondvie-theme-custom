@@ -15,56 +15,6 @@
         "outline_btn": false
       }
     },
-    "8a6325c4-b63a-4e2e-991c-ee9395d4be65": {
-      "type": "banner-ads",
-      "blocks": {
-        "28872dd9-1f44-4c86-97db-e30ef9ecf103": {
-          "type": "heading",
-          "settings": {
-            "slide_title": "",
-            "slide_text": "",
-            "text_btn": "Shop now",
-            "slide_link": "",
-            "text_align": "left",
-            "bg_color": "silver"
-          }
-        },
-        "46c23194-97de-464d-a6d1-decb67428536": {
-          "type": "heading",
-          "settings": {
-            "slide_title": "",
-            "slide_text": "",
-            "text_btn": "Shop now",
-            "slide_link": "",
-            "text_align": "left",
-            "bg_color": "silver"
-          }
-        },
-        "a16dd37b-86b9-45d8-9cad-db50f92898a0": {
-          "type": "heading",
-          "settings": {
-            "slide_title": "",
-            "slide_text": "",
-            "text_btn": "Shop now",
-            "slide_link": "",
-            "text_align": "left",
-            "bg_color": "silver"
-          }
-        }
-      },
-      "block_order": [
-        "28872dd9-1f44-4c86-97db-e30ef9ecf103",
-        "46c23194-97de-464d-a6d1-decb67428536",
-        "a16dd37b-86b9-45d8-9cad-db50f92898a0"
-      ],
-      "settings": {
-        "header_size": "medium",
-        "section_title": "",
-        "section_description": "",
-        "show_text": false,
-        "css_class": "slider-new-prod"
-      }
-    },
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde": {
       "type": "banner-ads",
       "blocks": {
@@ -73,6 +23,7 @@
           "settings": {
             "slide_title": "",
             "slide_text": "",
+            "bg_img": false,
             "text_btn": "Shop now",
             "slide_link": "",
             "text_align": "left",
@@ -85,8 +36,8 @@
       ],
       "settings": {
         "header_size": "medium",
-        "section_title": "",
-        "section_description": "",
+        "section_title": "What's new on MDV",
+        "section_description": "that is a description!",
         "show_text": false,
         "css_class": "banner-container"
       }
@@ -348,7 +299,6 @@
   },
   "order": [
     "166305123918b33308",
-    "8a6325c4-b63a-4e2e-991c-ee9395d4be65",
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde",
     "featured_collection",
     "16559727415455c775",
