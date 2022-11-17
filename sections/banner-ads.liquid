@@ -12,7 +12,7 @@
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
   
-      $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('test');
+      $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('{{ section.settings.css_class }}');
 
       new Splide( '.splide' ).mount();
       
