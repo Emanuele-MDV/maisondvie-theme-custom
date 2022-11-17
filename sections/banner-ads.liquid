@@ -24,28 +24,24 @@
 
 <div class="{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
 
-  {% if count >= 2 %}
-    
-  <ul class="splide__list">
-    {% for block in section.blocks %}
-      <li class="splide__slide">
-        <article class="banner-container page-width">
-          Multiple slides
-        </article>
-      </li>
-    {% endfor %}
-  </ul>
+  {% if count >= 2 %}<ul class="splide__list">{% endif %}
   
-  {% else %}
+    {% for block in section.blocks %}
+      
+      {% if count >= 2 %}<li class="splide__slide">{% endif %}
 
-    {% for block in section.blocks %}
-      <article class="banner-container page-width">
-        Slide single
-      </article>
+        
+        <article class="banner-container page-width">
+          Slide content
+        </article>
+
+        
+      {% if count >= 2 %}</li>{% endif %}
     {% endfor %}
+  {% if count >= 2 %}</ul>{% endif %}
     
   
-  {% endif %}
+  
   
 </div>
 
