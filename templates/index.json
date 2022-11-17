@@ -35,9 +35,9 @@
         "b5196da9-e3ea-45e6-8f95-ccc57c5f5db5"
       ],
       "settings": {
+        "section_title": "",
         "header_size": "medium",
-        "section_title": "What's new on MDV",
-        "section_description": "that is a description!",
+        "section_description": "",
         "show_text": true,
         "css_class": "banner-static"
       }
