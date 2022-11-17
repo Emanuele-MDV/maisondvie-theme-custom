@@ -63,7 +63,10 @@
             {% if image.width > 700 %}{{ image.src | img_url: 'x700' }} 700w{% endif %}
             " 
             sizes="
-            {% if image.width > 900 %}(min-width: 1200px) 1600px{% else %}(min-width: 1200px) 750px{% endif %}, (min-width: 720px) 550px, 100vw"
+            (min-width: 1024px) 700px,
+            (min-width: 720px) 620px,
+            (min-width: 360px) 480px,
+            100vw"
             />
           </figure>
         </article>
