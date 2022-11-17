@@ -1,0 +1,43 @@
+<div class="page-width">
+  
+</div>
+
+{% schema %}
+  {
+    "name": "Banner Ads",
+    "tag":"section",
+    "class":"banner-slider-links",
+    "settings": [
+      {
+        "type":"select",
+        "id":"header_size",
+        "label":"Title font size",
+        "options":[
+          {
+            "value": "small",
+            "label": "t:sections.image-banner.settings.image_height.options__1.label"
+          },
+          {
+            "value": "medium",
+            "label": "t:sections.image-banner.settings.image_height.options__2.label"
+          },
+          {
+            "value": "large",
+            "label": "t:sections.image-banner.settings.image_height.options__3.label"
+          }
+        ],
+        "default":"medium"
+      },
+      {
+        "type":"text",
+        "id":"css_class",
+        "label":"Add CSS classes"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Banner with Ads"
+      }
+    ]
+  }
+{% endschema %}
