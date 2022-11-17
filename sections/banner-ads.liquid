@@ -6,7 +6,7 @@
 {% endfor %}
 
 {% if count >= 2 %}
-  <link rel="stylesheet" href="{{ 'splide-core.min.css' | asset_url }}">
+  <link rel="stylesheet" href="{{ 'splide-core.min.css' | asset_url }}" media="print" onload="this.media('all')">
   <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
 
   <script>
@@ -26,6 +26,8 @@
     } );
   </script>
 {% endif %}
+
+
 
 {% comment %} Carousel container, same objects even if is carousel or not {% endcomment %}
 
@@ -218,11 +220,3 @@
     ]
   }
 {% endschema %}
-
-
-
-<style>
-  .hide{
-    display:none;
-  }
-</style>
