@@ -18,17 +18,6 @@
     "980c09fe-9f5b-4c63-90c9-e90f5ab1b048": {
       "type": "banner-ads",
       "blocks": {
-        "c5ec1b41-498d-483c-b64f-bdb92213d52f": {
-          "type": "heading",
-          "settings": {
-            "slide_title": "",
-            "slide_text": "",
-            "text_btn": "Shop now",
-            "slide_link": "",
-            "text_align": "left",
-            "bg_color": "silver"
-          }
-        },
         "cab924ba-e0e7-4038-8de2-037ace342aa3": {
           "type": "heading",
           "settings": {
@@ -42,7 +31,6 @@
         }
       },
       "block_order": [
-        "c5ec1b41-498d-483c-b64f-bdb92213d52f",
         "cab924ba-e0e7-4038-8de2-037ace342aa3"
       ],
       "settings": {
