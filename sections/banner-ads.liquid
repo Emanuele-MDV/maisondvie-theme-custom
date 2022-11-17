@@ -58,14 +58,14 @@
             src="{{ image.src | img_url: 'x360' }}" 
             alt="{{ image.alt | escape }}"
             srcset="
-            {% if image.width > 340 %}{{ image.src | img_url: '325x480' }} 480w{% endif %},
-            {% if image.width > 620 %}{{ image.src | img_url: '420x620' }} 620w{% endif %},
-            {% if image.width > 700 %}{{ image.src | img_url: '480x700' }} 700w{% endif %}
+            {% if image.width > 340 %}{{ image.src | img_url: '325x480' }} 325w{% endif %},
+            {% if image.width > 620 %}{{ image.src | img_url: '420x620' }} 420w{% endif %},
+            {% if image.width > 700 %}{{ image.src | img_url: '480x700' }} 480w{% endif %}
             " 
             sizes="
-            (min-width: 1024px) 700px,
-            (min-width: 720px) 620px,
-            (min-width: 360px) 480px,
+            (min-width: 1024px) 480px,
+            (min-width: 720px) 420px,
+            (min-width: 360px) 325px,
             100vw"
             />
           </figure>
