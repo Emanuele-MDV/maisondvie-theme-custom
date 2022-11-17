@@ -31,7 +31,7 @@
 
 <div class="{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
 
-  {% if section.settings.section_title or section.settings.section_description %}
+  {% if section.settings.section_title != empty or section.settings.section_description != empty %}
   <div class="section-title{% if section.settings.show_text == true %} hide{% endif %}">
     <h2 class="{{ section.settings.header_size }}"></h2>
   </div>
