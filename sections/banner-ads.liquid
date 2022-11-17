@@ -9,7 +9,7 @@
 
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
-      $('.banner-slider-links', this).addClass('splide');
+      $('{{ section.settings.css_class }}').prent().addClass('splide');
     } );
   </script>
 
@@ -65,6 +65,7 @@
       {
         "type":"text",
         "id":"css_class",
+        "default":"banner-container",
         "label":"Add CSS classes"
       }
     ],
