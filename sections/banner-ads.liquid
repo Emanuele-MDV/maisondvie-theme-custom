@@ -32,7 +32,7 @@
 <div class="{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
 
   <div class="section-title{% if section.settings.show_text == true %} hide{% endif %}">
-    <h2 class=""></h2>
+    <h2 class="{{ section.settings.header_size }}"></h2>
   </div>
 
   {% if count >= 2 %}<ul class="splide__list">{% endif %}
