@@ -56,7 +56,7 @@
             {% assign image = block.settings.slide_image %}
             <img 
             src="{{ image.src | img_url: 'x360' }}" 
-            alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}"
+            alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
             srcset="
             {% if image.width > 300 %}{{ image.src | img_url: '325x480', crop : 'top' }} 325w{% endif %},
             {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
