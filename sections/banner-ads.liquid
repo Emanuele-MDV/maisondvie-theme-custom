@@ -51,8 +51,8 @@
       {% if count >= 2 %}<li class="splide__slide">{% endif %}
 
         
-        <article class="banner-container page-width">
-          Slide content
+        <article class="banner-container page-width bg-{{ block.settings.bg_color }}">
+          
         </article>
 
         
@@ -189,6 +189,10 @@
             "id":"bg_color",
             "label":"Select a background color for the slide",
             "options":[
+              {
+                "value":"white",
+                "label":"White"
+              },
               {
                 "value":"silver",
                 "label":"Silver"
