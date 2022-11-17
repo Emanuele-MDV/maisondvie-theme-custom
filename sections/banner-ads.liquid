@@ -58,9 +58,9 @@
             src="{{ image.src | img_url: 'x360' }}" 
             alt="{{ image.alt | escape }}"
             srcset="
-            {% if image.width > 340 %}{{ image.src | img_url: 'x480' }} 480h{% endif %},
-            {% if image.width > 620 %}{{ image.src | img_url: 'x620' }} 620h{% endif %},
-            {% if image.width > 700 %}{{ image.src | img_url: 'x700' }} 700h{% endif %}
+            {% if image.width > 340 %}{{ image.src | img_url: 'x480' }} 480w{% endif %},
+            {% if image.width > 620 %}{{ image.src | img_url: 'x620' }} 620w{% endif %},
+            {% if image.width > 700 %}{{ image.src | img_url: 'x700' }} 700w{% endif %}
             " 
             sizes="
             (min-width: 1024px) 700px,
