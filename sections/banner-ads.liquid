@@ -14,12 +14,7 @@
   
       $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('{{ section.settings.css_class }}');
 
-      //new Splide( '.splide.{{ section.settings.css_class }}' ).mount();
-
-      new Splide( '.splide.{{ section.settings.css_class }}', {
-        start  : 3,
-        perPage: 3,
-      } );
+      new Splide( '.splide.{{ section.settings.css_class }}' ).mount();
       
     } );
   </script>
