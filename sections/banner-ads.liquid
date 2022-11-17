@@ -1,3 +1,5 @@
+{% comment %} Counting the slides --> if more than one it activates the slider {% endcomment %}
+
 {% assign count = 0 %}
 {% for block in section.blocks %}
        {% assign count = count | plus: 1 %}
@@ -12,11 +14,16 @@
       $('.{{ section.settings.css_class }}').parent().addClass('splide');
     } );
   </script>
-
-
 {% endif %}
 
-<div class="page-width{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}">
+
+<div class="page-width{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
+
+  <ul class="splide__list">
+    <li class="splide__slide">Slide 01</li>
+    <li class="splide__slide">Slide 02</li>
+    <li class="splide__slide">Slide 03</li>
+  </ul>
   
 </div>
 
