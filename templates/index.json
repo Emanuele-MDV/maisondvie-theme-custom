@@ -28,10 +28,22 @@
             "text_align": "left",
             "bg_color": "silver"
           }
+        },
+        "0401345c-a372-413d-b5d3-1e83d29a4dc3": {
+          "type": "heading",
+          "settings": {
+            "slide_title": "",
+            "slide_text": "",
+            "text_btn": "Shop now",
+            "slide_link": "",
+            "text_align": "left",
+            "bg_color": "silver"
+          }
         }
       },
       "block_order": [
-        "cab924ba-e0e7-4038-8de2-037ace342aa3"
+        "cab924ba-e0e7-4038-8de2-037ace342aa3",
+        "0401345c-a372-413d-b5d3-1e83d29a4dc3"
       ],
       "settings": {
         "header_size": "medium",
