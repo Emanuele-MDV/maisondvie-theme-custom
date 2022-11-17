@@ -1,3 +1,10 @@
+{% assign count = 0 %}
+{% for block in section.blocks %}
+       {% assign count = count | plus: 1 %}
+{% endfor %}
+
+{% if count > 2 %}custom-class{% endif %}
+
 <div class="page-width">
   
 </div>
