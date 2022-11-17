@@ -35,6 +35,7 @@
         "b5196da9-e3ea-45e6-8f95-ccc57c5f5db5"
       ],
       "settings": {
+        "is_first": true,
         "section_title": "What's new on MDV",
         "header_size": "h1",
         "section_description": "that is a description!",
