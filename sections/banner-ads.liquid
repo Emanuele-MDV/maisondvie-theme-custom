@@ -24,13 +24,19 @@
 <div class="page-width{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
 
   {% if count >= 2 %}
+    
   <ul class="splide__list">
     {% for block in section.blocks %}
       <li class="splide__slide banner-container">Slide 01</li>
     {% endfor %}
   </ul>
+  
   {% else %}
-    <div class="banner-container">Single slide</div>
+    
+    <div class="banner-container">
+      
+    </div>
+  
   {% endif %}
   
 </div>
