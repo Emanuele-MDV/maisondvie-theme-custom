@@ -17,6 +17,23 @@
     },
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde": {
       "type": "banner-ads",
+      "blocks": {
+        "d7f9af9e-d16f-4e2d-86a3-338869a2f10e": {
+          "type": "heading",
+          "settings": {
+            "slide_title": "",
+            "slide_text": "",
+            "bg_img": false,
+            "text_btn": "Shop now",
+            "slide_link": "",
+            "text_align": "left",
+            "bg_color": "white"
+          }
+        }
+      },
+      "block_order": [
+        "d7f9af9e-d16f-4e2d-86a3-338869a2f10e"
+      ],
       "settings": {
         "is_first": true,
         "section_title": "What's new on MDV",
