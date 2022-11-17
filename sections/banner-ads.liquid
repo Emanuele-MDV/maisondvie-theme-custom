@@ -32,10 +32,13 @@
   </ul>
   
   {% else %}
-    
-    <div class="banner-container">
+
+    {% for block in section.blocks %}
+      <div class="banner-container">
       
-    </div>
+      </div>
+    {% endfor %}
+    
   
   {% endif %}
   
