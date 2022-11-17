@@ -16,7 +16,8 @@
 
       new Splide( '.splide.{{ section.settings.css_class }}',
       {
-        rewind: true,
+        type    : 'loop',
+        autoplay: 'pause'
       } ).mount();
       
     } );
