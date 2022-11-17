@@ -1,6 +1,6 @@
-{% unless section.settings.is_first == true %}
+{% if section.settings.is_first == true %}
 <link rel="stylesheet" href="{{ 'banner-ads.css' | asset_url }}" media="print" onload="this.media='all'">
-{% endunless %}
+{% endif %}
 
 {% comment %} Counting the slides --> if more than one it activates the slider {% endcomment %}
 
