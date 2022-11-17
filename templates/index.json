@@ -36,7 +36,7 @@
       ],
       "settings": {
         "section_title": "What's new on MDV",
-        "header_size": "medium",
+        "header_size": "h1",
         "section_description": "that is a description!",
         "show_text": true,
         "css_class": "banner-static"
