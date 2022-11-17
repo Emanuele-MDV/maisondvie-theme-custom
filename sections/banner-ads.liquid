@@ -1,4 +1,6 @@
+{% unless section.settings.is_first == true %}
 <link rel="stylesheet" href="{{ 'banner-ads.css' | asset_url }}" media="print" onload="this.media='all'">
+{% endunless %}
 
 {% comment %} Counting the slides --> if more than one it activates the slider {% endcomment %}
 
@@ -77,7 +79,12 @@
     "tag":"section",
     "class":"banner-slider-links",
     "settings": [
-      
+      {
+        "type":"checkbox",
+        "id":"is_first",
+        "default":false,
+        "label":"Load Css files?"
+      },
       {
         "type":"text",
         "id":"section_title",
