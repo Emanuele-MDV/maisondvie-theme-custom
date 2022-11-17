@@ -11,7 +11,11 @@
 
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
+  
       $('.{{ section.settings.css_class }}').parent().addClass('splide');
+
+      
+      
     } );
   </script>
 {% endif %}
@@ -19,13 +23,18 @@
 
 <div class="page-width{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
 
-  <ul class="splide__list">
+  {% if count >= 2 %}
+  <ul class="splide__list" >
     <li class="splide__slide">Slide 01</li>
-    <li class="splide__slide">Slide 02</li>
-    <li class="splide__slide">Slide 03</li>
   </ul>
+  {% else %}
+    <div>Single slide</div>
+  {% endif %}
   
 </div>
+
+
+
 
 {% schema %}
   {
