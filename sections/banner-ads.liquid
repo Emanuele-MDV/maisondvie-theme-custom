@@ -14,7 +14,7 @@
   
       $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('{{ section.settings.css_class }}');
 
-      new Splide( '.splide' ).mount();
+      new Splide( '.splide.{{ section.settings.css_class }}' ).mount();
       
     } );
   </script>
