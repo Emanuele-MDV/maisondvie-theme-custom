@@ -38,8 +38,8 @@
         "header_size": "medium",
         "section_title": "What's new on MDV",
         "section_description": "that is a description!",
-        "show_text": false,
-        "css_class": "banner-container"
+        "show_text": true,
+        "css_class": "banner-static"
       }
     },
     "featured_collection": {
