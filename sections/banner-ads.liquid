@@ -59,8 +59,8 @@
             alt="{{ image.alt | escape }}"
             srcset="
             {% if image.width > 340 %}{{ image.src | img_url: '325x480', crop : top }} 325w{% endif %},
-            {% if image.width > 620 %}{{ image.src | img_url: '420x620', crop : top }} 420w{% endif %},
-            {% if image.width > 700 %}{{ image.src | img_url: '480x700', crop : top }} 480w{% endif %}
+            {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : top }} 420w{% endif %},
+            {% if image.width > 480 %}{{ image.src | img_url: '480x700', crop : top }} 480w{% endif %}
             " 
             sizes="
             (min-width: 1024px) 480px,
