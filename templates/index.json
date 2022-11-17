@@ -15,6 +15,44 @@
         "outline_btn": false
       }
     },
+    "8a6325c4-b63a-4e2e-991c-ee9395d4be65": {
+      "type": "banner-ads",
+      "blocks": {
+        "28872dd9-1f44-4c86-97db-e30ef9ecf103": {
+          "type": "heading",
+          "settings": {
+            "slide_title": "",
+            "slide_text": "",
+            "text_btn": "Shop now",
+            "slide_link": "",
+            "text_align": "left",
+            "bg_color": "silver"
+          }
+        },
+        "46c23194-97de-464d-a6d1-decb67428536": {
+          "type": "heading",
+          "settings": {
+            "slide_title": "",
+            "slide_text": "",
+            "text_btn": "Shop now",
+            "slide_link": "",
+            "text_align": "left",
+            "bg_color": "silver"
+          }
+        }
+      },
+      "block_order": [
+        "28872dd9-1f44-4c86-97db-e30ef9ecf103",
+        "46c23194-97de-464d-a6d1-decb67428536"
+      ],
+      "settings": {
+        "header_size": "medium",
+        "section_title": "",
+        "section_description": "",
+        "show_text": false,
+        "css_class": "banner-container"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -268,55 +306,17 @@
         "padding_bottom": 36,
         "section_css_class": "slider-homepage page-width-desktop"
       }
-    },
-    "8a6325c4-b63a-4e2e-991c-ee9395d4be65": {
-      "type": "banner-ads",
-      "blocks": {
-        "28872dd9-1f44-4c86-97db-e30ef9ecf103": {
-          "type": "heading",
-          "settings": {
-            "slide_title": "",
-            "slide_text": "",
-            "text_btn": "Shop now",
-            "slide_link": "",
-            "text_align": "left",
-            "bg_color": "silver"
-          }
-        },
-        "46c23194-97de-464d-a6d1-decb67428536": {
-          "type": "heading",
-          "settings": {
-            "slide_title": "",
-            "slide_text": "",
-            "text_btn": "Shop now",
-            "slide_link": "",
-            "text_align": "left",
-            "bg_color": "silver"
-          }
-        }
-      },
-      "block_order": [
-        "28872dd9-1f44-4c86-97db-e30ef9ecf103",
-        "46c23194-97de-464d-a6d1-decb67428536"
-      ],
-      "settings": {
-        "header_size": "medium",
-        "section_title": "",
-        "section_description": "",
-        "show_text": false,
-        "css_class": "banner-container"
-      }
     }
   },
   "order": [
     "166305123918b33308",
+    "8a6325c4-b63a-4e2e-991c-ee9395d4be65",
     "featured_collection",
     "16559727415455c775",
     "16630620193a9ad795",
     "16559791500dd9690e",
     "1655983033da6f73dd",
     "16630632700bc54f04",
-    "1654765667c246d5f8",
-    "8a6325c4-b63a-4e2e-991c-ee9395d4be65"
+    "1654765667c246d5f8"
   ]
 }
