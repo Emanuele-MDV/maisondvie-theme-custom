@@ -16,9 +16,10 @@
 
       new Splide( '.splide.{{ section.settings.css_class }}',
       {
-        type    : 'loop',
+        //type    : 'loop',
         autoplay: 'play',
-        speed: number = 200
+        rewind     : true,
+        rewindSpeed: 1000,
       } ).mount();
       
     } );
