@@ -3,10 +3,12 @@
        {% assign count = count | plus: 1 %}
 {% endfor %}
 
-
+{% if count >= 2 %}
+  <script src="{{ 'splide.min.js' | asset_url }}" defer></script>
+{% endif %}
 
 <div class="page-width">
-  {% if count >= 2 %}custom-class{% endif %}
+  
 </div>
 
 {% schema %}
