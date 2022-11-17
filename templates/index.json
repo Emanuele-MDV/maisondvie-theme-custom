@@ -2,6 +2,7 @@
   "sections": {
     "166305123918b33308": {
       "type": "link-banner",
+      "disabled": true,
       "settings": {
         "custom_class": "banner-best-sellers dark outlined",
         "image_position": "right",

@@ -124,17 +124,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/maison-d-vie-official.webp",
-          "logo_width": 160,
-          "logo_position": "top-center",
-          "menu": "main-menu",
-          "menu_type_desktop": "mega",
-          "show_line_separator": true,
-          "enable_sticky_header": true,
-          "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
+          "menu": "main-menu"
         }
       },
       "footer": {
@@ -210,12 +201,6 @@
           "subtitle_popup": "Subscribe to our newsletter",
           "text_popup": "Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.",
           "disclaimer_popup": "*You will receive a 15% off promo code valid for one order from our Shop."
-        }
-      },
-      "header-custom": {
-        "type": "header-custom",
-        "settings": {
-          "logo": "shopify:\/\/shop_images\/maison-d-vie-official.webp"
         }
       },
       "breadcrumbs": {
