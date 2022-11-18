@@ -287,6 +287,10 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
     width: 40%;
     right: 14rem;
   }
+
+  article.banner-container>div>.banner-content {
+    max-width: 33%;
+  }
   
 }
 
