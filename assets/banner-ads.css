@@ -241,8 +241,12 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
 @media screen and (min-width:1024px){
 
   article.banner-container>div {
-    padding: 10.2rem 5rem;
+    padding: 10.2rem 8rem;
     height: 620px;
+  }
+
+  article.banner-container>div>figure {
+    max-width: 48%;
   }
   
 }
