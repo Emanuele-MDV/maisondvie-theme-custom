@@ -222,6 +222,10 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
     height: 72vh;
   }
 
+  article.banner-container>div {
+    padding: 10.2rem 6rem;
+  }
+
   article.banner-container>div>.banner-content {
     max-width: 60%;
   }
