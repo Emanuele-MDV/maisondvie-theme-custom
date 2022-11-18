@@ -247,7 +247,11 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   }
 
   article.banner-container>div>figure {
-    max-width: 48%;
+    max-width: 50%;
+  }
+
+  article.banner-container>div>figure>img {
+    object-position: top;
   }
 
   article.banner-container>div>.banner-content {
