@@ -66,6 +66,22 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#abdc9f",endColorstr="#58887e",GradientType=1);
 }
 
+/* FONT COLOR */
+
+.bg-white h3, .bg-white p, .bg-white a.btn,
+.bg-silver h3, .bg-silver p, .bg-silver a.btn{
+  color: rgb(var(--color-foreground));
+}
+
+.bg-black h3, .bg-black p, .bg-black a.btn,
+.bg-golden h3, .bg-golden p, .bg-golden a.btn,
+.bg-pink h3, .bg-pink p, .bg-pink a.btn,
+.bg-blue h3, .bg-blue p, .bg-blue a.btn,
+.bg-red h3, .bg-red p, .bg-red a.btn,
+.bg-green h3, .bg-green p, .bg-green a.btn {
+  color: #fff;
+}
+
 
 /* LAYOUT */
 
