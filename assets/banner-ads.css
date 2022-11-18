@@ -117,3 +117,14 @@ article.banner-container>div>.banner-content {
     position: relative;
 }
 
+article.banner-container>div>.banner-content h3 {
+    text-transform: uppercase;
+    font-size: 4.4rem;
+    line-height: 4.4rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0;
+}
+
+
+
+
