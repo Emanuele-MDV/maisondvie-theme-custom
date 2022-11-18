@@ -76,6 +76,25 @@
 
             {% else %}
 
+            <img 
+            src="{{ image.src | img_url: 'x360' }}" 
+            alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
+            srcset="
+            {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'center' }} 420w{% endif %},
+            {% if image.width > 550 %}{{ image.src | img_url: '550x768', crop : 'center' }} 520w{% endif %},
+            {% if image.width > 1024 %}{{ image.src | img_url: '1024x768', crop : 'center' }} 520w{% endif %},
+            {% if image.width > 1440 %}{{ image.src | img_url: '1440x768', crop : 'center' }} 520w{% endif %},
+            {% if image.width > 1600 %}{{ image.src | img_url: '1650x768', crop : 'center' }} 520w{% endif %},
+            " 
+            sizes="
+            (min-width: 1024px) 520px,
+            (min-width: 720px) 420px,
+            (min-width: 360px) 375px,
+            100vw"
+            width="{{ image.width }}"
+            height="{{ image.height }}"
+            />
+
             {% endif %}
             
           </figure>
