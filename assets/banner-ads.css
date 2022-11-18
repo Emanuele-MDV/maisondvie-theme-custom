@@ -265,6 +265,10 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
     padding-left: 8rem;
     padding-right: 8rem;
   }
+
+  article.banner-container>div>.banner-content p{
+    font-size:1.6rem;
+  }
   
 }
 
