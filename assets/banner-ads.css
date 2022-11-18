@@ -280,12 +280,12 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
 @media screen and (min-width:1440px){
 
   article.banner-container>div {
-    padding: 10.2rem 12rem;
+    padding: 10.2rem 14rem;
   }
 
   article.banner-container>div>figure {
     width: 40%;
-    right: 12rem;
+    right: 14rem;
   }
   
 }
