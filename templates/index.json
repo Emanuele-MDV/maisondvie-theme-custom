@@ -30,10 +30,24 @@
             "text_align": "left",
             "bg_color": "silver"
           }
+        },
+        "7782c197-9b2a-49ce-8371-12b786e0007c": {
+          "type": "heading",
+          "settings": {
+            "slide_title": "Designer dresses collections",
+            "slide_text": "Shop the latest dress styles and trendy fashion",
+            "slide_image": "shopify:\/\/shop_images\/maison-d-vie-dresses.webp",
+            "bg_img": false,
+            "slide_link": "shopify:\/\/collections\/dresses",
+            "text_btn": "View all dresses",
+            "text_align": "left",
+            "bg_color": "white"
+          }
         }
       },
       "block_order": [
-        "d7f9af9e-d16f-4e2d-86a3-338869a2f10e"
+        "d7f9af9e-d16f-4e2d-86a3-338869a2f10e",
+        "7782c197-9b2a-49ce-8371-12b786e0007c"
       ],
       "settings": {
         "is_first": true,
