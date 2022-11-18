@@ -82,6 +82,15 @@
   color: #fff;
 }
 
+.bg-black h3, a.btn.outline:before,
+.bg-golden a.btn.outline:before,
+.bg-pink a.btn.outline:before,
+.bg-blue a.btn.outline:before,
+.bg-red a.btn.outline:before,
+.bg-green a.btn.outline:before{
+  background:white;
+}
+
 
 /* LAYOUT */
 
