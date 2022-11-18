@@ -57,3 +57,11 @@
   background: linear-gradient(45deg, rgba(197,44,44,1) 0%, rgba(119,31,31,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c52c2c",endColorstr="#771f1f",GradientType=1);
 }
+
+.bg-green {
+  background: rgb(171,220,159);
+  background: -moz-linear-gradient(45deg, rgba(171,220,159,1) 0%, rgba(88,136,126,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(171,220,159,1) 0%, rgba(88,136,126,1) 100%);
+  background: linear-gradient(45deg, rgba(171,220,159,1) 0%, rgba(88,136,126,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#abdc9f",endColorstr="#58887e",GradientType=1);
+}
