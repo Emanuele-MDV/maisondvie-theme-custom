@@ -250,7 +250,13 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   }
 
   article.banner-container>div>.banner-content {
-    max-width: 40%;
+    max-width: 48%;
+  }
+
+  article.banner-container>div>.banner-content h3 {
+    font-size: 6rem;
+    line-height: 6.2rem;
+    margin-bottom: 1.8rem;
   }
   
 }
