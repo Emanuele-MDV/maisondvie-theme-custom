@@ -101,6 +101,24 @@
     stroke: #ffffff;
 }
 
+.bg-black a.btn.outline:hover svg.icon,
+.bg-golden a.btn.outline:hover svg.icon,
+.bg-pink a.btn.outline:hover svg.icon,
+.bg-blue a.btn.outline:hover svg.icon,
+.bg-red a.btn.outline:hover svg.icon,
+.bg-green a.btn.outline:hover svg.icon {
+    stroke: #000;
+}
+
+.bg-black a.btn.outline:hover,
+.bg-golden a.btn.outline:hover,
+.bg-pink a.btn.outline:hover,
+.bg-blue a.btn.outline:hover,
+.bg-red a.btn.outline:hover,
+.bg-green a.btn.outline:hover{
+  color:#000;
+}
+
 
 /* LAYOUT */
 
