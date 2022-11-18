@@ -125,6 +125,22 @@ article.banner-container>div>.banner-content h3 {
     margin-top: 0;
 }
 
+article.banner-container>div>.banner-content a.btn.outline {
+    text-decoration: none;
+    padding: 1.4rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+article.banner-container>div>.banner-content a.btn.outline svg{
+  margin-left:2rem;
+}
 
 
 
