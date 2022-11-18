@@ -131,7 +131,7 @@ article.banner-container>div>.banner-content a.btn.outline {
     display: flex;
     width: 100%;
     justify-content: center;
-    border: 1px solid;
+    border: 1.5px solid;
     margin-top: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
