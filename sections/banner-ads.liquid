@@ -51,7 +51,7 @@
       {% if count >= 2 %}<li class="splide__slide">{% endif %}
 
         
-        <article class="banner-container page-width bg-{{ block.settings.bg_color }}">
+        <article class="banner-container page-width bg-{{ block.settings.bg_color }} text-align-{{ block.settings.text_align }}">
           <figure>
 
             {% if block.settings.bg_img == false %}
@@ -100,7 +100,7 @@
             {% endif %}
             
           </figure>
-          <div class="banner-content align-{{ block.settings.text_align }}">
+          <div class="banner-content">
             {% if block.settings.slide_title %}<h3>{{ block.settings.slide_title }}</h3>{% endif %}
             {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
             {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="btn outline">{{ block.settings.text_btn }}{% render 'icon-arrow' %}</a>{% endif %}
