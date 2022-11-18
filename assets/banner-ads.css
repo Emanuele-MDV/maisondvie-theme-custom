@@ -92,6 +92,16 @@
 }
 
 
+.bg-black a.btn.outline svg.icon,
+.bg-golden a.btn.outline svg.icon,
+.bg-pink a.btn.outline svg.icon,
+.bg-blue a.btn.outline svg.icon,
+.bg-red a.btn.outline svg.icon,
+.bg-green a.btn.outline svg.icon {
+    stroke: #ffffff;
+}
+
+
 /* LAYOUT */
 
 article.banner-container>div {
