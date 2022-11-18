@@ -215,7 +215,7 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
 }
 
 .splide__progress {
-    position: relative;
+    position: absolute;
     width: 70%;
     padding: 1rem;
     transform: translateY(-100%);
