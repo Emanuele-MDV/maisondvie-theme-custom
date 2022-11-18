@@ -284,7 +284,8 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   }
 
   article.banner-container>div>figure {
-    width: 40%;
+    min-width: 40%;
+    max-width:unset;
     right: 14rem;
   }
 
