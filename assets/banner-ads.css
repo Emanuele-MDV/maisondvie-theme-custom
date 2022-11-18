@@ -25,3 +25,11 @@
   background: linear-gradient(45deg, rgba(14,14,14,1) 0%, rgba(87,87,87,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e0e",endColorstr="#575757",GradientType=1);
 }
+
+.bg-golden{
+  background: rgb(220,184,159);
+  background: -moz-linear-gradient(45deg, rgba(220,184,159,1) 0%, rgba(136,103,88,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(220,184,159,1) 0%, rgba(136,103,88,1) 100%);
+  background: linear-gradient(45deg, rgba(220,184,159,1) 0%, rgba(136,103,88,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dcb89f",endColorstr="#886758",GradientType=1);
+}
