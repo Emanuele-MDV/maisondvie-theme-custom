@@ -248,6 +248,10 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   article.banner-container>div>figure {
     max-width: 48%;
   }
+
+  article.banner-container>div>.banner-content {
+    max-width: 40%;
+  }
   
 }
 
