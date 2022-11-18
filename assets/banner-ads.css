@@ -214,3 +214,27 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   transform: translateY(0);
 }
 
+/* RESPONSIVE */
+
+@media screen and (min-width:768px){
+
+  article.banner-container>div {
+    height: 72vh;
+  }
+
+  article.banner-container>div>.banner-content {
+    max-width: 60%;
+  }
+
+  article.banner-container>div>.banner-content h3 {
+    font-size: 6rem;
+    line-height: 6rem;
+    margin-bottom: 1.4rem;
+  }
+  
+}
+
+
+
+
+
