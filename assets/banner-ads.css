@@ -65,3 +65,16 @@
   background: linear-gradient(45deg, rgba(171,220,159,1) 0%, rgba(88,136,126,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#abdc9f",endColorstr="#58887e",GradientType=1);
 }
+
+
+/* LAYOUT */
+
+article.banner-container > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4.8rem 2.6rem;
+}
+
+
+
