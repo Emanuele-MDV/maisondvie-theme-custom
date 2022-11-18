@@ -102,8 +102,8 @@
           </figure>
           <div class="banner-content align-{{ block.settings.text_align }}">
             {% if block.settings.slide_title %}<h3>{{ block.settings.slide_title }}</h3>{% endif %}
-            <p></p>
-            <a class="btn outline">{% render 'icon-arrow' %}</a>
+            {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
+            {% if block.settings.slide_link %}<a class="btn outline">{{ block.settings.slide_link }}{% render 'icon-arrow' %}</a>{% endif %}
           </div>
         </article>
 
@@ -188,12 +188,12 @@
           {
             "type":"text",
             "id":"slide_title",
-            "label":"Add a title for the slide"
+            "label":"Add a title on the slide"
           },
           {
             "type":"text",
             "id":"slide_text",
-            "label":"Add a caption for the slide"
+            "label":"Add a caption on the slide"
           },
           {
             "type":"image_picker",
@@ -206,15 +206,15 @@
             "label":"Use the image as a background"
           },
           {
+            "type":"url",
+            "id":"slide_link",
+            "label":"Add a button on the slide"
+          },
+          {
             "type":"text",
             "id":"text_btn",
             "label":"Customize this slide's button",
             "default":"Shop now"
-          },
-          {
-            "type":"url",
-            "id":"slide_link",
-            "label":"Add a link for this slide"
           },
           {
             "type":"select",
