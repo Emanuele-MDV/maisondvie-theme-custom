@@ -54,6 +54,7 @@
         <article class="banner-container page-width bg-{{ block.settings.bg_color }}">
           <figure>
 
+            {% if block.settings.bg_img == false %}
             
             {% assign image = block.settings.slide_image %}
             <img 
@@ -62,15 +63,18 @@
             srcset="
             {% if image.width > 370 %}{{ image.src | img_url: '375x480', crop : 'top' }} 375w{% endif %},
             {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
-            {% if image.width > 480 %}{{ image.src | img_url: '480x700', crop : 'top' }} 480w{% endif %}
+            {% if image.width > 500 %}{{ image.src | img_url: '520x768', crop : 'top' }} 520w{% endif %}
             " 
             sizes="
-            (min-width: 1024px) 480px,
+            (min-width: 1024px) 520px,
             (min-width: 720px) 420px,
             (min-width: 360px) 375px,
             100vw"
             />
 
+            {% else %}
+
+            {% endif %}
             
           </figure>
           <div>
