@@ -104,5 +104,7 @@ article.banner-container>div>figure {
     overflow: hidden;
 }
 
-
+article.banner-container>div>.banner-content {
+    position: relative;
+}
 
