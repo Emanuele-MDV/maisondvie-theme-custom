@@ -243,6 +243,7 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   article.banner-container>div {
     padding: 10.2rem 8rem;
     height: 620px;
+    justify-content: center;
   }
 
   article.banner-container>div>figure {
