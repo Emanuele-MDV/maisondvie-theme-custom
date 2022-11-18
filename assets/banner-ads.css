@@ -136,11 +136,15 @@ article.banner-container>div>.banner-content a.btn.outline {
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
+  overflow:hidden;
 }
 
 article.banner-container>div>.banner-content a.btn.outline svg{
-  margin-left:2rem;
+  margin-left:1.8rem;
 }
 
-
+article.banner-container>div>.banner-content a.btn.outline:before {
+  content:'';
+  
+}
 
