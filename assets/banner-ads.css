@@ -227,6 +227,7 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
 
 .splide__progress .splide__progress__bar{
   height:4px;
+  display:block;
   border-radius:4px;
   background-color:white;
 }
