@@ -44,8 +44,8 @@
 
 .bg-blue {
   background: rgb(159,205,220);
-  background: -moz-linear-gradient(45deg, rgba(159,205,220,1) 0%, rgba(88,106,136,1) 100%);
-  background: -webkit-linear-gradient(45deg, rgba(159,205,220,1) 0%, rgba(88,106,136,1) 100%);
-  background: linear-gradient(45deg, rgba(159,205,220,1) 0%, rgba(88,106,136,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9fcddc",endColorstr="#586a88",GradientType=1);
+background: -moz-linear-gradient(45deg, rgba(159,205,220,1) 0%, rgba(88,106,136,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(159,205,220,1) 0%, rgba(88,106,136,1) 100%);
+background: linear-gradient(45deg, rgba(159,205,220,1) 0%, rgba(88,106,136,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9fcddc",endColorstr="#586a88",GradientType=1);
 }
