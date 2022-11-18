@@ -107,7 +107,7 @@
 .bg-blue a.btn.outline:hover svg.icon,
 .bg-red a.btn.outline:hover svg.icon,
 .bg-green a.btn.outline:hover svg.icon {
-    stroke: #000;
+    stroke: #000!important;
 }
 
 .bg-black a.btn.outline:hover,
@@ -116,7 +116,7 @@
 .bg-blue a.btn.outline:hover,
 .bg-red a.btn.outline:hover,
 .bg-green a.btn.outline:hover{
-  color:#000;
+  color:#000!important;
 }
 
 
