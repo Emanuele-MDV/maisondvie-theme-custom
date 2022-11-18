@@ -214,6 +214,19 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   transform: translateY(0);
 }
 
+.splide__progress {
+    position: relative;
+    width: 80%;
+    padding: 1rem;
+    transform: translateY(-100%);
+}
+
+.splide__progress .splide__progress__bar{
+  height:4px;
+  border-radius:4px;
+  background-color:white;
+}
+
 /* RESPONSIVE */
 
 @media screen and (min-width:768px) and (max-width:1023px){
