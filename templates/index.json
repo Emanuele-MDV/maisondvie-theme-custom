@@ -22,11 +22,11 @@
           "type": "heading",
           "settings": {
             "slide_title": "New season arrivals",
-            "slide_text": "",
+            "slide_text": "Check out the latest pieces from your favorite brands",
             "slide_image": "shopify:\/\/shop_images\/new-arrivals-dresses.webp",
             "bg_img": false,
             "text_btn": "Shop now",
-            "slide_link": "",
+            "slide_link": "shopify:\/\/collections\/new-arrivals",
             "text_align": "left",
             "bg_color": "white"
           }
