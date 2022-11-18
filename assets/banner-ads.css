@@ -88,7 +88,7 @@
 .bg-blue a.btn.outline:before,
 .bg-red a.btn.outline:before,
 .bg-green a.btn.outline:before{
-  background:white;
+  background:white!important;
 }
 
 
