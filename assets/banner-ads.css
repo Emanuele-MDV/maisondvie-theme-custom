@@ -166,7 +166,10 @@ article.banner-container>div>.banner-content a.btn.outline:hover{
   color:white;
 }
 
-
+article.banner-container>div>.banner-content a.btn.outline:hover svg.icon{
+    fill: transparent;
+    stroke: #ffffff;
+}
 
 article.banner-container>div>.banner-content a.btn.outline:hover::before{
   transform: translateY(0);
