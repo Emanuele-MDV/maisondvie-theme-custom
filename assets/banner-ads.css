@@ -258,6 +258,12 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
     line-height: 6.2rem;
     margin-bottom: 1.8rem;
   }
+
+  article.banner-container>div>.banner-content a.btn.outline {
+    width: fit-content;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
   
 }
 
