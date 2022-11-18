@@ -117,6 +117,7 @@
 .bg-red a.btn.outline:hover,
 .bg-green a.btn.outline:hover{
   color:#000!important;
+  border-color:white!important;
 }
 
 
