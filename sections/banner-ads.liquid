@@ -98,7 +98,7 @@
               100vw"
               width="{{ image.width }}"
               height="{{ image.height }}"
-              {% unless section.settings.above_the_line == 'true' and forloop.first %}loading="lazy"{% endunless %}
+              {% unless section.settings.above_the_line == true and forloop.first %}loading="lazy"{% endunless %}
               />
   
               {% endif %}
