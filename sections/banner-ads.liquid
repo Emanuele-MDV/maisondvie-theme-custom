@@ -74,6 +74,7 @@
               100vw"
               width="{{ image.width }}"
               height="{{ image.height }}"
+              {% unless forloop.first %}loading="lazy"{% endunless %}
               />
   
               {% else %}
@@ -97,6 +98,7 @@
               100vw"
               width="{{ image.width }}"
               height="{{ image.height }}"
+              {% unless forloop.first %}loading="lazy"{% endunless %}
               />
   
               {% endif %}
