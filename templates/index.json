@@ -51,6 +51,7 @@
       ],
       "settings": {
         "is_first": true,
+        "above_the_line": true,
         "section_title": "What's new on MDV",
         "header_size": "h1",
         "section_description": "that is a description!",
