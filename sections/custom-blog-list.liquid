@@ -26,8 +26,8 @@
 
 <div class="page-width post-container">
 
-{% for ingredient in article.metafields.custom.blog_category.value %}
-<li>{{ ingredient }}</li>
+{% for blog_category in article.metafields.custom.blog_category.value %}
+<li>{{ blog_category }}</li>
 {% endfor %}
   
 </div>
