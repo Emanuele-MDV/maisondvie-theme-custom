@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="{{ 'blogs.css' | asset_url }}" media="print" onload="this.media='all'">
+
 <div class="page-width">
 <h1 class="h0">{{ blog.title | escape }}</h1>
 {% if blog.metafields.custom.description %}<p>{{ blog.metafields.custom.description }}</p>{% endif %}
