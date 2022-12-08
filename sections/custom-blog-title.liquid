@@ -1,12 +1,9 @@
+<h1 class="h0">{{ blog.title | escape }}</h1>
+{{ blog.metafields.custom.description }}
+
 {% schema %}
   {
     "name": "Section name",
     "settings": []
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
