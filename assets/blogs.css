@@ -4,6 +4,7 @@ section.blog-title {
 
 section.blog-title h1 {
     margin: 0;
+  text-transform:uppercase;
 }
 
 section.blog-title h1, section.blog-title p {
