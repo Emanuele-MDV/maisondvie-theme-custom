@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "disabled": true,
       "settings": {
         "layout": "collage",
         "show_image": true,
@@ -11,9 +12,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6c7c0b04-842a-4e46-be11-1a432144f35f": {
+      "type": "custom-blog-title",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "6c7c0b04-842a-4e46-be11-1a432144f35f"
   ]
 }
