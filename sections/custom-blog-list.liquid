@@ -39,7 +39,7 @@
     {% endfor %}
   {% endcapture %}
 
-
+  {{ fields }}
   {% assign potion_array = 'invisibility, health, love, health, invisibility' | split: ', ' %}
 
   {{ potion_array | uniq | join: ', ' }}
