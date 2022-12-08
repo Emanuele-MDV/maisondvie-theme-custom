@@ -31,14 +31,27 @@
 
 {% for article in blog.articles %}
 
+  {% comment %}
   {% for field in article.metafields.custom.blog_cat.value %}
   {{ article.metafields.custom.blog_cat.value }}
   {% endfor %}
-
+  {% endcomment %}
   
-
+  {% capture fields %}
+  {% for field in article.metafields.custom.blog_cat.value %}
+  {{ article.metafields.custom.blog_cat.value }},
+  {% endfor %}
+  {% endcapture %}
+  
+  {% for field in fields %}
+      <option value="{{field}}">{{field}}</option>
+  {% endfor %}
   
 {% endfor %}
+
+
+
+
 
 
   
