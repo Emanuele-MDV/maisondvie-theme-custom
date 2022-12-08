@@ -1,3 +1,5 @@
+{% comment %}
+
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
 
@@ -23,6 +25,7 @@
   </div>
 {%- endpaginate -%}
 
+{% endcomment %}
 
 <div class="page-width post-container">
 

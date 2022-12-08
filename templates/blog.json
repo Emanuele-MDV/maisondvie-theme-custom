@@ -17,10 +17,17 @@
       "type": "custom-blog-title",
       "settings": {
       }
+    },
+    "61befcaa-fe56-4534-bb66-0edc83e6f99a": {
+      "type": "custom-blog-list",
+      "settings": {
+        "use_categories": false
+      }
     }
   },
   "order": [
     "main",
-    "6c7c0b04-842a-4e46-be11-1a432144f35f"
+    "6c7c0b04-842a-4e46-be11-1a432144f35f",
+    "61befcaa-fe56-4534-bb66-0edc83e6f99a"
   ]
 }
