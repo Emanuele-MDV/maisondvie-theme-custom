@@ -42,10 +42,6 @@
   {{ article.metafields.custom.blog_cat.value }},
   {% endfor %}
   {% endcapture %}
-  
-  {% for field in fields %}
-      <option value="{{field}}">{{field}}</option>
-  {% endfor %}
 
 
   {% assign potion_array = 'invisibility, health, love, health, invisibility' | split: ', ' %}
