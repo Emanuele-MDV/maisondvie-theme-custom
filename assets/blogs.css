@@ -1,3 +1,7 @@
+section#info_section {
+    display: none;
+}
+
 section.blog-title {
     padding: 4rem 0 2.8rem;
 }
