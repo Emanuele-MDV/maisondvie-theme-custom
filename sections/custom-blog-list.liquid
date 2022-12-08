@@ -40,7 +40,7 @@
   {% endcapture %}
 
   
-  {% assign potion_array = fields | split: ', ' %}
+  {% assign potion_array = fields %}
 
   {{ potion_array | uniq | join: ', ' }}
 
