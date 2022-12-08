@@ -46,6 +46,11 @@
   {% for field in fields %}
       <option value="{{field}}">{{field}}</option>
   {% endfor %}
+
+
+  {% assign potion_array = 'invisibility, health, love, health, invisibility' | split: ', ' %}
+
+{{ potion_array | uniq | join: ', ' }}
   
 {% endfor %}
 
