@@ -1,11 +1,14 @@
+<div class="page-width">
 <h1 class="h0">{{ blog.title | escape }}</h1>
 {{ blog.metafields.custom.description }}
+</div>
 
 {% schema %}
   {
     "name": "Custom blog title",
     "tag":"section",
     "class":"blog-title",
+    "templates":["blog"],
     "settings": [],
     "presets":[
       {
