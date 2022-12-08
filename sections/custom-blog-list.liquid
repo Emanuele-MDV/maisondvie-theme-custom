@@ -46,7 +46,9 @@
   {% endcapture %}
 
 
- 
+  {% assign potion_array = fields | split: ', ' %}
+
+  {{ potion_array | uniq | join: ', ' }}
 
 
 
