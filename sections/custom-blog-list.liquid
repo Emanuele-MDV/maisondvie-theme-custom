@@ -29,8 +29,8 @@
 
 <div class="page-width post-container">
 
-{% for blog_category in article.metafields.custom.blog_category.value %}
-<li>{{ blog_category }}</li>
+{% for blog_categories in article.metafields.custom.blog_category.value %}
+<li>{{ blog_categories }}</li>
 {% endfor %}
   
 </div>
