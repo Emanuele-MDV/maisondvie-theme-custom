@@ -32,6 +32,10 @@
 {% for blog_categories in article.metafields.custom.blog_cat %}
 <li>Test</li>
 {% endfor %}
+
+{% for field in article.metafields.custom.blog_cat.value %}
+<div>test</div>
+{% endfor %}
   
 </div>
 
