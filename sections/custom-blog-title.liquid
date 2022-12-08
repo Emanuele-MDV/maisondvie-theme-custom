@@ -1,6 +1,6 @@
 <div class="page-width">
 <h1 class="h0">{{ blog.title | escape }}</h1>
-{{ blog.metafields.custom.description | tag : 'p' }}
+{% if blog.metafields.custom.description %}<p>{{ blog.metafields.custom.description }}</p>{% endif %}
 </div>
 
 {% schema %}
