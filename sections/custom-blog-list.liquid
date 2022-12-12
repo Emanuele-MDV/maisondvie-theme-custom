@@ -35,10 +35,10 @@
     {% assign controllers = controllers | concat: controllerName | uniq %}
 {% endfor %}
 
-{{ controllers | downcase }}
+
 
 {% for controller in controllers %}
-  Test
+  {{ controller | downcase }}
 {% endfor %}
   
 </div>
