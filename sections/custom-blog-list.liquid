@@ -24,8 +24,8 @@
 
 {% comment %} Section for normal articles {% endcomment %}
 
-{%- paginate blog.articles by 4 -%}
-  <div class="page-width{% if current_page == 1 %} featured{% endif %}">
+
+  <div class="page-width">
 
     <div id="blog-posts">
   
@@ -49,13 +49,7 @@
   
     </div>
 
-     </div>
-    
-     {%- if paginate.pages > 1 -%}
-        {%- render 'pagination', paginate: paginate -%}
-      {%- endif -%}
     </div>
-{%- endpaginate -%}
 
 
 {% schema %}
