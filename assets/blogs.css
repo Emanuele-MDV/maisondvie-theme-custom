@@ -55,14 +55,14 @@ div#blog-posts.trends>article:not(.trends){
   display:none;
 }
 
-/* FEATURED POSTS */
+div#blog-posts>article{
+  display:flex;
+}
 
-.featured div#blog-posts article:nth-child(n+2),
-.featured div#blog-posts article:nth-child(2),
-.featured div#blog-posts article:nth-child(3){
+/* FEATURED POSTS 
+
+.featured div#blog-posts article:nth-child( -n+3 ){
   
 }
 
-.featured div#blog-posts article:nth-child( -n+3 ){
-  background:black;
-}
+*/
