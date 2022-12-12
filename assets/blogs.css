@@ -264,6 +264,7 @@ div#blog-posts {
 
 .featured-container>article.featured figure{
   position:absolute;
+  margin:0;
   top:0;
   left:0;
   width:100%;
