@@ -252,6 +252,7 @@ div#blog-posts {
 
 .featured-container article.featured {
   width:calc(50% - 1rem);
+  position:relative;
 }
 
 .featured-container.featured-3 article.featured:nth-child(1), .featured-container.featured-5 article.featured:nth-child(1){
