@@ -70,9 +70,7 @@ div#blog-posts>article {
   position:relative;
 }
 
-div#blog-posts>article.featured{
-  order:1;
-}
+
 
 
 div#blog-posts>article figure {
@@ -137,10 +135,20 @@ div#blog-posts>article div a.btn span {
     margin-right: 0.8rem;
 }
 
-/* FEATURED POSTS 
 
-.featured div#blog-posts article:nth-child( -n+3 ){
-  
+
+/* FEATURED POSTS */
+
+div#blog-posts>article.featured{
+  order:1;
 }
 
-*/
+div#blog-posts>article.featured figure{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+
