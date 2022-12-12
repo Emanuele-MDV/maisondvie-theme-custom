@@ -30,7 +30,7 @@
     <div id="blog-posts" class="all">
   
       {%- for article in blog.articles -%}
-        <article class="{{ article.metafields.custom.blog_cat.value | downcase }}">
+        <article class="{{ article.metafields.custom.blog_cat.value | downcase }}{% if article.metafields.custom.featured_article == true %} featured{% endif %}">
 
           {% assign image = article.image %}
           <figure>
