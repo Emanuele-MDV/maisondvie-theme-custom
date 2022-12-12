@@ -33,8 +33,8 @@
   
   {% capture fields %}
     {% for article in blog.articles %}
-      {% for field in article.metafields.custom.blog_cat.value %}
-        {{ article.metafields.custom.blog_cat.value }}
+      {% for field in article.metafields.custom.blog_cat.value  %}
+        {{ article.metafields.custom.blog_cat.value | split: ', ' }}
       {% endfor %}
     {% endfor %}
   {% endcapture %}
