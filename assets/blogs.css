@@ -155,8 +155,12 @@ div#blog-posts>article.featured div {
   position:relative;
   min-width:100%;
   max-width:100%;
-  
+  text-align:left;
+  align-items:left;
+  color:white;
 }
 
-
+div#blog-posts>article.featured div p{
+  display:block;
+}
 
