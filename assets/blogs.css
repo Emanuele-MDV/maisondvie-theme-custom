@@ -201,10 +201,10 @@ div#blog-posts>article.featured div p {
 
 @media screen and (min-width:768px){
 
-  div#blog-posts {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+div#blog-posts {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 div#blog-posts>article.featured, div#blog-posts>article{
@@ -213,6 +213,10 @@ div#blog-posts>article.featured, div#blog-posts>article{
 
 .featured-3 div#blog-posts>article.featured:nth-child(1), .featured-5 div#blog-posts>article.featured:nth-child(1){
   width:100%;
+}
+
+div#blog-posts>article:not(.featured){
+  flex-direction: column;
 }
   
 }
