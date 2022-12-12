@@ -40,7 +40,7 @@
 {%- paginate blog.articles by 4 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
 
-    <div class="blog-posts">
+    <div class="blog-posts-featured">
 
       {%- for article in blog.articles -%}
 
@@ -49,6 +49,10 @@
         {% endif %}
       
       {%- endfor -%}
+  
+    </div>
+
+    <div class="blog-posts">
   
       {%- for article in blog.articles -%}
         {% if article.metafields.custom.featured_article != true %}
