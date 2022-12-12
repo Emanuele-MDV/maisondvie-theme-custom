@@ -59,7 +59,8 @@ div#blog-posts>article {
     display: flex;
     flex-direction: row;
     column-count: 2;
-    column-gap: 1.6rem;
+    column-gap: .6rem;
+    margin-bottom: 2.2rem;
 }
 
 div#blog-posts>article figure {
