@@ -199,6 +199,14 @@ div#blog-posts>article.featured div p{
 
 /* RESPONSIVE */
 
+@media screen and(min-width:768px){
+
+  div#blog-posts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .featured-3 div#blog-posts>article.featured{
   width:50%;
 }
@@ -206,3 +214,6 @@ div#blog-posts>article.featured div p{
 .featured-3 div#blog-posts>article.featured:nth-child(1){
   width:100%;
 }
+  
+}
+
