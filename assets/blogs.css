@@ -227,6 +227,11 @@ div#blog-posts>article:not(.featured) figure, div#blog-posts>article:not(.featur
 div#blog-posts>article:not(.featured) figure{
   min-height:320px;
 }
+
+div#blog-posts>article:not(.featured) div{
+  border:none;
+  padding: 2.6rem 0;
+}
   
 }
 
