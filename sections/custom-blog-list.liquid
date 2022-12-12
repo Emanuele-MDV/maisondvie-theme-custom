@@ -27,7 +27,7 @@
 
   <div class="page-width">
 
-    <div class="blog-posts">
+    <div id="blog-posts">
   
       {%- for article in blog.articles -%}
         <article class="{{ article.metafields.custom.blog_cat.value | downcase }}">{{ article.title }}</article>
