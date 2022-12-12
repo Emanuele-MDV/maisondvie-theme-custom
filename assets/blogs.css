@@ -251,7 +251,7 @@ div#blog-posts {
 
 
 div#blog-posts {
-  width: 990px;
+  width: auto;
   margin: 0 auto;
   justify-content:center;
 }
