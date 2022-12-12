@@ -37,16 +37,20 @@
         {{ article.metafields.custom.blog_cat.value }}
       {% endfor %}
     {% endfor %}
-    {% assign potion_array = fields | split: ', ' %}
+    
   {% endcapture %}
 
   
-
+  {% assign potion_array = fields | split: ', ' %}
   {{ potion_array | uniq | join: ', ' }}
 
 
 
-
+{% assign controllers = '' | split: '' %}
+{% for article in blog.articles %}
+    {% assign controllerName = article.metafields.custom.blog_cat.value | split: '_' | first | split: '' %}
+    {% assign controllers = controllers | concat: controllerName %}
+{% endfor %}
 
 
 
