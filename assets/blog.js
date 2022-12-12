@@ -11,9 +11,4 @@ $( document ).ready(function() {
   })
 
 
-  if( window.matchMedia("(min-width: 990px)").matches ){
-    $(".featured-container").prepend( $('article.featured') );
-  }
-
-
 });
