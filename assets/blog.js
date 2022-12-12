@@ -11,8 +11,8 @@ $( document ).ready(function() {
   })
 
 
-  if( window.matchMedia("(max-width: 990px)").matches ){
-    $(".featured-container").prepend( $('.featured') );
+  if( window.matchMedia("(min-width: 990px)").matches ){
+    $(".featured-container").prepend( $('article.featured') );
   }
 
 
