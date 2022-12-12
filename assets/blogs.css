@@ -63,12 +63,17 @@ div#blog-posts>article {
 }
 
 div#blog-posts>article figure {
-  overflow:hidden;
-  margin:0;
+    overflow: hidden;
+    margin: 0;
+    height: 220px;
 }
 
 div#blog-posts>article div {
     max-width: 50%;
+}
+
+div#blog-posts>article div p{
+  display:none;
 }
 
 /* FEATURED POSTS 
