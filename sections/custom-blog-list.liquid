@@ -24,6 +24,10 @@
 
 {% comment %} Section for featured articles {% endcomment %}
 
+{% unless paginate.next.is_link %} // Check if the page is the last one
+    Add HTML here
+{% endunless %}
+
 <div class="featured-articles page-width">
 {%- for article in blog.articles -%}
 
