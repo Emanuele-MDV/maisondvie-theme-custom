@@ -223,6 +223,10 @@ div#blog-posts>article:not(.featured) figure, div#blog-posts>article:not(.featur
   min-width: 100%;
   max-width: 100%;
 }
+
+div#blog-posts>article:not(.featured) figure{
+  min-height:320px;
+}
   
 }
 
