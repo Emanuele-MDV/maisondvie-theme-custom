@@ -141,18 +141,18 @@ div#blog-posts>article div a.btn span {
 
 /* FEATURED POSTS */
 
-article.featured{
+div#blog-posts>article.featured{
   order:1;
 }
 
-article.featured {
+div#blog-posts>article.featured {
     width: 100%;
     min-height: 420px;
 }
 
 
 
-article.featured figure{
+div#blog-posts>article.featured figure{
   position:absolute;
   top:0;
   left:0;
@@ -163,11 +163,11 @@ article.featured figure{
   background:black;
 }
 
-article.featured figure img{
+div#blog-posts>article.featured figure img{
   opacity:.8;
 }
 
-article.featured div {
+div#blog-posts>article.featured div {
     position: relative;
     min-width: 100%;
     max-width: 100%;
@@ -179,21 +179,21 @@ article.featured div {
     border: none;
 }
 
-article.featured div small,
-article.featured div h3,
-article.featured div p,
-article.featured div a.btn {
+div#blog-posts>article.featured div small,
+div#blog-posts>article.featured div h3,
+div#blog-posts>article.featured div p,
+div#blog-posts>article.featured div a.btn {
   color:white;
 }
 
-article.featured div h3{
+div#blog-posts>article.featured div h3{
   padding:2rem 0;
   width:100%;
   border-top:1px solid;
   border-bottom:1px solid;
 }
 
-article.featured div p {
+div#blog-posts>article.featured div p {
   display:block;
 }
 
@@ -207,19 +207,19 @@ div#blog-posts {
   justify-content: space-between;
 }
 
-article.featured, div#blog-posts>article{
+div#blog-posts>article.featured, div#blog-posts>article{
   width:calc(50% - .5rem);
 }
 
-.featured-3 article.featured:nth-child(1), .featured-5 article.featured:nth-child(1){
+.featured-3 div#blog-posts>article.featured:nth-child(1), .featured-5 div#blog-posts>article.featured:nth-child(1){
   width:100%;
 }
 
-article:not(.featured){
+div#blog-posts>article:not(.featured){
   flex-direction: column;
 }
 
-article:not(.featured) figure, div#blog-posts>article:not(.featured) div {
+div#blog-posts>article:not(.featured) figure, div#blog-posts>article:not(.featured) div {
   min-width: 100%;
   max-width: 100%;
 }
@@ -239,9 +239,9 @@ div#blog-posts>article:not(.featured) div {
 
 @media screen and (min-width:1024px){
 
-  div#blog-posts {
+div#blog-posts {
     max-width: 990px;
     margin: 0 auto;
-  }
+}
 
 }
