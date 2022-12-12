@@ -54,3 +54,11 @@ div#blog-posts.events>article:not(.events){
 div#blog-posts.trends>article:not(.trends){
   display:none;
 }
+
+/* FEATURED POSTS */
+
+.featured div#blog-posts article:nth-child(1),
+.featured div#blog-posts article:nth-child(2),
+.featured div#blog-posts article:nth-child(3){
+  
+}
