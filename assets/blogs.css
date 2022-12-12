@@ -147,7 +147,7 @@ div#blog-posts>article.featured{
   width:100%;
 }
 
-div#blog-posts>article.featured:nth-child(1){
+div#blog-posts>article.featured:first-of-type{
   width:100%;
 }
 
