@@ -27,4 +27,5 @@ section.blog-title h1, section.blog-title p {
     position: relative;
     letter-spacing: 2px;
     padding-bottom: 5px;
+    cursor:pointer;
 }
