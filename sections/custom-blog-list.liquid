@@ -32,7 +32,7 @@
       {%- for article in blog.articles -%}
         <article class="{{ article.metafields.custom.blog_cat.value | downcase }}">
           <figure></figure>
-          <small>{{ article.created_at }}</small>
+          <small>{{ article.created_at | day }}</small>
           <h3>{{ article.title }}</h3>
           <p>{{ article.excerpt }}</p>
           <a href="{{ article.url }}" class="btn">Read article</a>
