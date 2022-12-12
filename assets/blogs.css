@@ -251,8 +251,12 @@ div#blog-posts {
 
 
 div#blog-posts {
-    width: 990px;
-    margin: 0 auto;
+  width: 990px;
+  margin: 0 auto;
+}
+
+div#blog-posts>article.featured {
+  min-height: 620px;
 }
 
 }
