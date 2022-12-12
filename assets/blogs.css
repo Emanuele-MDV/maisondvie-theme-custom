@@ -197,3 +197,8 @@ div#blog-posts>article.featured div p{
   display:block;
 }
 
+/* RESPONSIVE */
+
+.featured-3 div#blog-posts>article.featured:nth-child(1){
+  width:100%;
+}
