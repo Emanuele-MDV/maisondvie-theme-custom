@@ -55,6 +55,11 @@ div#blog-posts.trends>article:not(.trends){
   display:none;
 }
 
+div#blog-posts {
+    display: flex;
+    flex-direction: column;
+}
+
 div#blog-posts>article {
     display: flex;
     flex-direction: row;
