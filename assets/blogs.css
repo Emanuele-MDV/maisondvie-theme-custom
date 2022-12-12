@@ -55,8 +55,15 @@ div#blog-posts.trends>article:not(.trends){
   display:none;
 }
 
-div#blog-posts>article{
-  display:flex;
+div#blog-posts>article {
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+    column-gap: 1.6rem;
+}
+
+div#blog-posts>article figure {
+  overflow:hidden;
 }
 
 /* FEATURED POSTS 
