@@ -45,6 +45,6 @@ section.blog-title h1, section.blog-title p {
   left:0;
 }
 
-div#blog-posts.news>*:not(.news){
+div#blog-posts.news>article:not(.news){
   display:none;
 }
