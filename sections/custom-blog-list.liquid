@@ -1,8 +1,10 @@
-
+{% comment %} Controllers for categories {% endcomment %}
 
 {% if section.settings.use_categories == true %}
 
   <div class="page-width navigation-container">
+
+    <span class="all active">All</span>
   
   {% assign controllers = '' | split: '' %}
   {% for article in blog.articles %}
