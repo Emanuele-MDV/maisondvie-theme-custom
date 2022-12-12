@@ -57,8 +57,12 @@ div#blog-posts.trends>article:not(.trends){
 
 /* FEATURED POSTS */
 
-.featured div#blog-posts article:nth-child(1),
+.featured div#blog-posts article:nth-child(n+2),
 .featured div#blog-posts article:nth-child(2),
 .featured div#blog-posts article:nth-child(3){
   
+}
+
+.featured div#blog-posts article:nth-child(n+2){
+  background:black;
 }
