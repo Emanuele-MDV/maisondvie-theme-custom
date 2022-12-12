@@ -24,8 +24,16 @@
 
 {% comment %} Section for normal articles {% endcomment %}
 
-
-  <div class="page-width">
+  {% assign i = 0 %}
+  {% capture featureds %}
+    {%- for article in blog.articles -%}
+      {% if article.metafields.custom.featured_article == true %}
+        {% assign i = i | plus:1 %} 
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+  
+  <div class="page-width featured-{{  }}">
 
     <div id="blog-posts" class="all">
   
