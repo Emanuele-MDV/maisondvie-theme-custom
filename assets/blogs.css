@@ -143,13 +143,15 @@ div#blog-posts>article.featured{
   order:1;
 }
 
+div#blog-posts>article.featured{
+  width:100%;
+}
+
 div#blog-posts>article.featured:nth-child(1){
   width:100%;
 }
 
-div#blog-posts>article.featured:nth-child(2-n){
-  width:100%;
-}
+
 
 div#blog-posts>article.featured figure{
   position:absolute;
