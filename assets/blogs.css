@@ -240,7 +240,7 @@ div#blog-posts>article:not(.featured) div {
 @media screen and (min-width:1024px){
 
 div#blog-posts {
-    width: 990px;
+    width: 800px;
     margin: 0 auto;
 }
 
