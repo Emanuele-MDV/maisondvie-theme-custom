@@ -255,6 +255,7 @@ div#blog-posts {
   width:calc(50% - 1rem);
   position:relative;
   overflow:hidden;
+  margoin-bottom: 2.6rem;
 }
 
 .featured-container.featured-3 article.featured:nth-child(1), .featured-container.featured-5 article.featured:nth-child(1){
