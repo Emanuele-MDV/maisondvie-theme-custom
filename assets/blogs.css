@@ -145,8 +145,9 @@ div#blog-posts>article.featured{
   order:1;
 }
 
-div#blog-posts>article.featured{
-  width:100%;
+div#blog-posts>article.featured {
+    width: 100%;
+    min-height: 420px;
 }
 
 
