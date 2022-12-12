@@ -263,4 +263,8 @@ div#blog-posts>article.featured div {
   margin-top: 20rem;
 }
 
+div#blog-posts>article.featured, div#blog-posts>article{
+  width:calc(50% - 1rem);
+}
+
 }
