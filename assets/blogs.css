@@ -67,6 +67,7 @@ div#blog-posts>article {
     column-gap: .6rem;
     margin-bottom: 2.2rem;
     order:2;
+  position:relative;
 }
 
 div#blog-posts>article.featured{
@@ -120,6 +121,16 @@ div#blog-posts>article div a.btn {
     text-transform: uppercase;
     font-size: 1.3rem;
     font-weight: 400;
+}
+
+div#blog-posts>article div a.btn:before {
+    content: '';
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 div#blog-posts>article div a.btn span {
