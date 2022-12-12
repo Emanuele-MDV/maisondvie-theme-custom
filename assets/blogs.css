@@ -152,11 +152,21 @@ div#blog-posts>article.featured figure{
 }
 
 div#blog-posts>article.featured div {
-  position:relative;
-  min-width:100%;
-  max-width:100%;
-  text-align:left;
-  align-items:left;
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    text-align: left;
+    align-items: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 6rem;
+    border: none;
+}
+
+div#blog-posts>article.featured div small,
+div#blog-posts>article.featured div h3,
+div#blog-posts>article.featured div p,
+div#blog-posts>article.featured div a.btn {
   color:white;
 }
 
