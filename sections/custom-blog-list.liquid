@@ -36,9 +36,9 @@
 {% endfor %}
 
 
-
 {% for controller in controllers %}
-  {{ controller | downcase }}
+  <div class="active-{{ controller | downcase }}">{{ controller }}</div>
+  
 {% endfor %}
   
 </div>
