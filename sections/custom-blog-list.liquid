@@ -42,7 +42,7 @@
             <small>{{ article.published_at | date: "%b %d, %Y" }}</small>
             <h3>{{ article.title }}</h3>
             <p>{{ article.excerpt }}</p>
-            <a href="{{ article.url }}" class="btn">Read article</a>
+            <a href="{{ article.url }}" class="btn"><span>Read article</span>{% render 'icon-arrow' %}</a>
           </div>
         </article>
       {%- endfor -%}
