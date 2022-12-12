@@ -267,4 +267,8 @@ div#blog-posts>article.featured, div#blog-posts>article{
   width:calc(50% - 1rem);
 }
 
+  div#blog-posts>article:not(.featured) figure {
+    min-height: 420px;
+}
+
 }
