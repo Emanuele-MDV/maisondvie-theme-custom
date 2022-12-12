@@ -36,7 +36,7 @@
 
 {% comment %} Section for normal articles {% endcomment %}
 
-{%- paginate blog.articles by 10 -%}
+{%- paginate blog.articles by 4 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
