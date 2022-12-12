@@ -207,7 +207,7 @@ div#blog-posts>article.featured div p{
     justify-content: center;
 }
 
-.featured-3 div#blog-posts>article.featured{
+div#blog-posts>article.featured{
   width:calc(50% - .5rem);
 }
 
