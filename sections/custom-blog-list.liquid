@@ -44,7 +44,8 @@
       {%- for article in blog.articles -%}
         {% if article.metafields.custom.featured_article == true %}
           Featured 1st
-        {% else %}
+        {% endif %}
+        {% if article.metafields.custom.featured_article != true %}
           Normal post
         {% endif %}
       {%- endfor -%}
