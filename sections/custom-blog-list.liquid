@@ -24,9 +24,7 @@
 
 {% comment %} Section for featured articles {% endcomment %}
 
-{% unless paginate.next.is_link %}
-    Add HTML here
-{% endunless %}
+
 
 <div class="featured-articles page-width">
 {%- for article in blog.articles -%}
@@ -43,6 +41,10 @@
 {%- paginate blog.articles by 4 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
 
+    {% unless paginate.next.is_link %}
+      Add HTML here
+    {% endunless %}
+  
     <div class="blog-posts">
   
       {%- for article in blog.articles -%}
