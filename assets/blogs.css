@@ -14,3 +14,17 @@ section.blog-title h1 {
 section.blog-title h1, section.blog-title p {
     text-align:center;
 }
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    margin-bottom: 2.8rem;
+}
+
+.navigation-container span {
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
