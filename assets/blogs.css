@@ -144,10 +144,6 @@ div#blog-posts>article.featured{
 }
 
 div#blog-posts>article.featured{
-  width:50%;
-}
-
-div#blog-posts>article.featured:first-of-type{
   width:100%;
 }
 
