@@ -175,6 +175,12 @@ div#blog-posts>article.featured div a.btn {
   color:white;
 }
 
+div#blog-posts>article.featured div h3{
+  margin:2rem 0;
+  border-top:1px solid;
+  border-bottom:1px solid;
+}
+
 div#blog-posts>article.featured div p{
   display:block;
 }
