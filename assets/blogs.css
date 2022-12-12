@@ -70,6 +70,7 @@ div#blog-posts>article figure {
 
 div#blog-posts>article div {
     max-width: 50%;
+  min-width: 50%;
 }
 
 div#blog-posts>article div p{
