@@ -218,6 +218,11 @@ div#blog-posts>article.featured, div#blog-posts>article{
 div#blog-posts>article:not(.featured){
   flex-direction: column;
 }
+
+div#blog-posts>article:not(.featured) figure, div#blog-posts>article:not(.featured) div {
+  min-width: 100%;
+  max-width: 100%;
+}
   
 }
 
