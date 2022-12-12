@@ -193,7 +193,7 @@ div#blog-posts>article.featured div h3{
   border-bottom:1px solid;
 }
 
-div#blog-posts>article.featured div p{
+div#blog-posts>article.featured div p {
   display:block;
 }
 
@@ -211,7 +211,7 @@ div#blog-posts>article.featured{
   width:calc(50% - .5rem);
 }
 
-.featured-3 div#blog-posts>article.featured:nth-child(1){
+.featured-3 div#blog-posts>article.featured:nth-child(1), .featured-5 div#blog-posts>article.featured:nth-child(1){
   width:100%;
 }
   
