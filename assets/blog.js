@@ -7,7 +7,7 @@ $( document ).ready(function() {
     console.log(myClass);
     $('.navigation-container span').removeClass('active');
     $(this).addClass('active');
-    $('#blog-posts').classList( myClass );
+    $('#blog-posts').classList.remove();
   })
 
 
