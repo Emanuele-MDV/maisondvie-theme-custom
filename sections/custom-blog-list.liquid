@@ -48,8 +48,8 @@
 
 {% assign controllers = '' | split: '' %}
 {% for article in blog.articles %}
-    {% assign controllerName = article.metafields.custom.blog_cat.value | split: '_' | first | split: ', ' %}
-    {% assign controllers = controllers | concat: controllerName %}
+    {% assign controllerName = article.metafields.custom.blog_cat.value | split: '_' | first | split: '' %}
+    {% assign controllers = controllers | concat: controllerName | uniq %}
 {% endfor %}
 
 {{ controllers }}
