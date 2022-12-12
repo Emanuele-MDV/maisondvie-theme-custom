@@ -66,7 +66,13 @@ div#blog-posts>article {
     column-count: 2;
     column-gap: .6rem;
     margin-bottom: 2.2rem;
+    order:2;
 }
+
+div#blog-posts>article.featured{
+  order:1;
+}
+
 
 div#blog-posts>article figure {
     overflow: hidden;
