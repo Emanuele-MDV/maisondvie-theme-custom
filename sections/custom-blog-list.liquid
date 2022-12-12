@@ -46,6 +46,7 @@
           Featured 1st
         {% endif %}
       {%- endfor -%}
+  
       {%- for article in blog.articles -%}
         {% if article.metafields.custom.featured_article != true %}
           Normal post
