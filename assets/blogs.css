@@ -67,6 +67,10 @@ div#blog-posts>article figure {
   margin:0;
 }
 
+div#blog-posts>article div {
+    max-width: 50%;
+}
+
 /* FEATURED POSTS 
 
 .featured div#blog-posts article:nth-child( -n+3 ){
