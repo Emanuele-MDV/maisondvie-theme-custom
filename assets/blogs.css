@@ -144,7 +144,7 @@ div#blog-posts>article.featured{
 }
 
 div#blog-posts>article.featured{
-  width:100%;
+  width:50%;
 }
 
 div#blog-posts>article.featured:first-of-type{
