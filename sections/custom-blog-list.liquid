@@ -22,7 +22,7 @@
 {% endif %}
 
 
-{% comment %} Section for featured articles 
+{% comment %} Section for featured articles {% endcomment %}
 
 <div class="featured-articles page-width">
 {%- for article in blog.articles -%}
@@ -33,24 +33,12 @@
 
 {%- endfor -%}
 </div>
-{% endcomment %}
+
 
 {% comment %} Section for normal articles {% endcomment %}
 
 {%- paginate blog.articles by 4 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
-
-    <div class="blog-posts-featured">
-
-      {%- for article in blog.articles -%}
-
-        {% if article.metafields.custom.featured_article == true %}
-          Featured 1st
-        {% endif %}
-      
-      {%- endfor -%}
-  
-    </div>
 
     <div class="blog-posts">
   
