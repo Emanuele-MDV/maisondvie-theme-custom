@@ -28,7 +28,7 @@
 {%- for article in blog.articles -%}
 
   {% if article.metafields.custom.featured_article == true %}
-    Featured
+    Featured 1st
   {% endif %}
 
 {%- endfor -%}
@@ -41,7 +41,9 @@
 
     <div class="blog-posts">
       {%- for article in blog.articles -%}
-        {% if article.metafields.custom.featured_article != true %}
+        {% if article.metafields.custom.featured_article == true %}
+          Featured 1st
+        {% else %}
           Normal post
         {% endif %}
       {%- endfor -%}
