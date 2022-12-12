@@ -48,3 +48,9 @@ section.blog-title h1, section.blog-title p {
 div#blog-posts.news>article:not(.news){
   display:none;
 }
+div#blog-posts.events>article:not(.events){
+  display:none;
+}
+div#blog-posts.trends>article:not(.trends){
+  display:none;
+}
