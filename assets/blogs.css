@@ -64,6 +64,7 @@ div#blog-posts>article {
 
 div#blog-posts>article figure {
   overflow:hidden;
+  margin:0;
 }
 
 /* FEATURED POSTS 
