@@ -71,11 +71,24 @@ div#blog-posts>article figure {
 
 div#blog-posts>article div {
     max-width: 50%;
-  min-width: 50%;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 div#blog-posts>article div p{
   display:none;
+}
+
+div#blog-posts>article div h3 {
+    font-family: Wotfard;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
 }
 
 /* FEATURED POSTS 
