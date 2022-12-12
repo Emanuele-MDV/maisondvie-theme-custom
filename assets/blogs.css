@@ -151,4 +151,12 @@ div#blog-posts>article.featured figure{
   height:100%;
 }
 
+div#blog-posts>article.featured div {
+  position:relative;
+  min-width:100%;
+  max-width:100%;
+  
+}
+
+
 
