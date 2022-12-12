@@ -30,7 +30,7 @@
     <div class="blog-posts">
   
       {%- for article in blog.articles -%}
-        <article class="{{ controller | downcase }}">{{ article.title }}</article>
+        <article class="{{ article.metafields.custom.blog_cat.value | downcase }}">{{ article.title }}</article>
       {%- endfor -%}
     </div>
 
