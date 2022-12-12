@@ -262,13 +262,6 @@ div#blog-posts {
   order:1;
 }
 
-.featured-container>article.featured {
-    width: 100%;
-    min-height: 420px;
-}
-
-
-
 .featured-container>article.featured figure{
   position:absolute;
   top:0;
