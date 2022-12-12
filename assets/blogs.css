@@ -259,4 +259,8 @@ div#blog-posts>article.featured {
   min-height: 620px;
 }
 
+div#blog-posts>article.featured div {
+  margin-top: 20rem;
+}
+
 }
