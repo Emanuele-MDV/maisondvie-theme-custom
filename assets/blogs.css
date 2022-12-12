@@ -253,6 +253,7 @@ div#blog-posts {
 div#blog-posts {
   width: 990px;
   margin: 0 auto;
+  justify-content:center;
 }
 
 div#blog-posts>article.featured {
@@ -263,9 +264,13 @@ div#blog-posts>article.featured div {
   margin-top: 20rem;
 }
 
-div#blog-posts>article.featured, div#blog-posts>article{
-  width:calc(50% - 1rem);
+div#blog-posts>article.featured{
+  width:50%;
 }
+
+  div#blog-posts>article{
+    width:33%;
+  }
 
   div#blog-posts>article:not(.featured) figure {
     min-height: 420px;
