@@ -31,7 +31,7 @@ section.blog-title h1, section.blog-title p {
 }
 
 .navigation-container span.active {
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .navigation-container span.active::before{
