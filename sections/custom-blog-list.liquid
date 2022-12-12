@@ -1,4 +1,4 @@
-{% comment %} Controllers for categories {% endcomment %}
+{% comment %} Controllers for categories if the setting is set to true {% endcomment %}
 
 {% if section.settings.use_categories == true %}
 
@@ -21,6 +21,9 @@
 
 {% endif %}
 
+
+{% comment %} Section for featured articles {% endcomment %}
+
 <div class="featured-articles page-width">
 {%- for article in blog.articles -%}
 
@@ -31,7 +34,9 @@
 {%- endfor -%}
 </div>
 
-{%- paginate blog.articles by 6 -%}
+{% comment %} Section for normal articles {% endcomment %}
+
+{%- paginate blog.articles by 10 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
