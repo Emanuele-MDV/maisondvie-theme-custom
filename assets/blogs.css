@@ -244,4 +244,14 @@ div#blog-posts {
     margin: 0 auto;
 }
 
+  .featured-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+  .featured-3 article.featured:nth-child(1), .featured-5 article.featured:nth-child(1){
+  width:100%;
+}
+
 }
