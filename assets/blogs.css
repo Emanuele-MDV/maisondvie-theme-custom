@@ -250,7 +250,11 @@ div#blog-posts {
     flex-wrap: wrap;
 }
 
-  .featured-3 article.featured:nth-child(1), .featured-5 article.featured:nth-child(1){
+.featured-container article.featured {
+  width:calc(50% - 1rem);
+}
+
+.featured-container.featured-3 article.featured:nth-child(1), .featured-container.featured-5 article.featured:nth-child(1){
   width:100%;
 }
 
