@@ -27,20 +27,24 @@
 
 {% endcomment %}
 
-<div class="page-width navigation-container">
+{% if section.settings.use_categories == true %}
 
-{% assign controllers = '' | split: '' %}
-{% for article in blog.articles %}
-    {% assign controllerName = article.metafields.custom.blog_cat.value | split: ', '  %}
-    {% assign controllers = controllers | concat: controllerName | uniq %}
-{% endfor %}
-
-
-{% for controller in controllers %}
-  <span class="{{ controller | downcase }}">{{ controller }}</span>  
-{% endfor %}
+  <div class="page-width navigation-container">
   
-</div>
+  {% assign controllers = '' | split: '' %}
+  {% for article in blog.articles %}
+      {% assign controllerName = article.metafields.custom.blog_cat.value | split: ', '  %}
+      {% assign controllers = controllers | concat: controllerName | uniq %}
+  {% endfor %}
+  
+  
+  {% for controller in controllers %}
+    <span class="{{ controller | downcase }}">{{ controller }}</span>  
+  {% endfor %}
+    
+  </div>
+
+{% endif %}
 
 {% schema %}
   {
