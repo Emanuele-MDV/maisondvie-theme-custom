@@ -11,4 +11,9 @@ $( document ).ready(function() {
   })
 
 
+  if( window.matchMedia("(max-width: 990px)").matches ){
+    $(".featured-container").prepend( $('.featured') );
+  }
+
+
 });
