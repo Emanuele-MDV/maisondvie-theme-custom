@@ -239,85 +239,11 @@ div#blog-posts>article:not(.featured) div {
 
 @media screen and (min-width:1024px){
 
-div#blog-posts>article.featured, div#blog-posts>article {
-  width: calc(50% - 1rem);
-}
+
 
 div#blog-posts {
     width: 800px;
     margin: 0 auto;
-}
-
-  .featured-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.featured-container article.featured {
-  width:calc(50% - 1rem);
-  position:relative;
-  overflow:hidden;
-  margin-bottom: 2.6rem;
-}
-
-.featured-container.featured-3 article.featured:nth-child(1), .featured-container.featured-5 article.featured:nth-child(1){
-  width:100%;
-}
-  div#blog-posts>article.featured{
-  order:1;
-}
-
-.featured-container>article.featured figure{
-  position:absolute;
-  margin:0;
-  top:0;
-  left:0;
-  width:100%;
-  min-width:100%;
-  max-width:100%;
-  height:100%;
-  background:black;
-}
-
-.featured-container>article.featured figure img{
-  min-width:100%;
-  max-width:100%
-  min-height:100%;
-  max-height:100%;
-  object-fit:cover;
-  opacity:.8;
-}
-
-.featured-container>article.featured div {
-    position: relative;
-    min-width: 100%;
-    max-width: 100%;
-    text-align: left;
-    align-items: flex-start;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-top: 6rem;
-    border: none;
-}
-
-.featured-container>article.featured div small,
-.featured-container>article.featured div h3,
-.featured-container>article.featured div p,
-.featured-container>article.featured div a.btn {
-  color:white;
-}
-
-.featured-container>article.featured div h3{
-  padding:2rem 0;
-  width:100%;
-  border-top:1px solid;
-  border-bottom:1px solid;
-}
-
-.featured-container>article.featured div p {
-  display:block;
 }
 
 }
