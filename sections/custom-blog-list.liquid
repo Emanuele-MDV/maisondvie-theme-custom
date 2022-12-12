@@ -41,7 +41,7 @@
 {%- paginate blog.articles by 4 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
 
-    {% unless paginate.next.is_link %}
+    {% unless paginate.prev.is_link %}
       Add HTML here
     {% endunless %}
   
