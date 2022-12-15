@@ -263,6 +263,7 @@ div#blog-posts>article.featured {
 div#blog-posts>article.featured div {
     margin-top: 20rem;
     padding-right: 51%;
+    padding-left:4rem;
 }
 
 div#blog-posts>article.featured{
