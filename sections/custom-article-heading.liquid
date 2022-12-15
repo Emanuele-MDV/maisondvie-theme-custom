@@ -15,26 +15,11 @@
   <div class="post-title">
     <h1 class="h1">{{ article.title }}</h1>
     {% if article.excerpt %}<p>{{ article.excerpt }}</p>{% endif %}
-    <button onclick="addClass()"> AddClass </button>
+    
   </div>
 
   
 </div>
-
-<script>
-  //var color = "container-{{ section.settings.heading_color }}";
-  //document.getElementsByClassName("single-post-header").classList.add("my-class");
-
-  function addClass() {
-    var elem = document.getElementsByClassName("single-post-header");
-    console.log(elem);
-    elem.classList.add("addCSS");
-  }
-
-  addClass();
-
-  
-</script>
 
 {% schema %}
   {
