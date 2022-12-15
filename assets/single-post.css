@@ -3,7 +3,7 @@ section#info_section {
 }
 
 .container-black{
-  background: #373737;
+  background: #000;
 }
 
 .container-grey{
@@ -96,7 +96,7 @@ section#info_section {
   }
   
   .container-title figure {
-    width: 60%;
+    width: 50%;
     right: 0;
   }
 
