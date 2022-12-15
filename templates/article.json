@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-article",
+      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -23,7 +24,9 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -31,10 +34,19 @@
         "title",
         "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
+    },
+    "21204e77-b9e9-4a9a-af42-c452cdcb8e8e": {
+      "type": "custom-article-heading",
+      "settings": {
+        "heading_color": "black"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "21204e77-b9e9-4a9a-af42-c452cdcb8e8e"
   ]
 }
