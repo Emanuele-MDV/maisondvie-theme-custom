@@ -3,6 +3,13 @@
   <div class="page-width narrow">
     
   </div>
+
+  <figure>
+    {% assign image = article.image %}  
+    <img
+    url="{{ image.src | url:"480x", crop: "top" }}"
+    />    
+  </figure>
   
 </div>
 
