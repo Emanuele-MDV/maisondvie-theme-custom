@@ -9,7 +9,16 @@
 {% assign products_list_1 = article.metafields.custom.products_post_1.value %}
   
 {% for product in products_list_1 %}
-{{ product.featured_image }}
+
+  <figure>
+    <img
+    src="{{ product.featured_image }}"
+    />
+    <figcaption>
+      
+    </figcaption>
+  </figure>
+
 {% endfor %}
   
 {% endif %}
