@@ -4,6 +4,8 @@
   
 </article>
 
+{% comment %}
+
 {% if article.metafields.custom.products_post_1.value %}
 
 {% assign products_list_1 = article.metafields.custom.products_post_1.value %}
@@ -22,6 +24,8 @@
 {% endfor %}
   
 {% endif %}
+
+{% endcomment %}
 
 {% schema %}
   {
