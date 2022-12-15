@@ -90,6 +90,10 @@ section#info_section {
     align-items: center;
     min-height: 540px;
   }
+
+  .container-title:before{
+    content:unset;
+  }
   
   .page-width.narrow.post-title {
     padding-right: 33%;
