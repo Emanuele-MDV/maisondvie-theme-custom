@@ -2,6 +2,12 @@ section#info_section {
     display: none;
 }
 
+section.post-content {
+    float: left;
+    width: 100%;
+    margin-bottom: 12rem;
+}
+
 .container-black{
   background: #000;
 }
