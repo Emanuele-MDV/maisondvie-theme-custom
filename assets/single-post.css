@@ -104,8 +104,13 @@ section#info_section {
   }
   
   .container-title figure {
-    width: 50%;
+    width: 66%;
     right: 0;
+    left: unset;
+  }
+
+  .post-title {
+    max-width: 66%;
   }
 
   
