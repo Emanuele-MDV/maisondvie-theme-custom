@@ -2,11 +2,6 @@
 
 <div class="container-title container-{{ section.settings.heading_color }}">
 
-  <div class="page-width narrow post-title">
-    <h1 class="h1">{{ article.title }}</h1>
-    {% if article.excerpt %}<p>{{ article.excerpt }}</p>{% endif %}
-  </div>
-
   <figure>
     {% assign image = article.image %}  
     <img
@@ -14,6 +9,12 @@
     alt="{% if image.alt %}{{ image.alt }}{% else %}{{ article.title }}{% endif %}"
     />    
   </figure>
+
+  <div class="page-width narrow post-title">
+    <h1 class="h1">{{ article.title }}</h1>
+    {% if article.excerpt %}<p>{{ article.excerpt }}</p>{% endif %}
+  </div>
+
   
 </div>
 
