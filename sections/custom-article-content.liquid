@@ -5,8 +5,10 @@
 </article>
 
 {% if article.metafields.custom.products_post_1.value %}
+
+{% assign products_1 = article.metafields.custom.products_post_1.value %}
   
-{% for product in article.metafields.custom.products_post_1 %}
+{% for product in products_1 %}
 Product!
 {% endfor %}
   
