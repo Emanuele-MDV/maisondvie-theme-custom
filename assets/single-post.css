@@ -86,6 +86,16 @@ section#info_section {
   object-fit:cover;
 }
 
+.date-container {
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-container div small {
+    margin-right: 2rem;
+}
+
 /* Responsive */
 
 @media screen and (min-width:990px){
