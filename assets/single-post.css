@@ -90,6 +90,11 @@ section#info_section {
 
 @media screen and (min-width:990px){
 
+  .page-width.narrow {
+    max-width: 960px;
+    padding: 0;
+  }
+
   .container-title {
     align-items: center;
     min-height: 540px;
@@ -110,7 +115,7 @@ section#info_section {
   }
 
   .post-title {
-    max-width: 66%;
+    max-width: 70%;
   }
 
   
