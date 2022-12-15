@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'single-post.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<div class="container-title container-{% if article.metafields.custom.color != empty %}{{ article.metafields.custom.color }}{% else %}black{% endif %} page-width narrow ">
+<div class="container-title container-{% if article.metafields.custom.color.value %}{{ article.metafields.custom.color }}{% else %}black{% endif %} page-width narrow ">
  
 
   <figure>
