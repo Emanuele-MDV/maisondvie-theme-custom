@@ -23,7 +23,7 @@
 
   
 document.addEventListener("DOMContentLoaded", function(){
-  var color = "container-{{ section.settings.heading_color }}"
+  var color = "container-{{ article.metafields.custom.color }}"
    $('.single-post-header').addClass(color)
 });
 
