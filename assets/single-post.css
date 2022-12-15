@@ -32,8 +32,9 @@ section#info_section {
 }
 
 .post-title {
-    padding-top: 18rem;
-    padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  min-height:440px;
 }
 
 .container-title figure{
