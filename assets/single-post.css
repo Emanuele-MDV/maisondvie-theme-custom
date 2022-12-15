@@ -81,3 +81,24 @@ section#info_section {
   max-width:100%;
   object-fit:cover;
 }
+
+/* Responsive */
+
+@media screen and (min-width:990px){
+
+  .container-title {
+    align-items: center;
+    min-height: 540px;
+  }
+  
+  .page-width.narrow.post-title {
+    padding-right: 33%;
+  }
+  
+  .container-title figure {
+    width: 60%;
+    right: 0;
+  }
+
+  
+}
