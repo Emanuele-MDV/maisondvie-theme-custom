@@ -104,12 +104,8 @@ section#info_section {
     content:unset;
   }
   
-  .page-width.narrow.post-title {
-    padding-right: 33%;
-  }
-  
   .container-title figure {
-    width: 66%;
+    width: 70%;
     right: 0;
     left: unset;
   }
