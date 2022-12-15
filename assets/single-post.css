@@ -99,6 +99,7 @@ section#info_section {
 }
 
 .date-container div p {
+  margin:0;
   margin-right: 2rem;
 }
 
