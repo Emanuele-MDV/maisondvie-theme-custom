@@ -14,8 +14,11 @@ section#info_section {
   background: #fff;
 }
 
-.container-title{
-  position:relative;
+.container-title {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .post-title h1, .post-title p {
@@ -37,6 +40,6 @@ section#info_section {
   min-height:440px;
 }
 
-.container-title figure{
+.container-title figure {
   position:absolute;
 }
