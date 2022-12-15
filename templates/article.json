@@ -43,10 +43,16 @@
       "settings": {
         "heading_color": "black"
       }
+    },
+    "d3e3d762-31ea-4b20-98e8-efe5c59330d8": {
+      "type": "custom-article-date-time-share",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "21204e77-b9e9-4a9a-af42-c452cdcb8e8e"
+    "21204e77-b9e9-4a9a-af42-c452cdcb8e8e",
+    "d3e3d762-31ea-4b20-98e8-efe5c59330d8"
   ]
 }
