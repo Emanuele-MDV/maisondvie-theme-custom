@@ -16,8 +16,14 @@ section#info_section {
 
 .post-title h1, .post-title p {
   color:#373737;
+  margin:0;
 }
 
 .container-black .post-title h1, .container-black .post-title p {
   color:#fff;
+}
+
+.post-title {
+    padding-top: 18rem;
+    padding-bottom: 4rem;
 }
