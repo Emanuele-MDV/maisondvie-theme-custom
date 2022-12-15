@@ -112,6 +112,7 @@ section#info_section {
 
   .post-title {
     max-width: 70%;
+    padding:0;
   }
 
   
