@@ -1,3 +1,12 @@
+<div class="page-width narrow date-container">
+<div>
+  <small>{{ blogs.article.date | t }}</small>
+  {% if article.metafields.custom.time_reading.value  %}<small></small>{% endif %}
+</div>
+
+  
+</div>
+
 {% schema %}
   {
     "name": "Custom date & time",
