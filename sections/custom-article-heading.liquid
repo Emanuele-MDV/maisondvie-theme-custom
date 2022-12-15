@@ -8,7 +8,7 @@
     {% assign image = article.image %}  
     <img
     src="{{ image | image_url: width:'480x', crop: 'top' }}"
-    alt="{% if image.alt %}{{ image.alt }} - {% endif %}{{ articel.title }}"
+    alt="{% if image.alt %}{{ image.alt }} - {% endif %}{{ article.title }}"
     />    
   </figure>
   
