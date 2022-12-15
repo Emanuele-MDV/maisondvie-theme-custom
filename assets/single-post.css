@@ -22,6 +22,15 @@ section#info_section {
   min-height:440px;
 }
 
+.container-title::before {
+  content: '';
+  position:absolute;
+  display:block;
+  width: 100%;
+  height:100%;
+  opacity:.3;
+}
+
 .post-title h1, .post-title p {
   color:#373737;
   margin:0;
