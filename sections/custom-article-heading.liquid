@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="{{ 'single-post.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<div class="container-title container-{{ section.settings.heading_color }}">
+<div class="container-title container-{{ section.settings.heading_color }} page-width narrow ">
+
+  
 
   <figure>
     {% assign image = article.image %}  
@@ -10,7 +12,7 @@
     />    
   </figure>
 
-  <div class="page-width narrow post-title">
+  <div class="post-title">
     <h1 class="h1">{{ article.title }}</h1>
     {% if article.excerpt %}<p>{{ article.excerpt }}</p>{% endif %}
   </div>
