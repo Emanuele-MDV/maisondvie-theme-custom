@@ -9,3 +9,11 @@
 .container-white{
   background: #fff;
 }
+
+.post-title h1, .post-title p {
+  color:#373737;
+}
+
+.container-black .post-title h1, .container-black .post-title p {
+  color:#fff;
+}
