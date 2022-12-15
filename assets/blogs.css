@@ -261,7 +261,8 @@ div#blog-posts>article.featured {
 }
 
 div#blog-posts>article.featured div {
-  margin-top: 20rem;
+    margin-top: 20rem;
+    padding-right: 51%;
 }
 
 div#blog-posts>article.featured{
