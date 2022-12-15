@@ -21,8 +21,13 @@
 </div>
 
 <script>
-  var color = "container-{{ section.settings.heading_color }}";
-  document.getElementsByClassName("single-post-header").classList.add("my-class");
+  //var color = "container-{{ section.settings.heading_color }}";
+  //document.getElementsByClassName("single-post-header").classList.add("my-class");
+
+  var d = document.getElementsByClassName("single-post-header");
+  d.className += " otherclass";
+
+  
 </script>
 
 {% schema %}
