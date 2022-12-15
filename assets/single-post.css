@@ -35,3 +35,7 @@ section#info_section {
     padding-top: 18rem;
     padding-bottom: 4rem;
 }
+
+.container-title figure{
+  position:absolute;
+}
