@@ -103,6 +103,11 @@ section#info_section {
   margin-right: 2rem;
 }
 
+div img {
+  max-width: 60%;
+  border: 0.5rem solid transparent;
+}
+
 /* Responsive */
 
 @media screen and (min-width:990px){
