@@ -7,7 +7,7 @@
   <figure>
     {% assign image = article.image %}  
     <img
-    url="{{ image.src | image_url:"480x", crop: "top" }}"
+    url="{{ image | image_url:"480x", crop: "top" }}"
     />    
   </figure>
   
