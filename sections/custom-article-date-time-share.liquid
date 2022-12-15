@@ -1,12 +1,13 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom date & time",
+    "tag":"section",
+    "class":"section-date-time",
+    "templates":["article"],
+    "presets": [
+      {
+        "name":"Custom date & time"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
