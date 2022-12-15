@@ -211,7 +211,7 @@ div#blog-posts>article.featured, div#blog-posts>article{
   width:calc(50% - .5rem);
 }
 
-.featured-3 div#blog-posts>article.featured:nth-child(1), .featured-5 div#blog-posts>article.featured:nth-child(1){
+.featured-1 div#blog-posts>article.featured:nth-child(1), .featured-3 div#blog-posts>article.featured:nth-child(1), .featured-5 div#blog-posts>article.featured:nth-child(1){
   width:100%;
 }
 
