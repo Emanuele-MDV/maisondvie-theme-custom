@@ -19,15 +19,11 @@
   
 </div>
 
-<script>
-
-  
+<script>  
 document.addEventListener("DOMContentLoaded", function(){
-  var color = "container-{{ article.metafields.custom.color }}"
+  var color = "container-{% if article.metafields.custom.color.value %}{{ article.metafields.custom.color }}{% else %}black{% endif %}"
    $('.single-post-header').addClass(color)
 });
-
-  
 </script>
 
 {% schema %}
