@@ -48,11 +48,17 @@
       "type": "custom-article-date-time-share",
       "settings": {
       }
+    },
+    "061ef662-7c5a-4201-8641-4f495234d104": {
+      "type": "custom-article-content",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "21204e77-b9e9-4a9a-af42-c452cdcb8e8e",
-    "d3e3d762-31ea-4b20-98e8-efe5c59330d8"
+    "d3e3d762-31ea-4b20-98e8-efe5c59330d8",
+    "061ef662-7c5a-4201-8641-4f495234d104"
   ]
 }
