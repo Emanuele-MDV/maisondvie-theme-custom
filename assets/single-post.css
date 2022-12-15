@@ -87,13 +87,19 @@ section#info_section {
 }
 
 .date-container {
-    margin: 4rem auto;
-    display: flex;
-    justify-content: space-between;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-container div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .date-container div p {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 /* Responsive */
