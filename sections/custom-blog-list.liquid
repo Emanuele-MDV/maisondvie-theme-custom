@@ -46,6 +46,7 @@
           <figure>
             <img
               src="{{ image.src | img_url: '480x480', crop: 'center' }}"
+              alt="{% if image.alt %}{{ image.alt }}{% else %}{{ article.title }}{% endif %}"
             />
           </figure>
           <div>
