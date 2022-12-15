@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="{{ 'single-post.css' | asset_url }}" media="print" onload="this.media='all'">
-<script src="{{ 'single-post.js' | asset_url }}" defer="defer"></script>
+{% if article.metafields.custom.products_post_1.value %}<script src="{{ 'single-post.js' | asset_url }}" defer="defer"></script>{% endif %}
 
 <div class="container-title container-{% if article.metafields.custom.color.value %}{{ article.metafields.custom.color }}{% else %}black{% endif %} page-width narrow ">
  
