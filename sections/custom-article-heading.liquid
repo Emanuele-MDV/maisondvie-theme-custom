@@ -23,7 +23,8 @@
 
   
 document.addEventListener("DOMContentLoaded", function(){
-   $('.single-post-header').addClass('test')
+  var color = "container-{{ section.settings.heading_color }}"
+   $('.single-post-header').addClass(color)
 });
 
   
