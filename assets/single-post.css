@@ -1,3 +1,7 @@
+section#info_section {
+    display: none;
+}
+
 .container-black{
   background: #373737;
 }
