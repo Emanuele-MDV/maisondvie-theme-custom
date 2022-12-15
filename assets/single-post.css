@@ -38,6 +38,7 @@ section#info_section {
   padding-top: 4rem;
   padding-bottom: 4rem;
   min-height:440px;
+  position:relative;
 }
 
 .container-title figure {
