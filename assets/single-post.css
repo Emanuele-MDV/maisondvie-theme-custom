@@ -103,7 +103,7 @@ section#info_section {
   margin-right: 2rem;
 }
 
-div img {
+article div img {
   max-width: 60%;
   border: 0.5rem solid transparent;
 }
