@@ -1,7 +1,7 @@
 <div class="page-width narrow date-container">
 <div>
-  <small><b>{{ 'blogs.article.date' | t }}</b>{{ article.published_at | date: "%b %d, %y" }}</small>
-  {% if article.metafields.custom.time_reading.value  %}<small><b>{{ 'blogs.article.time' | t }}</b>{{ article.metafields.custom.time_reading }}'</small>{% endif %}
+  <p><b>{{ 'blogs.article.date' | t }}</b>{{ article.published_at | date: "%b %d, %y" }}</p>
+  {% if article.metafields.custom.time_reading.value  %}<p><b>{{ 'blogs.article.time' | t }}</b>{{ article.metafields.custom.time_reading }}'</p>{% endif %}
 </div>
 </div>
 

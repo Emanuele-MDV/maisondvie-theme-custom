@@ -92,7 +92,7 @@ section#info_section {
     justify-content: space-between;
 }
 
-.date-container div small {
+.date-container div p {
     margin-right: 2rem;
 }
 
