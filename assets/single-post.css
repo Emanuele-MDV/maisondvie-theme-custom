@@ -14,6 +14,10 @@ section#info_section {
   background: #fff;
 }
 
+.container-title{
+  position:relative;
+}
+
 .post-title h1, .post-title p {
   color:#373737;
   margin:0;
