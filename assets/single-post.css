@@ -19,6 +19,10 @@ section#info_section {
   margin:0;
 }
 
+.post-title p {
+  margin-top:2.2rem;
+}
+
 .container-black .post-title h1, .container-black .post-title p {
   color:#fff;
 }
