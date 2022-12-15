@@ -4,6 +4,10 @@
   
 </article>
 
+{% if article.metafields.custom.products_post_1.value %}
+Products!
+{% endif %}
+
 {% schema %}
   {
     "name": "Custom article content",
