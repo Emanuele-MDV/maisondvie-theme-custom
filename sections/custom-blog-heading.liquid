@@ -3,7 +3,28 @@
 {% schema %}
   {
     "name": "Custom blog heading",
-    "settings": [],
+    "settings": [
+      {
+        "type": "select",
+        "id": "heading_color",
+        "label":"Select the color for the heading section",
+        "options":[
+          {
+            "value":"white",
+            "label":"White"
+          },
+          {
+            "value":"grey",
+            "label":"Grey"
+          },
+          {
+            "value":"black",
+            "label":"Black"
+          }
+        ],
+        "default":"black"
+      }
+    ],
     "presets":[
       {
         "name":"Custom blog heading"
