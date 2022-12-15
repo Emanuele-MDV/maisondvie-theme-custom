@@ -9,7 +9,7 @@
 {% assign products_list_1 = article.metafields.custom.products_post_1.value %}
   
 {% for product in products_list_1 %}
-Product!
+{{ product.title }}
 {% endfor %}
   
 {% endif %}
