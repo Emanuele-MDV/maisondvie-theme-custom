@@ -15,7 +15,7 @@
 
   {% assign i = i | plus:1 %}
 
-  <figure>
+  <figure class="product-{{ i }}">
     <img
     src="{{ product.featured_image | image_url: width: '480x' }}"
     />
