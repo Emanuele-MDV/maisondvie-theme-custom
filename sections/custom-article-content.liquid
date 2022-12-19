@@ -39,7 +39,11 @@
 <script>
   
   document.addEventListener("DOMContentLoaded", function(){
-    $('.products-1').append( $('.content-products-1') );
+    
+    if( $('.products-1')[0] ){
+      $('.products-1').append( $('.content-products-1') );
+    }
+    
   });
   
 </script>
