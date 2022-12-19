@@ -41,13 +41,13 @@
 
 {% assign controllers = '' | split: '' %}
 {% for article in blog.articles %}
-    {% assign controllerName = article.title | split: ', ' %}
-    {% assign controllers = controllers | concat: controllerName %}
+    {% assign articleName = article.title | split: ', ' %}
+    {% assign controllers = controllers | concat: articleName %}
 {% endfor %}
 
 
 {% for controller in controllers %}
-{{ controller }}
+{{ controller }}<br>
 {% endfor %}
 
 {% schema %}
