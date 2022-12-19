@@ -43,7 +43,7 @@
 {% assign current_title = article.title %}
 
 {% for article in blog.articles %}
-  {% unless post.title == current_title %}
+  {% unless article.title == current_title %}
     {% capture post %}
       <li><a href="{{ article.url }}"><p>{{ article.title }}</p></a></li>
     {% endcapture %}
