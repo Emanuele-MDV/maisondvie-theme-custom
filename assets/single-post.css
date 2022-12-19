@@ -167,6 +167,10 @@ article div img {
   margin-bottom: 1rem;
 }
 
+.grid-5 a:first-of-type {
+    width: 100%;
+}
+
 /* Responsive */
 
 @media screen and (min-width:990px){
