@@ -160,8 +160,8 @@ article div img {
     width: 33.33%;
 }
 
-.grid-4 a {
-    width: 33.33%;
+.grid-4 a, .grid-5 a {
+    width: 50%;
 }
 
 /* Responsive */
