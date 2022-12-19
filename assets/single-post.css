@@ -118,7 +118,7 @@ article div img {
 
 .post-products {
     display: flex;
-    margin-left: -1rem;
+    margin-left: -.5rem;
 }
 
 .post-products a {
@@ -129,7 +129,7 @@ article div img {
     width: 100%;
     margin: 0;
     position: relative;
-    border: 1rem solid transparent;
+    border: .5rem solid transparent;
 }
 
 .post-products a figure img {
