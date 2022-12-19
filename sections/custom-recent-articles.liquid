@@ -43,21 +43,19 @@
 {% assign current_title = article.title %}
 
 {% for article in blog.articles %}
-  {% unless article.title == current_title %}
+  {% if article.title != current_title %}
     {% capture post %}
       <li><a href="{{ article.url }}"><p>{{ article.title }}</p></a></li>
     {% endcapture %}
     {% assign related_posts = related_posts | append:post %}
-  {% endunless %}
+  {% else %}
+    {% break %}
+  {% endif %}
 {% endfor %}
 
 {% if related_posts.size > 0 %}
   
   <ul> {{ related_posts }} </ul>
-
-  {% for post in related_posts %}
-    Post!
-  {% endfor %}
 
   
 {% endif %}
