@@ -44,9 +44,7 @@
     {% assign articleName = article.title | split: ', ' %}
     {% assign articleImage = article.image | split: ', ' %}
     {% assign articleLink = article.url | split: ', ' %}
-    {% assign controllers = controllers | concat: articleName  %}
-    {% assign controllers = controllers | concat: articleImage  %}
-    {% assign controllers = controllers | concat: articleLink  %}
+    {% assign controllers = controllers | concat: articleName | concat: articleImage  %}
 {% endfor %}
 
 
