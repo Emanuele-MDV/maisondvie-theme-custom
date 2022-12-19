@@ -158,11 +158,11 @@ article div img {
 
 /* Grids */
 
-.grid-3 a {
+.grid-3 a, .grid-6 a {
     width: 33.33%;
 }
 
-.grid-4 a, .grid-5 a {
+.grid-2 a, .grid-4 a, .grid-5 a {
     width: 50%;
   margin-bottom: 1rem;
 }
