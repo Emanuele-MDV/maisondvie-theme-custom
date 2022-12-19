@@ -212,6 +212,10 @@ article div img {
     padding:0;
   }
 
+  .post-products {
+    margin-bottom: 2.8rem;
+  }
+
   /* Grids */
 
   .grid-4 a {
