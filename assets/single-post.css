@@ -118,7 +118,8 @@ article div img {
 
 .post-products {
     display: flex;
-    margin-left: -.25rem;
+    margin-left: -0.25rem;
+    flex-wrap: wrap;
 }
 
 .post-products a {
@@ -150,7 +151,17 @@ article div img {
     text-transform: uppercase;
     text-decoration: none;
     color: #a8a8a8;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+/* Grids */
+
+.grid-3 a {
+    width: 33.33%;
+}
+
+.grid-4 a {
+    width: 33.33%;
 }
 
 /* Responsive */
