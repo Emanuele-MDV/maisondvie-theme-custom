@@ -117,7 +117,25 @@ article div img {
 /* Product grids */
 
 .post-products {
-  display: flex;
+    display: flex;
+    margin-left: -1rem;
+}
+
+.post-products a figure {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    border: 1rem solid transparent;
+}
+
+.post-products a figure img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin: 0;
+    border: 0;
 }
 
 /* Responsive */
