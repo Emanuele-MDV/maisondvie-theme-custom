@@ -4,7 +4,7 @@ section#info_section {
 
 section.post-content {
     width: 100%;
-    margin-bottom: 12rem;
+    margin-bottom: 6rem;
 }
 
 .container-black{
@@ -169,6 +169,10 @@ article div img {
 .grid-5 a:first-of-type, .grid-7 a:first-of-type {
     width: 100%;
 }
+
+/* Recent articles */
+
+
 
 /* Responsive */
 
