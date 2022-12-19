@@ -4,7 +4,15 @@
 
   {% assign current_title = article.title %}
 
-  {% for post in blog.articles limit: 4 %}
+  {% capture recent_posts %}
+    {% for article in blog.articles %}
+      {% unless post.title == current_title %}
+        {{ article.title }}
+      {% endunless %}
+    {% endfor %}
+  {% endcapture %}
+
+  {% for post in recent_posts limit: 4 %}
 
     {% unless post.title == current_title %}
     
