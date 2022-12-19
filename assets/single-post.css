@@ -218,6 +218,10 @@ article div img {
     width: 25%;
   }
 
+  .grid-5 a {
+    width: 20%;
+  }
+
   .grid-3 a, .grid-6 a {
     width: 33.33%;
   }
