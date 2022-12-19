@@ -172,7 +172,9 @@ article div img {
 
 /* Recent articles */
 
-
+.blogs-list{
+  margin-bottom:12rem;
+}
 
 /* Responsive */
 
