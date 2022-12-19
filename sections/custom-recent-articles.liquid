@@ -11,9 +11,9 @@
       {{ post.title }}
       <article>
         <figure>
-          {% assign image = post.featured_image %}
+          {% assign image = post.image %}
           <img
-          src="{{ post.featured_image | img_url: '480x' }}"  
+          src="{{ image.src | img_url: '480x' }}"  
           />
         </figure>
         <p>{{ post.published_at | date: "%b %d, %y" }}</p>
