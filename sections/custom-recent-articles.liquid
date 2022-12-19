@@ -2,6 +2,8 @@
 
   <h2>{{ section.settings.section_title }}</h2>
 
+  {% comment %}
+
   {% assign current_title = article.title %}
 
   {% capture recent_posts %}
@@ -22,7 +24,7 @@
   
 </div>
 
-{% comment %}
+
 <article>
   <figure>
     {% assign image = post.image %}
@@ -35,6 +37,15 @@
   <a href="{{ post.url }}"><span>Read article</span>{% render 'icon-arrow' %}</a>
 </article>
 {% endcomment %}
+
+
+{% assign controllers = '' | split: '' %}
+{% for article in blog.articles %}
+    {% assign controllerName = article.title | split: '_' | first | split: '' %}
+    {% assign controllers = controllers | concat: controllerName %}
+{% endfor %}
+
+{{ controllers }}
 
 {% schema %}
   {
