@@ -120,10 +120,12 @@ article div img {
     display: flex;
     margin-left: -0.25rem;
     flex-wrap: wrap;
+  margin-bottom:1rem;
 }
 
 .post-products a {
   text-decoration:none;
+  
 }
 
 .post-products a figure {
@@ -162,6 +164,7 @@ article div img {
 
 .grid-4 a, .grid-5 a {
     width: 50%;
+  margin-bottom: 1rem;
 }
 
 /* Responsive */
