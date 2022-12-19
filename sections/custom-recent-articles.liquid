@@ -13,7 +13,7 @@
         <figure>
           {% assign image = post.featured_image %}
           <img
-          src="{{ image.url | width: url: '480x' }}"  
+          src="{{ image.src | img_url: '480x' }}"  
           />
         </figure>
         <p>{{ post.published_at | date: "%b %d, %y" }}</p>
