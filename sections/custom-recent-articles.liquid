@@ -42,6 +42,7 @@
 {% assign controllers = '' | split: '' %}
 {% for article in blog.articles %}
     {% assign articleName = article.title | split: ', ' %}
+    {% assign articleImage = article.image | split: ', ' %}
     {% assign controllers = controllers | concat: articleName %}
 {% endfor %}
 
