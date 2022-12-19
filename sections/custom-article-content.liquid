@@ -4,7 +4,9 @@
   
 </article>
 
-
+<div class="hidden">
+  
+</div>
 
 {% if article.metafields.custom.products_post_1.value %}
 
@@ -15,14 +17,17 @@
 
   {% assign i = i | plus:1 %}
 
-  <figure class="product-{{ i }}">
-    <img
-    src="{{ product.featured_image | image_url: width: '480x' }}"
-    />
-    <figcaption>
-      
-    </figcaption>
-  </figure>
+  <a class="product-{{ i }}" href="{{ product.url }}">
+    <figure>
+      <img
+      src="{{ product.featured_image | image_url: width: '480x' }}"
+      />
+      <figcaption>
+        
+      </figcaption>
+    </figure>
+  </a>
+  
 
 {% endfor %}
   
