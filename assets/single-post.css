@@ -220,6 +220,7 @@ article div img {
 
   .grid-5 a {
     width: 20%;
+    max-width: 20%;
   }
 
   .grid-3 a, .grid-6 a {
