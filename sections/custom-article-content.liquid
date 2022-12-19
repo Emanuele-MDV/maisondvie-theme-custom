@@ -64,6 +64,122 @@
   
 {% endif %}
 
+{% if article.metafields.custom.products_post_3.value %}
+
+  {% assign products_list_3 = article.metafields.custom.products_post_3.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-3">
+    
+    {% for product in products_list_3 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_4.value %}
+
+  {% assign products_list_4 = article.metafields.custom.products_post_4.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-4">
+    
+    {% for product in products_list_4 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_5.value %}
+
+  {% assign products_list_5 = article.metafields.custom.products_post_5.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-5">
+    
+    {% for product in products_list_5 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_6.value %}
+
+  {% assign products_list_6 = article.metafields.custom.products_post_6.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-6">
+    
+    {% for product in products_list_6 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
 
 <script>
   
