@@ -1,7 +1,9 @@
 <div class="page-width narrow">
 
   {% for article in blog.articles limit: 4 %}
-    Post
+    {% unless article.handle == current_article.handle %}
+      Post
+    {% endunless %}
   {% endfor %}
   
 </div>
