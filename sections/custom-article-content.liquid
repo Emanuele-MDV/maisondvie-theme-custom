@@ -22,8 +22,10 @@
           <img
           src="{{ product.featured_image | image_url: width: '480x' }}"
           alt="{{ product.name }}"
-          
           />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
         </figure>
       </a>
       
