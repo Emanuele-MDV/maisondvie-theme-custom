@@ -2,7 +2,7 @@
 
   {% for article in blog.articles limit: 4 %}
     {% unless article.handle == current_article.handle %}
-      Post
+      {{ article.title }}
     {% endunless %}
   {% endfor %}
   
