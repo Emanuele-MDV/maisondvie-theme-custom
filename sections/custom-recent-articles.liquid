@@ -7,14 +7,16 @@
   {% capture recent_posts %}
     {% for article in blog.articles %}
       {% unless post.title == current_title %}
-        {{ article.title }}
+        {{ article.title }}|{{ article.image }}|{{ article.url }}
       {% endunless %}
     {% endfor %}
   {% endcapture %}
 
+  {% assign articles_array = recent_posts | split: '::'%}
+
   
 
-  {% for post in recent_posts limit: 4 %}
+  {% for post in articles_array limit: 4 %}
 
     post
   
