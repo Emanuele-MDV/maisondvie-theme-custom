@@ -3,7 +3,6 @@ section#info_section {
 }
 
 section.post-content {
-    float: left;
     width: 100%;
     margin-bottom: 12rem;
 }
