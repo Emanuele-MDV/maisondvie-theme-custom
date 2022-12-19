@@ -177,7 +177,12 @@ article div img {
 }
 
 .blogs-list h2 {
-  font-family:Wotfard;
+  font-family: Wotfard;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  position: relative;
 }
 
 /* Responsive */
