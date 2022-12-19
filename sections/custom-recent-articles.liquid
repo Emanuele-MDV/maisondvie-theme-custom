@@ -14,7 +14,9 @@
 
   {% assign articles_array = recent_posts | split: ', '%}
 
-  {{ articles_array }}
+  {% for post in recent_posts %}
+    {{ title }}
+  {% endfor %}
   
 </div>
 
