@@ -1,6 +1,6 @@
 <div class="page-width narrow">
 
-  {% for article in blog.articles %}
+  {% for article in blog.articles limit: 4 %}
     Post
   {% endfor %}
   
