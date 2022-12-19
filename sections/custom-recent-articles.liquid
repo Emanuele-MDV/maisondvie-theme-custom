@@ -39,18 +39,23 @@
 {% endcomment %}
 
 
-{% assign controllers = '' | split: '' %}
-{% for article in blog.articles %}
-    {% assign articleName = article.title | split: ', ' %}
-    {% assign articleImage = article.image | split: ', ' %}
-    {% assign articleLink = article.url | split: ', ' %}
-    {% assign controllers = controllers | concat: articleName | concat: articleImage  %}
+{% assign related_posts = "" %}
+{% assign current_title = article.title %}
+
+{% for article in blogs.blog.articles %}
+  {% unless post.title == current_title %}
+    {% capture post %}
+      <li><a href="{{ article.url }}"><p>{{ article.title }}</p></a></li>
+    {% endcapture %}
+    {% assign related_posts = related_posts | append:post %}
+  {% endunless %}
 {% endfor %}
 
-
-{% for controller in controllers %}
-{{ controller }}<br>
-{% endfor %}
+{% if related_posts.size > 0 %}
+  <ul> {{ related_posts }} </ul>
+{% else %}
+  No related posts!
+{% endif %}
 
 {% schema %}
   {

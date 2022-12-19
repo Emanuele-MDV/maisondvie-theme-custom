@@ -56,7 +56,6 @@
     },
     "7608856f-3a56-499a-9f5f-290e892930c9": {
       "type": "custom-recent-articles",
-      "disabled": true,
       "settings": {
         "section_title": "Recent articles"
       }
