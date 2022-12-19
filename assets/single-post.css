@@ -167,7 +167,7 @@ article div img {
   margin-bottom: 1rem;
 }
 
-.grid-5 a:first-of-type {
+.grid-5 a:first-of-type, .grid-7 a:first-of-type {
     width: 100%;
 }
 
