@@ -12,15 +12,9 @@
     {% endfor %}
   {% endcapture %}
 
-  {% assign articles_array = recent_posts | split: ','%}
+  {% assign articles_array = recent_posts | split: ', '%}
 
   {{ articles_array }}
-
-  {% for post in articles_array limit: 4 %}
-
-    post
-  
-  {% endfor %}
   
 </div>
 
