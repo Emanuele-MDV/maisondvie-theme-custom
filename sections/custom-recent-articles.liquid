@@ -3,8 +3,12 @@
   {% assign current_title = article.title %}
 
   {% for post in blog.articles limit: 4 %}
+
+    {% unless post.title == current_title %}
     
       {{ post.title }}
+      
+    {% endunless %}
   
   {% endfor %}
   
