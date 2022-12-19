@@ -35,6 +35,35 @@
   
 {% endif %}
 
+{% if article.metafields.custom.products_post_2.value %}
+
+  {% assign products_list_2 = article.metafields.custom.products_post_2.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-2">
+    
+    {% for product in products_list_2 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
 
 <script>
   
