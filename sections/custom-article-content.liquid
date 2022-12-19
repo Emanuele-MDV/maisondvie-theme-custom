@@ -4,31 +4,43 @@
   
 </article>
 
-<div class="hidden">
-  
-</div>
+
 
 {% if article.metafields.custom.products_post_1.value %}
 
   {% assign products_list_1 = article.metafields.custom.products_post_1.value %}
   {% assign i = 0 %}
+
+  <div class="content-products-1">
     
-  {% for product in products_list_1 %}
-  
-    {% assign i = i | plus:1 %}
-  
-    <a class="product-{{ i }}" href="{{ product.url }}">
-      <figure>
-        <img
-        src="{{ product.featured_image | image_url: width: '480x' }}"
-        alt="{{ product.name }}"
-        />
-      </figure>
-    </a>
+    {% for product in products_list_1 %}
     
-  {% endfor %}
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          
+          />
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
   
 {% endif %}
+
+
+<script>
+  
+  document.addEventListener("DOMContentLoaded", function(){
+    $('.products-1').append( $('.content-products-1') );
+  });
+  
+</script>
 
 
 {% schema %}
