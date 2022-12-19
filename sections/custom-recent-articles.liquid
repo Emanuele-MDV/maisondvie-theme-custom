@@ -1,5 +1,7 @@
 <div class="page-width narrow">
 
+  <h2></h2>
+
   {% assign current_title = article.title %}
 
   {% for post in blog.articles limit: 4 %}
@@ -21,6 +23,14 @@
     "tag":"section",
     "class":"blogs-list",
     "templates":["article"],
+    "settings": [
+      {
+        "type":"text",
+        "id":"section_title",
+        "label":"Section title",
+        "default":"Recent articles"
+      }
+    ],
     "presets": [
       {
         "name":"Custom recent articles"
