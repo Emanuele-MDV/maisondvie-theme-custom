@@ -44,7 +44,7 @@
 
 {% for article in blog.articles %}
   {% if article.title != current_title %}
-    {% capture post | limit:2 %}
+    {% capture post %}
       <li><a href="{{ article.url }}"><p>{{ article.title }}</p></a></li>
     {% endcapture %}
     {% assign related_posts = related_posts | append:post %}
