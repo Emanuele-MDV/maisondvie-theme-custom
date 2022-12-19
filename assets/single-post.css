@@ -121,6 +121,10 @@ article div img {
     margin-left: -1rem;
 }
 
+.post-products a {
+  text-decoration:none;
+}
+
 .post-products a figure {
     width: 100%;
     margin: 0;
