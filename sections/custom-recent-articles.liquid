@@ -48,8 +48,7 @@
       <li><a href="{{ article.url }}"><p>{{ article.title }}</p></a></li>
     {% endcapture %}
     {% assign related_posts = related_posts | append:post %}
-  {% else %}
-    {% break %}
+  
   {% endif %}
 {% endfor %}
 
