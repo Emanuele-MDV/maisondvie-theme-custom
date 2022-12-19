@@ -209,11 +209,12 @@
       $('.products-6').append( $('.content-products-6') );
     }
 
-    var count = 0;
+    
 
-    $('post-products').each(function(){
-      count == $(this).length();
-      console.log(count);
+    $('.post-products').each(function(){
+      var count = $(this).length();
+      var classN = 'grid-' + count;
+      $(this).addClass( classN );
     })
     
   });
