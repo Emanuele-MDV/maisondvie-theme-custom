@@ -142,6 +142,15 @@ article div img {
     border: 0;
 }
 
+.post-products a figure figcaption span {
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #636363;
+    letter-spacing: 2px;
+}
+
 /* Responsive */
 
 @media screen and (min-width:990px){
