@@ -9,6 +9,17 @@
     {% unless post.title == current_title %}
     
       {{ post.title }}
+      <article>
+        <figure>
+          {% assign image = post.featured_image %}
+          <img
+          src="{{ image.url | width: url: '480x' }}"  
+          />
+        </figure>
+        <p></p>
+        <h3></h3>
+        <a><span>Read article</span>{% render 'icon-arrow' %}</a>
+      </article>
       
     {% endunless %}
   
