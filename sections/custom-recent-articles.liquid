@@ -47,7 +47,7 @@
     {% capture post %}
       <li><a href="{{ article.url }}"><p>{{ article.title }}</p></a></li>
     {% endcapture %}
-    {% assign related_posts = related_posts | append:post | split %}
+    {% assign related_posts = related_posts | append:post | split:', ' %}
   {% endunless %}
 {% endfor %}
 
