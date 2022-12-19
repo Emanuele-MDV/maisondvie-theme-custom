@@ -52,9 +52,11 @@
 {% endfor %}
 
 {% if related_posts.size > 0 %}
-  <ul> {{ related_posts }} </ul>
-{% else %}
-  No related posts!
+
+  {% for single_post in related_posts %}
+    Post!
+  {% endfor %}
+  
 {% endif %}
 
 
