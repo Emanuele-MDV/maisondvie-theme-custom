@@ -16,9 +16,9 @@
           src="{{ image.url | width: url: '480x' }}"  
           />
         </figure>
-        <p></p>
-        <h3></h3>
-        <a><span>Read article</span>{% render 'icon-arrow' %}</a>
+        <p>{{ post.published_at | date: "%b %d, %y" }}</p>
+        <h3>{{ post.title }}</h3>
+        <a href="{{ post.url }}"><span>Read article</span>{% render 'icon-arrow' %}</a>
       </article>
       
     {% endunless %}
