@@ -41,7 +41,7 @@
 
 {% assign controllers = '' | split: '' %}
 {% for article in blog.articles %}
-    {% assign controllerName = article.title | split: '_' | first | split: '' %}
+    {% assign controllerName = article.title | split: '_' %}
     {% assign controllers = controllers | concat: controllerName %}
 {% endfor %}
 
