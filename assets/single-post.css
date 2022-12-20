@@ -249,6 +249,10 @@ article div img {
     margin: 0;
 }
 
+.blogs-list .page-width a span {
+    margin-right: 1rem;
+}
+
 .blogs-list .page-width a::before{
   content:'';
 }
