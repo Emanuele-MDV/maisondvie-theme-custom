@@ -335,6 +335,12 @@ article div img {
     width: 33.33%;
   }
 
+  /* Recent articles */
+
+  .blogs-list .page-width article figure {
+    min-height: 360px;
+  }
+
   
 }
 
