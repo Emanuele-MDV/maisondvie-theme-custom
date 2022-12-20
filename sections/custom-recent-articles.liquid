@@ -44,15 +44,21 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function(){
+    
     var pHeight = 0;
-    $('p.abstract').each(function(){
+    
+    $( 'p.abstract', this ).each(function(){
+      
       var thisHeight = $(this).outerHeight();
+      
       if( thisHeight > pHeight ){
         var pHeight = thisHeight;
       }
+      
     })
 
     console.log(pHeight);
+    
   });
 </script>
   
