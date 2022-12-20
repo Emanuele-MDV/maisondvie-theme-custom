@@ -1,6 +1,6 @@
 <div class="page-width narrow date-container">
 <div>
-  <p><b>{{ 'blogs.article.date' | t }}</b>{{ article.published_at | date: "%b %d, %y" }}</p>
+  <p><b>{{ 'blogs.article.date' | t }}</b>{{ article.published_at | date: "%b %d, %Y" }}</p>
   {% if article.metafields.custom.time_reading.value  %}<p><b>{{ 'blogs.article.time' | t }}</b>{{ article.metafields.custom.time_reading }}'</p>{% endif %}
 </div>
 </div>
