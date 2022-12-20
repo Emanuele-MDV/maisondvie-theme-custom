@@ -41,6 +41,18 @@
 
 
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    var pHeight = 0;
+    $('p.abstract').each(function(){
+      var thisHeight = $(this).outerHeight();
+      if( thisHeight > pHeight ){
+        var pHeight = thisHeight;
+      }
+    })
+  });
+</script>
   
 
 {% schema %}
