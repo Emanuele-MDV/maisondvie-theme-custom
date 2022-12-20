@@ -189,6 +189,7 @@ article div img {
 .blogs-list .page-width {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .blogs-list .page-width article {
@@ -249,6 +250,10 @@ article div img {
     margin: 0;
 }
 
+.blogs-list .page-width a span {
+    margin-right: 0.8rem;
+}
+
 .blogs-list .page-width a::before{
   content:'';
 }
@@ -264,6 +269,14 @@ article div img {
 
   .grid-5 a:nth-child(-n+2) {
     width: 50%;
+  }
+
+  .blogs-list .page-width article {
+    width: 49.5%;
+  }
+
+  .blogs-list .page-width article > *:not(figure, a) {
+    padding: 0 5rem 0 0;
   }
   
 }
