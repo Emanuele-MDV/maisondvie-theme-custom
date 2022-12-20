@@ -280,6 +280,12 @@ article div img {
   .blogs-list .page-width article > *:not(figure, a) {
     padding: 0 5rem 0 0;
   }
+
+  .blogs-list .page-width a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
   
 }
 
