@@ -1,6 +1,6 @@
 <div class="page-width narrow">
 
-  <h2>{{ section.settings.section_title }}</h2>
+  
 
 
   {% assign related_posts = "" %}
@@ -34,6 +34,7 @@
   
   {% if related_posts.size > 0 %}
     
+    <h2>{{ section.settings.section_title }}</h2>
     {{ related_posts }}
     
   {% endif %}
