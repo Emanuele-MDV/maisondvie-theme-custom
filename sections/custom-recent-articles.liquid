@@ -53,6 +53,7 @@
           {% assign image = article.image %}
           <img
           src="{{ image.src | img_url: '480x' }}"
+          alt="{{ article.title }}"
           />
         </figure>
         <p>{{ article.published_at | date: "%b %d, %y" }}</p>
