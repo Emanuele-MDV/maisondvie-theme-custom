@@ -181,10 +181,15 @@ article div img {
   font-size: 3.6rem;
   line-height: 4rem;
   font-weight: 200;
+  width:100%;
   text-transform: uppercase;
   position: relative;
 }
 
+.blogs-list .page-width {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /* Responsive */
