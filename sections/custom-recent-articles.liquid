@@ -56,9 +56,9 @@
           alt="{{ article.title }}"
           />
         </figure>
-        <p>{{ article.published_at | date: "%b %d, %y" }}</p>
+        <p class="date">{{ article.published_at | date: "%b %d, %Y" }}</p>
         <h3>{{ article.title }}</h3>
-        <p>{{ article.excerpt }}</p>
+        <p class="abstract">{{ article.excerpt }}</p>
         <a href="{{ article.url }}"><span>Read article</span>{% render 'icon-arrow' %}</a>
       </article>
   
