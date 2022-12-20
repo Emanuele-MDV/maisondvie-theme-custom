@@ -233,6 +233,26 @@ article div img {
     margin: 2.4rem 0 1rem;
 }
 
+.blogs-list .page-width article p.abstract {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.blogs-list .page-width a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.blogs-list .page-width a::before{
+  content:'';
+}
+
 
 /* Responsive */
 
