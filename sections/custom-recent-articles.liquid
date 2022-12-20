@@ -49,7 +49,7 @@
     
     $( 'p.abstract', this ).each(function(){
       
-      var thisHeight = $(this).outerHeight();
+      var thisHeight = $(this).height();
       
       if( thisHeight < pHeight ){
         var pHeight = thisHeight;
@@ -57,7 +57,7 @@
       
     })
 
-    console.log(pHeight);
+    console.log(thisHeight);
     
   });
 </script>
