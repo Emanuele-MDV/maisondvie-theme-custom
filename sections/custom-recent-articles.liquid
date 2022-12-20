@@ -2,42 +2,6 @@
 
   <h2>{{ section.settings.section_title }}</h2>
 
-  {% comment %}
-
-  {% assign current_title = article.title %}
-
-  {% capture recent_posts %}
-    {% for article in blog.articles %}
-      {% unless post.title == current_title %}
-        {{ article.title }}
-      {% endunless %}
-    {% endfor %}
-  {% endcapture %}
-
-  {% assign articles_array = recent_posts | split: ', ' %}
-
-  {{ articles_array }}
-
-  {% for post in articles_array %}
-    {{ title }}
-  {% endfor %}
-  
-</div>
-
-
-<article>
-  <figure>
-    {% assign image = post.image %}
-    <img
-    src="{{ image.src | img_url: '480x' }}"  
-    />
-  </figure>
-  <p>{{ post.published_at | date: "%b %d, %y" }}</p>
-  <h3>{{ post.title }}</h3>
-  <a href="{{ post.url }}"><span>Read article</span>{% render 'icon-arrow' %}</a>
-</article>
-{% endcomment %}
-
 
 {% assign related_posts = "" %}
 {% assign current_title = article.title %}
