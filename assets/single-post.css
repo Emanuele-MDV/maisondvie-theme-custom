@@ -194,7 +194,8 @@ article div img {
 .blogs-list .page-width article {
     width: 100%;
     border: 0.5rem solid transparent;
-  position:relative;
+    position:relative;
+    margin-bottom:1.6rem;
 }
 
 .blogs-list .page-width article figure {
