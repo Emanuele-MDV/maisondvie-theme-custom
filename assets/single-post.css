@@ -273,6 +273,8 @@ article div img {
 
   .blogs-list .page-width article {
     width: 49.5%;
+    padding-bottom: 2rem;
+    margin-bottom: 3.8rem;
   }
 
   .blogs-list .page-width article > *:not(figure, a) {
