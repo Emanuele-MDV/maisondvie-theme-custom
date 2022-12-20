@@ -3,43 +3,43 @@
   <h2>{{ section.settings.section_title }}</h2>
 
 
-{% assign related_posts = "" %}
-{% assign current_title = article.title %}
-
-{% for article in blog.articles limit:5 %}
+  {% assign related_posts = "" %}
+  {% assign current_title = article.title %}
   
-  {% if article.title != current_title %}
+  {% for article in blog.articles limit:5 %}
     
-    {% capture post %}
+    {% if article.title != current_title %}
       
-      <article>
-        <figure>
-          {% assign image = article.image %}
-          <img
-          src="{{ image.src | img_url: '480x' }}"
-          alt="{{ article.title }}"
-          />
-        </figure>
-        <p class="date">{{ article.published_at | date: "%b %d, %Y" }}</p>
-        <h3>{{ article.title }}</h3>
-        <p class="abstract">{{ article.excerpt }}</p>
-        <a href="{{ article.url }}"><span>Read article</span>{% render 'icon-arrow' %}</a>
-      </article>
+      {% capture post %}
+        
+        <article>
+          <figure>
+            {% assign image = article.image %}
+            <img
+            src="{{ image.src | img_url: '480x' }}"
+            alt="{{ article.title }}"
+            />
+          </figure>
+          <p class="date">{{ article.published_at | date: "%b %d, %Y" }}</p>
+          <h3>{{ article.title }}</h3>
+          <p class="abstract">{{ article.excerpt }}</p>
+          <a href="{{ article.url }}"><span>Read article</span>{% render 'icon-arrow' %}</a>
+        </article>
+    
+      {% endcapture %}
+      {% assign related_posts = related_posts | append:post %}
+    
+    {% endif %}
+  {% endfor %}
   
-    {% endcapture %}
-    {% assign related_posts = related_posts | append:post %}
-  
+  {% if related_posts.size > 0 %}
+    
+    {{ related_posts }}
+    
   {% endif %}
-{% endfor %}
-
-{% if related_posts.size > 0 %}
-  
-  {{ related_posts }}
-  
-{% endif %}
 
 
-
+</div>
   
 
 {% schema %}
