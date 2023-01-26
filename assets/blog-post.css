@@ -450,11 +450,19 @@ form#comment_form .btn.outline {
 }
 
 .btn.outline input {
-  text-transform: uppercase;
-  font-family:Wotfard;
-  text-decoration: none;
-  color: black;
-  font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: Wotfard;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    padding: 2.4rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+form#comment_form .btn.outline svg.icon.icon-arrow {
+    position: absolute;
+    right: 10%;
 }
 
 @media screen and (min-width:768px) and (max-device-width:1024px){
