@@ -143,6 +143,21 @@ p.date-time span {
 
 /* Article content */
 
+@media screen and (min-width:1200px){
+
+  .post-content .page-width {
+    display: flex;
+    paddding-top:12rem;
+  }
+
+  article.article {
+    width: 70%;
+    padding-top: 0;
+    padding-right: 8rem;
+  }
+  
+}
+
 article.article {
     padding: 3.8rem 0 6rem;
   margin-bottom: 6rem;
