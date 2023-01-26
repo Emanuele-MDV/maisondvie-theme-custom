@@ -24,6 +24,10 @@ h1{
   text-transform:uppercase;
 }
 
+p {
+    font-size: 1.6rem;
+}
+
 .container-title {
     position: relative;
     padding-top: 4rem;
@@ -115,6 +119,7 @@ h1{
 
 p.date-time {
     margin-top: 3rem;
+    font-size:1.2rem;
     margin-bottom: 0;
     padding: 1.5rem 0;
     border-top: 1px solid;
@@ -140,6 +145,10 @@ p.date-time span {
 
 article.article {
     padding: 3.8rem 0;
+}
+
+.post-products {
+    margin: 3.8rem 0;
 }
 
 
