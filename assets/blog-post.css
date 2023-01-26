@@ -253,6 +253,14 @@ article.article h3{
     justify-content: center;
 }
 
+@media screen and (min-width:768px){
+  .article-promo-banner a {
+    padding: 2rem 16rem;
+  }  
+}
+
+
+
 .article-promo-banner a > *{
   position:relative;
 }
@@ -352,7 +360,7 @@ a.btn.outline span.icon-wrap {
     display: flex;
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
 
   a.btn.outline{
     width:fit-content;
