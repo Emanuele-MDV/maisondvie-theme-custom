@@ -15,6 +15,8 @@ section.blog-title h1, section.blog-title p {
     text-align:center;
 }
 
+/*
+
 .blogs-list {
     margin-bottom: 6rem;
 }
@@ -141,9 +143,11 @@ div#blog-posts>article div a.btn span {
     margin-right: 0.8rem;
 }
 
-
+*/
 
 /* FEATURED POSTS */
+
+/*
 
 div#blog-posts>article.featured{
   order:1;
@@ -201,7 +205,11 @@ div#blog-posts>article.featured div p {
   display:block;
 }
 
+*/
+
 /* RESPONSIVE */
+
+/*
 
 @media screen and (min-width:768px){
 
@@ -290,3 +298,5 @@ div#blog-posts>article.featured{
 }
 
 }
+
+*/
