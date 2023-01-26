@@ -145,7 +145,7 @@ article.blog-article a figure img {
   object-fit: cover;
   object-position: top;
   opacity: .7;
-  transition: all 180ms ease-out;
+  transition: all 120ms ease-out;
 }
 
 @media screen and (min-width:1024px){
@@ -163,7 +163,7 @@ article.blog-article a figure img {
     opacity:0;
     background: rgba(255, 255, 255, .95);
     color: black;
-    transition:all 100ms ease-out;
+    transition:all 120ms ease-out;
   }
 
   article.blog-article:hover a div>span {
