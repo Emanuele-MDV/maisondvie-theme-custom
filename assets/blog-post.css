@@ -165,6 +165,12 @@ p.date-time span {
   
 }
 
+@media screen and (min-width:1920px){
+  article.article {
+    padding-right: 12rem!important;
+  }
+}
+
 article.article {
     padding: 3.8rem 0 6rem;
   margin-bottom: 6rem;
