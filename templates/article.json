@@ -38,40 +38,43 @@
       "settings": {
       }
     },
-    "21204e77-b9e9-4a9a-af42-c452cdcb8e8e": {
-      "type": "custom-article-heading",
+    "1156bfed-5942-4a60-aad8-4e67758cfd91": {
+      "type": "blog-article-heading",
       "settings": {
         "heading_color": "black"
       }
     },
-    "d3e3d762-31ea-4b20-98e8-efe5c59330d8": {
-      "type": "custom-article-date-time-share",
+    "85c1c017-6530-4958-96a2-4adfb4d2c802": {
+      "type": "blog-article-content",
       "settings": {
+        "enable_commnets": true
       }
     },
-    "061ef662-7c5a-4201-8641-4f495234d104": {
-      "type": "custom-article-content",
-      "settings": {
-      }
-    },
-    "7608856f-3a56-499a-9f5f-290e892930c9": {
-      "type": "custom-recent-articles",
+    "d2d8f3ae-87f2-43e9-87f4-3289b9836bcc": {
+      "type": "blog-recent-articles",
       "settings": {
         "section_title": "Recent articles"
       }
     },
-    "56689ff6-5d5d-4be8-ac72-17047c9dbde0": {
-      "type": "custom-article-metafields",
+    "c7ccc89b-4145-4389-bb0f-f7ef54a99e3e": {
+      "type": "blog-post-social-follow",
+      "settings": {
+        "social_title": "Follow Summervie",
+        "section_text": ""
+      }
+    },
+    "91551de8-3536-4380-bf1b-be9206062934": {
+      "type": "blog-article-metafields",
       "settings": {
       }
     }
   },
   "order": [
     "main",
-    "21204e77-b9e9-4a9a-af42-c452cdcb8e8e",
-    "d3e3d762-31ea-4b20-98e8-efe5c59330d8",
-    "061ef662-7c5a-4201-8641-4f495234d104",
-    "7608856f-3a56-499a-9f5f-290e892930c9",
-    "56689ff6-5d5d-4be8-ac72-17047c9dbde0"
+    "1156bfed-5942-4a60-aad8-4e67758cfd91",
+    "85c1c017-6530-4958-96a2-4adfb4d2c802",
+    "d2d8f3ae-87f2-43e9-87f4-3289b9836bcc",
+    "c7ccc89b-4145-4389-bb0f-f7ef54a99e3e",
+    "91551de8-3536-4380-bf1b-be9206062934"
   ]
 }
