@@ -232,6 +232,10 @@ article.article h3{
   background-color:#e7e8eb;
 }
 
+.article-promo-banner a > * {
+  color:black;
+}
+
 .article-promo-banner.color-black a > * {
   color:white;
 }
