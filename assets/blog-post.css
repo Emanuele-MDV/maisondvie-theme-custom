@@ -34,6 +34,14 @@ h1{
     justify-content: flex-end;
 }
 
+@media screen and (min-width:1024px){
+
+  .container-title {
+    padding-bottom: 10rem;
+  }
+  
+}
+
 .container-title figure:before {
   content: '';
   position:absolute;
@@ -71,6 +79,14 @@ h1{
 
 .container-title .post-title{
   position:relative;
+}
+
+@media screen and (min-width:1024px){
+
+  .container-title .post-title{
+    width:50%;
+  }
+  
 }
 
 p.date-time {
