@@ -85,7 +85,7 @@ article.blog-article {
 
 @media screen and (min-width:1024px){
   
-  article.blog-article:not(:nth-child(n+3)){
+  article.blog-article:nth-child(n+4){
     display:none;
   }
   
