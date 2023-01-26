@@ -170,6 +170,11 @@ article.blog-article a figure img {
     top: 3rem;
     opacity:1;
   }
+
+  article.blog-article:hover a figure img {
+    opacity:1;
+    transform:scale(1.1);
+  }
   
 }
 
