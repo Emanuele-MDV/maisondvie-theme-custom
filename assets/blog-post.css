@@ -352,5 +352,13 @@ a.btn.outline span.icon-wrap {
     display: flex;
 }
 
+@media screen and (max-width:768px){
+
+  a.btn.outline{
+    width:fit-content;
+    padding: 1.6rem 4rem;
+  }
+  
+}
 
 
