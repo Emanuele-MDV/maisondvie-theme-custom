@@ -460,10 +460,12 @@ article.article h3{
     text-align: left;
     margin-bottom: 0;
   position:relative;
+  padding-left:2rem;
 }
 
 .img-txt p{
   position:relative;
+  padding-left:2rem;
 }
 
 
