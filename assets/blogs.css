@@ -69,6 +69,14 @@ article.blog-article {
   margin-bottom:1.8rem;
 }
 
+@media screen and (min-width:768px){
+
+  article.blog-article:not(:first-of-type){
+    width:49%;
+  }
+
+}
+
 article.blog-article a {
   position: relative;
   text-decoration: none;
