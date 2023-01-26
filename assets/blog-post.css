@@ -426,7 +426,7 @@ form#comment_form .fields textarea{
   min-height:10rem;
 }
 
-form#comment_form .fields > *>::placeholder {
+form#comment_form .fields > *::placeholder {
   visibility:visible;
   opacity:1;
 }
