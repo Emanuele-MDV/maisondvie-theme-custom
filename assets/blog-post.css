@@ -566,8 +566,14 @@ article.blog-article {
 
 @media screen and (min-width:1024px){
 
+  .blogs-list .page-width{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+  }
+
   article.blog-article{
-    width:33%;
+    width:32%;
   }
 
 }
