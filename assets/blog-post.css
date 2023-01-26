@@ -438,10 +438,15 @@ article.article h3{
   position: relative;
 }
 
-.img-txt:after {
-  content:'';
-  display:block;
-  position:absolute;
+.img-txt:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    bottom: 0;
+    background: white;
+    opacity: .8;
 }
 
 .img-txt a {
