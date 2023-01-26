@@ -414,6 +414,18 @@ aside h2 {
     text-transform: uppercase;
 }
 
+form#comment_form .fields input, form#comment_form .fields textarea {
+    border: 1px solid #b1b1b1;
+    margin-bottom: 1.2rem;
+    padding: 1.5rem;
+    width: 100%;
+    min-height: 60px;
+}
+
+form#comment_form .fields textarea{
+  min-height:unset;
+}
+
 @media screen and (min-width:768px) and (max-device-width:1024px){
   
   section.comment-form {
@@ -430,7 +442,10 @@ aside h2 {
     width: 60%;
   }
   
+  
 }
+
+
 
 
 
