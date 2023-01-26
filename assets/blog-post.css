@@ -23,3 +23,9 @@ section#info_section {
 h1{
   text-transform:uppercase;
 }
+
+.container-title {
+  position:relative;
+  padding-top:4rem;
+  padding-bottom: 4rem;
+}
