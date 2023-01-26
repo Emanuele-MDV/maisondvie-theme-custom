@@ -234,7 +234,7 @@ article.article h3{
 
 .article-promo-banner a > * {
   color:black;
-  text-align:center;
+  text-align:center!important;
   width:100%;
 }
 
