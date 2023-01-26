@@ -1,3 +1,17 @@
 section#info_section {
     display: none;
 }
+
+/* HEADING BLOG */
+
+.container-black {
+  background-color:black;
+}
+
+.container-white {
+  background-color:white;
+}
+
+.container-grey {
+  background-color:#e7e8eb;
+}
