@@ -66,15 +66,17 @@ div#blog-posts.trends>article:not(.trends){
 article.blog-article {
   width:100%;
   overflow:hidden;
+  margin-bottom:1.8rem;
 }
 
 article.blog-article a {
-  position:relative;
-  text-decoration:none;
-  display:flex;
-  flex-direction:column;
-  width:100%;
-  height:480px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 480px;
+    padding: 3.6rem;
 }
 
 
