@@ -15,3 +15,7 @@ section#info_section {
 .container-grey {
   background-color:#e7e8eb;
 }
+
+.container-black > * {
+  color:white;
+}
