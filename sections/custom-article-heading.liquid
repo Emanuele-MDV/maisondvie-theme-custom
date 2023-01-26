@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="{{ 'single-post.css' | asset_url }}" media="print" onload="this.media='all'">
-{% if article.metafields.custom.products_post_1.value %}<script src="{{ 'single-post.js' | asset_url }}" defer="defer"></script>{% endif %}
 
 <div class="container-title container-{% if article.metafields.custom.color.value %}{{ article.metafields.custom.color }}{% else %}black{% endif %} page-width">
  
@@ -7,8 +6,18 @@
   <figure>
     {% assign image = article.image %}  
     <img
-    src="{{ image | image_url: width:'768x768', crop: 'top' }}"
-    alt="{% if image.alt %}{{ image.alt }}{% else %}{{ article.title }}{% endif %}"
+    src="{{ image.src | image_url: width: '360x' }}"
+    alt="{{ image.alt }}"
+    srcset="
+    {{ image.src | image_url: width: '420x', crop: 'top' }} 420w,
+    {{ image.src | image_url: width: '800x', crop: 'top' }} 800w,
+    {{ image.src | image_url: width: '960x', crop: 'top' }} 960w,
+    100vw"
+    sizes="
+    (min-width: 1200px) 960px,
+    (min-width: 600px) 800px,
+    (min-width: 320px) 420px
+    "
     />    
   </figure>
 
