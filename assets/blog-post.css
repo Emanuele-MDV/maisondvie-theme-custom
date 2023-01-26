@@ -244,12 +244,13 @@ article.article h3{
 }
 
 .article-promo-banner a {
-  display: flex;
-  flex-direction: column;
-  padding:1.5rem;
-  position:relative;
-  height:200px;
-  text-decoration:none;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    position: relative;
+    height: 200px;
+    text-decoration: none;
+    justify-content: center;
 }
 
 .article-promo-banner a > *{
@@ -316,11 +317,14 @@ article.article h3{
 }
 
 .article-promo-banner a p.promo-desc {
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
-
+.article-promo-banner a h4 {
+    text-transform: uppercase;
+    margin: 8px 0;
+}
 
 
 
