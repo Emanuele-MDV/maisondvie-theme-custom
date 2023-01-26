@@ -744,12 +744,6 @@ article.blog-article a div>span svg {
   border-bottom: 1px solid;
 }
 
-@media screen and (min-width:1024px){
-  .social-follow .icons {
-    margin-bottom: 14rem;
-  }
-}
-
 .social-follow .icons a {
     display: flex;
     align-items: center;
@@ -760,7 +754,16 @@ article.blog-article a div>span svg {
     padding: 10px;
     background: black;
     border-radius: 40px;
+  transition: all 180ms ease-out;
 }
 
+@media screen and (min-width:1024px){
+  .social-follow .icons {
+    margin-bottom: 14rem;
+  }
 
+  .social-follow .icons a:hover{
+    transform:scale(1.1);
+  }
+}
 
