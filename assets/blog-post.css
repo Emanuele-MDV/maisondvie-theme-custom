@@ -372,7 +372,7 @@ article.article h3{
 
 /* Button */
 
-a.btn.outline {
+.btn.outline {
     width: 100%;
     display: flex;
     padding: 1.6rem;
@@ -385,7 +385,7 @@ a.btn.outline {
     font-size: 1.4rem;
 }
 
-a.btn.outline span.icon-wrap {
+.btn.outline span.icon-wrap {
     margin-right: 1rem;
     transform: rotateZ(180deg);
     display: flex;
@@ -393,7 +393,7 @@ a.btn.outline span.icon-wrap {
 
 @media screen and (min-width:768px){
 
-  a.btn.outline{
+  .btn.outline{
     width:fit-content;
     padding: 1.6rem 4rem;
   }
@@ -401,3 +401,15 @@ a.btn.outline span.icon-wrap {
 }
 
 
+/* ASIDE */
+
+aside p {
+    font-size: 1.4rem;
+}
+
+aside h2 {
+    font-family: Wotfard;
+    font-weight: 200;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
