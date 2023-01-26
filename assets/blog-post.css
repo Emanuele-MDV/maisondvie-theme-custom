@@ -744,6 +744,12 @@ article.blog-article a div>span svg {
   border-bottom: 1px solid;
 }
 
+@media screen and (min-width:1024px){
+  .social-follow .icons {
+    margin-bottom: 14rem;
+  }
+}
+
 .social-follow .icons a {
     display: flex;
     align-items: center;
@@ -755,4 +761,6 @@ article.blog-article a div>span svg {
     background: black;
     border-radius: 40px;
 }
+
+
 
