@@ -438,7 +438,7 @@ article.article h3{
   position: relative;
 }
 
-.img-txt:before {
+.img-txt figure:after {
     content: "";
     display: block;
     position: absolute;
