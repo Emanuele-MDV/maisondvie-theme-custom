@@ -273,7 +273,7 @@ article.article h3{
 
 @media screen and (min-width:1024px){
   .article-promo-banner a, .article-promo-banner.img-right a, .article-promo-banner.img-left a {
-    padding: 2rem 33%;
+    padding: 2rem 30%;
   }  
 }
 
@@ -296,7 +296,6 @@ article.article h3{
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  object-position: top;
   opacity:.7;
 }
 
@@ -348,6 +347,10 @@ article.article h3{
 .article-promo-banner a span {
   display:none;
 }
+
+/* BANNER GROUPS */
+
+
 
 /* Button */
 
