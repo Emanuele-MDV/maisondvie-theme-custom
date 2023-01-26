@@ -222,7 +222,7 @@ article.article h3{
 
 .article-promo-banner a {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding:1.5rem;
   position:relative;
   height:200px;
@@ -269,8 +269,6 @@ article.article h3{
   right:0;
 }
 
-
-
 .article-promo-banner.img-left a figure img, .article-promo-banner.img-right a figure img {
   min-width: 100%;
   min-height: 100%;
@@ -279,6 +277,8 @@ article.article h3{
   object-fit: contain;
   object-position: bottom;
 }
+
+
 
 
 
