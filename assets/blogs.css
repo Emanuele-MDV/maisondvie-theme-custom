@@ -143,6 +143,16 @@ article.blog-article a div p {
     font-weight: 200;
 }
 
+article.blog-article a div>span {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+article.blog-article a div>span svg {
+  margin-left:.6rem;
+}
+
 
 /*
 
