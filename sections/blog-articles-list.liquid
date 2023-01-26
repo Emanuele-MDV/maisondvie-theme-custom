@@ -42,31 +42,32 @@
   
       {%- for article in blog.articles -%}
         <article class="blog-article {{ article.metafields.custom.blog_cat.value | downcase }}">
-
-          {% assign image = article.image %}
-          <figure>
-            <img
-              src="{{ image.src | img_url: '480x480', crop: 'center' }}"
-              alt="{% if image.alt %}{{ image.alt }}{% else %}{{ article.title }}{% endif %}"
-              srcset="
-              {% if image.width > 380 %}{{ image.src | img_url: '380x480', crop: 'top' }} 380w{% endif %},
-              {% if image.width > 800 %}{{ image.src | img_url: '800x440', crop: 'top' }} 800w{% endif %},
-              {% if image.width > 1480 %}{{ image.src | img_url: '1480x600', crop: 'top'}} 1480w{% endif %}
-              "
-              sizes="
-              {% if image.width > 1480 %}(min-width: 1280px) 1480px{% endif %},
-              {% if image.width > 800 %}(min-width: 768px) 800px{% endif %},
-              {% if image.width > 380 %}(min-width: 320px) 380px{% endif %},
-              100vw"
-              loading="lazy"
-            />
-          </figure>
-          <div>
-            <small>{{ article.published_at | date: "%b %d, %Y" }}</small>
-            <h3>{{ article.title }}</h3>
-            <p>{{ article.excerpt }}</p>
-            <a href="{{ article.url }}" class="btn"><span>Read article</span>{% render 'icon-arrow' %}</a>
-          </div>
+          <a href="{{ article.url }}">
+            {% assign image = article.image %}
+            <figure>
+              <img
+                src="{{ image.src | img_url: '480x480', crop: 'center' }}"
+                alt="{% if image.alt %}{{ image.alt }}{% else %}{{ article.title }}{% endif %}"
+                srcset="
+                {% if image.width > 380 %}{{ image.src | img_url: '380x480', crop: 'top' }} 380w{% endif %},
+                {% if image.width > 800 %}{{ image.src | img_url: '800x440', crop: 'top' }} 800w{% endif %},
+                {% if image.width > 1480 %}{{ image.src | img_url: '1480x600', crop: 'top'}} 1480w{% endif %}
+                "
+                sizes="
+                {% if image.width > 1480 %}(min-width: 1280px) 1480px{% endif %},
+                {% if image.width > 800 %}(min-width: 768px) 800px{% endif %},
+                {% if image.width > 380 %}(min-width: 320px) 380px{% endif %},
+                100vw"
+                loading="lazy"
+              />
+            </figure>
+            <div>
+              <small>{{ article.published_at | date: "%b %d, %Y" }}</small>
+              <h3>{{ article.title }}</h3>
+              <p>{{ article.excerpt }}</p>
+              <span>Read article</span>{% render 'icon-arrow' %}
+            </div>
+          </a>
         </article>
       {%- endfor -%}
   
