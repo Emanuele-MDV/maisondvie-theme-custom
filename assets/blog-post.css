@@ -237,6 +237,12 @@ article.article h3{
   overflow:hidden;
 }
 
+@media screen and (min-width:1200px){
+  .article-promo-banner{
+    margin: 3.8rem 0;
+  }
+}
+
 .article-promo-banner.color-black {
   background-color:black;
 }
