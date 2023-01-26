@@ -226,6 +226,7 @@ article.article h3{
 
 .article-promo-banner.color-white {
   background-color:white;
+  border: 1px solid #e7e8eb;
 }
 
 .article-promo-banner.color-grey {
