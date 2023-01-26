@@ -720,6 +720,7 @@ article.blog-article a div>span svg {
   
 }
 
+
 .social-follow .page-width h2 {
   padding-top: 6rem;
   margin-top: 6rem;
@@ -730,5 +731,23 @@ article.blog-article a div>span svg {
   text-transform: uppercase;
   width:100%;
   text-align:center;
+}
+
+.social-follow .icons {
+  display:flex;
+  justify-content:center;
+  column-gap:.6rem;
+}
+
+.social-follow .icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    color: white;
+    padding: 10px;
+    background: black;
+    border-radius: 40px;
 }
 
