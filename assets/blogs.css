@@ -163,7 +163,7 @@ article.blog-article a figure img {
     opacity:0;
     background: rgba(255, 255, 255, .95);
     color: black;
-    transition:all 180ms ease-out;
+    transition:all 100ms ease-out;
   }
 
   article.blog-article:hover a div>span {
