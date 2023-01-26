@@ -225,6 +225,7 @@ article.article h3{
   flex-direction: row;
   padding:1.5rem;
   position:relative;
+  height:200px;
 }
 
 .article-promo-banner.img-left a{
