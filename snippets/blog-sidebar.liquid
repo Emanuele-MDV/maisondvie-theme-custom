@@ -16,12 +16,6 @@
     </section>
   
   {% endif %}
-  
-  {% if article.comments_count == 0 %}
-    <section class="post-comments">
-      <p class="zero-comments">Nobody commented yet, be the first one!</p>
-    </section>
-  {% endif %}
 
 
 {% comment %} COMMENTS FORM {% endcomment %}
@@ -38,6 +32,11 @@
             endif
           -%}
           <h2>{{ 'blogs.article.comment_form_title' | t }}</h2>
+      
+          {% if article.comments_count == 0 %}
+            <p class="zero-comments">Nobody commented yet, be the first one!</p>
+          {% endif %}
+        
           <p class="article-template__comment-warning caption">{{ 'blogs.article.moderated' | t }}</p>
         
           {%- if form.errors -%}
