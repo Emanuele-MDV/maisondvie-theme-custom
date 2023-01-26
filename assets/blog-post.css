@@ -479,7 +479,7 @@ article.comment{
 }
 
 article.comment:last-of-type{
-  padding-bottom:6rem;
+  margin-bottom:6rem;
 }
 
 article.comment p {
