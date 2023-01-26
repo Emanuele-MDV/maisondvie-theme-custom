@@ -236,6 +236,10 @@ article.article h3{
   padding-right:40%;
 }
 
+.article-promo-banner.img-right a > *{
+  position:relative;
+}
+
 .article-promo-banner a figure{
   position:absolute;
   margin:0;
