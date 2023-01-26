@@ -216,11 +216,22 @@ article.article h3{
 
 .article-promo-banner{
   margin: 3.8rem 0;
+  width:100%;
+  overflow:hidden;
 }
 
 .article-promo-banner a {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: row;
+  padding:1.5rem;
+}
+
+.article-promo-banner.img-left a{
+  padding-left:40%;
+}
+
+.article-promo-banner.img-right a{
+  padding-right:40%;
 }
 
 
