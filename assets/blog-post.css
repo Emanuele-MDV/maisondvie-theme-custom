@@ -318,11 +318,12 @@ article.article h3{
 
 .article-promo-banner a p.promo-desc {
     font-size: 1.4rem;
-    line-height: 1.6rem;
+    line-height: 1.7rem;
 }
 
 .article-promo-banner a h4 {
     text-transform: uppercase;
+  font-size: 1.8rem;
     margin: 0 0 8px;
 }
 
