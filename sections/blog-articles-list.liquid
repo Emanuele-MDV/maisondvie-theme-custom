@@ -65,7 +65,7 @@
               <small>Published: {{ article.published_at | date: "%b %d, %Y" }}</small>
               <h3>{{ article.title }}</h3>
               <p>{{ article.excerpt | truncate: 180 }}</p>
-              <span>Read article</span>{% render 'icon-arrow' %}
+              <span>Read article{% render 'icon-arrow' %}</span>
             </div>
           </a>
         </article>
