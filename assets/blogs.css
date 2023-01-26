@@ -114,6 +114,14 @@ article.blog-article a figure img {
   
 }
 
+article.blog-article a div {
+    position: relative;
+}
+
+article.blog-article a div > * {
+    color:white;
+}
+
 
 /*
 
