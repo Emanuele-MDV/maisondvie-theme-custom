@@ -164,6 +164,12 @@ article.article p {
   width:50%;
 }
 
+@media screen and (min-width:1024px){
+  .post-products.grid-4 a{
+    width:25%;
+  }
+}
+
 .post-products.grid-3 a{
   width:33%;
 }
