@@ -34,7 +34,7 @@ h1{
     justify-content: flex-end;
 }
 
-.container-title:before {
+.container-title figure:before {
   content: '';
   position:absolute;
   width:100%;
