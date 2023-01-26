@@ -310,6 +310,12 @@ article.article h3{
   right:0;
 }
 
+@media screen and (min-width:1024px){
+  .article-promo-banner.img-left a figure, .article-promo-banner.img-right a figure {
+    width:33%;
+  }  
+}
+
 .article-promo-banner.img-left a figure img, .article-promo-banner.img-right a figure img {
   min-width: 100%;
   min-height: 100%;
