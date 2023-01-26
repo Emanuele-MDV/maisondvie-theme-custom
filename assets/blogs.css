@@ -118,8 +118,10 @@ article.blog-article a {
 
 @media screen and (min-width:1440px){
 
-  article.blog-article a{
-    height:680px;
+  article.blog-article a {
+    height: 680px;
+    padding: 8.8rem;
+    padding-top: 32rem;
   }
   
 }
