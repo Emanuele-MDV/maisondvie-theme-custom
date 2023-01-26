@@ -15,7 +15,7 @@ section.blog-title h1, section.blog-title p {
     text-align:center;
 }
 
-/*
+
 
 .blogs-list {
     margin-bottom: 6rem;
@@ -60,6 +60,8 @@ div#blog-posts.events>article:not(.events){
 div#blog-posts.trends>article:not(.trends){
   display:none;
 }
+
+/*
 
 div#blog-posts {
     display: flex;
