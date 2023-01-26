@@ -83,6 +83,14 @@ article.blog-article {
 
 }
 
+@media screen and (min-width:1024px){
+  
+  article.blog-article:not(:nth-child(1-3)){
+    display:none;
+  }
+  
+}
+
 article.blog-article a {
   position: relative;
   text-decoration: none;
