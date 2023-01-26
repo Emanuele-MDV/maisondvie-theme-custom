@@ -122,6 +122,13 @@ article.blog-article a div > * {
     color:white;
 }
 
+article.blog-article a div small {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 2.2rem;
+    display: block;
+}
+
 article.blog-article a div h3{
   text-transform:uppercase;
   font-family:Wotfard;
@@ -129,6 +136,11 @@ article.blog-article a div h3{
   padding:1.8rem 0;
   border-top:1px solid;
   border-bottom:1px solid;
+}
+
+article.blog-article a div p {
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
 
