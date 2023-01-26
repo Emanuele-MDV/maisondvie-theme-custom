@@ -217,43 +217,47 @@
 </script>
 
 
-
-{% assign i = 0 %}
-
-{% for banner in article.metafields.custom.custom_json.value %}
-  {% assign i = i | plus: 1 %}
-  <div class="article-promo-banner content-{{ i }} color-{% if banner.color %}{{ banner.color }}{% else %}white{% endif %} {% if banner.img_side %}img-{{ banner.img_side }}{% else %}img-left{% endif %}{% if banner.txt_align %} txt-{{ banner.txt_align }}{% endif %}">
-    <a href="{{ banner.link }}">
-      <figure>
-        <img
-        src="{{ banner.image }}?crop=top&width=220"
-        alt="{{ banner.name }}{% if banner.description != empty %}, {{ banner.description }}{% endif %}"
-        srcset="
-        {{ banner.image }}?crop=top&width=320 320w,
-        {{ banner.image }}?crop=top&width=420 420w
-        "
-        sizes="
-        (min-width: 990px) 420px,
-        (min-width: 320px) 320px
-        "
-        />
-      </figure>
-      {% if banner.top_text != empty %}<p class="upper-txt">{{ banner.top_text }}</p>{% endif %}
-      <h4>{{ banner.name }}</h4>
-      {% if banner.description != empty %}<p class="promo-desc">{{ banner.description }}</p>{% endif %}
-      <span>{% render 'icon-arrow' %}</span>
-    </a>
-  </div>
-
-  <script>
-    document.addEventListener( 'DOMContentLoaded', function() {
-      $('.banner-{{ i }}').append( $('.content-{{ i }}') );
-    }); 
-  </script>
-
-{% endfor %}
+{% comment %} BANNERS WITH LINKS {% endcomment %} 
 
 
+{% if article.metafields.custom.custom_json.value %}
+
+  {% assign i = 0 %}
+  
+  {% for banner in article.metafields.custom.custom_json.value %}
+    {% assign i = i | plus: 1 %}
+    <div class="article-promo-banner content-{{ i }} color-{% if banner.color %}{{ banner.color }}{% else %}white{% endif %} {% if banner.img_side %}img-{{ banner.img_side }}{% else %}img-left{% endif %}{% if banner.txt_align %} txt-{{ banner.txt_align }}{% endif %}">
+      <a href="{{ banner.link }}">
+        <figure>
+          <img
+          src="{{ banner.image }}?crop=top&width=220"
+          alt="{{ banner.name }}{% if banner.description != empty %}, {{ banner.description }}{% endif %}"
+          srcset="
+          {{ banner.image }}?crop=top&width=320 320w,
+          {{ banner.image }}?crop=top&width=420 420w
+          "
+          sizes="
+          (min-width: 990px) 420px,
+          (min-width: 320px) 320px
+          "
+          />
+        </figure>
+        {% if banner.top_text != empty %}<p class="upper-txt">{{ banner.top_text }}</p>{% endif %}
+        <h4>{{ banner.name }}</h4>
+        {% if banner.description != empty %}<p class="promo-desc">{{ banner.description }}</p>{% endif %}
+        <span>{% render 'icon-arrow' %}</span>
+      </a>
+    </div>
+  
+    <script>
+      document.addEventListener( 'DOMContentLoaded', function() {
+        $('.banner-{{ i }}').append( $('.content-{{ i }}') );
+      }); 
+    </script>
+  
+  {% endfor %}
+
+{% endif %}
 
 {% schema %}
   {
