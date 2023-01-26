@@ -64,7 +64,8 @@ div#blog-posts.trends>article:not(.trends){
 /* ARTICLE CARD */
 
 article.blog-article {
-  
+  width:100%;
+  overflow:hidden;
 }
 
 
