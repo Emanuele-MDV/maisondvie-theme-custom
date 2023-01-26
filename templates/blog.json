@@ -18,16 +18,16 @@
       "settings": {
       }
     },
-    "61befcaa-fe56-4534-bb66-0edc83e6f99a": {
-      "type": "custom-blog-list",
+    "51f17ca6-96f4-4489-86d4-7c1f0af92b1d": {
+      "type": "blog-articles-list",
       "settings": {
-        "use_categories": true
+        "use_categories": false
       }
     }
   },
   "order": [
     "main",
     "6c7c0b04-842a-4e46-be11-1a432144f35f",
-    "61befcaa-fe56-4534-bb66-0edc83e6f99a"
+    "51f17ca6-96f4-4489-86d4-7c1f0af92b1d"
   ]
 }
