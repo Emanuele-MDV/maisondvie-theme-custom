@@ -86,7 +86,7 @@ article.blog-article {
 @media screen and (min-width:1024px){
   
   article.blog-article:nth-child(n+4){
-    display:none;
+    width:32%;
   }
   
 }
