@@ -731,6 +731,9 @@ article.blog-article a div>span svg {
   text-transform: uppercase;
   width:100%;
   text-align:center;
+  padding-bottom: 6rem;
+  margin-bottom: 6rem;
+  border-bottom: 1px solid;
 }
 
 .social-follow .icons {
