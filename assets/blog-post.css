@@ -72,3 +72,14 @@ h1{
 .container-title .post-title{
   position:relative;
 }
+
+p.date-time {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+p.date-time span {
+  margin-left:2rem;
+}
+
+
