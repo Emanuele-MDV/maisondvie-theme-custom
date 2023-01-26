@@ -331,6 +331,26 @@ article.article h3{
   display:none;
 }
 
+/* Button */
+
+a.btn.outline {
+    width: 100%;
+    display: flex;
+    padding: 1.6rem;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+a.btn.outline span.icon-wrap {
+    margin-right: 1rem;
+    transform: rotateZ(180deg);
+    display: flex;
+}
 
 
 
