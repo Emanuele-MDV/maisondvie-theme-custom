@@ -147,13 +147,13 @@ p.date-time span {
 
   .post-content .page-width {
     display: flex;
-    paddding-top:12rem;
+    padding-top:12rem;
   }
 
   article.article {
     width: 70%;
-    padding-top: 0;
-    padding-right: 8rem;
+    padding-top: 0!important;
+    padding-right: 8rem!important;
   }
   
 }
