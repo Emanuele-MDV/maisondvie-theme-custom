@@ -367,8 +367,22 @@ article.article h3{
     margin: 0 0 8px;
 }
 
+
 .article-promo-banner a span {
   display:none;
+}
+
+@media screen and (min-width:1200px){
+  .article-promo-banner a p.upper-txt {
+    font-size: 1.4rem;
+  }
+  .article-promo-banner a h4 {
+    font-size: 2.4rem;
+  }
+  .article-promo-banner a p.promo-desc {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
 }
 
 /* BANNER GROUPS */
@@ -386,6 +400,14 @@ article.article h3{
   .banner-group .article-promo-banner.img-right a, 
   .banner-group .article-promo-banner.img-left a {
     padding: 2rem 20%;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .banner-group .article-promo-banner a, 
+  .banner-group .article-promo-banner.img-right a, 
+  .banner-group .article-promo-banner.img-left a {
+    padding: 2rem 18%;
   }
 }
 
