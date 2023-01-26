@@ -428,18 +428,21 @@ article.article h3{
 /* Images with text */
 
 .img-txt {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 3rem;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
   margin-bottom: 3rem;
-  position:relative;
+  padding-top: 400px;
+  position: relative;
 }
 
 .img-txt a {
   position:absolute;
   width:100%;
+  top:0;
+  left:0;
   height:auto;
   display:block;
 }
