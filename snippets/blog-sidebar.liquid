@@ -9,7 +9,7 @@
         {%- for comment in article.comments -%}
           <article id="{{ comment.id }}" class="comment">
             {{ comment.content }}
-            <span class="comment-author">{{ comment.author }}, {{ comment.created_at | time_tag: format: 'date' }}</span>        
+            <span class="comment-author">{{ comment.author }} | {{ comment.created_at | time_tag: format: 'date' }}:</span>        
           </article>
         {%- endfor -%}
           
