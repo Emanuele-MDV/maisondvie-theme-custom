@@ -21,7 +21,7 @@
     "51f17ca6-96f4-4489-86d4-7c1f0af92b1d": {
       "type": "blog-articles-list",
       "settings": {
-        "use_categories": false
+        "use_categories": true
       }
     }
   },
