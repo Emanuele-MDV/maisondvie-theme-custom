@@ -16,6 +16,6 @@ section#info_section {
   background-color:#e7e8eb;
 }
 
-.container-black > *, .container-black > h1 {
+.container-black .container-title .post-title > * {
   color:white;
 }
