@@ -323,7 +323,7 @@ article.article h3{
 
 .article-promo-banner a h4 {
     text-transform: uppercase;
-    margin: 8px 0;
+    margin: 0 0 8px;
 }
 
 .article-promo-banner a span {
