@@ -550,6 +550,7 @@ form#comment_form .btn.outline svg.icon.icon-arrow {
   font-weight: 200;
   font-size: 2.8rem;
   text-transform: uppercase;
+  width:100%;
 }
 
 .blogs-list article:nthchild(4){
