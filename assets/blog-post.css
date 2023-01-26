@@ -548,7 +548,9 @@ form#comment_form .btn.outline svg.icon.icon-arrow {
   border-top: 1px solid;
 }
 
-
+.blogs-list article:nthchild(4){
+  display:none;
+}
 
 
 
