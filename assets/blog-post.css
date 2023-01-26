@@ -174,8 +174,14 @@ article.article p {
   }
 }
 
-.post-products.grid-3 a{
+.post-products.grid-3 a, .post-products.grid-5 a{
   width:33%;
+}
+
+@media screen and (min-width:1024px){
+  .post-products.grid-5 a{
+    width:20%;
+  }
 }
 
 .post-products figure {
