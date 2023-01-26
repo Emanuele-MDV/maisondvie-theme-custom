@@ -447,6 +447,10 @@ form#comment_form .fields > *::placeholder {
     width: 40%;
   }
 
+  section.comment-form .section-title aside h2 {
+    margin-top:0;
+  }
+
   section.comment-form form#comment_form {
     width: 60%;
   }
