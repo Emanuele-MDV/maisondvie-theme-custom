@@ -93,6 +93,18 @@ h1{
   
 }
 
+@media screen and (min-width:1440px){
+
+  .container-title figure{
+    width:70%;
+  }
+
+  .container-title .post-title{
+    width:40%;
+  }
+  
+}
+
 p.date-time {
     margin-top: 3rem;
     margin-bottom: 0;
