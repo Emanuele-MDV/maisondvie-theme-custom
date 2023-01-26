@@ -224,6 +224,7 @@ article.article h3{
   display: flex;
   flex-direction: row;
   padding:1.5rem;
+  position:relative;
 }
 
 .article-promo-banner.img-left a{
@@ -234,7 +235,18 @@ article.article h3{
   padding-right:40%;
 }
 
+.article-promo-banner a figure{
+  position:absolute;
+  margin:0;
+  height:100%;
+}
 
+.article-promo-banner.img-left a figure{
+  width:42%;
+  left:0;
+  top:0;
+  
+}
 
 
 
