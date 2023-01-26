@@ -122,6 +122,11 @@ article.blog-article a div > * {
     color:white;
 }
 
+article.blog-article a div h3{
+  text-transform:uppercase;
+  font-family:Wotfard;
+}
+
 
 /*
 
