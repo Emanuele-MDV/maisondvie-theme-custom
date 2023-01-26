@@ -716,10 +716,11 @@ article.blog-article a div>span svg {
 
 /* SOCIAL FOLLOW */
 
-.social-follow .page-width {
-  
+@media screen and (min-width:1024px){
+  .social-follow .page-width {
+    max-width:60%;
+  }
 }
-
 
 .social-follow .page-width h2 {
   padding-top: 6rem;
