@@ -124,4 +124,15 @@ p.date-time span {
   margin-left:2rem;
 }
 
+@media screen and (min-width:1024px){
+
+  p.date-time {
+    width:fit-content;
+  }
+
+  p.date-time span {
+    margin-left:3.6rem;
+  }
+  
+}
 
