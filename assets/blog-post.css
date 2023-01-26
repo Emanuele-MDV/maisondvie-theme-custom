@@ -17,5 +17,5 @@ section#info_section {
 }
 
 .container-black > * {
-  color:white;
+  color:white!important;
 }
