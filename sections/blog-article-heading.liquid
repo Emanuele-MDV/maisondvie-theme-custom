@@ -23,7 +23,7 @@
 
   <div class="post-title">
     
-    <h1 class="h1">{{ article.title }}</h1>
+    <h1>{{ article.title }}</h1>
     {% if article.excerpt %}<p>{{ article.excerpt }}</p>{% endif %}
     
     <p class="date-time"><b>{{ 'blogs.article.date' | t }}</b>{{ article.published_at | date: "%b %d, %Y" }} {% if article.metafields.custom.time_reading.value  %}<span><b>{{ 'blogs.article.time' | t }}</b>{{ article.metafields.custom.time_reading }}'</span>{% endif %}</p>
