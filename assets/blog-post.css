@@ -179,7 +179,8 @@ article.article p {
 }
 
 .post-products figure {
-  margin:0;
+  margin: 0;
+  border: 4px solid transparent;
 }
 
 .post-products figure img {
