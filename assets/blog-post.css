@@ -449,6 +449,10 @@ article.article h3{
     opacity: .8;
 }
 
+.img-txt.right figure:after{
+  right:0;
+}
+
 .img-txt a {
   position:absolute;
   width:100%;
@@ -467,19 +471,31 @@ article.article h3{
     width: 100%;
 }
 
-.img-txt h3 {
+.img-txt.left h3 {
     text-align: left;
     margin-bottom: 0;
   position:relative;
   padding:0 4.8rem 0 0;
 }
 
-.img-txt p{
+.img-txt.right h3 {
+    text-align: right;
+    margin-bottom: 0;
+  position:relative;
+  padding:0 0 0 4.8rem;
+}
+
+.img-txt.left p{
   position:relative;
   padding:0 4.8rem 2.8rem 0;
 }
 
-.img-txt p:after{
+.img-txt.right p{
+  position:relative;
+  padding:0 0 2.8rem 4.8rem ;
+}
+
+.img-txt.left p:after{
   content:'';
   display:block;
   position:absolute;
@@ -489,6 +505,18 @@ article.article h3{
   opacity:.6;
   bottom:0;
   left:0;
+}
+
+.img-txt.right p:after{
+  content:'';
+  display:block;
+  position:absolute;
+  width:60%;
+  height:1px;
+  background-color:black;
+  opacity:.6;
+  bottom:0;
+  right:0;
 }
 
 
