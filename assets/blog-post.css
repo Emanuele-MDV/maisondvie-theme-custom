@@ -479,6 +479,10 @@ form#comment_form .fields input, form#comment_form .fields textarea {
   font-size: 1.4rem;
 }
 
+h3.form-status {
+    font-family: Wotfard;
+}
+
 form#comment_form .fields textarea{
   min-height:10rem;
 }
