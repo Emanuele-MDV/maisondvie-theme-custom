@@ -468,6 +468,18 @@ aside h2 {
     text-transform: uppercase;
 }
 
+/* Comments */
+
+article.comment{
+  display:flex;
+  flex-direction:column-reverse;
+  margin-bottom:3rem;
+  padding-bottom:3rem;
+  border-bottom:1px solid black;
+}
+
+/* Form leave a comment */
+
 form#comment_form .fields input, form#comment_form .fields textarea {
     border: 1px solid #b1b1b1;
     margin:0;
