@@ -428,6 +428,7 @@ form#comment_form .fields textarea{
 
 form#comment_form .fields > *>::placeholder {
   visibility:visible;
+  opacity:1;
 }
 
 @media screen and (min-width:768px) and (max-device-width:1024px){
