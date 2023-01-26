@@ -473,9 +473,20 @@ aside h2 {
 article.comment{
   display:flex;
   flex-direction:column-reverse;
-  margin-bottom:3rem;
-  padding-bottom:3rem;
+  margin-bottom:2rem;
+  padding-bottom:2rem;
   border-bottom:1px solid black;
+}
+
+article.comment p {
+  margin-bottom:0;
+  font-style:italic;
+}
+
+article.comment span.comment-author {
+  font-size:1.2rem;
+  font-weight:400;
+  text-transform:uppercase;
 }
 
 /* Form leave a comment */
