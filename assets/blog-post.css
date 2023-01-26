@@ -546,6 +546,10 @@ form#comment_form .btn.outline svg.icon.icon-arrow {
   padding-top: 6rem;
   margin-top: 6rem;
   border-top: 1px solid;
+  font-family: Wotfard;
+  font-weight: 200;
+  font-size: 2.8rem;
+  text-transform: uppercase;
 }
 
 .blogs-list article:nthchild(4){
