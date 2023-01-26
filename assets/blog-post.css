@@ -459,7 +459,14 @@ article.article h3{
 .img-txt h3 {
     text-align: left;
     margin-bottom: 0;
+  position:relative;
 }
+
+.img-txt p{
+  position:relative;
+}
+
+
 
 
 /* Button */
