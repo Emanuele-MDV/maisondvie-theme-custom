@@ -238,14 +238,24 @@ article.article h3{
 .article-promo-banner a figure{
   position:absolute;
   margin:0;
+  top:0;
   height:100%;
+}
+
+.article-promo-banner.img-full a figure{
+  width:100%;
+  left:0;
+  background-color:black;
 }
 
 .article-promo-banner.img-left a figure{
   width:42%;
   left:0;
-  top:0;
-  
+}
+
+.article-promo-banner.img-right a figure{
+  width:42%;
+  right:0;
 }
 
 
