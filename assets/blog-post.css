@@ -385,6 +385,13 @@ article.article h3{
     font-size: 1.4rem;
 }
 
+.btn.outline input {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
 .btn.outline span.icon-wrap {
     margin-right: 1rem;
     transform: rotateZ(180deg);
@@ -433,6 +440,11 @@ form#comment_form .fields > *::placeholder {
   opacity:1;
   text-transform:uppercase;
   font-size: 1.4rem;
+}
+
+input[type="submit"] {
+    border: none;
+    background: unset;
 }
 
 @media screen and (min-width:768px) and (max-device-width:1024px){
