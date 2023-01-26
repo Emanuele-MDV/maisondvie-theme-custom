@@ -122,7 +122,7 @@ article.blog-article a figure img {
   }
 
   article.blog-article:hover a figure img {
-    opacity;.7;
+    opacity:.7;
     transform:scale(1.1);
   }
   
