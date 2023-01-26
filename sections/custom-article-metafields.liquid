@@ -1,12 +1,229 @@
+
+{% if article.metafields.custom.products_post_1.value %}
+
+  {% assign products_list_1 = article.metafields.custom.products_post_1.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-1">
+    
+    {% for product in products_list_1 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_2.value %}
+
+  {% assign products_list_2 = article.metafields.custom.products_post_2.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-2">
+    
+    {% for product in products_list_2 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_3.value %}
+
+  {% assign products_list_3 = article.metafields.custom.products_post_3.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-3">
+    
+    {% for product in products_list_3 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_4.value %}
+
+  {% assign products_list_4 = article.metafields.custom.products_post_4.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-4">
+    
+    {% for product in products_list_4 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_5.value %}
+
+  {% assign products_list_5 = article.metafields.custom.products_post_5.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-5">
+    
+    {% for product in products_list_5 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+{% if article.metafields.custom.products_post_6.value %}
+
+  {% assign products_list_6 = article.metafields.custom.products_post_6.value %}
+  {% assign i = 0 %}
+
+  <div class="post-products content-products-6">
+    
+    {% for product in products_list_6 %}
+    
+      {% assign i = i | plus:1 %}
+    
+      <a class="product-{{ i }}" href="{{ product.url }}">
+        <figure>
+          <img
+          src="{{ product.featured_image | image_url: width: '480x' }}"
+          alt="{{ product.name }}"
+          />
+          <figcaption>
+            <span>{{ product.title }}</span>
+          </figcaption>
+        </figure>
+      </a>
+      
+    {% endfor %}
+  
+  </div>
+  
+{% endif %}
+
+
+<script>
+  
+  document.addEventListener("DOMContentLoaded", function(){
+    
+    if( $('.products-1')[0] ){
+      $('.products-1').append( $('.content-products-1') );
+    }
+
+    if( $('.products-2')[0] ){
+      $('.products-2').append( $('.content-products-2') );
+    }
+
+    if( $('.products-3')[0] ){
+      $('.products-3').append( $('.content-products-3') );
+    }
+
+    if( $('.products-4')[0] ){
+      $('.products-4').append( $('.content-products-4') );
+    }
+
+    if( $('.products-5')[0] ){
+      $('.products-5').append( $('.content-products-5') );
+    }
+
+    if( $('.products-6')[0] ){
+      $('.products-6').append( $('.content-products-6') );
+    }
+
+    
+
+    $('.post-products').each(function(){
+      var count = $(this).children().length;
+      var classN = 'grid-' + count;
+      $(this).addClass( classN );
+    })
+    
+  });
+  
+</script>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom article metafields",
+    "tag":"section",
+    "class":"post-content",
+    "templates":["article"],
+    "presets": [
+      {
+        "name":"Custom article metafields"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
