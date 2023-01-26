@@ -488,11 +488,13 @@ article.article h3{
 .img-txt.left p{
   position:relative;
   padding:0 4.8rem 2.8rem 0;
+  text-align:left;
 }
 
 .img-txt.right p{
   position:relative;
   padding:0 0 2.8rem 4.8rem ;
+  text-align:right;
 }
 
 .img-txt.left p:after{
