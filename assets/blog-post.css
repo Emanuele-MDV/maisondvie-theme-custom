@@ -259,8 +259,6 @@ article.article h3{
   }  
 }
 
-
-
 .article-promo-banner a > *{
   position:relative;
 }
@@ -271,6 +269,12 @@ article.article h3{
 
 .article-promo-banner.img-right a{
   padding-right:40%;
+}
+
+@media screen and (min-width:1024px){
+  .article-promo-banner a, .article-promo-banner.img-right a, .article-promo-banner.img-left a {
+    padding: 2rem 33%;
+  }  
 }
 
 .article-promo-banner a figure{
