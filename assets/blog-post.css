@@ -385,14 +385,6 @@ article.article h3{
     font-size: 1.4rem;
 }
 
-.btn.outline input {
-  text-transform: uppercase;
-  font-family:Wotfard;
-  text-decoration: none;
-  color: black;
-  font-size: 1.4rem;
-}
-
 .btn.outline span.icon-wrap {
     margin-right: 1rem;
     transform: rotateZ(180deg);
@@ -450,6 +442,19 @@ form#comment_form .fields > *::placeholder {
 input[type="submit"] {
     border: none;
     background: unset;
+}
+
+form#comment_form .btn.outline {
+  padding:0;
+  position:relative;
+}
+
+.btn.outline input {
+  text-transform: uppercase;
+  font-family:Wotfard;
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width:768px) and (max-device-width:1024px){
