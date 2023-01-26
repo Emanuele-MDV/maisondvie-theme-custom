@@ -249,6 +249,16 @@ article.article h3{
   background-color:black;
 }
 
+.article-promo-banner.img-full a figure img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+  opacity:.7;
+}
+
 .article-promo-banner.img-left a figure{
   width:42%;
   left:0;
@@ -258,6 +268,20 @@ article.article h3{
   width:42%;
   right:0;
 }
+
+
+
+.article-promo-banner.img-left a figure img, .article-promo-banner.img-right a figure img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+
+
 
 
 
