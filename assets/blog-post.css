@@ -411,6 +411,10 @@ article.article h3{
 
 /* ASIDE */
 
+aside {
+    margin-bottom: 8rem;
+}
+
 aside p {
     font-size: 1.4rem;
 }
