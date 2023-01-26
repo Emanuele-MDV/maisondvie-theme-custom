@@ -106,6 +106,16 @@ article.blog-article a {
   padding: 3.6rem;
 }
 
+@media screen and (min-width:1024px){
+
+  article.blog-article a{
+    padding:4.8rem;
+    padding-top:8rem;
+    justify-content:flex-start;
+  }
+  
+}
+
 article.blog-article a figure {
   position: absolute;
   top: 0;
