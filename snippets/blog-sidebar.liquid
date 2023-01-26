@@ -1,25 +1,27 @@
-{% if section.settings.enable_commnets == true and article.comments_count > 0 %}
+<aside>
   
-  <section class="post-comments">
-
-      <h2>{{ 'blogs.article.comments' | t: count: article.comments_count }}</h2>
+  {% if section.settings.enable_commnets == true and article.comments_count > 0 %}
     
-      {%- for comment in article.comments -%}
-        <article id="{{ comment.id }}" class="comment">
-          {{ comment.content }}
-          <span class="comment-author">{{ comment.author }}, {{ comment.created_at | time_tag: format: 'date' }}</span>        
-        </article>
-      {%- endfor -%}
-        
-  </section>
-
-{% endif %}
-
-{% if article.comments_count == 0 %}
-  <section class="post-comments">
-    <p class="zero-comments">Nobody commented yet, be the first one!</p>
-  </section>
-{% endif %}
+    <section class="post-comments">
+  
+        <h2>{{ 'blogs.article.comments' | t: count: article.comments_count }}</h2>
+      
+        {%- for comment in article.comments -%}
+          <article id="{{ comment.id }}" class="comment">
+            {{ comment.content }}
+            <span class="comment-author">{{ comment.author }}, {{ comment.created_at | time_tag: format: 'date' }}</span>        
+          </article>
+        {%- endfor -%}
+          
+    </section>
+  
+  {% endif %}
+  
+  {% if article.comments_count == 0 %}
+    <section class="post-comments">
+      <p class="zero-comments">Nobody commented yet, be the first one!</p>
+    </section>
+  {% endif %}
 
 
 {% comment %} COMMENTS FORM {% endcomment %}
@@ -143,3 +145,5 @@
     </section>
     
   {% endif %}
+
+</aside>
