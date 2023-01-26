@@ -542,7 +542,7 @@ form#comment_form .btn.outline svg.icon.icon-arrow {
 
 /* SECTION RELATED BLOGS */
 
-.blogs-list {
+.blogs-list .page-width {
   padding-top: 6rem;
   margin-top: 6rem;
   border-top: 1px solid;
