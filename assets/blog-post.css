@@ -147,6 +147,10 @@ article.article {
     padding: 3.8rem 0;
 }
 
+article.article p {
+  text-align:justify;
+}
+
 .post-products {
     margin: 3.8rem 0;
 }
