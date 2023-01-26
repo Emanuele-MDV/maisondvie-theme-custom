@@ -246,6 +246,7 @@ article.article h3{
   padding:1.5rem;
   position:relative;
   height:200px;
+  text-decoration:none;
 }
 
 .article-promo-banner a > *{
