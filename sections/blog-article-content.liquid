@@ -6,6 +6,13 @@
 
 {% render 'blog-sidebar' %}
 
+<div class="page-width">
+  <a href="{{ blog.url }}" class="btn outline">
+    <span class="icon-wrap">{% render 'icon-arrow' %}</span>
+    {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
+  </a>
+</div>
+
 </div>
 
 
