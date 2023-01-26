@@ -287,12 +287,12 @@ article.article h3{
 }
 
 .article-promo-banner.img-left a figure{
-  width:42%;
+  width:45%;
   left:0;
 }
 
 .article-promo-banner.img-right a figure{
-  width:42%;
+  width:45%;
   right:0;
 }
 
@@ -313,6 +313,13 @@ article.article h3{
     font-size: 1.2rem;
     text-transform: uppercase;
 }
+
+.article-promo-banner a p.promo-desc {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+
 
 
 
