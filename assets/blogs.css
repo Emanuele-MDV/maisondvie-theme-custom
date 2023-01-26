@@ -111,6 +111,15 @@ article.blog-article a {
   article.blog-article a{
     padding-top:18rem;
     justify-content:flex-start;
+    height:520px;
+  }
+  
+}
+
+@media screen and (min-width:1440px){
+
+  article.blog-article a{
+    height:680px;
   }
   
 }
