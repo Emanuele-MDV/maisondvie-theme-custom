@@ -146,7 +146,7 @@ p.date-time span {
 article.article {
     padding: 3.8rem 0 6rem;
   margin-bottom: 6rem;
-  border-bottom:1px solid black;
+  border-bottom:1px solid;
 }
 
 article.article p {
