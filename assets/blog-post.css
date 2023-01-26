@@ -220,6 +220,22 @@ article.article h3{
   overflow:hidden;
 }
 
+.article-promo-banner.color-black {
+  background-color:black;
+}
+
+.article-promo-banner.color-white {
+  background-color:white;
+}
+
+.article-promo-banner.color-grey {
+  background-color:#e7e8eb;
+}
+
+.article-promo-banner.color-black a > * {
+  color:white;
+}
+
 .article-promo-banner a {
   display: flex;
   flex-direction: column;
@@ -228,16 +244,16 @@ article.article h3{
   height:200px;
 }
 
+.article-promo-banner a > *{
+  position:relative;
+}
+
 .article-promo-banner.img-left a{
   padding-left:40%;
 }
 
 .article-promo-banner.img-right a{
   padding-right:40%;
-}
-
-.article-promo-banner.img-right a > *{
-  position:relative;
 }
 
 .article-promo-banner a figure{
