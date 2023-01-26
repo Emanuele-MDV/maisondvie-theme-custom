@@ -425,6 +425,38 @@ article.article h3{
 }
 
 
+/* Images with text */
+
+.img-txt {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+  position:relative;
+}
+
+.img-txt a {
+  position:absolute;
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.img-txt a figure {
+    width: 100%;
+    margin: 0;
+}
+
+.img-txt a figure img {
+    width: 100%;
+}
+
+.img-txt h3 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
 
 /* Button */
 
