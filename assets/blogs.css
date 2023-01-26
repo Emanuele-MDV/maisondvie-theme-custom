@@ -61,6 +61,12 @@ div#blog-posts.trends>article:not(.trends){
   display:none;
 }
 
+div#blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* ARTICLE CARD */
 
 article.blog-article {
