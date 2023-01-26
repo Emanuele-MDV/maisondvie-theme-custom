@@ -359,9 +359,9 @@ article.article h3{
     width: 49%;
   }
 
-  .banner-group.article-promo-banner a, 
-  .banner-group.article-promo-banner.img-right a, 
-  .banner-group.article-promo-banner.img-left a {
+  .banner-group .article-promo-banner a, 
+  .banner-group .article-promo-banner.img-right a, 
+  .banner-group .article-promo-banner.img-left a {
     padding: 2rem 20%;
   }
 }
