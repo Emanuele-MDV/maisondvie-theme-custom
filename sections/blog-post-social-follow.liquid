@@ -1,0 +1,42 @@
+<div class="page-width">
+  <h2>{{ section.settings.social_title }}</h2>
+  {% if section.settings.section_text != empty %}<p>{{ section.settings.section_text }}</p>{% endif %}
+  <div class="icons">
+    <a href="https://www.instagram.com/summervieshop/">
+      {% render 'icon-instagram' %}
+    </a>
+    <a href="https://www.facebook.com/Summervieshop/">
+      {% render 'icon-facebook' %}
+    </a>
+    <a href="https://www.pinterest.com/summervieshop/">
+      {% render 'icon-pinterest' %}
+    </a>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Article social follow",
+    "tag":"section",
+    "class":"social-follow",
+    "templates":["article"],
+    "settings": [
+      {
+        "type":"text",
+        "id":"social_title",
+        "label":"Section title",
+        "default":"Follow Summervie"
+      },
+      {
+        "type":"text",
+        "id":"section_text",
+        "label":"Section description"
+      }
+    ],
+    "presets": [
+      {
+        "name":"Article social follow"
+      }
+    ]
+  }
+{% endschema %}
