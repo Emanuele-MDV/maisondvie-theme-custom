@@ -479,7 +479,7 @@ article.article h3{
   padding:0 4.8rem 2.8rem 0;
 }
 
-article.article p:after{
+.img-txt p:after{
   content:'';
   display:block;
   position:absolute;
