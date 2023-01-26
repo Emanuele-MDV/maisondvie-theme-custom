@@ -59,6 +59,11 @@
       "settings": {
         "section_title": "Recent articles"
       }
+    },
+    "56689ff6-5d5d-4be8-ac72-17047c9dbde0": {
+      "type": "custom-article-metafields",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -66,6 +71,7 @@
     "21204e77-b9e9-4a9a-af42-c452cdcb8e8e",
     "d3e3d762-31ea-4b20-98e8-efe5c59330d8",
     "061ef662-7c5a-4201-8641-4f495234d104",
-    "7608856f-3a56-499a-9f5f-290e892930c9"
+    "7608856f-3a56-499a-9f5f-290e892930c9",
+    "56689ff6-5d5d-4be8-ac72-17047c9dbde0"
   ]
 }
