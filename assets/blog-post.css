@@ -195,6 +195,7 @@ article.article p {
 
 .post-products figure figcaption {
     font-size: 1.2rem;
+    line-height:1.4rem;
     text-transform: uppercase;
     color: black;
     
