@@ -478,6 +478,10 @@ article.comment{
   border-bottom:1px solid black;
 }
 
+article.comment:last-of-type{
+  padding-bottom:6rem;
+}
+
 article.comment p {
   margin-bottom:0;
   font-style:italic;
