@@ -800,6 +800,12 @@ article.blog-article a div>span svg {
   }
 }
 
+@media screen and (min-width:1920px){
+  .social-follow .page-width {
+    max-width:33%;
+  }
+}
+
 @media screen and (min-width:1024px){
   .social-follow .icons {
     margin-bottom: 14rem;
