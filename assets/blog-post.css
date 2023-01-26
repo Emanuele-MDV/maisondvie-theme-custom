@@ -438,6 +438,12 @@ article.article h3{
   position: relative;
 }
 
+.img-txt after {
+  content:'';
+  display:block;
+  position:absolute;
+}
+
 .img-txt a {
   position:absolute;
   width:100%;
