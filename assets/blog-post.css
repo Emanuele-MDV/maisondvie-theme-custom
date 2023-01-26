@@ -351,8 +351,12 @@ article.article h3{
 /* BANNER GROUPS */
 
 @media screen and (min-width:768px){
+  .banner-group {
+    display: flex;
+    justify-content: space-between;
+  }
   .banner-group>div {
-    width: 50%;
+    width: 49%;
   }
 }
 
