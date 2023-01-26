@@ -68,6 +68,13 @@ article.blog-article {
   overflow:hidden;
 }
 
+article.blog-article a {
+  position:relative;
+  text-decoration:none;
+  width:100%;
+  height:480px;
+}
+
 
 
 /*
