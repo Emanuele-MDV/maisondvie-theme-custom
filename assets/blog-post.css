@@ -160,6 +160,10 @@ article.article p {
   flex-wrap: wrap;
 }
 
+.post-products.grid-2 a, .post-products.grid-4 a{
+  width:50%;
+}
+
 .post-products.grid-3 a{
   width:33%;
 }
