@@ -109,8 +109,7 @@ article.blog-article a {
 @media screen and (min-width:1024px){
 
   article.blog-article a{
-    padding:4.8rem;
-    padding-top:8rem;
+    padding-top:18rem;
     justify-content:flex-start;
   }
   
@@ -152,6 +151,14 @@ article.blog-article a figure img {
 
 article.blog-article a div {
     position: relative;
+}
+
+@media screen and (min-width:1024px){
+
+  article.blog-article:nth-child(1) div {
+    max-width:48%
+  }
+
 }
 
 article.blog-article a div > * {
