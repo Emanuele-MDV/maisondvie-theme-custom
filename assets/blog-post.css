@@ -542,6 +542,12 @@ article.article h3{
   left:0;
 }
 
+@media screen and (min-width:768px){
+  .img-txt.left p:after{
+    content:unset;
+  }
+}
+
 .img-txt.right p:after{
   content:'';
   display:block;
