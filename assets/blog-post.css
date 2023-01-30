@@ -447,7 +447,7 @@ article.article h3{
     padding-left:calc(50% + 1.5rem);
   }
 
-  .img-txt.left
+  .img-txt.left{
     padding-right:calc(50% + 1.5rem);
   }
 }
