@@ -186,6 +186,10 @@ article.article h2{
   font-size:2rem;
 }
 
+@media screen and (min-width:990px){
+  margin-top:6rem;
+}
+
 article.article h3{
   font-family:Wotfard;
   text-transform:uppercase;
