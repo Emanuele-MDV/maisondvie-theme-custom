@@ -441,6 +441,8 @@ article.article h3{
 @media screen and (min-width:768px){
   .img-txt {
     padding-top: 200px;
+    padding-bottom:0;
+    margin-bottom:4rem;
   }
 
   .img-txt.right{
