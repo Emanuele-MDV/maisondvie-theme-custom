@@ -463,6 +463,12 @@ article.article h3{
     opacity: .8;
 }
 
+@media screen and (min-width:768px){
+  .img-txt figure:after {
+    content:unset;
+  }
+}
+
 .img-txt.right figure:after{
   right:0;
 }
