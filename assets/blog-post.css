@@ -438,6 +438,20 @@ article.article h3{
   position: relative;
 }
 
+@media screen and (min-width:768px){
+  .img-txt {
+    padding-top: 200px;
+  }
+
+  .img-txt.right{
+    padding-left:calc(50% + 1.5rem);
+  }
+
+  .img-txt.left
+    padding-right:calc(50% + 1.5rem);
+  }
+}
+
 .img-txt figure:after {
     content: "";
     display: block;
@@ -460,6 +474,12 @@ article.article h3{
   left:0;
   height:auto;
   display:block;
+}
+
+@media screen and (min-width:768px){
+  .img-txt a {
+    width: 50%;
+  }
 }
 
 .img-txt a figure {
