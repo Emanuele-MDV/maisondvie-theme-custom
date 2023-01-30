@@ -480,6 +480,11 @@ article.article h3{
   .img-txt a {
     width: 50%;
   }
+
+  .img-txt.left a{
+    left:unset;
+    right:0;
+  }
 }
 
 .img-txt a figure {
