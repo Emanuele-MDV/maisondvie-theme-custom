@@ -551,7 +551,7 @@ article.article h3{
 
 @media screen and (min-width:768px){
   .img-txt p:after{
-    content:unset;
+    content:unset!important;
   }
 }
 
