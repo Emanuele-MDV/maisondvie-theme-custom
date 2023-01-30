@@ -446,11 +446,11 @@ article.article h3{
   }
 
   .img-txt.right{
-    padding-left:calc(50% + 1.5rem);
+    padding-left:calc(50% + 2.5rem);
   }
 
   .img-txt.left{
-    padding-right:calc(50% + 1.5rem);
+    padding-right:calc(50% + 2.5rem);
   }
 }
 
@@ -528,6 +528,13 @@ article.article h3{
   position:relative;
   padding:0 0 2.8rem 4.8rem ;
   text-align:right;
+}
+
+@media screen and (min-width:768px){
+  .img-txt p{
+    margin-bottom:0;
+    border-bottom:1px solid;
+  }
 }
 
 .img-txt.left p:after{
