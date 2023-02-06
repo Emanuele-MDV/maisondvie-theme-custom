@@ -35,7 +35,7 @@
 
 {% comment %} Carousel container, same objects even if is carousel or not {% endcomment %}
 
-<div class="{% if section.settings.css_class %} {{ section.settings.css_class }}{% endif %}{% if count >= 2 %} splide__track{% endif %}">
+<div{% if count >= 2 %} class=" splide__track"{% endif %}>
 
   {% if section.settings.section_title != empty or section.settings.section_description != empty %}
   <div class="page-width section-title{% if section.settings.show_text == true %} hide{% endif %}">
