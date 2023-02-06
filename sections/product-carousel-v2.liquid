@@ -22,12 +22,6 @@
 
 <script>
   document.addEventListener( 'DOMContentLoaded', function() {
-
-    
-    
-    {% if section.settings.custom_class %}
-      //$(".splide").addClass('{{ section.settings.custom_class }}');
-    {% endif %}
     
     var splide = new Splide( '#{{ section.settings.custom_ID }}', {
       perPage: 5,
