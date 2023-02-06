@@ -63,6 +63,7 @@
       "type": "product-carousel-v2",
       "settings": {
         "load_scripts": false,
+        "custom_ID": "new-arrivals-slider",
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
         "slider_description": "Check out the latest pieces from your favorite brands",
@@ -78,6 +79,7 @@
       "type": "product-carousel-v2",
       "settings": {
         "load_scripts": false,
+        "custom_ID": "",
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
         "slider_description": "Check out the latest pieces from your favorite brands",
