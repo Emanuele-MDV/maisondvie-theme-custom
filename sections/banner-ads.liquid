@@ -16,11 +16,7 @@
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
   
-      $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('{{ section.settings.css_class }}');
-
-      
-
-      var splide = new Splide( '#shopify-section-template--16077895434495__17e9dc9e-51ec-4d0b-ba29-9a917423ffde', {
+      var splide = new Splide( '#{{ section.settings.custom_ID }}', {
         autoplay : 'play',
         perPage: 1,
         rewind : true,
@@ -48,81 +44,87 @@
   </div>
   {% endif %}
 
-  {% if count >= 2 %}<ul class="splide__list">{% endif %}
-  
-    {% for block in section.blocks %}
-      
-      {% if count >= 2 %}<li class="splide__slide">{% endif %}
-
-        
-        <article class="banner-container page-width">
-          
-          <div class="bg-{{ block.settings.bg_color }} text-align-{{ block.settings.text_align }}">
-            <figure>
-  
-              {% if block.settings.bg_img == false %}
-              
-              {% assign image = block.settings.slide_image %}
-              <img 
-              src="{{ image.src | img_url: 'x360' }}" 
-              alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
-              srcset="
-              {% if image.width > 370 %}{{ image.src | img_url: '375x500', crop : 'top' }} 375w{% endif %},
-              {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
-              {% if image.width > 500 %}{{ image.src | img_url: '620x768', crop : 'top' }} 520w{% endif %}
-              " 
-              sizes="
-              (min-width: 1024px) 520px,
-              (min-width: 720px) 420px,
-              (min-width: 360px) 375px,
-              100vw"
-              width="{{ image.width }}"
-              height="{{ image.height }}"
-              {% unless forloop.first %}loading="lazy"{% endunless %}
-              />
-  
-              {% else %}
-  
-              <img 
-              src="{{ image.src | img_url: 'x360' }}" 
-              alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
-              srcset="
-              {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'center' }} 420w{% endif %},
-              {% if image.width > 550 %}{{ image.src | img_url: '550x768', crop : 'center' }} 520w{% endif %},
-              {% if image.width > 1024 %}{{ image.src | img_url: '1024x768', crop : 'center' }} 520w{% endif %},
-              {% if image.width > 1440 %}{{ image.src | img_url: '1440x768', crop : 'center' }} 520w{% endif %},
-              {% if image.width > 1600 %}{{ image.src | img_url: '1650x768', crop : 'center' }} 520w{% endif %},
-              " 
-              sizes="
-              (min-width: 1600px) 1650px,
-              (min-width: 1440px) 1440px,
-              (min-width: 1024px) 1024px,
-              (min-width: 720px) 550px,
-              (min-width: 360px) 420px,
-              100vw"
-              width="{{ image.width }}"
-              height="{{ image.height }}"
-              {% unless section.settings.above_the_line == true and forloop.first %}loading="lazy"{% endunless %}
-              />
-  
-              {% endif %}
-              
-            </figure>
-            <div class="banner-content">
-              {% if block.settings.slide_title %}<h3>{{ block.settings.slide_title }}</h3>{% endif %}
-              {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
-              {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="btn outline"><span>{{ block.settings.text_btn }}</span>{% render 'icon-arrow' %}</a>{% endif %}
-            </div>
-          </div>
-          
-        </article>
-
-        
-      {% if count >= 2 %}</li>{% endif %}
-      
-    {% endfor %}
+  {% if count >= 2 %}
+    <div id="{{ section.settings.custom_ID }}" class="splide">
+      <ul class="splide__list">
+      {% endif %}
     
-  {% if count >= 2 %}</ul>{% endif %}
+      {% for block in section.blocks %}
+        
+        {% if count >= 2 %}<li class="splide__slide">{% endif %}
+  
+          
+          <article class="banner-container page-width">
+            
+            <div class="bg-{{ block.settings.bg_color }} text-align-{{ block.settings.text_align }}">
+              <figure>
+    
+                {% if block.settings.bg_img == false %}
+                
+                {% assign image = block.settings.slide_image %}
+                <img 
+                src="{{ image.src | img_url: 'x360' }}" 
+                alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
+                srcset="
+                {% if image.width > 370 %}{{ image.src | img_url: '375x500', crop : 'top' }} 375w{% endif %},
+                {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
+                {% if image.width > 500 %}{{ image.src | img_url: '620x768', crop : 'top' }} 520w{% endif %}
+                " 
+                sizes="
+                (min-width: 1024px) 520px,
+                (min-width: 720px) 420px,
+                (min-width: 360px) 375px,
+                100vw"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+                {% unless forloop.first %}loading="lazy"{% endunless %}
+                />
+    
+                {% else %}
+    
+                <img 
+                src="{{ image.src | img_url: 'x360' }}" 
+                alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
+                srcset="
+                {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'center' }} 420w{% endif %},
+                {% if image.width > 550 %}{{ image.src | img_url: '550x768', crop : 'center' }} 520w{% endif %},
+                {% if image.width > 1024 %}{{ image.src | img_url: '1024x768', crop : 'center' }} 520w{% endif %},
+                {% if image.width > 1440 %}{{ image.src | img_url: '1440x768', crop : 'center' }} 520w{% endif %},
+                {% if image.width > 1600 %}{{ image.src | img_url: '1650x768', crop : 'center' }} 520w{% endif %},
+                " 
+                sizes="
+                (min-width: 1600px) 1650px,
+                (min-width: 1440px) 1440px,
+                (min-width: 1024px) 1024px,
+                (min-width: 720px) 550px,
+                (min-width: 360px) 420px,
+                100vw"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+                {% unless section.settings.above_the_line == true and forloop.first %}loading="lazy"{% endunless %}
+                />
+    
+                {% endif %}
+                
+              </figure>
+              <div class="banner-content">
+                {% if block.settings.slide_title %}<h3>{{ block.settings.slide_title }}</h3>{% endif %}
+                {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
+                {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="btn outline"><span>{{ block.settings.text_btn }}</span>{% render 'icon-arrow' %}</a>{% endif %}
+              </div>
+            </div>
+            
+          </article>
+  
+          
+        {% if count >= 2 %}</li>{% endif %}
+        
+      {% endfor %}
+      
+    {% if count >= 2 %}
+      </ul>
+    </div>
+  {% endif %}
   
 </div>
 
@@ -185,8 +187,8 @@
       },
       {
         "type":"text",
-        "id":"css_class",
-        "label":"Add CSS classes. Mandatory!",
+        "id":"custom_ID",
+        "label":"Add an ID. Mandatory!",
         "default":"banner-container"
       }
     ],
