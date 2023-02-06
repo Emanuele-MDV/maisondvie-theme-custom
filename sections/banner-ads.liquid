@@ -35,7 +35,7 @@
 
 {% comment %} Carousel container, same objects even if is carousel or not {% endcomment %}
 
-<div{% if count >= 2 %} id="{{ section.settings.custom_ID }}" class="splide"{% endif %}>
+{% if count >= 2 %}<div id="{{ section.settings.custom_ID }}" class="splide">{% endif %}
 
   {% if section.settings.section_title != empty or section.settings.section_description != empty %}
   <div class="page-width section-title{% if section.settings.show_text == true %} hide{% endif %}">
@@ -124,9 +124,10 @@
     {% if count >= 2 %}
       </ul>
     </div>
+  </div>
   {% endif %}
   
-</div>
+
 
 
 
