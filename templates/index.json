@@ -76,6 +76,22 @@
         "products_mobile": 1
       }
     },
+    "2d3c4f8f-2cdd-44bf-a946-732a90575bf5": {
+      "type": "product-carousel-v2",
+      "settings": {
+        "load_scripts": true,
+        "custom_class": "new-arrivals-slider-2",
+        "slider_heading": "Brand new arrivals",
+        "heading_size": "h2",
+        "slider_description": "Check out the latest pieces from your favorite brands",
+        "slider_collection": "new-products-women",
+        "slider_n_products": 10,
+        "show_button": true,
+        "btn_text": "View all",
+        "products_tablet": 3,
+        "products_mobile": 1
+      }
+    },
     "16630620193a9ad795": {
       "type": "link-banner",
       "settings": {
@@ -268,6 +284,7 @@
     "166305123918b33308",
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde",
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608",
+    "2d3c4f8f-2cdd-44bf-a946-732a90575bf5",
     "16630620193a9ad795",
     "16559791500dd9690e",
     "1655983033da6f73dd",
