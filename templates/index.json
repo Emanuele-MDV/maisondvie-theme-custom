@@ -79,7 +79,7 @@
       "type": "product-carousel-v2",
       "settings": {
         "load_scripts": false,
-        "custom_ID": "",
+        "custom_ID": "new-slider-2",
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
         "slider_description": "Check out the latest pieces from your favorite brands",
