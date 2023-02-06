@@ -27,7 +27,7 @@
       $(".splide").addClass('{{ section.settings.custom_class }}');
     {% endif %}
     
-    var splide = new Splide( {% if section.settings.custom_class %}'.{{ section.settings.custom_class }}'{% else %}'.splide'{% endif %}, {
+    var splide = new Splide( {% if section.settings.custom_class %}'.splide.{{ section.settings.custom_class }}'{% else %}'.splide'{% endif %}, {
       perPage: 5,
       gap    : '2rem',
       rewind : true,
