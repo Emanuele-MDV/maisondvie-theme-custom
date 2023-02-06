@@ -62,8 +62,7 @@
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608": {
       "type": "product-carousel-v2",
       "settings": {
-        "load_scripts": true,
-        "custom_class": "new-arrivals-slider",
+        "load_scripts": false,
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
         "slider_description": "Check out the latest pieces from your favorite brands",
@@ -78,8 +77,7 @@
     "2d3c4f8f-2cdd-44bf-a946-732a90575bf5": {
       "type": "product-carousel-v2",
       "settings": {
-        "load_scripts": true,
-        "custom_class": "new-arrivals-slider-2",
+        "load_scripts": false,
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
         "slider_description": "Check out the latest pieces from your favorite brands",
