@@ -16,9 +16,9 @@
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
   
-      $('.{{ section.settings.css_class }}').parent().addClass('{{ section.settings.css_class }}');
+      $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('{{ section.settings.css_class }}');
 
-      new Splide( '.{{ section.settings.css_class }}',
+      new Splide( '.splide.{{ section.settings.css_class }}',
       {
         autoplay : 'play',
         rewind : true,
