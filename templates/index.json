@@ -130,7 +130,7 @@
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608": {
       "type": "product-carousel-v2",
       "settings": {
-        "load_scripts": true,
+        "load_scripts": false,
         "custom_class": "new-arrivals-slider",
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
