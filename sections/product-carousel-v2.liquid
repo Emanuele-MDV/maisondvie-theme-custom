@@ -61,12 +61,12 @@
     } );
     splide.mount();
 
-    $('button.splide__arrow').html( $('.cont-icon-arrow') );
+    $('button.splide__arrow').html( $('.cont-icon-arrow.{{ section.settings.custom_ID }}') );
     
   } );
 </script>
 
-<span class="cont-icon-arrow">
+<span class="cont-icon-arrow {{ section.settings.custom_ID }}">
   {% render 'icon-arrow' %}
 </span>
 
