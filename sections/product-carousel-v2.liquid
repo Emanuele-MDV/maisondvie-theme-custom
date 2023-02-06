@@ -6,7 +6,7 @@
 {% if section.settings.slider_heading != empty %}<h2 class="{{ section.settings.heading_size }}">{{ section.settings.slider_heading }}</h2>{% endif %}
 {% if section.settings.slider_description != empty %}<p>{{ section.settings.slider_description }}</p>{% endif %}
 
-<div id="{{ section.settings.custom_class }}">
+<div id="{{ section.settings.custom_class }}" class="splide">
   <div class="splide__track page-width">
         <ul class="splide__list">
           
@@ -29,7 +29,7 @@
       //$(".splide").addClass('{{ section.settings.custom_class }}');
     {% endif %}
     
-    var splide = new Splide( '#{{ section.settings.custom_class }}', {
+    var splide = new Splide( '#{{ section.settings.custom_ID }}', {
       perPage: 5,
       gap    : '2rem',
       rewind : true,
@@ -95,8 +95,8 @@
       },
       {
         "type":"text",
-        "id":"custom_class",
-        "label":"Add custom CSS class"
+        "id":"custom_ID",
+        "label":"Add custom ID (Mandatory!)"
       },
 
       {
