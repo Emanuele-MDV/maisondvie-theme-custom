@@ -33,6 +33,7 @@
         },
         "7782c197-9b2a-49ce-8371-12b786e0007c": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "slide_title": "Dresses collection",
             "slide_text": "Shop the latest dress styles and trendy fashion",
@@ -56,7 +57,7 @@
         "header_size": "h1",
         "section_description": "that is a description!",
         "show_text": true,
-        "css_class": "banner-static"
+        "custom_ID": "banner-container"
       }
     },
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608": {
