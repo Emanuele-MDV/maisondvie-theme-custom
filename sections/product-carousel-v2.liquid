@@ -27,7 +27,7 @@
       $(".splide").addClass('{{ section.settings.custom_class }}');
     {% endif %}
     
-    var splide_2 = new Splide( '.splide.{{ section.settings.custom_class }}', {
+    var splide = new Splide( '.splide.{{ section.settings.custom_class }}', {
       perPage: 5,
       gap    : '2rem',
       rewind : true,
@@ -63,7 +63,7 @@
         },
       },
     } );
-    splide_2.mount();
+    splide.mount();
 
     $('button.splide__arrow').html( $('.cont-icon-arrow') );
     
