@@ -131,13 +131,13 @@
       "type": "product-carousel-v2",
       "settings": {
         "load_scripts": false,
-        "custom_class": "new-arrivals",
+        "custom_class": "new-arrivals-slider",
         "slider_heading": "Brand new arrivals",
         "heading_size": "h2",
         "slider_description": "Check out the latest pieces from your favorite brands",
-        "slider_collection": "",
+        "slider_collection": "new-arrivals",
         "slider_n_products": 10,
-        "show_button": false,
+        "show_button": true,
         "btn_text": "View all",
         "products_tablet": 3,
         "products_mobile": 1
