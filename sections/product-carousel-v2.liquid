@@ -68,65 +68,6 @@
   } );
 </script>
 
-<style>
-
-.splide>h2, .splide>p {
-  padding:0 1.5rem;
-}
-  
-.splide__track{
-  margin-top: 2.8rem;
-}
-  
-.splide__arrows.splide__arrows--ltr {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  padding: 0 1.8rem;
-  display: flex;
-  justify-content: space-between;
-}
-.splide__arrow--prev span.cont-icon-arrow svg {
-  transform: rotate(180deg);
-}
-button.splide__arrow {
-  border: 0;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 40px;
-  transform: translateY(-260px);
-  z-index: 1;
-}
-
-@media screen and (min-width:768px){
-
-  button.splide__arrow {
-    transform: translateY(-360px);
-  }
-  
-}
-
-@media screen and (min-width:1024px){
-
-  button.splide__arrow {
-    cursor:pointer;
-  }
-  
-}
-  
-@media screen and (min-width:1600px){
-  .splide__arrows.splide__arrows--ltr{
-    padding:0 5rem;
-  }
-  button.splide__arrow {
-    transform: translateY(-500px);
-  }
-}
-</style>
-
 <span class="cont-icon-arrow">
   {% render 'icon-arrow' %}
 </span>
