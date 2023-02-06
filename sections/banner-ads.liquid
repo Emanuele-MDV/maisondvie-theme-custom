@@ -18,15 +18,18 @@
   
       $('.{{ section.settings.css_class }}').parent().addClass('splide').addClass('{{ section.settings.css_class }}');
 
-      new Splide( '.splide.{{ section.settings.css_class }}',
-      {
+      
+
+      var splide = new Splide( '.splide.{{ section.settings.custom_class }}', {
         autoplay : 'play',
         perPage: 1,
         rewind : true,
         arrows :  false,
         pagination : false,
         interval : 4000
-      } ).mount();
+      } );
+      splide.mount();
+
       
     } );
   </script>
