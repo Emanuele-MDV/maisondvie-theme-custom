@@ -6,3 +6,10 @@
 .products-carousel .splide {
   margin-top:2.2rem;
 }
+
+.splide__arrows {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+  column-gap: 2rem;
+}
