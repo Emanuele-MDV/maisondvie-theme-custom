@@ -2,8 +2,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css" rel="stylesheet" media="print" onload="this.media='all'"></link>
 {% endif %}
-
-<link rel="stylesheet" href="{{ 'custom-card-product.css' | asset_url }}" media="print" onload="this.media='all'">
+ 
+{% if sectoin.settings.load_css == true %}
+  <link rel="stylesheet" href="{{ 'product-carousel.css' | asset_url }}" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="{{ 'custom-card-product.css' | asset_url }}" media="print" onload="this.media='all'">
+{% endif %}
 
 {% if section.settings.slider_heading != empty %}<h2 class="{{ section.settings.heading_size }}">{{ section.settings.slider_heading }}</h2>{% endif %}
 {% if section.settings.slider_description != empty %}<p>{{ section.settings.slider_description }}</p>{% endif %}
@@ -83,12 +86,18 @@
     "settings": [
       {
         "type": "header",
-        "content": "Technical settings"
+        "content": "Technical settings (advanced)"
       },
       {
         "type":"checkbox",
         "id":"load_scripts",
         "label":"Load script files?",
+        "default":true
+      },
+      {
+        "type":"checkbox",
+        "id":"load_css",
+        "label":"Load CSS files?",
         "default":true
       },
       {
