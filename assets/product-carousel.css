@@ -1,3 +1,8 @@
+.products-carousel{
+  margin-bottom:10rem;
+}
+
+
 .products-carousel h2, .products-carousel p {
   text-align:center;
   margin: 0;
@@ -26,6 +31,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  corsor:pointer;
 }
 
 .splide__arrow .icon {
