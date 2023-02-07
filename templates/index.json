@@ -76,23 +76,6 @@
         "products_mobile": 1
       }
     },
-    "2d3c4f8f-2cdd-44bf-a946-732a90575bf5": {
-      "type": "product-carousel-v2",
-      "settings": {
-        "load_scripts": false,
-        "load_css": false,
-        "custom_ID": "new-slider-2",
-        "slider_heading": "Brand new arrivals",
-        "heading_size": "h1",
-        "slider_description": "Check out the latest pieces from your favorite brands",
-        "slider_collection": "new-products-women",
-        "slider_n_products": 10,
-        "show_button": true,
-        "btn_text": "View all",
-        "products_tablet": 3,
-        "products_mobile": 1
-      }
-    },
     "16630620193a9ad795": {
       "type": "link-banner",
       "settings": {
@@ -251,33 +234,21 @@
         "outline_btn": true
       }
     },
-    "1654765667c246d5f8": {
-      "type": "featured-collection",
+    "2d3c4f8f-2cdd-44bf-a946-732a90575bf5": {
+      "type": "product-carousel-v2",
       "settings": {
-        "title": "Maison's Best Sellers",
+        "load_scripts": false,
+        "load_css": false,
+        "custom_ID": "new-slider-2",
+        "slider_heading": "Maison's Best Sellers",
         "heading_size": "h1",
-        "description": "<p>Here are a few of your most loved pieces. All in one spot, only for you.<\/p>",
-        "show_description": false,
-        "use_basic_structure": true,
-        "description_style": "body",
-        "collection": "best-sellers",
-        "products_to_show": 10,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_css_class": "slider-homepage page-width-desktop"
+        "slider_description": "Check out the latest pieces from your favorite brands",
+        "slider_collection": "kukhareva-london",
+        "slider_n_products": 10,
+        "show_button": true,
+        "btn_text": "View all",
+        "products_tablet": 3,
+        "products_mobile": 1
       }
     }
   },
@@ -285,11 +256,10 @@
     "166305123918b33308",
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde",
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608",
-    "2d3c4f8f-2cdd-44bf-a946-732a90575bf5",
     "16630620193a9ad795",
     "16559791500dd9690e",
     "1655983033da6f73dd",
     "16630632700bc54f04",
-    "1654765667c246d5f8"
+    "2d3c4f8f-2cdd-44bf-a946-732a90575bf5"
   ]
 }
