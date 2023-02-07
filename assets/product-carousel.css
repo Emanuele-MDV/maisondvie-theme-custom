@@ -11,5 +11,23 @@
   display: flex;
   justify-content: center;
   margin-top: 1.8rem;
-  column-gap: 2rem;
+  column-gap: 4rem;
+}
+
+.splide__arrow.splide__arrow--prev svg {
+  transform: rotate(180deg);
+}
+
+.splide__arrow {
+  background: #010101;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.splide__arrow .icon {
+  stroke:white;
 }
