@@ -27,6 +27,9 @@
     <button class="splide__arrow splide__arrow--prev">
         {% render 'icon-arrow' %}
     </button>
+    {% if section.settings.show_button == true %}
+      <a href="{{ section.settings.slider_collection.url }}" class="btn outline"><span>{{ section.settings.btn_text }}</span>{% render 'icon-arrow' %}</a>
+    {% endif %}
     <button class="splide__arrow splide__arrow--next">
         {% render 'icon-arrow' %}
     </button>
