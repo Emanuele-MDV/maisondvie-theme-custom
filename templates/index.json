@@ -83,7 +83,7 @@
         "load_css": false,
         "custom_ID": "new-slider-2",
         "slider_heading": "Brand new arrivals",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "slider_description": "Check out the latest pieces from your favorite brands",
         "slider_collection": "new-products-women",
         "slider_n_products": 10,
