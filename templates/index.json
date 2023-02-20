@@ -23,6 +23,7 @@
           "settings": {
             "slide_title": "New <br>season arrivals",
             "slide_text": "Check out the latest pieces from your favorite brands",
+            "set_timer": true,
             "slide_image": "shopify:\/\/shop_images\/new-arrivals-dresses.webp",
             "bg_img": false,
             "slide_link": "shopify:\/\/collections\/new-arrivals",
@@ -36,6 +37,7 @@
           "settings": {
             "slide_title": "Dresses collection",
             "slide_text": "Shop the latest dress styles and trendy fashion",
+            "set_timer": false,
             "slide_image": "shopify:\/\/shop_images\/maison-d-vie-dresses.webp",
             "bg_img": false,
             "slide_link": "shopify:\/\/collections\/dresses",
