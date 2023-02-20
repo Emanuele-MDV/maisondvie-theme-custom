@@ -329,4 +329,32 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
 
 /* COUNTDOWN */
 
+.custom-timer p {
+  margin-bottom: 1.2rem;
+}
 
+.timer-display {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.timer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.timer-block__num {
+  font-family: Grafier;
+  font-size: 3rem;
+  color: black;
+  line-height: 3rem;
+}
+
+.timer-block__unit {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
