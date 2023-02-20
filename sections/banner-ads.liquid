@@ -115,7 +115,7 @@
                 {% if block.settings.set_timer == true and block.settings.offer_ends != empty %}
                   {% include 'shopify-countdown-timer',
                     title: "Special Offer End In",
-                    end_date: "Feb 26, 2021"
+                    end_date: block.settings.offer_ends
                   %}
                 {% endif %}
 
