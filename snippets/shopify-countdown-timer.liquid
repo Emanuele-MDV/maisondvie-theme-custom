@@ -80,16 +80,17 @@
         document.querySelector('.js-timer-hours').innerText = Math.floor((distance % (day)) / (hour)),
       document.querySelector('.js-timer-minutes').innerText = Math.floor((distance % (hour)) / (minute)),
       document.querySelector('.js-timer-seconds').innerText = Math.floor((distance % (minute)) / second);
-
-        if(Date.parse(countDown)-Date.parse(now)<0) {
-           console.log('is past');
-        } else {
-          console.log('is future');
-        }
         
       }, second)
 
-    
+    let givenDate1 =   new Date("10/21/2001")  // Past Date
+    let givenDate2 =   new Date("10/21/2050") // future Date
+
+    let diff = new Date().getTime() - givenDate1.getTime();
+    if (diff > 0) {
+       console.log('Given Date givenDate1 is in Past');
+     }
+
 
       
     } );
