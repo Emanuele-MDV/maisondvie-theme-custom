@@ -1,5 +1,5 @@
 {% if end_date != blank %}
-<div class="timer">
+<div class="timer{% if class != blank %}-{{ class }}{% endif %}">
   {% if title != blank %}
     <p class="timer__title">{{ title }}</p>
   {% endif %}
@@ -88,7 +88,7 @@
     let diff = new Date().getTime() - givenDate.getTime();
     if (diff > 0) {
        console.log('Sale expiry date is in Past');
-        $('.timer').addClass('visually-hidden');
+        $('.timer{% if class != blank %}-{{ class }}{% endif %}').addClass('visually-hidden');
      } else {
         console.log('Sale expiry date is in Future');
      }
