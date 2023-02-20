@@ -312,13 +312,13 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   article.banner-container>div.text-align-left>figure {
     min-width: 40%;
     max-width:40%;
-    right: 0;
+    right: 14rem;
   }
 
   article.banner-container>div.text-align-right>figure {
     min-width: 40%;
     max-width:40%;
-    left: 0;
+    left: 14rem;
   }
 
   article.banner-container>div>.banner-content {
