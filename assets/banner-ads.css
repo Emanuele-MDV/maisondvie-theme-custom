@@ -295,6 +295,10 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   .splide__progress {
     bottom:32px;
   }
+
+  .text-align-right {
+    align-items: flex-end;
+  }
   
 }
 
@@ -316,5 +320,7 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   }
   
 }
+
+/* COUNTDOWN */
 
 
