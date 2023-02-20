@@ -112,10 +112,12 @@
                 {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
                 {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="btn outline"><span>{{ block.settings.text_btn }}</span>{% render 'icon-arrow' %}</a>{% endif %}
 
-                {% include 'shopify-countdown-timer',
-                  title: "Special Offer End In",
-                  end_date: "Feb 26, 2021"
-                %}
+                {% if block.settings.set_timer == true %}
+                  {% include 'shopify-countdown-timer',
+                    title: "Special Offer End In",
+                    end_date: "Feb 26, 2021"
+                  %}
+                {% endif %}
 
                 
               </div>
