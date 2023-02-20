@@ -82,6 +82,11 @@
       document.querySelector('.js-timer-seconds').innerText = Math.floor((distance % (minute)) / second);
       }, second)
 
+    if(Date.parse(countDown)-Date.parse(new Date())<0)
+    {
+       console.log('is past');
+    }
+
       
     } );
 
