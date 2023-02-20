@@ -22,9 +22,9 @@
           "type": "heading",
           "settings": {
             "slide_title": "New <br>season arrivals",
-            "slide_text": "Check out the latest pieces from your favorite brands",
+            "slide_text": "",
             "set_timer": true,
-            "timer_disclaimer": "Valentine sale ends in:",
+            "timer_disclaimer": "Shop up to 50% off sale on your favorite brands, promo ends in:",
             "offer_ends": "26 Feb 2023",
             "class_timer": "another-test",
             "slide_image": "shopify:\/\/shop_images\/new-arrivals-dresses.webp",
