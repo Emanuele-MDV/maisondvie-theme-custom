@@ -115,7 +115,8 @@
                 {% if block.settings.set_timer == true and block.settings.offer_ends != empty %}
                   {% include 'shopify-countdown-timer',
                     title: "Special Offer End In",
-                    end_date: block.settings.offer_ends
+                    end_date: block.settings.offer_ends,
+                    class: block.settings.class_timer
                   %}
                 {% endif %}
 
@@ -234,6 +235,11 @@
             "type":"text",
             "id":"offer_ends",
             "label":"End offer date"
+          },
+          {
+            "type":"text",
+            "id":"class_timer",
+            "label":"Add a class"
           },
           {
             "type":"header",
