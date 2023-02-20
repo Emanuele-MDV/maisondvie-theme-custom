@@ -89,6 +89,7 @@
     let diff = new Date().getTime() - givenDate1.getTime();
     if (diff > 0) {
        console.log('Sale expiry date is in Past');
+        $('.timer').addClass('visually-hidden');
      } else {
         console.log('Sale expiry date is in Future');
      }
