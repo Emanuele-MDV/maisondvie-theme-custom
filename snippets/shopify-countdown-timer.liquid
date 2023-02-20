@@ -83,7 +83,7 @@
         
       }, second)
 
-    let givenDate1 =   new Date("{{- end_date -}}")  // Past Date
+    let givenDate1 =   new Date(countDown)  // Past Date
     let givenDate2 =   new Date("10/21/2050") // future Date
 
     let diff = new Date().getTime() - givenDate1.getTime();
