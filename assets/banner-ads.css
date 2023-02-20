@@ -309,10 +309,16 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
     padding: 10.2rem 14rem;
   }
 
-  article.banner-container>div>figure {
+  article.banner-container>div.text-align-left>figure {
     min-width: 40%;
     max-width:unset;
     right: 14rem;
+  }
+
+  article.banner-container>div.text-align-right>figure {
+    min-width: 40%;
+    max-width:unset;
+    left: 14rem;
   }
 
   article.banner-container>div>.banner-content {
