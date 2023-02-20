@@ -35,6 +35,7 @@
         },
         "7782c197-9b2a-49ce-8371-12b786e0007c": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "slide_title": "Dresses collection",
             "slide_text": "Shop the latest dress styles and trendy fashion",
@@ -66,7 +67,7 @@
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608": {
       "type": "product-carousel-v2",
       "settings": {
-        "load_scripts": false,
+        "load_scripts": true,
         "load_css": true,
         "custom_ID": "new-arrivals-slider",
         "slider_heading": "Brand new arrivals",
