@@ -83,10 +83,9 @@
         
       }, second)
 
-    let givenDate1 =   new Date(countDown)  // Past Date
-    let givenDate2 =   new Date("10/21/2050") // future Date
+    let givenDate =   new Date(countDown)  // Past Date
 
-    let diff = new Date().getTime() - givenDate1.getTime();
+    let diff = new Date().getTime() - givenDate.getTime();
     if (diff > 0) {
        console.log('Sale expiry date is in Past');
         $('.timer').addClass('visually-hidden');
