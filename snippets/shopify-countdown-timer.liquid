@@ -65,11 +65,14 @@
   }
 </style>
 <script type="text/javascript">
-  var second = 1000,
+
+  document.addEventListener( 'DOMContentLoaded', function() {
+  
+      var second = 1000,
       minute = second * 60,
       hour = minute * 60,
       day = hour * 24;
-  var countDown = new Date('{{- end_date -}}').getTime(),
+      var countDown = new Date('{{- end_date -}}').getTime(),
       x = setInterval(function() {
       var now = new Date().getTime(),
           distance = countDown - now;
@@ -77,6 +80,12 @@
         document.querySelector('.js-timer-hours').innerText = Math.floor((distance % (day)) / (hour)),
       document.querySelector('.js-timer-minutes').innerText = Math.floor((distance % (hour)) / (minute)),
       document.querySelector('.js-timer-seconds').innerText = Math.floor((distance % (minute)) / second);
-    }, second)
+      }, second)
+
+      
+    } );
+
+  
+  
 </script>
 {% endif %}
