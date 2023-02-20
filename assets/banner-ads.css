@@ -340,6 +340,12 @@ article.banner-container>div>.banner-content a.btn.outline:hover::before{
   justify-content: space-between;
 }
 
+@media screen and (min-width:1200px){
+  .timer-display {
+    margin: 2.2rem 0;
+  }
+}
+
 .timer-block {
   display: flex;
   flex-direction: column;
