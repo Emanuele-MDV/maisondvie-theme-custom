@@ -112,7 +112,7 @@
                 {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
                 {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="btn outline"><span>{{ block.settings.text_btn }}</span>{% render 'icon-arrow' %}</a>{% endif %}
 
-                {% if block.settings.set_timer == true %}
+                {% if block.settings.set_timer == true and block.settings.offer_ends != empty %}
                   {% include 'shopify-countdown-timer',
                     title: "Special Offer End In",
                     end_date: "Feb 26, 2021"
