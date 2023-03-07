@@ -454,6 +454,11 @@ article.article h3{
   background:black;
 }
 
+.img-txt fig-group figure {
+  height: auto;
+  max-height:40vh;
+}
+
 .img-txt figure a {
   display: block;
   width: 100%;
