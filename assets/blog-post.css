@@ -470,6 +470,11 @@ article.article h3{
   letter-spacing: 2px;
 }
 
+.img-txt h3 span {
+  display: block;
+  font-weight: 400;
+}
+
 /*
 .img-txt {
   width: 100%;
