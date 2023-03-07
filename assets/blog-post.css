@@ -433,6 +433,13 @@ article.article h3{
 
 /* Images with text */
 
+.img-txt {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  overflow:hidden;
+}
+
 
 /*
 .img-txt {
@@ -578,6 +585,8 @@ article.article h3{
 }
 
 */
+
+
 
 
 /* Button */
