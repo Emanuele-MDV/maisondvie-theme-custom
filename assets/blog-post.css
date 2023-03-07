@@ -448,6 +448,11 @@ article.article h3{
     padding-bottom: 4rem;
   }
 
+  .img-txt:not(.full) {
+    min-height: 50vh;
+    justify-content: center;
+  }
+
   .img-txt {
     margin: 6rem 0;
   }
@@ -485,6 +490,7 @@ article.article h3{
     height: 100%;
     width: calc(50% - .6rem);
   }
+  
   
 }
 
