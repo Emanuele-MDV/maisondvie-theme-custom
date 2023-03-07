@@ -465,6 +465,11 @@ article.article h3{
   object-fit:cover;
 }
 
+.img-txt h3 {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
 /*
 .img-txt {
   width: 100%;
