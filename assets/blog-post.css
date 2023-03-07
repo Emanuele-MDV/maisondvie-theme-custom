@@ -450,6 +450,10 @@ article.article h3{
     justify-content: center;
   }
 
+  .img-txt:not(.full)::before{
+    content:'';
+  }
+
   .img-txt {
     margin: 6rem 0;
   }
