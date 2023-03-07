@@ -469,6 +469,7 @@ article.article h3{
 }
 
 @media screen and (min-width:768px){
+  
   .img-txt fig-group figure {
     max-height:50vh;
   }
@@ -480,6 +481,7 @@ article.article h3{
     height: 100%;
     width: 40%;
   }
+  
 }
 
 .img-txt figure a {
