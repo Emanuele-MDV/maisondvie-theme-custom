@@ -521,7 +521,7 @@ article.article h3{
 
 @media screen and (min-width:1200px){
   .img-txt figure:hover img{
-    transform:scale(1.1);
+    transform:scale(1.05);
     opacity:.8;
   }
 }
