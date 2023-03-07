@@ -446,9 +446,6 @@ article.article h3{
     position: relative;
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .img-txt:not(.full) {
     min-height: 50vh;
     justify-content: center;
   }
