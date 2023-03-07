@@ -440,6 +440,12 @@ article.article h3{
   overflow:hidden;
 }
 
+.img-txt fig-group {
+  display: flex;
+  flex-direction: row;
+  column-gap: .6rem;
+}
+
 .img-txt figure {
   margin: 0;
   width: 100%;
