@@ -442,7 +442,7 @@ article.article h3{
 
 @media screen and (min-width:768px){
   .img-txt:not(.full) {
-    padding-left: 46%;
+    padding-left: 55%;
     position: relative;
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -483,7 +483,7 @@ article.article h3{
     left: 0;
     top: 0;
     height: 100%;
-    width: 40%;
+    width: 50%;
   }
   
 }
