@@ -468,6 +468,7 @@ article.article h3{
 .img-txt h3 {
   font-weight: 200;
   letter-spacing: 2px;
+  margin-bottom:0;
 }
 
 .img-txt h3 span {
