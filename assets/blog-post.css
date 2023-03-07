@@ -440,6 +440,13 @@ article.article h3{
   overflow:hidden;
 }
 
+@media screen and (min-width:768px){
+  .img-txt:not(.full) {
+    padding-left: 40%;
+    position: relative;
+  }
+}
+
 .img-txt fig-group {
   display: flex;
   flex-direction: row;
