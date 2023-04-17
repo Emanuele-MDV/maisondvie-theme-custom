@@ -7,11 +7,12 @@
     <img
     src="{{ image | image_url: width: 300 }}"
     srcset="
-      https://placekitten.com/300/200 300w,
-      https://placekitten.com/600/400 600w
+      {{ image | image_url: width: 380 }} 380w,
+      {{ image | image_url: width: 500 }} 500w,
+      {{ image | image_url }} {{ image.width }}w
     "
-    sizes="(max-width: 320px) 280px,
-          (max-width: 640px) 580px,
+    sizes="(max-width: 480px) 380px,
+          (max-width: 2500px) 500px,
           1000px"
     alt="cute random kitten"
     />
