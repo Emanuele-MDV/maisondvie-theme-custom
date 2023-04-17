@@ -1,7 +1,7 @@
 .nl-subscribtion {
   position: fixed;
-  bottom: -100%;
-  left: 1.5rem;
+  bottom: 1.5rem;
+  left: -100%;
   z-index: 2;
   transition: all 400ms ease-in-out;
   background:black;
@@ -12,7 +12,7 @@
 }
 
 .nl-subscribtion.open {
-  bottom:1rem;
+  left:1.5rem;
 }
 
 #closePopup {
