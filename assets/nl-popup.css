@@ -151,4 +151,13 @@
     bottom:2.5rem;
   }
 
+  #contact_Popup button{
+    transition:all 160ms ease-out;
+  }
+
+  #contact_Popup button:hover {
+    color:white;
+    background:black;
+  }
+
 }
