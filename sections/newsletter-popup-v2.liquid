@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ 'nl-popup.css' | asset_url }}" media="print" onload="this.media='all'">
 
-<span id="closePopup"></span>
+<span id="closePopup">{% render 'icon-close' %}</span>
 {% if section.settings.nl_image %}
   <figure{% if section.settings.nl_bg == true %} class="background"{% endif %}>
     {% assign image = section.settings.nl_image %}
