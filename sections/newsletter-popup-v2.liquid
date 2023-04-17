@@ -4,6 +4,17 @@
 {% if section.settings.nl_image %}
   <figure{% if section.settings.nl_bg == true %} class="background"{% endif %}>
     {% assign image = section.settings.nl_image %}
+    <img
+    src="{{ image | image_url: width: 300 }}"
+    srcset="
+      https://placekitten.com/300/200 300w,
+      https://placekitten.com/600/400 600w
+    "
+    sizes="(max-width: 320px) 280px,
+          (max-width: 640px) 580px,
+          1000px"
+    alt="cute random kitten"
+    />
   </figure>
 {% endif %}
 <h4>{{ section.settings.nl_title }}</h4>
