@@ -5,7 +5,7 @@
   z-index: 2;
   transition: all 400ms ease-in-out;
   background:black;
-  width:calc(100% - 3rem);
+  width:calc(88% - 3rem);
   overflow:hidden;
   margin:0;
   padding: 4rem 2.5rem;
