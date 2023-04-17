@@ -70,7 +70,7 @@
 #contact_Popup {
   display: flex;
   flex-direction: column;
-  row-gap: .4rem;
+  row-gap: 1rem;
 }
 
 #contact_Popup input {
@@ -83,4 +83,8 @@
 #contact_Popup input::placeholder {
   color:white;
   font-size:1.2rem;
+}
+
+#contact_Popup button {
+  margin:0;
 }
