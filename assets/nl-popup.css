@@ -151,6 +151,10 @@
     bottom:2.5rem;
   }
 
+  #contact_Popup button {
+    cursor:pointer;
+  }
+
   #contact_Popup button, #contact_Popup button .icon{
     transition:all 160ms ease-out;
   }
