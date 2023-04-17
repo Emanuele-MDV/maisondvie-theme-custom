@@ -151,13 +151,18 @@
     bottom:2.5rem;
   }
 
-  #contact_Popup button{
+  #contact_Popup button, #contact_Popup button .icon{
     transition:all 160ms ease-out;
   }
 
   #contact_Popup button:hover {
     color:white;
     background:black;
+  }
+
+  #contact_Popup button:hover .icon {
+    margin-left:2rem;
+    stroke:white;
   }
 
 }
