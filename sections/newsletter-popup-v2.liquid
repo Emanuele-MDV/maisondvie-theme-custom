@@ -1,9 +1,13 @@
 <link rel="stylesheet" href="{{ 'nl-popup.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <span id="closePopup"></span>
-
-<h4>Get 15% off coupon</h4>
-<p>Subscribe to our newsletter</p>
+{% if section.settings.nl_image %}
+  <figure{% if section.settings.nl_bg == true %} class="background"{% endif %}>
+    <img>
+  </figure>
+{% endif %}
+<h4>{{ section.settings.nl_title }}</h4>
+<p>{{ section.settings.nl_content }}</p>
 
 {%- form 'customer', id: 'contact_Popup', class: 'popup-newsletter' -%}
   <input type="hidden" name="contact[tags]" value="newsletter">
