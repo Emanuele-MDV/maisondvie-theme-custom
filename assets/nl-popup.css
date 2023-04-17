@@ -1,11 +1,11 @@
 .nl-subscribtion {
   position: fixed;
-  bottom: 2rem;
-  left: -100%;
+  bottom: -100%;
+  left: 2rem;
   z-index: 2;
   transition: all 400ms ease-in-out;
 }
 
 .nl-subscribtion.open {
-  left:2rem;
+  bottom:1rem;
 }
