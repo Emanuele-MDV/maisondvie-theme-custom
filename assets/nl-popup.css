@@ -22,14 +22,14 @@
   color: white;
   cursor: pointer;
   position: absolute;
-  right: 1.5rem;
-  top: 1.5rem;
+  right: 0;
+  top: 0;
   padding: 14px;
 }
 
 #closePopup .icon {
   fill: white;
-  stroke: transparent;
+  stroke: white;
 }
 
 .nl-subscribtion > * {
