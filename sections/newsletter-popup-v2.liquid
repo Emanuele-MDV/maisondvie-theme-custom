@@ -24,7 +24,7 @@
 {%- form 'customer', id: 'contact_Popup', class: 'popup-newsletter' -%}
   <input type="hidden" name="contact[tags]" value="newsletter">
 
-      {% if section.setttings.nl_user_name == true %}
+      {% if section.settings.nl_user_name == true %}
       
         <input
           id="NewsletterForm-{{ section.id }}-name"
