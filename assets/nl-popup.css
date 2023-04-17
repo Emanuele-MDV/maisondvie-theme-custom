@@ -81,6 +81,12 @@
   padding:10px;
 }
 
+#contact_Popup input:focus-visible {
+  outline: unset!important;
+  outline-offset: unset!important;
+  box-shadow: unset!important;
+}
+
 #contact_Popup input::placeholder {
   color:white;
   font-size:1.2rem;
