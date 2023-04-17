@@ -3,18 +3,19 @@ Test
 <script>
   document.addEventListener( 'DOMContentLoaded', function() {
     if (!sessionStorage.alreadyClicked) {
-      
-      $(window).scroll(function() {
-          var scroll = $(window).scrollTop();
-          if (scroll >= 500) {
-              $(".nl-subscribtion").addClass("open");
-          } 
-      });
-      
       sessionStorage.alreadyClicked = 1;
     } else {
       //$('.nl-subscribtion').remove();
     }
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 500) {
+            $(".nl-subscribtion").addClass("open");
+        } 
+    });
+
+    
   } );
 </script>
 
