@@ -157,7 +157,9 @@
         } 
     });
 
-    $('#closePopup').click( $('.nl-subscribtion').remove(); );
+    $('#closePopup').on(click, function(){
+      $('.nl-subscribtion').remove();
+    })
     
   } );
 </script>
