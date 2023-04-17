@@ -4,8 +4,13 @@
   left: 2rem;
   z-index: 2;
   transition: all 400ms ease-in-out;
+  background:black;
 }
 
 .nl-subscribtion.open {
   bottom:1rem;
+}
+
+.nl-subscribtion > * {
+  color:white;
 }
