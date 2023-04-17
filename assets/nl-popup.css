@@ -8,7 +8,7 @@
   width:calc(100% - 3rem);
   overflow:hidden;
   margin:0;
-  padding: 4rem 1.5rem;
+  padding: 4rem 2.5rem;
 }
 
 .nl-subscribtion.open {
@@ -78,7 +78,7 @@
   border:1px solid white;
   color:white;
   margin: 0;
-  padding:14px;
+  padding:10px;
 }
 
 #contact_Popup input::placeholder {
