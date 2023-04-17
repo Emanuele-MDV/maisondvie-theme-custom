@@ -3,7 +3,7 @@
   bottom: 2rem;
   left: -100%;
   z-index: 2;
-  transition: all 160ms ease-out;
+  transition: all 220ms ease-in-out;
 }
 
 .nl-subscribtion.open {
