@@ -1,10 +1,12 @@
 .nl-subscribtion {
   position: fixed;
   bottom: -100%;
-  left: 2rem;
+  left: 1.5rem;
   z-index: 2;
   transition: all 400ms ease-in-out;
   background:black;
+  width:calc(100% - 3rem);
+  overflow:hidden;
 }
 
 .nl-subscribtion.open {
