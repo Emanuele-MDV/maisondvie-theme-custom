@@ -72,3 +72,13 @@
   flex-direction: column;
   row-gap: .4rem;
 }
+
+#contact_Popup input {
+  background:transparent;
+  border:1px solid white;
+  color:white;
+}
+
+#contact_Popup input::placeholder {
+  color:white;
+}
