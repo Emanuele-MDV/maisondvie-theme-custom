@@ -1,5 +1,14 @@
 Test
 
+<script>
+  if (!sessionStorage.alreadyClicked) {
+    console.log('first session');
+    sessionStorage.alreadyClicked = 1;
+  } else {
+    console.log('not first session');
+  }
+</script>
+
 {% schema %}
   {
     "name": "Newsletter popup v2.0",
