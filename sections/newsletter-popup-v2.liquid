@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="{{ 'nl-popup.css' | asset_url }}" media="print" onload="this.media='all'">
 
+<span id="closePopup"></span>
+
 <h4>Get 15% off coupon</h4>
 <p>Subscribe to our newsletter</p>
 
@@ -109,11 +111,6 @@
         "id":"nl_user_name",
         "label":"Require subscriber name",
         "default":false
-      },
-      {
-        "type":"text",
-        "id":"nl_class",
-        "label":"Custom CSS class"
       }
     ],
     "presets": [
