@@ -277,10 +277,11 @@
     {% if customer.accepts_marketing != true %}
 
       {% section 'newsletter-popup-v2' %}
+      
       <script>
         if (!sessionStorage.alreadyClicked) {
-            console.log('first session');
-            sessionStorage.alreadyClicked = 1;
+          console.log('first session');
+          sessionStorage.alreadyClicked = 1;
         } else {
           console.log('not first session');
         }
