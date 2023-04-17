@@ -129,11 +129,16 @@
   #contact_Popup{
     flex-direction:row;
     flex-wrap:wrap;
-    column-gap:1.5rem;
+    justify-content:space-between;
+    column-gap:2rem;
   }
 
-  #contact_Popup input{
-    width:50%;
+  #contact_Popup input {
+    flex: 1 1 0px;
+  }  
+
+  #contact_Popup button{
+    width:100%;
   }
   
 }
