@@ -22,9 +22,8 @@
   color: white;
   cursor: pointer;
   position: absolute;
-  right: 2rem;
-  transform: translateY(-24px);
-  top: 1rem;
+  right: 1.5rem;
+  top: 1.5rem;
   padding: 14px;
 }
 
