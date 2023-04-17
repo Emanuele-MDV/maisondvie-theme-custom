@@ -111,3 +111,15 @@
 #contact_Popup button .icon {
   margin-left:1.5rem;
 }
+
+@media screen and (min-width:768px){
+  
+  .nl-subscribtion {
+    padding: 5rem 4rem;
+  }
+
+  .nl-subscribtion p {
+    margin-bottom: 1.2rem;
+  }
+  
+}
