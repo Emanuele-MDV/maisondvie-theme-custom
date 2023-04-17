@@ -102,3 +102,7 @@
   font-family:'Wotfard';
   letter-spacing:2px;
 }
+
+#contact_Popup button .icon {
+  margin-left:1.5rem;
+}
