@@ -57,5 +57,18 @@
 }
 
 .nl-subscribtion h4 {
+  text-transform: uppercase;
+  margin: 0 0 .4rem;
+  font-size: 1.8rem;
+}
+
+.nl-subscribtion p {
   text-transform:uppercase;
+  margin-bottom: .8rem;
+}
+
+#contact_Popup {
+  display: flex;
+  flex-direction: column;
+  row-gap: .4rem;
 }
