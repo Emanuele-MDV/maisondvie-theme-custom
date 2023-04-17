@@ -3,7 +3,7 @@
 <span id="closePopup"></span>
 {% if section.settings.nl_image %}
   <figure{% if section.settings.nl_bg == true %} class="background"{% endif %}>
-    <img>
+    {% assign image = section.settings.nl_image %}
   </figure>
 {% endif %}
 <h4>{{ section.settings.nl_title }}</h4>
