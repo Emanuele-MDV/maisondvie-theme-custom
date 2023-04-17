@@ -4,9 +4,8 @@ Test
   document.addEventListener( 'DOMContentLoaded', function() {
     if (!sessionStorage.alreadyClicked) {
       
-      $(window).scroll(function() {    
+      $(window).scroll(function() {
           var scroll = $(window).scrollTop();
-      
           if (scroll >= 500) {
               $(".nl-subscribtion").addClass("open");
           } 
