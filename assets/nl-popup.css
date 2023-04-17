@@ -28,3 +28,11 @@
   z-index: -1;
   opacity: .8;
 }
+
+.nl-subscribtion figure img{
+  min-width:100%;
+  max-width:100%;
+  min-height:100%;
+  max-height:100%;
+  object-fit:cover;
+}
