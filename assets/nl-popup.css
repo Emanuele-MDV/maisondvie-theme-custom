@@ -5,3 +5,7 @@
   z-index: 2;
   transition: all 160ms ease-out;
 }
+
+.nl-subscribtion.open {
+  left:2rem;
+}
