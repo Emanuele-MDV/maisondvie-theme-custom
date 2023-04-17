@@ -143,3 +143,11 @@
   }
   
 }
+
+@media screen and (min-width:1200px){
+
+  .nl-subscribtion {
+    max-width: 480px;
+  }
+
+}
