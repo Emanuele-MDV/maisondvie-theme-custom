@@ -1,3 +1,7 @@
 .nl-subscribtion {
-  position:absolute;
+  position: absolute;
+  bottom: 2rem;
+  left: -100%;
+  z-index: 2;
+  transition: all 160ms ease-out;
 }
