@@ -1,12 +1,14 @@
 Test
 
 <script>
-  if (!sessionStorage.alreadyClicked) {
-    console.log('first session');
-    sessionStorage.alreadyClicked = 1;
-  } else {
-    console.log('not first session');
-  }
+  document.addEventListener( 'DOMContentLoaded', function() {
+    if (!sessionStorage.alreadyClicked) {
+      //console.log('first session');
+      sessionStorage.alreadyClicked = 1;
+    } else {
+      $('.nl-subscribtion').remove();
+    }
+  } );
 </script>
 
 {% schema %}
