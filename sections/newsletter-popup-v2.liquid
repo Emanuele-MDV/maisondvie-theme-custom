@@ -4,24 +4,7 @@
 {%- form 'customer', id: 'contact_Popup', class: 'popup-newsletter' -%}
   <input type="hidden" name="contact[tags]" value="newsletter">
 
-      <input
-        id="NewsletterForm-{{ section.id }}-name"
-        type="first_name"
-        name="contact[name]"
-        value="{{ form.first_name }}"
-        aria-required="true"
-        autocorrect="off"
-        autocapitalize="off"
-        {% if form.errors %}
-          autofocus
-          aria-invalid="true"
-          aria-describedby="ContactFooter-error"
-        {% elsif form.posted_successfully? %}
-          aria-describedby="ContactFooter-success"
-        {% endif %}
-        placeholder="Your name"
-        required
-      >
+    
   
       <input
         id="NewsletterForm--{{ section.id }}-email"
