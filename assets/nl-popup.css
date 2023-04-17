@@ -90,6 +90,7 @@
 #contact_Popup input::placeholder {
   color:white;
   font-size:1.2rem;
+  opacity:1;
 }
 
 #contact_Popup button {
