@@ -274,10 +274,9 @@
       Popup Newsletter - Function to show only if is not customer and is homepage
     {% endcomment %}
 
-    {% if template.name == "index" and customer.accepts_marketing != true %}
+    {% if customer.accepts_marketing != true %}
 
-      <link rel="stylesheet" href="{{ 'newsletter-popup.css' | asset_url }}" media="print" onload="this.media='all'">
-      {% section 'newsletter-popup' %}
+      {% section 'newsletter-popup-v2' %}
       
     {% endif %}
 
