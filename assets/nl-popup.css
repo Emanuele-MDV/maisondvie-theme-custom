@@ -78,6 +78,7 @@
   border:1px solid white;
   color:white;
   margin: 0;
+  padding:14px;
 }
 
 #contact_Popup input::placeholder {
