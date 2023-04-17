@@ -215,7 +215,7 @@
           "nl_bg": true,
           "nl_title": "Get 15% off coupon",
           "nl_content": "Subscribe to our newsletter",
-          "nl_user_name": false
+          "nl_user_name": true
         }
       }
     },
