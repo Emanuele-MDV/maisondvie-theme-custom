@@ -91,19 +91,41 @@
       </a>
     </h3>
 
-    {% for variant in card_product.variants %}
+    {% assign prod_variant_count = 0 %}
+
+{% capture var_title %}
   
-      {% if variant.available %}
+{% for variant in card_product.variants %}
+  {% if variant.available %}
+    {% assign prod_variant_count = prod_variant_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if prod_variant_count > 0 %}
   
-        <span class="available">{{ variant.title }}</span>
-        
-      {% else %}
+  {% for variant in card_product.variants %}
   
-        <span class="sold-out">{{ variant.title }}</span>
-        
-      {% endif %}
+    {% if variant.available %}
+
+      <span class="available">{{ variant.title }}</span>
       
-    {% endfor %}
+    {% else %}
+
+      <span class="sold-out">{{ variant.title }}</span>
+      
+    {% endif %}
+    
+  {% endfor %}
+  
+{% else %}
+  Out of stock
+{% endif %}
+  
+{% endcapture %}
+  
+<div>
+  {{ var_title }}
+</div>
 
     {% render 'product-card-variants', product: card_product %}
 
