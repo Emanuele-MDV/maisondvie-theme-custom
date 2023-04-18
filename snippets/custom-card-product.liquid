@@ -113,7 +113,7 @@
     <div>
       {% assign prod_variant_count = 0 %}
       {% for variant in card_product.variants %}
-        {% assign prod_variant_count = prod_variant_count | plus: 1 %}
+        {% if variant.available %}{% assign prod_variant_count = prod_variant_count | plus: 1 %}{% endif %}
       {% endfor %}
       {% if prod_variant_count > 0 %}Available{% endif %}
     </div>
