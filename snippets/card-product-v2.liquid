@@ -43,6 +43,26 @@
   
     <p class="vendor-name caption-with-letter-spacing light"><span class="visually-hidden">{{ 'accessibility.vendor' | t }} </span>{{ card_product.vendor }}</p>
     <h3><a href="{{ card_product.url }}" class="full-unstyled-link" title="{{ card_product.title | escape }}">{{ card_product.title | escape }}</a></h3>
+
+    <p class="sizes">
+    {% if card_product.inventory_quantity >= 1 %}
+      {% for variant in card_product.variants %}
+        
+        {% if variant.available %}
+  
+          <span class="available">{{ variant.title }}</span>
+          
+        {% else %}
+  
+          <span class="sold-out">{{ variant.title }}</span>
+          
+        {% endif %}
+        
+      {% endfor %}
+    {% else %}
+      <span>Out of stock</span>
+    {% endif %}
+    </p>
     
     {% render 'price', product: card_product, price_class: 'custom-price' %}
     
