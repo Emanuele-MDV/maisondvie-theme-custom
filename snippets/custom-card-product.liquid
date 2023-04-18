@@ -92,6 +92,9 @@
     </h3>
 
     <div class="sizes">
+  
+    
+  
     {% for variant in card_product.variants %}
         
       {% if variant.available %}
@@ -108,11 +111,11 @@
     </div>
     
     <div>
-      {% if product.available %}
-        available
-      {% else %}
-        not available
-      {% endif %}
+      {% assign prod_variant_count = 0 %}
+      {% for variant in card_product.variants %}
+        {% assign prod_variant_count = prod_variant_count | plus: 1 %}
+      {% endfor %}
+      {% if prod_variant_count > 0 %}Available{% endif %}
     </div>
 
     {% render 'price', product: card_product, price_class: '' %}
