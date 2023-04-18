@@ -106,6 +106,12 @@
       
     {% endfor %}
     </div>
+    
+    <div>
+      {% if product.available %}
+        available
+      {% endif %}
+    </div>
 
     {% render 'price', product: card_product, price_class: '' %}
   
