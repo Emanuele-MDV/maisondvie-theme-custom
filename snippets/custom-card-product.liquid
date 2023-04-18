@@ -91,6 +91,26 @@
       </a>
     </h3>
 
+    <div class="sizes">
+    {% if card_product.inventory_quantity >= 1 %}
+      {% for variant in card_product.variants %}
+        
+        {% if variant.available %}
+  
+          <span class="available">{{ variant.title }}</span>
+          
+        {% else %}
+  
+          <span class="sold-out">{{ variant.title }}</span>
+          
+        {% endif %}
+        
+      {% endfor %}
+    {% else %}
+      <span>Out of stock</span>
+    {% endif %}
+    </div>
+
     {% render 'price', product: card_product, price_class: '' %}
   
   </article>
