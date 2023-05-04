@@ -99,6 +99,11 @@
         "outline_btn": true
       }
     },
+    "1e47e08d-6755-4a8f-be48-cbe06b658cb7": {
+      "type": "collections-grid-v2",
+      "settings": {
+      }
+    },
     "16559791500dd9690e": {
       "type": "custom-collage-collections",
       "disabled": true,
@@ -267,6 +272,7 @@
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde",
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608",
     "16630620193a9ad795",
+    "1e47e08d-6755-4a8f-be48-cbe06b658cb7",
     "16559791500dd9690e",
     "1655983033da6f73dd",
     "16630632700bc54f04",
