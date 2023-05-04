@@ -1,3 +1,23 @@
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var windowWidth = $window.innerWidth();
+    if( windowWidth < 767 ){
+    {% assign MobileScreen = true %}
+    else {
+    {% assign MobileScreen = false %}
+  } );
+</script>
+
+
+<div class="page-width">
+  {% if MobileScreen == true %}
+    Mobile
+  {% else %}
+    Desktop
+  {% endif %}
+</div>
+
+
 {% schema %}
   {
     "name": "Collections grid V 2.0",
