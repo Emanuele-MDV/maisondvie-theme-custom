@@ -101,6 +101,7 @@
     },
     "16559791500dd9690e": {
       "type": "custom-collage-collections",
+      "disabled": true,
       "blocks": {
         "16559791508e3e922d-0": {
           "type": "collection",
