@@ -1,6 +1,6 @@
 <script>
   document.addEventListener( 'DOMContentLoaded', function() {
-    var windowWidth = $window.innerWidth();
+    var windowWidth = $(window).width();
     if( windowWidth < 767 ){
     {% assign MobileScreen = true %}
     console.log('Mobile');
