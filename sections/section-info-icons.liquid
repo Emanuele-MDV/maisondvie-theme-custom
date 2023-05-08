@@ -38,6 +38,14 @@
     padding: 0 1.5rem;
   }
 
+  .info-icons.dark {
+    background: black;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+  }
+
   .info-icons figure {
     display: flex;
     flex-direction: column;
@@ -48,8 +56,12 @@
   }
 
   .info-icons figure img {
-  margin-bottom: .6rem;
-}
+    margin-bottom: .6rem;
+  }
+
+  .info-icons.dark figure img {
+    filter: invert();
+  }
 
   .info-icons figure figcaption {
     text-align:center;
