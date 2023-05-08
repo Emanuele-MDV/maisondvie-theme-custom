@@ -34,7 +34,7 @@
   .info-icons{
     display:flex;
     justify-content:center;
-    column-gap:4rem;
+    column-gap:1.6rem;
   }
 
   .info-icons figure {
@@ -43,7 +43,7 @@
     margin: 0;
     align-items: center;
     justify-content: flex-end;
-    width: 10%;
+    width: 30%;
   }
 
   .info-icons figure img {
@@ -56,6 +56,13 @@
     line-height:1.4rem;
     font-weight:200;
   }
+
+  @media screen and (max-width:768px){
+    .info-icons figure figcaption br {
+      display:none;
+    }
+  }
+  
   
 </style>
 
