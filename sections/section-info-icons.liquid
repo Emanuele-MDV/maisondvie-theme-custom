@@ -1,7 +1,19 @@
 {% for block in section.blocks %}
   {% if block.settings.icon_link %}<a href="{{ block.settings.icon_link }}" title="{{ block.settings.title_label }}">{% endif %}
     <figure>
-      {{ block.settings.image_label | image_url }}
+      {% assign image = block.settings.image_label %}
+      <img
+      alt="{{ block.settings.title_label }}"
+      srcset="
+      {{ image | image_url : width: 28 }} 28w,
+      {{ image | image_url : width: 40 }} 40w
+      "
+      sizes="
+      (max-width: 480px) 28px,
+      (max-width: 2500px) 40px
+      "
+      src="{{ image | image_url }}"
+      />
       <figcaption>
         {{ block.settings.title_label }}
       </figcaption>
