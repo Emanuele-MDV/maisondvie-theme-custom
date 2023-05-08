@@ -1,5 +1,12 @@
 {% for icon in section.blocks %}
-  
+  {% if block.settings.icon_link %}<a href="{{ block.settings.icon_link }}" title="{{ block.settings.title_label }}">{% endif %}
+    <figure>
+      {{ block.settings.image_label }}
+      <figcaption>
+        {{ block.settings.title_label }}
+      </figcaption>
+    </figure>
+  {% if block.settings.icon_link %}</a>{% endif %}
 {% endfor %}
 
 {% schema %}
