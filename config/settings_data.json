@@ -233,7 +233,7 @@
           "f73d8adb-9849-4499-833a-71ed8213686c": {
             "type": "text",
             "settings": {
-              "title_label": "4-hour delivery available in Dubai",
+              "title_label": "4-hour delivery is now available in Dubai",
               "image_label": "shopify:\/\/shop_images\/4-hours-delivery-dubai.svg",
               "icon_link": ""
             }
@@ -241,7 +241,7 @@
           "575f22d3-03bd-44fe-9af3-ce84966de277": {
             "type": "text",
             "settings": {
-              "title_label": "Cash on delivery (UAE Only)",
+              "title_label": "Cash on Delivery payment option in UAE",
               "image_label": "shopify:\/\/shop_images\/cash-on-delivery-option.svg",
               "icon_link": ""
             }
