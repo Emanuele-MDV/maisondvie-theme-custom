@@ -233,14 +233,32 @@
           "f73d8adb-9849-4499-833a-71ed8213686c": {
             "type": "text",
             "settings": {
-              "title_label": "4 hours delivery in Dubai",
+              "title_label": "4-hour delivery available in Dubai",
               "image_label": "shopify:\/\/shop_images\/4-hours-delivery-dubai.svg",
+              "icon_link": ""
+            }
+          },
+          "575f22d3-03bd-44fe-9af3-ce84966de277": {
+            "type": "text",
+            "settings": {
+              "title_label": "Cash on delivery (UAE Only)",
+              "image_label": "shopify:\/\/shop_images\/cash-on-delivery-option.svg",
+              "icon_link": ""
+            }
+          },
+          "39c880ad-a7a0-4a48-94c7-0eda9b891763": {
+            "type": "text",
+            "settings": {
+              "title_label": "Free international shipping (min. 1000 AED)",
+              "image_label": "shopify:\/\/shop_images\/icon-free-international-shipping.png",
               "icon_link": ""
             }
           }
         },
         "block_order": [
-          "f73d8adb-9849-4499-833a-71ed8213686c"
+          "f73d8adb-9849-4499-833a-71ed8213686c",
+          "575f22d3-03bd-44fe-9af3-ce84966de277",
+          "39c880ad-a7a0-4a48-94c7-0eda9b891763"
         ],
         "settings": {
           "icons_theme": "light"
