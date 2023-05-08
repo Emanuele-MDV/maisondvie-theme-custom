@@ -21,6 +21,14 @@
   {% if block.settings.icon_link %}</a>{% endif %}
 {% endfor %}
 
+{% if section.settings.icons_theme == 'dark' %}
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function() {
+      $('.info-icons').addClass('dark');      
+    } );
+  </script>
+{% endif %}
+
 {% schema %}
   {
     "name": "Info icons",
