@@ -31,10 +31,11 @@
 
 <style>
 
-  .info-icons{
-    display:flex;
-    justify-content:center;
-    column-gap:1.6rem;
+  .info-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.6rem;
+    padding: 0 1.5rem;
   }
 
   .info-icons figure {
@@ -60,6 +61,12 @@
   @media screen and (max-width:768px){
     .info-icons figure figcaption br {
       display:none;
+    }
+  }
+
+  @media screen and (min-width:768px){
+    .info-icons figure {
+      width: 22%;
     }
   }
   
