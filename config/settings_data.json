@@ -124,8 +124,17 @@
       "header": {
         "type": "header",
         "settings": {
+          "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/maison-d-vie-official.webp",
-          "menu": "main-menu"
+          "logo_width": 100,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "menu_type_desktop": "dropdown",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "margin_bottom": 0,
+          "padding_top": 20,
+          "padding_bottom": 20
         }
       },
       "footer": {
@@ -216,6 +225,25 @@
           "nl_title": "Get 15% off coupon",
           "nl_content": "Subscribe to our newsletter",
           "nl_user_name": false
+        }
+      },
+      "section-info-icons": {
+        "type": "section-info-icons",
+        "blocks": {
+          "f73d8adb-9849-4499-833a-71ed8213686c": {
+            "type": "text",
+            "settings": {
+              "title_label": "",
+              "image_label": "shopify:\/\/shop_images\/4-hours-delivery-dubai.svg",
+              "icon_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "f73d8adb-9849-4499-833a-71ed8213686c"
+        ],
+        "settings": {
+          "icons_theme": "light"
         }
       }
     },
