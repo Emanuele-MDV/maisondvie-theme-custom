@@ -1,12 +1,28 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Info icons",
+    "settings": [
+      {
+        "type":"select",
+        "id":"icons_theme",
+        "label":"Select style",
+        "options":[
+          {
+            "value":"dark",
+            "label":"Dark"
+          },
+          {
+            "value":"light",
+            "label":"Light"
+          }
+        ],
+        "default":"light"
+      }
+    ],
+    "presets": [
+      {
+        "name":"Info icons"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
