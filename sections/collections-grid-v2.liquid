@@ -32,7 +32,7 @@
   {% endfor %}
 {% endcapture %}
 
-<div class="page-width col-{{ count }}">
+<div class="page-width col-{{ count }}{% if section.settings.custom_class %} {{ section.settings.custom_class }}{% endif %}">
   {{ collections }}
 </div>
 
