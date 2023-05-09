@@ -101,6 +101,7 @@
   .collections-grid .page-width article {
     flex-direction: row;
     column-gap: 2rem;
+    align-items: center;
   }
   .collections-grid .page-width article figure figcaption h3 {
     font-size: 2.6rem;
@@ -108,10 +109,14 @@
   .collections-grid .page-width article figure img, .collections-grid .page-width article figure figcaption a::before {
     transition:all 180ms ease-out;
   }
+  .collections-grid .page-width article figure:nth-child(odd){
+    max-height:52vh;
+  }
   .collections-grid .page-width article figure:hover img {
     transform:scale(1.1);
   }
   .collections-grid .page-width article figure:hover figcaption::before {
     opacity:.6;
   }
+  
 }
