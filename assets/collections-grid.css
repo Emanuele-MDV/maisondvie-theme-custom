@@ -96,3 +96,13 @@
   left: 0;
   opacity:0;
 }
+
+@media screen and (min-width:990px){
+  .collections-grid .page-width article {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+  .collections-grid .page-width article figure figcaption h3 {
+    font-size: 2.6rem;
+  }
+}
