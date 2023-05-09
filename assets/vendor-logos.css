@@ -1,0 +1,7 @@
+.vendor-logos .page-width article {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  justify-content:center;
+  column-gap:1.6rem;
+}
