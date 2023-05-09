@@ -28,7 +28,7 @@
   <article>
     {{ logos }}
   </article>
-  {% if section.settings.vendors_link %}<a class="simple-link" href="{{ section.settings.vendors_link }}"><span>{% if section.settings.link_txt %}{{ section.settings.link_txt }}{% else %}View all{% endif %}</span>{% render 'icon-arrow' %}</a>{% endif %}
+  {% if section.settings.vendors_link %}<a class="simple-link" href="{{ section.settings.vendors_link }}"><span>{% if section.settings.link_txt != empty %}{{ section.settings.link_txt }}{% else %}View all{% endif %}</span>{% render 'icon-arrow' %}</a>{% endif %}
 </div>
 
 {% schema %}
