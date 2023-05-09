@@ -22,7 +22,7 @@
   {% endfor %}
 {% endcapture %}
 
-<div class="{% if section.settings.section_size == 'narrow' %}page-width narrow{% else %}page-width{% endif %}">
+<div class="page-width{% if section.settings.section_size == 'narrow' %} narrow{% endif %}{% if section.settings.custom_class %} {{ section.settings.custom_class }}{% endif %}">
   {% if section.settings.vendors_title %}<h2>{{ section.settings.vendors_title }}</h2>{% endif %}
   {% if section.settings.vendors_par %}<p>{{ section.settings.vendors_par }}</p>{% endif %}
   <article>
