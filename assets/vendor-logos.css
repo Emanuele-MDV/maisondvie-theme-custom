@@ -3,12 +3,12 @@
   flex-wrap:wrap;
   align-items:flex-start;
   justify-content:space-between;
-  column-gap:1.6rem;
+  column-gap:.8rem;
 }
 
 .vendor-logos .page-width article figure {
   margin: 0;
-  width: 30%;
+  min-width: 30%;
   position: relative;
   height: 60px;
   overflow:hidden;
