@@ -107,10 +107,17 @@
           "settings": {
             "collection": "dresses"
           }
+        },
+        "3f6c9fdb-45e1-431f-990c-db260eaa6fa3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
         }
       },
       "block_order": [
-        "0432edcd-79b3-4eab-ab96-6d0bd92f734f"
+        "0432edcd-79b3-4eab-ab96-6d0bd92f734f",
+        "3f6c9fdb-45e1-431f-990c-db260eaa6fa3"
       ],
       "settings": {
         "collections_title": "",
