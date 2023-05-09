@@ -1,5 +1,11 @@
+{% capture logos %}
+  {% for collection in collections %}
+    test
+  {% endfor %}
+{% endcapture %}
+
 <div class="{% if section.settings.section_size == 'narrow' %}page-width narrow{% else %}page-width{% endif %}">
-  logos
+  {{ logos }}
 </div>
 
 {% schema %}
