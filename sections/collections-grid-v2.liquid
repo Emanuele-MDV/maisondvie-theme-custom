@@ -11,11 +11,13 @@
       <img
       srcset="
       {{ image | image_url: width: 400 }} 400w,
+      {{ image | image_url: width: 460 }} 460w,
       {{ image | image_url: width: 520 }} 520w,
+      {% if count <= 2 %}{{ image | image_url }} {{ image.width }}w,{% endif %}
       100vw
       "
       sizes="
-      (min-width: 768px) 520px,
+      {% if count <= 2 %}(min-width: 768px) 520px{% else %}(min-width: 768px) 460px{% endif %},      
       (min-width: 360px) 400px
       "
       loading="lazy"
