@@ -111,7 +111,8 @@
         "3f6c9fdb-45e1-431f-990c-db260eaa6fa3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "dresses",
+            "collection_image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.png"
           }
         }
       },
