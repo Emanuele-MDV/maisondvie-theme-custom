@@ -5,3 +5,9 @@
   justify-content:center;
   column-gap:1.6rem;
 }
+
+.vendor-logos .page-width article figure {
+  margin:0;
+  width:33%;
+  
+}
