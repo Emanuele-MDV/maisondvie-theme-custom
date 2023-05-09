@@ -25,7 +25,7 @@
       src="{{ image | image_url: width: 320 }}"
       />
       <figcaption>
-        
+        <h3>{% if block.settings.coll_txt %}{{ block.settings.coll_txt }}{% else %}{{ block.settings.collection.title }}{% endif %}</h3>
       </figcaption>
     </figure>
   {% endfor %}
