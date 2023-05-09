@@ -8,7 +8,13 @@
       {% else %}
         {% assign image = block.settings.collection.featured_image %}
       {% endif %}
-      <img src="{{ image | image_url }}">
+      <img
+      srcset=""
+      sizes=""
+      loading="lazy"
+      alt="{% if image.alt %}{{ image.alt }}{% else %}{{ block.settings.collection.title }}{% endif %}"
+      src="{{ image | image_url }}"
+      />
     </figure>
   {% endfor %}
 {% endcapture %}
