@@ -1,3 +1,12 @@
+.page-width.narrow {
+  max-width: 1080px;
+}
+
+
+
+
+
+
 .vendor-logos .page-width > * {
   text-align:center;
 }
