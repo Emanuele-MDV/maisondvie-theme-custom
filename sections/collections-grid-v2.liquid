@@ -24,6 +24,9 @@
       alt="{% if image.alt %}{{ image.alt }}{% else %}{{ block.settings.collection.title }}{% endif %}"
       src="{{ image | image_url: width: 320 }}"
       />
+      <figcaption>
+        
+      </figcaption>
     </figure>
   {% endfor %}
 {% endcapture %}
@@ -73,6 +76,11 @@
             "type":"image_picker",
             "id":"collection_image",
             "label":"Display a different image"
+          },
+          {
+            "type":"text",
+            "id":"coll_txt",
+            "label":"Display another title"
           }
         ]
       }
