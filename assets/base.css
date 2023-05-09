@@ -496,6 +496,7 @@ h1,
 
 h2,
 .h2 {
+  font-family: Wotfard;
   font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
