@@ -23,7 +23,12 @@
 {% endcapture %}
 
 <div class="{% if section.settings.section_size == 'narrow' %}page-width narrow{% else %}page-width{% endif %}">
-  {{ logos }}
+  {% if section.settings.vendors_title %}<h2>{{ section.settings.vendors_title }}</h2>{% endif %}
+  {% if section.settings.vendors_par %}<p>{{ section.settings.vendors_par }}</p>{% endif %}
+  <article>
+    {{ logos }}
+  </article>
+  {% if section.settings.vendors_link %}<a class="simple-link" href="{{ section.settings.vendors_link }}"><span>{% if section.settings.link_txt %}{{ section.settings.link_txt }}{% else %}View all{% endif %}</span>{% render 'icon-arrow' %}</a>{% endif %}
 </div>
 
 {% schema %}
