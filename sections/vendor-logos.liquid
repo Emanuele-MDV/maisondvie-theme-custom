@@ -15,6 +15,7 @@
         loading="lazy"
         src="{{ image | image_url: width: 100 }}"  
         />
+        <a href="{{ collection.url }}"><span class="visually-hidden">View products</span></a>
       </figure>
     {% endif %}
   {% endfor %}
