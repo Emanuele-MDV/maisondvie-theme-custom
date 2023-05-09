@@ -41,7 +41,7 @@
   {% if section.settings.collections_title %}<h2>{{ section.settings.collections_title }}</h2>{% endif %}
   {% if section.settings.collections_par %}<p>{{ section.settings.collections_par }}</p>{% endif %}
   <article>{{ collections }}</article>
-  {% if section.settings.button_link %}<a href="{{ section.settings.button_link }}"><span>{% if section.settings.collections_button %}{{ section.settings.collections_button }}{% else %}View all{% endif %}</span>{% render 'icon-arrow' %}</a>{% endif %}
+  {% if section.settings.button_link %}<a class="simple-link" href="{{ section.settings.button_link }}"><span>{% if section.settings.collections_button %}{{ section.settings.collections_button }}{% else %}View all{% endif %}</span>{% render 'icon-arrow' %}</a>{% endif %}
 </div>
 
 {% schema %}
