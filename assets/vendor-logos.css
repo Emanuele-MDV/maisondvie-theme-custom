@@ -1,3 +1,7 @@
+.vendor-logos .page-width > * {
+  text-align:center;
+}
+
 .vendor-logos .page-width article {
   display:flex;
   flex-wrap:wrap;
