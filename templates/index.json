@@ -105,25 +105,36 @@
         "0432edcd-79b3-4eab-ab96-6d0bd92f734f": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dresses"
+            "collection": "dresses",
+            "coll_txt": ""
           }
         },
         "3f6c9fdb-45e1-431f-990c-db260eaa6fa3": {
           "type": "featured_collection",
           "settings": {
             "collection": "dresses",
-            "collection_image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.png"
+            "collection_image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.png",
+            "coll_txt": ""
+          }
+        },
+        "10d41d47-b871-4d23-a040-53e9038e844f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses",
+            "coll_txt": "Luxury Dresses& clothing"
           }
         }
       },
       "block_order": [
         "0432edcd-79b3-4eab-ab96-6d0bd92f734f",
-        "3f6c9fdb-45e1-431f-990c-db260eaa6fa3"
+        "3f6c9fdb-45e1-431f-990c-db260eaa6fa3",
+        "10d41d47-b871-4d23-a040-53e9038e844f"
       ],
       "settings": {
         "collections_title": "",
         "collections_par": "",
-        "collections_button": ""
+        "collections_button": "",
+        "show_links": false
       }
     },
     "16559791500dd9690e": {
