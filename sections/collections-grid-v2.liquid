@@ -26,6 +26,7 @@
       />
       <figcaption>
         <h3>{% if block.settings.coll_txt != empty %}{{ block.settings.coll_txt }}{% else %}{{ block.settings.collection.title }}{% endif %}</h3>
+        <a href="{{ block.settings.collection.url }}"><span class="visually-hidden">shop now</span></a>
       </figcaption>
     </figure>
   {% endfor %}
