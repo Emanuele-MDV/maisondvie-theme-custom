@@ -112,6 +112,6 @@
     transform:scale(1.1);
   }
   .collections-grid .page-width article figure:hover figcaption a::before {
-    opacity:.8;
+    opacity:.6;
   }
 }
