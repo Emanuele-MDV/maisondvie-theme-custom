@@ -38,7 +38,7 @@
 <div class="page-width col-{{ count }}{% if section.settings.custom_class %} {{ section.settings.custom_class }}{% endif %}">
   {% if section.settings.collections_title %}<h2>{{ section.settings.collections_title }}</h2>{% endif %}
   {% if section.settings.collections_par %}<p>{{ section.settings.collections_par }}</p>{% endif %}
-  {{ collections }}
+  <article>{{ collections }}</article>
   {% if section.settings.button_link %}<a href="{{ section.settings.button_link }}"><span>{% if section.settings.collections_button %}{{ section.settings.collections_button }}{% else %}View all{% endif %}</span></a>{% endif %}
 </div>
 
