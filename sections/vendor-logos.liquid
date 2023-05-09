@@ -1,6 +1,6 @@
 {% capture logos %}
   {% for collection in collections %}
-    {% if collection.metafields.custom.vendor_logo.value != empty %}
+    {% if collection.metafields.custom.vendor_logo.value %}
       test
     {% endif %}
   {% endfor %}
