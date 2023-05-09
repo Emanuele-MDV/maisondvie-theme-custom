@@ -51,6 +51,12 @@
     height: 68px;
     max-width: 150px;
   }
+  .vendor-logos .page-width article figure img{
+    transition:all 180ms ease-out;
+  }
+  .vendor-logos .page-width article figure:hover img{
+    transform:scale(1.05);
+  }
 }
 
 @media screen and (min-width:1440px){
