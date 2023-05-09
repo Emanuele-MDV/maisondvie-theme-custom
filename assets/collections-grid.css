@@ -1,6 +1,7 @@
 .collections-grid .page-width article {
   display: flex;
   flex-direction: column;
+  row-gap: 2.2rem;
 }
 
 .collections-grid .page-width article figure {
@@ -8,5 +9,6 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  height: 60vh;
 }
 
