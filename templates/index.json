@@ -133,8 +133,10 @@
       "settings": {
         "collections_title": "",
         "collections_par": "",
-        "collections_button": "",
-        "show_links": false
+        "button_link": "shopify:\/\/collections",
+        "collections_button": "View all collections",
+        "show_links": false,
+        "custom_class": ""
       }
     },
     "16559791500dd9690e": {
