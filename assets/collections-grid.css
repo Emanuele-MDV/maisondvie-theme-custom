@@ -72,7 +72,7 @@
   width:100%;
 }
 
-.collections-grid .page-width article figure figcaption a::before {
+.collections-grid .page-width article figure figcaption::before {
   content:'';
   position: absolute;
   width: 100%;
