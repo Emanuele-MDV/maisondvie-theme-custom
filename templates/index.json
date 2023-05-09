@@ -101,7 +101,21 @@
     },
     "1e47e08d-6755-4a8f-be48-cbe06b658cb7": {
       "type": "collections-grid-v2",
+      "blocks": {
+        "0432edcd-79b3-4eab-ab96-6d0bd92f734f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dresses"
+          }
+        }
+      },
+      "block_order": [
+        "0432edcd-79b3-4eab-ab96-6d0bd92f734f"
+      ],
       "settings": {
+        "collections_title": "",
+        "collections_par": "",
+        "collections_button": ""
       }
     },
     "16559791500dd9690e": {
