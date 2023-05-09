@@ -87,6 +87,7 @@
     },
     "16630620193a9ad795": {
       "type": "link-banner",
+      "disabled": true,
       "settings": {
         "custom_class": "dark reservation-link",
         "image_position": "left",
@@ -121,7 +122,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "dresses",
-            "coll_txt": "Luxury Dresses& clothing"
+            "coll_txt": "Luxury Dresses & clothing"
           }
         }
       },
