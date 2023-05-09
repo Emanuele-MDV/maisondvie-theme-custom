@@ -208,6 +208,7 @@
     },
     "1655983033da6f73dd": {
       "type": "custom-collage-collections",
+      "disabled": true,
       "blocks": {
         "16559830335072576c-0": {
           "type": "collection",
@@ -273,6 +274,7 @@
     },
     "16630632700bc54f04": {
       "type": "link-banner",
+      "disabled": true,
       "settings": {
         "custom_class": "new-collection dark",
         "image_position": "full",
@@ -287,6 +289,7 @@
     },
     "2d3c4f8f-2cdd-44bf-a946-732a90575bf5": {
       "type": "product-carousel-v2",
+      "disabled": true,
       "settings": {
         "load_scripts": false,
         "load_css": false,
