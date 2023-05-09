@@ -1,6 +1,8 @@
 {% capture logos %}
   {% for collection in collections %}
-    test
+    {% if collection.metafields.custom.vendor_logo != empty %}
+      test
+    {% endif %}
   {% endfor %}
 {% endcapture %}
 
