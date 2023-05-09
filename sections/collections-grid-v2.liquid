@@ -1,25 +1,6 @@
-<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var windowWidth = $(window).width();
-    if( windowWidth < 767 ){
-    {% assign MobileScreen = true %}
-    console.log('Mobile');
-    } else {
-    {% assign MobileScreen = false %}
-    console.log('Desktop');
-    }
-  });
-</script>
-
-
 <div class="page-width">
-  {% if MobileScreen == true %}
-    Mobile
-  {% elsif MobileScreen == false %}
-    Desktop
-  {% endif %}
+  
 </div>
-
 
 {% schema %}
   {
