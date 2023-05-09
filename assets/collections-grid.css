@@ -36,6 +36,7 @@
 .collections-grid .page-width article figure figcaption h3 {
   text-transform:uppercase;
   color:white;
+  position:relative;
 }
 
 .collections-grid .page-width article figure figcaption a::before{
