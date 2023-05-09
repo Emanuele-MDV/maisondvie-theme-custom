@@ -1,7 +1,12 @@
 {% capture logos %}
   {% for collection in collections %}
     {% if collection.metafields.custom.vendor_logo.value %}
-      {{ collection.title }}
+      {% assign image = collection.metafields.custom.vendor_logo.value %}
+      <figure>
+        <img
+        src="{{ image | image_url }}"  
+        />
+      </figure>
     {% endif %}
   {% endfor %}
 {% endcapture %}
