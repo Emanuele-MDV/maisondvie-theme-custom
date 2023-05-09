@@ -1,7 +1,7 @@
 {% capture logos %}
   {% for collection in collections %}
     {% if collection.metafields.custom.vendor_logo.value %}
-      test
+      {{ collection.title }}
     {% endif %}
   {% endfor %}
 {% endcapture %}
