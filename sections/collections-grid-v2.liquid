@@ -35,6 +35,8 @@
   {% endfor %}
 {% endcapture %}
 
+<link rel="stylesheet" href="{{ 'collections-grid.css' | asset_url }}" media="print" onload="this.media='all'">
+
 <div class="page-width col-{{ count }}{% if section.settings.custom_class %} {{ section.settings.custom_class }}{% endif %}">
   {% if section.settings.collections_title %}<h2>{{ section.settings.collections_title }}</h2>{% endif %}
   {% if section.settings.collections_par %}<p>{{ section.settings.collections_par }}</p>{% endif %}
