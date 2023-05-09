@@ -1,12 +1,55 @@
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Vendors logos",
+    "tag":"section",
+    "class":"vendor-logos",
+    "templates":["index"],
+    "settings": [
+      {
+        "type":"header",
+        "content":"Logos for brands"
+      },
+      {
+        "type":"text",
+        "id":"vendors_title",
+        "label":"Write a title"
+      },
+      {
+        "type":"text",
+        "id":"vendors_par",
+        "label":"Write a description"
+      },
+      {
+        "type":"url",
+        "id":"vendors_link",
+        "label":"Link for all designers"
+      },
+      {
+        "type":"text",
+        "id":"link_txt",
+        "label":"Link text"
+      },
+      {
+        "type":"header",
+        "content":"Section settings"
+      },
+      {
+        "type":"select",
+        "id":"section_size",
+        "label":"Size for the section",
+        "options":[
+          {
+            "value":"normal",
+            "label":"Normal"
+          },
+          {
+            "value":"narrow",
+            "label":"Narrow"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
