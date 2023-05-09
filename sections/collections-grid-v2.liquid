@@ -12,9 +12,12 @@
       srcset="
       {{ image | image_url: width: 400 }} 400w,
       {{ image | image_url: width: 520 }} 520w,
-      
+      100vw
       "
-      sizes=""
+      sizes="
+      (min-width: 768px) 520px,
+      (min-width: 360px) 400px
+      "
       loading="lazy"
       alt="{% if image.alt %}{{ image.alt }}{% else %}{{ block.settings.collection.title }}{% endif %}"
       src="{{ image | image_url: width: 320 }}"
