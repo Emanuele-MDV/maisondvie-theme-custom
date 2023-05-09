@@ -9,7 +9,11 @@
         {% assign image = block.settings.collection.featured_image %}
       {% endif %}
       <img
-      srcset=""
+      srcset="
+      ({{ image | image_url: width: 400 }}) 400w,
+      ({{ image | image_url: width: 520 }}) 520w,
+      
+      "
       sizes=""
       loading="lazy"
       alt="{% if image.alt %}{{ image.alt }}{% else %}{{ block.settings.collection.title }}{% endif %}"
