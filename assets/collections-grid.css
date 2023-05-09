@@ -3,3 +3,10 @@
   flex-direction: column;
 }
 
+.collections-grid .page-width article figure {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
