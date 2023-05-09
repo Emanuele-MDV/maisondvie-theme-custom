@@ -23,6 +23,10 @@
   text-align:center;
 }
 
+.collections-grid .page-width > p {
+  padding:0 2.8rem;
+}
+
 .collections-grid .page-width article {
   display: flex;
   flex-direction: column;
