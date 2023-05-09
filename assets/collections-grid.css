@@ -105,10 +105,13 @@
   .collections-grid .page-width article figure figcaption h3 {
     font-size: 2.6rem;
   }
-  .collections-grid .page-width article figure img {
+  .collections-grid .page-width article figure img, .collections-grid .page-width article figure figcaption a::before {
     transition:all 180ms ease-out;
   }
   .collections-grid .page-width article figure:hover img {
-    transform:scale(1.1)
+    transform:scale(1.1);
+  }
+  .collections-grid .page-width article figure:hover figcaption a::before {
+    opacity:.8;
   }
 }
