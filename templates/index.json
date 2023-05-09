@@ -308,9 +308,9 @@
     "01b7d2d2-fa5e-4a22-b0b1-204f8152645c": {
       "type": "vendor-logos",
       "settings": {
-        "vendors_title": "",
-        "vendors_par": "",
-        "vendors_link": "",
+        "vendors_title": "Brands at Maison D'Vie",
+        "vendors_par": "Carefully selected fashion designers from all around Europe",
+        "vendors_link": "shopify:\/\/pages\/designers",
         "link_txt": "",
         "custom_class": "",
         "section_size": "narrow"
