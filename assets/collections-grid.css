@@ -59,7 +59,6 @@
   text-transform:uppercase;
   color:white;
   position:relative;
-  z-index:1;
 }
 
 .collections-grid .page-width article figure figcaption a::before {
