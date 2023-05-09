@@ -36,7 +36,10 @@
 {% endcapture %}
 
 <div class="page-width col-{{ count }}{% if section.settings.custom_class %} {{ section.settings.custom_class }}{% endif %}">
+  {% if section.settings.collections_title %}<h2>{{ section.settings.collections_title }}</h2>{% endif %}
+  {% if section.settings.collections_par %}<p>{{ section.settings.collections_par }}</p>{% endif %}
   {{ collections }}
+  {% if section.settings.button_link %}<a href="{{ section.settings.button_link }}"><span>{{ section.settings.collections_button }}</span></a>{% endif %}
 </div>
 
 {% schema %}
@@ -59,6 +62,11 @@
         "type":"text",
         "id":"collections_par",
         "label":"Display a description"
+      },
+      {
+        "type":"url",
+        "id":"button_link",
+        "label":"Set up a link"
       },
       {
         "type":"text",
