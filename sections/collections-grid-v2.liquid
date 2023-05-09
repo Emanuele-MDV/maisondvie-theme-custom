@@ -2,7 +2,14 @@
   {% assign count = 0 %}
   {% for block in section.blocks %}
     {% assign count = count | plus: 1 %}
-    
+    <figure>
+      {% if block.settings.collection_image %}
+        {% assign image = block.settings.collection_image %}
+      {% else %}
+        {% assign image = block.settings.collection.featured_image %}
+      {% endif %}
+      <img src="{{ image | image_url }}">
+    </figure>
   {% endfor %}
 {% endcapture %}
 
