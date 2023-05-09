@@ -2,12 +2,12 @@
   display:flex;
   flex-wrap:wrap;
   align-items:flex-start;
-  justify-content:center;
+  justify-content:space-between;
   column-gap:1.6rem;
 }
 
 .vendor-logos .page-width article figure {
   margin:0;
-  width:33%;
+  width:30%;
   
 }
