@@ -33,6 +33,11 @@
   align-items: center;
 }
 
+.collections-grid .page-width article figure figcaption h3 {
+  text-transform:uppercase;
+  color:white;
+}
+
 .collections-grid .page-width article figure figcaption a::before{
   content:'';
   position: absolute;
