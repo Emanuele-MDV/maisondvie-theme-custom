@@ -131,8 +131,8 @@
         "10d41d47-b871-4d23-a040-53e9038e844f"
       ],
       "settings": {
-        "collections_title": "",
-        "collections_par": "",
+        "collections_title": "Top Categories",
+        "collections_par": "Be the first in line with our awe-inspiring new collection.",
         "button_link": "shopify:\/\/collections",
         "collections_button": "View all collections",
         "show_links": false,
