@@ -1,5 +1,11 @@
+{% capture collections %}
+{% for block in blocks.settings.collection %}
+  test
+{% endfor %}
+{% endcapture %}
+
 <div class="page-width">
-  
+  {{ collections }}
 </div>
 
 {% schema %}
