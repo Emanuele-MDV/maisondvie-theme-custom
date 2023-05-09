@@ -110,7 +110,7 @@
     transition:all 180ms ease-out;
   }
   .collections-grid .page-width article figure:nth-child(odd){
-    max-height:52vh;
+    max-height:48vh;
   }
   .collections-grid .page-width article figure:hover img {
     transform:scale(1.1);
