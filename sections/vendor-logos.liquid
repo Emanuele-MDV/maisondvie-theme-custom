@@ -4,7 +4,10 @@
       {% assign image = collection.metafields.custom.vendor_logo.value %}
       <figure>
         <img
-        src="{{ image | image_url }}"  
+        srcset=""
+        sizes=""
+        loading="lazy"
+        src="{{ image | image_url: width: 120 }}"  
         />
       </figure>
     {% endif %}
