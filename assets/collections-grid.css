@@ -19,6 +19,10 @@
 
 /* TILL HERE */
 
+.collections-grid .page-width > * {
+  text-align:center;
+}
+
 .collections-grid .page-width article {
   display: flex;
   flex-direction: column;
