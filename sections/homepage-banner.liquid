@@ -15,6 +15,8 @@
     width="{{ settings.page_width | divided_by: 3 }}" 
     height="{{ settings.page_width | divided_by: 2 }}" 
     />
+    {% if section.settings.banner_second_image %}<div style="background-image:url({{ section.settings.banner_second_image | image_url }})"></div>{% endif %}
+    {% if section.settings.banner_third_image %}<div style="background-image:url({{ section.settings.banner_third_image | image_url }})"></div>{% endif %}
   </figure>
   <div class="banner-content">
     {% if section.settings.banner_header %}<h2 class="h0">{{ section.settings.banner_header }}</h2>{% endif %}
