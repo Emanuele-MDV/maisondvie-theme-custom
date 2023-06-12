@@ -1,3 +1,29 @@
+<div class="page-width">
+  <figure>
+    {% assign image = section.settings.banner_primary_image %}
+    <img 
+    alt="{{ image.alt }}" 
+    srcset="
+    {{ image | image_url: width: 420 }} 420w,
+    {{ image | image_url: width: 580 }} 580w
+    " 
+    sizes="
+    (min-width:320px)420px,
+    (min-width:720px) 580px,
+    100vw" 
+    src="{{ image | image_url: width: 320 }}" 
+    width="{{ settings.page_width | divided_by: 3 }}" 
+    height="{{ settings.page_width | divided_by: 2 }}" 
+    />
+  </figure>
+  <div class="banner-content">
+    {% if section.settings.banner_header %}<h2 class="h0">{{ section.settings.banner_header }}</h2>{% endif %}
+    {% if section.settings.banner_caption %}<p>{{ section.settings.banner_caption }}</p>{% endif %}
+    {% if section.settings.banner_link %}<a href="{{ section.settings.banner_link }}" title="{{ section.settings.banner_caption }}" class="simple-link"><span>Shop now</span>{% render 'icon-arrow' %}</a>{% endif %}
+  </div>
+</div>
+
+
 {% schema %}
   {
     "name": "Homepage Banner",
