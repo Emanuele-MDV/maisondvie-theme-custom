@@ -17,6 +17,7 @@
     },
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde": {
       "type": "banner-ads",
+      "disabled": true,
       "blocks": {
         "d7f9af9e-d16f-4e2d-86a3-338869a2f10e": {
           "type": "heading",
