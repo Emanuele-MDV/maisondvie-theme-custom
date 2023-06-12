@@ -8,8 +8,8 @@
     {{ image | image_url: width: 580 }} 580w
     " 
     sizes="
-    (min-width:320px)420px,
     (min-width:720px)580px,
+    (min-width:320px)420px,
     100vw" 
     src="{{ image | image_url: width: 320 }}" 
     width="{{ settings.page_width | divided_by: 3 }}" 
