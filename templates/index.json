@@ -71,6 +71,7 @@
     },
     "aa032179-e56a-45fe-9bf8-85bafb10daaa": {
       "type": "homepage-banner",
+      "disabled": true,
       "settings": {
         "banner_header": "End of season sale",
         "banner_caption": "Up to 50% off on selected products",
