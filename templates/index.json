@@ -69,6 +69,17 @@
         "custom_ID": "banner-container"
       }
     },
+    "aa032179-e56a-45fe-9bf8-85bafb10daaa": {
+      "type": "homepage-banner",
+      "settings": {
+        "banner_header": "End of season sale",
+        "banner_caption": "Up to 50% off on selected products",
+        "banner_link": "shopify:\/\/collections\/women-sales",
+        "banner_primary_image": "shopify:\/\/shop_images\/end-of-season-sale-luxury-clothing.webp",
+        "banner_second_image": "shopify:\/\/shop_images\/maison-d-vie-summer-sale.webp",
+        "banner_third_image": "shopify:\/\/shop_images\/maison-d-vie-end-of-season-sale.webp"
+      }
+    },
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608": {
       "type": "product-carousel-v2",
       "settings": {
@@ -321,6 +332,7 @@
   "order": [
     "166305123918b33308",
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde",
+    "aa032179-e56a-45fe-9bf8-85bafb10daaa",
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608",
     "16630620193a9ad795",
     "1e47e08d-6755-4a8f-be48-cbe06b658cb7",
