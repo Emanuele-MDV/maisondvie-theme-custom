@@ -1,12 +1,20 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Homepage Banner",
+    "tag":"section",
+    "class":"homepage-banner",
+    "templates":["index"],
+    "settings": [
+      {
+        "type":"text",
+        "id":"banner_header",
+        "label":"Type a headline"
+      }
+    ],
+    "presets" : [
+      {
+        "name":"Homepage Banner"
+      }
+    ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
