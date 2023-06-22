@@ -6,7 +6,12 @@
 
 h1{
   font-family:'Wotfard';
-  font-size:2.2rem;
+  font-size:2.4rem;
+}
+
+h1 span{
+  display:block;
+  font-family:'Graffier', Times, serif;
 }
 
 /* PAGE STRUCTURE */
