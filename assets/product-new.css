@@ -193,4 +193,6 @@ figure.thumbnail img {
   font-size: 1.2rem;
 }
 
-
+.variants, .quantity {
+  width:50%;
+}
