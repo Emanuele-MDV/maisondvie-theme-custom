@@ -183,6 +183,18 @@
   {% endcapture %}
 
 
+  {% capture 'colors' %}
+
+    {% if product.metafields.custom.colors.value %}
+      
+        <div>
+        </div>
+  
+    {% endif %}
+
+  {% endcapture %}
+
+
                     
 
 <div class="page-width">
@@ -194,6 +206,8 @@
     <div class="the-title">
       {{ section-blocks }}
     </div>
+
+  {{ colors }}
     
     <div class="the-form">
       {{ price-form }}
