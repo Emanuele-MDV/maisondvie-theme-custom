@@ -166,6 +166,10 @@ figure.thumbnail img {
   letter-spacing:0;
 }
 
+.price-item.price-item--sale.price-item--last{
+  color:#C12828:
+}
+
 .badge.price__badge-sale.color-accent-2 {
   background: transparent;
   color: black;
