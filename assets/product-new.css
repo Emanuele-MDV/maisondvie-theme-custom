@@ -10,4 +10,5 @@
 
 .slider-container figure.splide__slide {
   overflow:hidden;
+  border-radius:1px;
 }
