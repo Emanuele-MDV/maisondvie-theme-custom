@@ -183,24 +183,32 @@
   {% endcapture %}
 
 
-  {% capture 'colors' %}
+{% capture 'colors' %}
 
-    {% if product.metafields.custom.colors.value %}
-      
-        <div class="color-options">
-          <h2>Colors:</h2>
-          {% assign colors = product.metafields.custom.colors.value %}
-          {% for color in colors %}
-            <a href="{{ color.url }}" title="{{ color.title }}">
-              <figure>
-              </figure>
-            </a>
-          {% endfor %}
-        </div>
-  
-    {% endif %}
+  {% if product.metafields.custom.colors.value %}
+    
+      <div class="color-options">
+        <h2>Colors:</h2>
+        {% assign colors = product.metafields.custom.colors.value %}
+        {% for color in colors %}
+          <a href="{{ color.url }}" title="{{ color.title }}">
+            <figure>
+              {% if color.metafields.custom.texture_icon.value %}
+                {% assign image = color.metafields.custom.texture_icon.value %}
+              {% else %}
+                {% assign image = color.featured_image %}
+              {% endif %}
+              <img
+              src="{{ image | image_url }}"
+              />
+            </figure>
+          </a>
+        {% endfor %}
+      </div>
 
-  {% endcapture %}
+  {% endif %}
+
+{% endcapture %}
 
 
                     
