@@ -164,6 +164,7 @@ figure.thumbnail img {
   display: flex;
   flex-wrap: wrap;
   row-gap: 1.6rem;
+  column-gap: 2rem;
 }
 
 .price--all {
