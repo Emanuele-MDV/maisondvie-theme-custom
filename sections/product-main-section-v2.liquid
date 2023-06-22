@@ -188,6 +188,11 @@
     {% if product.metafields.custom.colors.value %}
       
         <div class="color-options">
+          <h2>Colors:</h2>
+          {% assign colors = product.metafields.custom.colors.value %}
+          {% for color in colors %}
+  {{ color.title }}
+          {% endfor %}
         </div>
   
     {% endif %}
