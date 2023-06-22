@@ -30,13 +30,13 @@
   justify-content:flex-start;
 }
 
-.thumbnail {
+figure.thumbnail {
   margin:0;
   width:40px;
   height:40px;
 }
 
-.thumbnail img img {
+figure.thumbnail img {
   min-width:100%;
   max-width:100%;
   min-height:100%;
