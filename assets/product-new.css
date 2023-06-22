@@ -202,3 +202,7 @@ figure.thumbnail img {
 .variants::after, .quantity::after{
   content:unset;
 }
+
+.variants select {
+  padding:0;
+}
