@@ -85,3 +85,9 @@ figure.thumbnail img {
   object-fit:cover;
   object-position:top;
 }
+
+/* FEATURES SECTION */
+
+.features button {
+  displau:flex;
+}
