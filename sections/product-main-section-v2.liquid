@@ -191,7 +191,7 @@
         <h2>Colors:</h2>
         {% assign colors = product.metafields.custom.colors.value %}
         {% for color in colors %}
-          <a href="{{ color.url }}" title="{{ color.title }}">
+          <a href="{{ color.url }}" title="{{ color.title }}"{% if color.handle == product.handle %} class="active"{% endif %}>
             <figure>
               {% if color.metafields.custom.texture_icon.value %}
                 {% assign image = color.metafields.custom.texture_icon.value %}
