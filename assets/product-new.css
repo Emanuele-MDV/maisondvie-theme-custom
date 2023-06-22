@@ -93,6 +93,7 @@ figure.thumbnail img {
   }  
   .thumbnails {
     padding: 0 5rem;
+    margin:2rem 0;
   }
   
 }
