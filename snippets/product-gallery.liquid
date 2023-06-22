@@ -1,50 +1,98 @@
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
-<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css" media="print" onload="this.media='all'">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js" defer></script>
 
-<div class="the-gallery">
+<div class="splide product--gallery" aria-labelledby="carousel-product-gallery">
+  
+  <div class="splide__track">
+		<div class="splide__list">
 
-  <div id="main-carousel" class="splide" aria-label="{{ product.title }} photo gallery">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <img src="image1.jpg" alt="">
-        </li>
-        <li class="splide__slide">
-          <img src="image2.jpg" alt="">
-        </li>
-        <li class="splide__slide">
-          <img src="image3.jpg" alt="">
-        </li>
-        <li class="splide__slide">
-          <img src="image4.jpg" alt="">
-        </li>
-      </ul>
-    </div>
+          
+            {% assign image = product.featured_image %}
+			<figure class="splide__slide">
+              <img
+                alt="{% if image.alt %}{{ image.alt }}{% else %}{{ product.title }}{% endif %}" 
+                srcset="
+                {{ image | image_url : width: 420 }} 420w,
+                {{ image | image_url : width: 600 }} 600w,
+                {{ image | image_url : width: 900 }} 900w,
+                100vw
+                " 
+                sizes="
+                (min-width: 990px) 900px, 
+                (min-width: 600px) 600px, 
+                (min-width: 300px) 420px
+                " 
+                src="{{ image | image_url }}"
+                width="{{ settings.page_width | minus: 280 | divided_by: 2 }}"
+                height="{{ settings.page_width | plus: 280 | divided_by: 2 }}" 
+                class="top-open"
+              />  
+            </figure>
+
+            {% for image in product.images offset:1 %}
+
+              <figure class="splide__slide">
+                <img
+                  alt="{% if image.alt %}{{ image.alt }}{% else %}{{ product.title }}{% endif %}" 
+                  srcset="
+                  {{ image | image_url : width: 420 }} 420w,
+                  {{ image | image_url : width: 600 }} 600w,
+                  {{ image | image_url : width: 900 }} 900w,
+                  100vw
+                  " 
+                  sizes="
+                  (min-width: 990px) 900px, 
+                  (min-width: 600px) 600px, 
+                  (min-width: 300px) 420px
+                  " 
+                  data-src="{{ image | image_url }}"
+                  width="{{ settings.page_width | minus: 280 | divided_by: 2 }}"
+                  height="{{ settings.page_width | plus: 280 | divided_by: 2 }}" 
+                  loading="lazy" 
+                  class="top-open"
+                />  
+              </figure>
+
+            {% endfor %}
+
+          
+		</div>
   </div>
-  
-  <ul id="thumbnails" class="thumbnails">
-    <li class="thumbnail">
-      <img src="thumbnail1.jpg" alt="">
-    </li>
-    <li class="thumbnail">
-      <img src="thumbnail2.jpg" alt="">
-    </li>
-    <li class="thumbnail">
-      <img src="thumbnail3.jpg" alt="">
-    </li>
-    <li class="thumbnail">
-      <img src="thumbnail4.jpg" alt="">
-    </li>
-  </ul>
-  
 </div>
 
-<script>
 
-  var splide = new Splide( '#main-carousel', {
-    pagination: false,
+<script >
+
+  document.addEventListener( 'DOMContentLoaded', function() {
+    
+    var splide = new Splide( '.splide.product--gallery', {
+      padding: { 
+        left: '1.5rem',
+        right: '1.5rem',
+      },
+      gap : '5px',
+      type : 'slide',
+      rewind: true,
+      mediaQuery: 'min',
+      breakpoints: {
+        
+		768: {
+          padding: {
+            left: '5rem', 
+            right: '5rem',
+          },
+		},
+
+        990: {
+          padding: 0,
+        },
+      },
+        
+      });
+    splide.mount();
+    
   } );
+
   
-  splide.mount();
-  
+
 </script>
