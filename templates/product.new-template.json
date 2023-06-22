@@ -102,11 +102,36 @@
           "type": "description",
           "settings": {
           }
+        },
+        "d94717e2-be32-4155-986b-c4fd70ff1c1a": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "4bdb6e0a-fd0b-415d-bd8a-a6804a3eb354": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "140c4046-b312-4eb5-bff6-848efd9e387d": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "6b6a0db0-6696-49ea-a13d-5656483021c8": {
+          "type": "buy_buttons",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "53f09755-6705-4972-ad25-57891a709076",
-        "d032688c-7d1c-4c35-9b9e-ffb1082b43d1"
+        "d032688c-7d1c-4c35-9b9e-ffb1082b43d1",
+        "d94717e2-be32-4155-986b-c4fd70ff1c1a",
+        "4bdb6e0a-fd0b-415d-bd8a-a6804a3eb354",
+        "140c4046-b312-4eb5-bff6-848efd9e387d",
+        "6b6a0db0-6696-49ea-a13d-5656483021c8"
       ],
       "settings": {
       }
