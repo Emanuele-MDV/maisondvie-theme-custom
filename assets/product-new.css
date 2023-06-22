@@ -88,6 +88,11 @@ figure.thumbnail img {
 
 /* FEATURES SECTION */
 
+.features {
+  display: flex;
+  column-gap: 1.2rem;
+}
+
 .features button {
   display: flex;
   background: #F1F1F1;
