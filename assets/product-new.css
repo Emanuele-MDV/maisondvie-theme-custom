@@ -168,6 +168,7 @@ figure.thumbnail img {
 
 .price-item.price-item--sale.price-item--last{
   color:#C12828;
+  font-weight:400;
 }
 
 .badge.price__badge-sale.color-accent-2 {
