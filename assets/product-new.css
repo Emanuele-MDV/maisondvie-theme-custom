@@ -169,5 +169,7 @@ figure.thumbnail img {
 .badge.price__badge-sale.color-accent-2 {
   background: transparent;
   color: black;
+  font-weight:200;
+  letter-spacing:0;
 }
 
