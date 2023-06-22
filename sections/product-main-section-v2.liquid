@@ -243,8 +243,15 @@
   
 </div>
 
-
-                    
+{% javascript %}
+  
+  var splide = new Splide( '#main-carousel', {
+    pagination: false,
+  } );
+  
+  splide.mount();
+  
+{% endjavascript %}          
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
