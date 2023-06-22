@@ -191,7 +191,10 @@
           <h2>Colors:</h2>
           {% assign colors = product.metafields.custom.colors.value %}
           {% for color in colors %}
-  {{ color.title }}
+            <a href="{{ color.url }}" title="{{ color.title }}">
+              <figure>
+              </figure>
+            </a>
           {% endfor %}
         </div>
   
