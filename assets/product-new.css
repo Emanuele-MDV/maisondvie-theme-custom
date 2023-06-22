@@ -116,6 +116,15 @@ figure.thumbnail img {
   font-weight:200;
 }
 
+@media screen and (min-width:1024px){
+  .features button{
+    transition:all 200ms ease-out;
+  }
+  .features button:hover {
+    background:#E1DEDE;
+  }
+}
+
 /* COLORS SECTION */
 
 .the-product-colors {
