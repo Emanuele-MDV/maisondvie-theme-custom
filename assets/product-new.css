@@ -123,10 +123,12 @@ figure.thumbnail img {
   justify-content: flex-start;
   flex-wrap:wrap;
   column-gap: 1.2rem;
+  row-gap:1.2rem;
 }
 
 .the-product-colors h2 {
   width:100%;
+  margin:0;
 }
 
 .the-product-colors a {
