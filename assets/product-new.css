@@ -2,6 +2,8 @@
   padding-top: 0 !important;
 }
 
+/* PAGE STRUCTURE */
+
 @media screen and (max-width:1024px){
   .product-info .the-product.page-width {
     padding: 0;
