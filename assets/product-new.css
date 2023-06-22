@@ -38,6 +38,7 @@ h2 {
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
+  /* Tablet specific */
   .the-product .page-width.column {
     max-width: 80%;
   }
@@ -93,7 +94,7 @@ figure.thumbnail img {
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
-
+  /* Tablet specific */
   .slider-container figure.splide__slide {
     max-height: 780px;
   }  
