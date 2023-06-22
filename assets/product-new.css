@@ -9,6 +9,16 @@
 }
 
 .slider-container figure.splide__slide {
-  overflow:hidden;
-  border-radius:1px;
+  overflow: hidden;
+  border-radius: 1px;
+  height: 80vh;
+  max-height: 640px;
+}
+
+.slider-container figure.splide__slide img {
+  min-width:100%;
+  max-width:100%;
+  min-height:100%;
+  max-height:100%;
+  object-fit:cover;
 }
