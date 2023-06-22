@@ -10,6 +10,12 @@
 
 /* CAROUSEL SETTINGS */
 
+@media screen and (max-width:1024px){
+  .splide__arrows.splide__arrows--ltr{
+    display:none;
+  }
+}
+
 .slider-container figure.splide__slide {
   overflow: hidden;
   border-radius: 1px;
