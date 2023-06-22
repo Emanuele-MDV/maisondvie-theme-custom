@@ -328,6 +328,41 @@
     }
   </script>
 
+{% javascript %}
+
+  document.querySelector('#shareBtn')
+    .addEventListener('click', event => {
+
+        // Fallback, Tries to use API only
+        // if navigator.share function is
+        // available
+        if (navigator.share) {
+            navigator.share({
+
+                // Title that occurs over
+                // web share dialog
+                title: '{{ product.title }}',
+
+                // URL to share
+                url: '{{ product.url }}'
+            }).then(() => {
+                console.log('Thanks for sharing!');
+            }).catch(err => {
+
+                // Handle errors, if occurred
+                console.log(
+                "Error while using Web share API:");
+                console.log(err);
+            });
+        } else {
+
+            // Alerts user if API not available
+            alert("Browser doesn't support this API !");
+        }
+    })
+  
+{% endjavascript %}
+
 
 {% schema %}
 {
