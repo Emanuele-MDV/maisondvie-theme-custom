@@ -97,10 +97,16 @@
           "settings": {
             "show_vendor": true
           }
+        },
+        "d032688c-7d1c-4c35-9b9e-ffb1082b43d1": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "53f09755-6705-4972-ad25-57891a709076"
+        "53f09755-6705-4972-ad25-57891a709076",
+        "d032688c-7d1c-4c35-9b9e-ffb1082b43d1"
       ],
       "settings": {
       }
