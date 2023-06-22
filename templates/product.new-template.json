@@ -111,7 +111,7 @@
         "4bdb6e0a-fd0b-415d-bd8a-a6804a3eb354": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "140c4046-b312-4eb5-bff6-848efd9e387d": {
