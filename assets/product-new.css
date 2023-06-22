@@ -135,9 +135,6 @@ figure.thumbnail img {
   display:block;
 }
 
-.the-product-colors a.active{
-  opacity:.3;
-}
 
 .the-product-colors figure {
   margin:0;
@@ -146,4 +143,8 @@ figure.thumbnail img {
   height:50px;
   border:1px solid #D1D1D1;
   border-radius:1px;
+}
+
+.the-product-colors a.active figure{
+  border-color:black;
 }
