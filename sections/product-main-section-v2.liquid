@@ -14,7 +14,7 @@
         {%- when 'description' -%}
           
           {%- if product.description != blank -%}
-            <p class="the-description">{{ product.description }}</p>
+            {{ product.description }}
           {%- endif -%}
           
         {%- endcase -%}
