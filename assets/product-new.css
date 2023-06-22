@@ -115,3 +115,15 @@ figure.thumbnail img {
   font-family: 'Wotfard', arial, sans-serif;
   font-weight:200;
 }
+
+/* COLORS SECTION */
+
+.the-product-colors {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+}
+
+.the-product-colors h2 {
+  width:100%;
+}
