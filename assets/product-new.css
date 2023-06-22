@@ -135,7 +135,7 @@ figure.thumbnail img {
   display:block;
 }
 
-.the-product-colors a:active{
+.the-product-colors a.active{
   opacity:.6;
 }
 
