@@ -187,7 +187,7 @@
 
   {% if product.metafields.custom.colors.value %}
     
-      <div class="color-options">
+      <div class="the-product-colors">
         <h2>Colors:</h2>
         {% assign colors = product.metafields.custom.colors.value %}
         {% for color in colors %}
@@ -223,19 +223,21 @@
 
                     
 
-<article class="page-width">
+<article class="the-product page-width">
 
-  {% render 'product-gallery' %}
+  <div class="slider-container column">
+    {% render 'product-gallery' %}
+  </div>
   
-  <div class="the-info">
+  <div class="page-width column">
     
-    <div class="the-title">
+    <div class="the-product-info">
       {{ section-blocks }}
     </div>
 
     {{ colors }}
     
-    <div class="the-form">
+    <div class="the-product-form">
       {{ price-form }}
     </div>
     
