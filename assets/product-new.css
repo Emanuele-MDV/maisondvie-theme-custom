@@ -99,7 +99,7 @@ figure.thumbnail img {
   }  
   .thumbnails {
     padding: 0 calc(5rem + 10%);
-    margin:2rem 0;
+    margin:4rem 0;
   }
   
 }
