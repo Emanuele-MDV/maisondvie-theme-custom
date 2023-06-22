@@ -643,9 +643,15 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-product.name",
+  "name": "Product information",
   "tag": "section",
-  "class": "section",
+  "class": "product-info",
+  "templates":["product"],
+  "presets":[
+    {
+      "name":"Product information"
+    }
+  ],
   "blocks": [
     {
       "type": "@app"
