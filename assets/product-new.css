@@ -34,6 +34,8 @@
 .thumbnails {
   display:flex;
   justify-content:flex-start;
+  padding:0 1.5rem;
+  margin:.5rem 0;
 }
 
 figure.thumbnail {
