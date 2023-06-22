@@ -194,5 +194,11 @@ figure.thumbnail img {
 }
 
 .variants, .quantity {
-  width:50%;
+  width: 50%;
+  max-width: calc(50% - 1rem);
+  border-bottom: 1px solid #D1D1D1;
+}
+
+.variants::after, .quantity::after{
+  content:unset;
 }
