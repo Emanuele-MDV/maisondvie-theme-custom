@@ -233,11 +233,14 @@
     
     <div class="the-product-info">
       {{ section-blocks }}
+      
+      <div class="features">
+        {%- render 'button-wishlist', product: product -%}
+      </div>
+      
     </div>
     
-    <div class="features">
-      {%- render 'button-wishlist', product: product -%}
-    </div>
+    
 
     {{ colors }}
     
