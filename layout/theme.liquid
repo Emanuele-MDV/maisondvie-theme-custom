@@ -265,12 +265,15 @@
 
     {% section 'footer' %}
 
+    {% comment %}
+
     {% if customer.accepts_marketing != true %}
 
       {% section 'newsletter-popup-v2' %}
       
     {% endif %}
 
+    {% endcomment %}
     
 
     <ul hidden>
