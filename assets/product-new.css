@@ -111,3 +111,6 @@ figure.thumbnail img {
   stroke: black;
 }
 
+.features button span {
+  font-family: 'Wotfard', arial, sans-serif;
+}
