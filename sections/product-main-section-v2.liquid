@@ -200,12 +200,10 @@
               {% endif %}
               <img
               srcset="
-              {{ image | image_url: width: 40 }} 40w,
               {{ image | image_url: width: 50 }} 50w
               " 
               sizes="
-              (min-width: 300px) 40px,
-              (min-width: 768px) 50px,
+              (min-width: 300px) 50px, 
               100vw" 
               width="50" 
               height="50" 
