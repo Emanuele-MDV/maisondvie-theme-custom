@@ -106,11 +106,6 @@ figure.thumbnail img {
   object-fit: contain;
 }
 
-.features button .icon.icon-heart {
-  fill: transparent;
-  stroke: black;
-}
-
 .features button span {
   font-family: 'Wotfard', arial, sans-serif;
   font-weight:200;
