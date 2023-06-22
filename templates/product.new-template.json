@@ -91,15 +91,18 @@
     },
     "398e6d26-5cb0-4558-8661-3206b95f66ff": {
       "type": "product-main-section-v2",
+      "blocks": {
+        "53f09755-6705-4972-ad25-57891a709076": {
+          "type": "title",
+          "settings": {
+            "show_vendor": true
+          }
+        }
+      },
+      "block_order": [
+        "53f09755-6705-4972-ad25-57891a709076"
+      ],
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "stacked",
-        "media_size": "large",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
