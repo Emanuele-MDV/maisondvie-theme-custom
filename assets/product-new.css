@@ -95,12 +95,15 @@ figure.thumbnail img {
   border-radius: 1px;
   padding: 1rem;
   column-gap: .6rem;
+  align-items:center;
 }
 
 .features button .icon {
   width: 24px;
   fill: black;
   stroke: none;
+  height: 24px;
+  object-fit: contain;
 }
 
 .features button .icon.icon-heart {
