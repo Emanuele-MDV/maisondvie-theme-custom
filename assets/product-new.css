@@ -157,3 +157,10 @@ figure.thumbnail img {
 .the-product-colors a.active figure{
   border-color:black;
 }
+
+/* PRICE SECTION */
+
+.the-product-form .price__container span {
+  font-size:2rem;
+}
+
