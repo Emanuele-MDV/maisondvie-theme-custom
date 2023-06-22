@@ -117,7 +117,7 @@ figure.thumbnail img {
 }
 
 @media screen and (min-width:1024px){
-  .features button{
+  .features button, .features button .icon{
     transition:all 200ms ease-out;
   }
   .features button:hover {
