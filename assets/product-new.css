@@ -160,6 +160,16 @@ figure.thumbnail img {
 
 /* PRICE SECTION */
 
+.the-product-form {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.6rem;
+}
+
+.price--all {
+  width: 100%;
+}
+
 .the-product-form .price__container span, .the-product-form .price__container span s {
   font-size:1.8rem;
   font-weight:200;
