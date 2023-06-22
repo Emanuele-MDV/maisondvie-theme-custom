@@ -94,3 +94,14 @@ figure.thumbnail img {
   border:0;
   border-radius:1px;
 }
+
+.features button .icon {
+  width: 24px;
+  fill: black;
+  stroke: none;
+}
+
+.features button .icon.icon-heart {
+  fill: transparent;
+  stroke: black;
+}
