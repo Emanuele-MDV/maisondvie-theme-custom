@@ -45,7 +45,7 @@
                   (min-width: 600px) 600px, 
                   (min-width: 300px) 420px
                   " 
-                  data-src="{{ image | image_url }}"
+                  src="{{ image | image_url }}"
                   width="{{ settings.page_width | minus: 280 | divided_by: 2 }}"
                   height="{{ settings.page_width | plus: 280 | divided_by: 2 }}" 
                   loading="lazy" 
@@ -58,6 +58,34 @@
           
 		</div>
   </div>
+</div>
+
+<div id="thumbnails" class="thumbnails">
+
+  {% for image in product.images offset:1 %}
+
+    <figure class="thumbnail">
+      <img
+        alt="{% if image.alt %}{{ image.alt }}{% else %}{{ product.title }}{% endif %} - thumbnail" 
+        srcset="
+        {{ image | image_url : width: 40 }} 40w,
+        {{ image | image_url : width: 50 }} 50w,
+        100vw
+        " 
+        sizes="
+        (min-width: 990px) 50px, 
+        (min-width: 300px) 40px
+        " 
+        src="{{ image | image_url }}"
+        width="{{ settings.page_width | minus: 280 | divided_by: 2 }}"
+        height="{{ settings.page_width | plus: 280 | divided_by: 2 }}" 
+        loading="lazy" 
+        class="top-open"
+      />  
+    </figure>
+
+  {% endfor %}
+  
 </div>
 
 
