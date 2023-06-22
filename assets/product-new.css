@@ -160,7 +160,7 @@ figure.thumbnail img {
 
 /* PRICE SECTION */
 
-.the-product-form .price__container span {
+.the-product-form .price__container span, .the-product-form .price__container span s {
   font-size:2rem;
 }
 
