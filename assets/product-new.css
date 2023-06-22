@@ -193,6 +193,8 @@ figure.thumbnail img {
   font-size: 1.2rem;
 }
 
+/* PRODUCT FORM */
+
 .variants, .quantity {
   width: 50%;
   max-width: calc(50% - 1rem);
@@ -213,4 +215,13 @@ figure.thumbnail img {
 
 .quantity__button:last-of-type {
   justify-content: flex-end;
+}
+
+.product-form {
+  width: 100%;
+}
+
+.product-form button span {
+  text-transform:uppercase;
+  font-weight:200;
 }
