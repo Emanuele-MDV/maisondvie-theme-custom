@@ -122,8 +122,20 @@ figure.thumbnail img {
   display: flex;
   justify-content: flex-start;
   flex-wrap:wrap;
+  column-gap: 1.2rem;
 }
 
 .the-product-colors h2 {
   width:100%;
+}
+
+.the-product-colors a {
+  display:block;
+}
+
+.the-product-colors figure {
+  margin:0;
+  overflow:hidden;
+  width:50px;
+  height:50px;
 }
