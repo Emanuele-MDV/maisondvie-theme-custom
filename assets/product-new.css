@@ -36,6 +36,10 @@ figure.thumbnail {
   height:40px;
 }
 
+figure.thumbnail:not(.is-active){
+  opacity:.5;
+}
+
 figure.thumbnail img {
   min-width:100%;
   max-width:100%;
