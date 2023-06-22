@@ -8,15 +8,13 @@
         
         {%- when 'title' -%}
           
-          <h1>{% if block.settings.show_vendor == true %}<span class="brand-name">{{ product.vendor }} </span>{% endif %}{{ product.title }}</h1>
+          <h1 class="the-title">{% if block.settings.show_vendor == true %}<span class="brand-name">{{ product.vendor }} </span>{% endif %}{{ product.title }}</h1>
   
           
         {%- when 'description' -%}
           
           {%- if product.description != blank -%}
-            <div class="product__description rte quick-add-hidden">
-              {{ product.description }}
-            </div>
+            <p class="the-description">{{ product.description }}</p>
           {%- endif -%}
           
         {%- endcase -%}
