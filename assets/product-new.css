@@ -221,6 +221,10 @@ figure.thumbnail img {
   width: 100%;
 }
 
+.product-form button {
+  column-gap: 1rem;
+}
+
 .product-form button span {
   text-transform:uppercase;
   font-weight:200;
