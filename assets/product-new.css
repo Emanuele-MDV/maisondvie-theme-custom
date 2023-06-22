@@ -206,3 +206,11 @@ figure.thumbnail img {
 .variants select {
   padding:0;
 }
+
+.quantity__button:first-of-type {
+  justify-content: flex-start;
+}
+
+.quantity__button:last-of-type {
+  justify-content: flex-end;
+}
