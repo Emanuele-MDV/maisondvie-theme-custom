@@ -162,5 +162,12 @@ figure.thumbnail img {
 
 .the-product-form .price__container span, .the-product-form .price__container span s {
   font-size:1.6rem;
+  font-weight:200;
+  letter-spacing:0;
+}
+
+.badge.price__badge-sale.color-accent-2 {
+  background: transparent;
+  color: black;
 }
 
