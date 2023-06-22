@@ -199,7 +199,19 @@
                 {% assign image = color.featured_image %}
               {% endif %}
               <img
-              src="{{ image | image_url }}"
+              srcset="
+              {{ image | image_url: width: 40 }} 40w, 
+              {{ image | image_url: width: 50 }} 50w
+              " 
+              sizes="
+              (min-width: 300px) 40px,
+              (min-width: 768px) 50px,
+              100vw" 
+              width="50" 
+              height="50" 
+              title="{{ color.title }}" 
+              loading="lazy" 
+              src="{{ image | image_url: width: 20 }}" 
               />
             </figure>
           </a>
