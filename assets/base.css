@@ -4,6 +4,13 @@
 @font-face{
   font-family: Grafier;
   src: url(Grafier-HeavyDisplay.ttf) format('truetype');
+  font-weight: 800;
+}
+
+@font-face{
+  font-family: Grafier;
+  src: url(Grafier-RegularDisplay.otf) format('truetype');
+  font-weight: 400;
 }
 
 @font-face{
