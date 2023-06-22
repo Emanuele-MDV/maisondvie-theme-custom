@@ -2,6 +2,13 @@
   padding-top: 0 !important;
 }
 
+/* FONTS */
+
+h1{
+  font-family:'Wotfard';
+  font-size:2.2rem;
+}
+
 /* PAGE STRUCTURE */
 
 @media screen and (max-width:1024px){
