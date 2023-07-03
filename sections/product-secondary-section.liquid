@@ -114,7 +114,7 @@
             <div class="product-form__buttons" id="#btn-{{ product_set.id }}">
               <button type="submit" name="add" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
                   <span>
-                    {%- if product.selected_or_first_available_variant.available -%}
+                    {%- if product_set.selected_or_first_available_variant.available -%}
                       {{ 'products.product.add_to_cart' | t }}
                     {%- else -%}
                       {{ 'products.product.sold_out' | t }}
