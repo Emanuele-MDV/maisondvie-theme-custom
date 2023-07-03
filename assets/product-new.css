@@ -613,7 +613,13 @@ figure.thumbnail img {
 
 /* SUGGESTION PRODUCTS FORMS */
 
-
+.secondary-product-container {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
 
 @media screen and (min-width:1024px){
   
