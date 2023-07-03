@@ -461,6 +461,10 @@ figure.thumbnail img {
   }
 }
 
+.list ul, .par p {
+  margin-top:0;
+}
+
 .list ul {
   padding: 0;
   list-style: none;
