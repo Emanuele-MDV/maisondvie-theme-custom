@@ -406,6 +406,10 @@ figure.thumbnail img {
 
 /* SIZE CHART */
 
+#the_size.hidden{
+  left:-100%;
+}
+
 #the_size {
   position: fixed;
   top: 0;
@@ -419,9 +423,6 @@ figure.thumbnail img {
   transition:all 200ms ease-out;
 }
 
-#the_size.hidden{
-  left:-100%;
-}
 
 #size_close {
   position: absolute;
