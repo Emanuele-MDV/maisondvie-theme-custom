@@ -123,9 +123,27 @@ figure.thumbnail img {
 }
 
 @media screen and (min-width:1024px)}{
+  
   .slider-container figure.splide__slide {
     max-height: 740px;
   } 
+
+  .splide__arrow {
+    background: transparent;
+    border-radius: 0;
+    border: 1px solid;
+    color: black;
+    width: 50px;
+    height: 50px;
+  }
+
+  .splide__arrow--next {
+    right: -25px;
+  }
+
+  .splide__arrow--prev {
+    left: -25px;
+  }
 }
 
 /* FEATURES SECTION */
