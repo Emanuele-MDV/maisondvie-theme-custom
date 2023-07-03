@@ -593,11 +593,6 @@ figure.thumbnail img {
   transform: none;
 }
 
-.combinations .badge.price__badge-sold-out.color-inverse {
-  color: #C12828;
-  background: white;
-}
-
 .secondary-product > span {
   display: block;
   color: #fff;
@@ -612,6 +607,11 @@ figure.thumbnail img {
   font-size: 1.4rem;
   font-weight: 200;
   letter-spacing: 0;
+}
+
+.secondary-product .badge.price__badge-sold-out.color-inverse {
+  color: #C12828;
+  background: white;
 }
 
 @media screen and (min-width:1024px){
