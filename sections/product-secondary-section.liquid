@@ -194,7 +194,7 @@
   
       {% if combinations_cards.size > 1 %}
         
-        <div class="splide combination-sets{% if combinations_cards.size > 4 %} show-dots{% endif %}" role="group" aria-label="Suggested products to be purchased">
+        <div class="splide combination-sets" role="group" aria-label="Suggested products to be purchased">
           <h2>Frequently purchased with</h2>
           <div class="splide__track">
             <div class="splide__list">  
@@ -218,7 +218,8 @@
             var splide = new Splide( '.splide.combination-sets', {
               padding: 0,
               gap : '2rem',
-              arrows:false,
+              arrows: false,
+              pagination: true,
               type : 'slide',
               padding: '1rem',
               rewind: true,
