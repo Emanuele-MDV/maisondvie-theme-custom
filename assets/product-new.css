@@ -694,6 +694,7 @@ figure.thumbnail img {
   font-size: 2rem;
   line-height: 2.2rem;
   color:black;
+  margin:0;
 }
 
 .the-secondary-product-info .prod-title span {
