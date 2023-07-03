@@ -46,11 +46,10 @@
     {% for product_set in product_sets %}
 
     <div id="set-{{ product_set.id }}" class="secondary-product-container to-hide">
-
+      
+      <div id="close-{{ product_set.id }}" class="close"><span>{% render 'icon-close' %}</span></div>
 
       <div class="the-secondary-product-info">
-          
-        <div id="close-{{ product_set.id }}" class="close"><span>{% render 'icon-close' %}</span></div>
           
         {% assign image_card = product_set.featured_image %}
         <figure>
