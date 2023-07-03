@@ -664,7 +664,7 @@ figure.thumbnail img {
   max-width:480px;
   height: 80vh;
   max-height: 680px;
-  padding: 2.8rem 1.5rem;
+  padding: 2.8rem 1.8rem;
   padding-top:calc(320px + 1.5rem);
   border: 1px solid #ccc;
   background: white;
@@ -719,6 +719,14 @@ figure.thumbnail img {
 .the-secondary-product-info .prod--form-container variant-selects > div {
   border-bottom: 1px solid #D1D1D1;
   margin-bottom:1.2rem;
+}
+
+.the-secondary-product-info .prod--form-container variant-selects > div > select {
+  padding: 0;
+}
+
+.the-secondary-product-info .prod--form-container variant-selects > div > select > .icon {
+  right:0;
 }
 
 @media screen and (min-width:1024px){
