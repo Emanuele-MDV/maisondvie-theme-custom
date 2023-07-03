@@ -607,6 +607,7 @@ figure.thumbnail img {
   font-size: 1.4rem;
   font-weight: 200;
   letter-spacing: 0;
+  vertical-align: unset;
 }
 
 .secondary-product .badge.price__badge-sold-out.color-inverse {
