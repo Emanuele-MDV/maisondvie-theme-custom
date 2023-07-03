@@ -688,6 +688,7 @@ figure.thumbnail img {
   max-height:100%;
   min-height:100%;
   object-fit:cover;
+  object-position:top;
 }
 
 .the-secondary-product-info .prod-title {
