@@ -460,3 +460,18 @@ figure.thumbnail img {
     max-width: 80%;
   }
 }
+
+.list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.list ul li {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.list ul li::before {
+  content:'';
+  display:block;
+}
