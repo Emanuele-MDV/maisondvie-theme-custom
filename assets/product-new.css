@@ -636,6 +636,10 @@ figure.thumbnail img {
   cursor:pointer;
 }
 
+.secondary-product-container .close span {
+  display:block;
+}
+
 @media screen and (min-width:1024px){
   
   .secondary-product > span {
