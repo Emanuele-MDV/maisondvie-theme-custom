@@ -613,11 +613,6 @@ figure.thumbnail img {
 
 /* SUGGESTION PRODUCTS FORMS */
 
-.to-hide{
-  opacity:0;
-  left:-100%;
-}
-
 .secondary-product-container {
   position:fixed;
   top:0;
@@ -625,6 +620,11 @@ figure.thumbnail img {
   width:100%;
   height:100%;
   transition:all 200ms ease-out;
+}
+
+.secondary-product-container.to-hide{
+  opacity:0;
+  left:-100%;
 }
 
 @media screen and (min-width:1024px){
