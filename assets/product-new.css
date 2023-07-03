@@ -559,3 +559,12 @@ figure.thumbnail img {
   object-fit:cover;
   object-position:top;
 }
+
+.secondary-product h3 {
+  font-family:'Wotfard', Arial, sans-serif;
+}
+
+.secondary-product h3 span {
+  font-family:'Grafier', Times, serif;
+  display:block;
+}
