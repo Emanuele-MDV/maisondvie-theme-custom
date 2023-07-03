@@ -663,7 +663,7 @@ figure.thumbnail img {
   width: 76%;
   max-width:480px;
   height: 80vh;
-  max-height: 640px;
+  max-height: 680px;
   padding: 2.8rem 1.5rem;
   padding-top:calc(320px + 1.5rem);
   border: 1px solid #ccc;
