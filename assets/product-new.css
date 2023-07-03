@@ -122,6 +122,12 @@ figure.thumbnail img {
   
 }
 
+@media screen and (min-width:1024px)}{
+  .slider-container figure.splide__slide {
+    max-height: 740px;
+  } 
+}
+
 /* FEATURES SECTION */
 
 .features {
