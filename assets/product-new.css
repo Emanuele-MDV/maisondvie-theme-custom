@@ -137,6 +137,10 @@ figure.thumbnail img {
     transition:all 200ms ease-out;
   }
 
+  .splide__arrow:hover {
+    background: white!important;
+  }
+
   .splide__arrow--next {
     right: -25px!important;
   }
