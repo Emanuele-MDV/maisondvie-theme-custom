@@ -661,6 +661,7 @@ figure.thumbnail img {
 .the-secondary-product-info {
   position: relative;
   width: 76%;
+  max-width:480px;
   height: 80vh;
   max-height: 640px;
   padding: 2.8rem 1.5rem;
