@@ -63,7 +63,7 @@ h2 {
 
 /* CAROUSEL SETTINGS */
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
   .splide__arrows.splide__arrows--ltr{
     display:none;
   }
