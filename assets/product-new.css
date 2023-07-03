@@ -534,3 +534,19 @@ figure.thumbnail img {
 .to-hide {
   display:none;
 }
+
+.secondary-product {
+  position:relative;
+  padding:2rem;
+  padding-left:calc(180px + 1.2rem);
+  border:1px solid #D1D1D1;
+}
+
+.secondary-product figure {
+  position:absolute;
+  top:0;
+  left:0;
+  margin:0;
+  width:180px;
+  height:100%;
+}
