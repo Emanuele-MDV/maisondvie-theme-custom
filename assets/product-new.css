@@ -65,6 +65,12 @@ h2 {
   .the-product {
     column-gap: 10rem;
   }
+
+  .slider-container figure.splide__slide {
+    max-height: unset;
+    height: 100vh;
+    min-height: 890px;
+  }
   
 }
 
