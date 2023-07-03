@@ -531,10 +531,6 @@ figure.thumbnail img {
   width: 100%;
 }
 
-.to-hide {
-  display:none;
-}
-
 .secondary-product {
   position:relative;
   padding:2rem;
@@ -614,6 +610,10 @@ figure.thumbnail img {
   color: #C12828;
   background: white;
 }
+
+/* SUGGESTION PRODUCTS FORMS */
+
+
 
 @media screen and (min-width:1024px){
   
