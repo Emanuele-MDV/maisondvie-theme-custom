@@ -112,9 +112,9 @@
           {%- form 'product', product_set, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
             <input type="hidden" name="id" value="{{ product_set.selected_or_first_available_variant.id }}" disabled>
             <div class="product-form__buttons" id="#btn-{{ product_set.id }}">
-              <button type="submit" name="add" {% if product_set.selected_or_first_available_variant.available == false %}disabled{% endif %}>
+              <button type="submit" name="add" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
                   <span>
-                    {%- if product_set.selected_or_first_available_variant.available -%}
+                    {%- if product.selected_or_first_available_variant.available -%}
                       {{ 'products.product.add_to_cart' | t }}
                     {%- else -%}
                       {{ 'products.product.sold_out' | t }}
@@ -125,6 +125,7 @@
                       <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                     </svg>
                   </div>
+                {% render 'icon-arrow' %}
               </button>
             </div>
           {%- endform -%}
