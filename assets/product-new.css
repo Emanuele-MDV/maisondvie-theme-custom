@@ -53,6 +53,12 @@ h2 {
     padding: 0;
     width:50%;
   }
+  .the-product .column:first-of-type{
+    width:60%;
+  }
+  .the-product .column:last-of-type{
+    width:40%;
+  }
 }
 
 /* CAROUSEL SETTINGS */
