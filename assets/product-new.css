@@ -725,7 +725,7 @@ figure.thumbnail img {
   padding: 0;
 }
 
-.the-secondary-product-info .prod--form-container variant-selects > div > select > .icon {
+.the-secondary-product-info .prod--form-container variant-selects > div > .icon {
   right:0;
 }
 
