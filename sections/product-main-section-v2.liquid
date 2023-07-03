@@ -264,18 +264,21 @@
   
 </article>
 
-<div id="the_size" class="the-size-help page-width visually-hidden">
+<div id="the_size" class="visually-hidden">
   
-<h2>Size chart</h3>
-{% for collection in product.collections %}
-
-{% if collection.metafields.my_fields.size_chart != blank %}
-
-  {{ collection.metafields.my_fields.size_chart.value }}
-
-{% endif %}
-
-{% endfor %}
+  <div class="page-width">
+    <h2>Size chart</h2>
+  
+    {% for collection in product.collections %}
+    
+      {% if collection.metafields.my_fields.size_chart != blank %}
+      
+        {{ collection.metafields.my_fields.size_chart.value }}
+      
+      {% endif %}
+    
+    {% endfor %}
+  </div>
   
 </div>
 
