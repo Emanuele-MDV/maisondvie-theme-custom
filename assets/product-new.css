@@ -562,6 +562,8 @@ figure.thumbnail img {
 
 .secondary-product h3 {
   font-family:'Wotfard', Arial, sans-serif;
+  margin-top:0;
+  font-size: 1.6rem;
 }
 
 .secondary-product h3 span {
