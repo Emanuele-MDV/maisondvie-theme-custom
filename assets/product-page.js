@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
-  console.log('Document ready');
+  $('#show_size').on('click', function(){
+    $('#the_size').toggleClass('visually-hidden');
+  })
   
 })
