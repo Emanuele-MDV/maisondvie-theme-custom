@@ -44,6 +44,12 @@ h2 {
   }
 }
 
+@media screen and (min-width:1024px){
+  .column {
+    padding: 0;
+  }
+}
+
 /* CAROUSEL SETTINGS */
 
 @media screen and (max-width:1024px){
