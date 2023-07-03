@@ -144,6 +144,10 @@ figure.thumbnail img {
   .splide__arrow--prev {
     left: -25px;
   }
+
+  .thumbnails {
+    justify-content: center;
+  }
 }
 
 /* FEATURES SECTION */
