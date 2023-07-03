@@ -699,6 +699,7 @@ figure.thumbnail img {
 .the-secondary-product-info .prod-title span {
   display:block;
   font-family:'Grafier', Times, serif;
+  text-transform:uppercase;
 }
 
 .the-secondary-product-info .prod-desc p {
