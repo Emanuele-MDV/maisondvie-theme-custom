@@ -695,6 +695,12 @@ figure.thumbnail img {
   line-height: 1.8rem;
 }
 
+.prod-desc a {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color:black;
+}
+
 @media screen and (min-width:1024px){
   
   .secondary-product > span {
