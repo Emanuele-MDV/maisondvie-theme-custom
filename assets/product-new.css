@@ -682,7 +682,7 @@ figure.thumbnail img {
   margin:0;
 }
 
-.the-secondary-product-info figure img {
+.the-secondary-product-info .the-secondary-product-info figure img {
   max-width:100%;
   min-width:100%;
   max-height:100%;
@@ -690,12 +690,22 @@ figure.thumbnail img {
   object-fit:cover;
 }
 
-.prod-desc p {
+.the-secondary-product-info .prod-title {
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.the-secondary-product-info .prod-title span {
+  display:block;
+  font-family:'Grafier', Times, serif;
+}
+
+.the-secondary-product-info .prod-desc p {
   font-size: 1.4rem;
   line-height: 1.8rem;
 }
 
-.prod-desc a {
+.the-secondary-product-info .prod-desc a {
   font-size: 1.4rem;
   line-height: 1.8rem;
   color:black;
