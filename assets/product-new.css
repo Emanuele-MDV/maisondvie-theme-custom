@@ -592,11 +592,13 @@ figure.thumbnail img {
 }
 
 .secondary-product > span {
-  display:block;
-  color:white;
-  background:black;
-  padding:1rem;
-  border-radius:1px;
+  display: block;
+  color: #fff;
+  background: black;
+  padding: .6rem 1.8rem;
+  border-radius: 1px;
+  margin-top: 1.6rem;
+  width: fit-content;
 }
 
 @media screen and (min-width:1024px){
@@ -604,3 +606,4 @@ figure.thumbnail img {
     cursor:pointer;
   }
 }
+
