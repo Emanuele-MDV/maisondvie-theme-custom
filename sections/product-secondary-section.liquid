@@ -193,18 +193,20 @@
     <div class="combinations">
   
       {% if combinations_cards.size > 1 %}
-        <div class="splide combination-sets" role="group" aria-label="Splide Basic HTML Example">
-          <h2>{{ section.settings.combinations_title }}</h2>
+        
+        <div class="splide combination-sets slider-dsk-{{ combinations_cards.size }}" role="group" aria-label="Suggested products to be purchased">
+          <h2>Frequently purchased with</h2>
           <div class="splide__track">
             <div class="splide__list">  
   
       {% else %}
-          <h2>{{ section.settings.combinations_title }}</h2>
+          <h2>Frequently purchased with</h2>
       {% endif %}
   
           {{ combinations_cards }}
   
       {% if combinations_cards.size > 1 %}
+        
             </div>
           </div>
         </div>
@@ -217,7 +219,6 @@
               padding: 0,
               gap : '2rem',
               arrows:false,
-              dots:true,
               type : 'slide',
               padding: '1rem',
               rewind: true,
@@ -236,9 +237,7 @@
             splide.mount();
             
           } );
-        
           
-        
         </script>
         
       {% endif %}
