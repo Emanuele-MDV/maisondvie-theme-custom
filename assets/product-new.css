@@ -494,7 +494,8 @@ figure.thumbnail img {
 
 @media screen and (min-width:768px){
   .details .column:first-of-type {
-    column-count:2;
+    display:flex;
+    justify-content:space-between;
     column-gap:2rem;
   }
 }
