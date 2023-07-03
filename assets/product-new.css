@@ -450,6 +450,7 @@ figure.thumbnail img {
 
 
 /* PRODUCT DETAILS CARE SECTION */
+
 @media screen and (max-width:480px){
   .the-product.details > .column > div {
     margin: 5.2rem 0;
@@ -503,4 +504,12 @@ figure.thumbnail img {
     width:50%;
     padding-right:2rem;
   }
+}
+
+@media screen and (min-width:1024px){
+
+  article.details {
+    margin:5.2rem 0;
+  }
+  
 }
