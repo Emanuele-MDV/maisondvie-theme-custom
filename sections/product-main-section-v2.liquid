@@ -266,6 +266,17 @@
 
 <div class="the-size-help page-width">
   
+<h2>Size chart</h3>
+{% for collection in product.collections %}
+
+{% if collection.metafields.my_fields.size_chart != blank %}
+
+  {{ collection.metafields.my_fields.size_chart.value }}
+
+{% endif %}
+
+{% endfor %}
+  
 </div>
 
   <script>
