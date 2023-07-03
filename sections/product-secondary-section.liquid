@@ -194,7 +194,7 @@
   
       {% if combinations_cards.size > 1 %}
         
-        <div class="splide combination-sets slider-dsk-{{ combinations_cards.size }}" role="group" aria-label="Suggested products to be purchased">
+        <div class="splide combination-sets{% if combinations_cards.size > 3 %} show-dots{% endif %}" role="group" aria-label="Suggested products to be purchased">
           <h2>Frequently purchased with</h2>
           <div class="splide__track">
             <div class="splide__list">  
