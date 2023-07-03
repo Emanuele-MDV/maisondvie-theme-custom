@@ -577,6 +577,10 @@ figure.thumbnail img {
   margin: 1.2rem 0;
 }
 
+.combinations .splide__pagination__page{
+  opacity:1;
+}
+
 .combinations .splide__pagination__page.is-active {
   background: #000;
   transform: none;
