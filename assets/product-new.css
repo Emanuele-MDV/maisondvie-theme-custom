@@ -300,6 +300,11 @@ figure.thumbnail img {
 }
 
 @media screen and (min-width:1200px){
+
+  .the-product-form {
+    max-width: 80%;
+  }
+  
   .the-product-form .price__container span, .the-product-form .price__container span s {
     font-size:2rem; 
   }
