@@ -413,4 +413,18 @@ figure.thumbnail img {
   z-index: 10;
   width: 100%;
   height: 100vh;
+  padding: 4rem 0;
+  overflow-y: scroll;
+}
+
+#size_close {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#the_size .page-width {
+  position: relative;
 }
