@@ -712,6 +712,14 @@ figure.thumbnail img {
   color:black;
 }
 
+.the-secondary-product-info .prod--form-container {
+  margin-top: 1.4rem;
+}
+
+.the-secondary-product-info .prod--form-container variant-selects {
+  border-bottom: 1px solid #D1D1D1;
+}
+
 @media screen and (min-width:1024px){
   
   .secondary-product > span {
