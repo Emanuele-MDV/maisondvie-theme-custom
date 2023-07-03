@@ -540,6 +540,10 @@ figure.thumbnail img {
   padding:2rem;
   padding-left:calc(120px + 2rem);
   border:1px solid #D1D1D1;
+  min-height:220px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
 }
 
 .secondary-product figure {
