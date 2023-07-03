@@ -498,4 +498,8 @@ figure.thumbnail img {
     justify-content:space-between;
     column-gap:2rem;
   }
+  .list{
+    width:50%;
+    padding-right:2rem;
+  }
 }
