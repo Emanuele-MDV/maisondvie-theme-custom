@@ -112,7 +112,7 @@
           {%- form 'product', product_set, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
             <input type="hidden" name="id" value="{{ product_set.selected_or_first_available_variant.id }}" disabled>
             <div class="product-form__buttons" id="#btn-{{ product_set.id }}">
-              <button type="submit" name="add" {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
+              <button type="submit" name="add" {% if product_set.selected_or_first_available_variant.available == false %}disabled{% endif %}>
                   <span>
                     {%- if product_set.selected_or_first_available_variant.available -%}
                       {{ 'products.product.add_to_cart' | t }}
