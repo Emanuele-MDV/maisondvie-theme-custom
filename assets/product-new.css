@@ -514,10 +514,11 @@ figure.thumbnail img {
   
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1200px){
 
-  article.details {
-    margin:5.2rem 0;
+  .par p {
+    line-height: 1.8rem;
+    font-size: 1.4rem;
   }
   
 }
