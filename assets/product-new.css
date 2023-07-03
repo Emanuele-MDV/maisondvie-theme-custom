@@ -693,12 +693,12 @@ figure.thumbnail img {
 .the-secondary-product-info .prod-title {
   font-size: 2rem;
   line-height: 2.2rem;
+  color:black;
 }
 
 .the-secondary-product-info .prod-title span {
   display:block;
   font-family:'Grafier', Times, serif;
-  color:black;
 }
 
 .the-secondary-product-info .prod-desc p {
