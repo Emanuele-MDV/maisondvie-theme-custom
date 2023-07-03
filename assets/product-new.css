@@ -538,7 +538,7 @@ figure.thumbnail img {
 .secondary-product {
   position:relative;
   padding:2rem;
-  padding-left:calc(120px + 1.2rem);
+  padding-left:calc(120px + 2rem);
   border:1px solid #D1D1D1;
 }
 
