@@ -618,13 +618,22 @@ figure.thumbnail img {
   top:0;
   left:0;
   width:100%;
-  height:100%;
+  height:100vh;
   transition:all 200ms ease-out;
 }
 
 .secondary-product-container.to-hide{
   opacity:0;
   left:-100%;
+}
+
+.secondary-product-container .close {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  cursor:pointer;
 }
 
 @media screen and (min-width:1024px){
