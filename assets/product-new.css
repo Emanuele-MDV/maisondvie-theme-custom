@@ -608,7 +608,7 @@ figure.thumbnail img {
   width: fit-content;
 }
 
-.secondary-product .price__container span, .secondary-product .price__container span s {
+.secondary-product .price__container span, .secondary-product .price__container span s, .badge.price__badge-sold-out.color-inverse {
   font-size: 1.4rem;
   font-weight: 200;
   letter-spacing: 0;
