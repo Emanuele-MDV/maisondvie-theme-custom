@@ -221,6 +221,10 @@ figure.thumbnail img {
     height:50px;
     cursor:pointer;
   }
+
+  .slider-container figure.splide__slide img{
+    object-position:top;
+  }
   
 }
 
