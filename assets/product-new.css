@@ -455,12 +455,6 @@ figure.thumbnail img {
   margin: 5.2rem 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
-  .the-product.details.page-width {
-    max-width: 80%;
-  }
-}
-
 .list ul, .par p {
   margin-top:0;
 }
@@ -490,4 +484,17 @@ figure.thumbnail img {
 .par p {
   line-height: 1.6rem;
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .the-product.details.page-width {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width:768px){
+  .details .column:first-of-type {
+    column-count:2;
+    column-gap:2rem;
+  }
 }
