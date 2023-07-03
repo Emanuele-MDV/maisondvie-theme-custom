@@ -75,10 +75,8 @@ h2 {
     row-gap: 2.8rem;
   }
 
-  .slider-container figure.splide__slide {
-    max-height: unset;
-    height: 100vh;
-    min-height: 890px;
+  .page-width.column > div {
+    margin: 0;
   }
   
 }
@@ -182,6 +180,16 @@ figure.thumbnail img {
   .thumbnails {
     justify-content: center;
   }
+}
+
+@media screen and (min-width:1200px){
+
+  .slider-container figure.splide__slide {
+    max-height: unset;
+    height: 100vh;
+    min-height: 890px;
+  }
+  
 }
 
 /* FEATURES SECTION */
