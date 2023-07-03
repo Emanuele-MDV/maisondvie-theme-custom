@@ -62,7 +62,9 @@ h2 {
 }
 
 @media screen and (min-width:1200px){
-  
+  .the-product {
+    column-gap: 10rem;
+  }
   
 }
 
