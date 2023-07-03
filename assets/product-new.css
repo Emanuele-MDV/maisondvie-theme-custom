@@ -145,8 +145,16 @@ figure.thumbnail img {
     right: -25px!important;
   }
 
+  .splide__arrow--next:hover{
+    padding-left:1rem;
+  }
+
   .splide__arrow--prev {
     left: -25px!important;
+  }
+
+  .splide__arrow--prev:hover {
+    padding-right:1rem;
   }
 
   .thumbnails {
