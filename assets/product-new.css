@@ -62,8 +62,17 @@ h2 {
 }
 
 @media screen and (min-width:1200px){
+  
   .the-product {
     column-gap: 10rem;
+  }
+
+  .the-product .column:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 2.8rem;
   }
 
   .slider-container figure.splide__slide {
