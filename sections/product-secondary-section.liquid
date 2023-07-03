@@ -71,7 +71,7 @@
           height="380" 
           />
         </figure>
-        <p class="prod-title">{{ product_set.title }}</p>
+        <p class="prod-title"><span>{{ product_set.vendor }}</span>{{ product_set.title }}</p>
         <p class="prod-desc">{{ product_set.description | truncate: 90 }}<a href="{{ product_set.url }}" title="{{ product_set.title }}">View details</a></p>
         {%- render 'price', product: product_set, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         <div class="prod--form-container">
