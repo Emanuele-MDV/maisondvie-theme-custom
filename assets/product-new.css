@@ -212,6 +212,10 @@ figure.thumbnail img {
     min-height: 1020px;
   }
 
+  .thumbnails {
+    margin: 2rem auto;
+  }
+
   figure.thumbnail {
     width:50px;
     height:50px;
