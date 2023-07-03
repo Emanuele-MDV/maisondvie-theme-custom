@@ -81,6 +81,12 @@ h2 {
   
 }
 
+@media screen and (min-width:1440px){
+  .the-product {
+    column-gap: 12rem;
+  }
+}
+
 /* CAROUSEL SETTINGS */
 
 @media screen and (max-width:1023px){
@@ -188,6 +194,14 @@ figure.thumbnail img {
     max-height: unset;
     height: 100vh;
     min-height: 890px;
+  }
+  
+}
+
+@media screen and (min-width:1440px){
+
+  .slider-container figure.splide__slide {
+    min-height: 1020px;
   }
   
 }
