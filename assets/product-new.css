@@ -134,6 +134,7 @@ figure.thumbnail img {
     border: 1px solid black!important;
     width: 50px!important;
     height: 50px!important;
+    transition:all 200ms ease-out;
   }
 
   .splide__arrow--next {
