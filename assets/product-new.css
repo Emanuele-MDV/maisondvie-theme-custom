@@ -447,3 +447,12 @@ figure.thumbnail img {
 #the_size .page-width {
   position: relative;
 }
+
+
+/* PRODUCT DETAILS CARE SECTION */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .the-product.details.page-width {
+    max-width: 80%;
+  }
+}
