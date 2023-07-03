@@ -3,12 +3,15 @@
   <div class="column">
     <div class="list">
       <h2>Size & fit</h2>
-      {% if product.metafields.my_fields.design_details_care.value %}
-        {{ product.metafields.my_fields.design_details_care.value }}
+      {% if product.metafields.my_fields.size_fit.value %}
+        {{ product.metafields.my_fields.size_fit.value }}
       {% endif %}
     </div>
     <div class="list">
       <h2>Details & Care</h2>
+      {% if product.metafields.my_fields.design_details_care.value %}
+        {{ product.metafields.my_fields.design_details_care.value }}
+      {% endif %}
     </div>
   </div>
   
