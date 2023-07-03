@@ -572,4 +572,12 @@ figure.thumbnail img {
 
 .combinations .splide__pagination {
   position: initial;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 1.2rem 0;
+}
+
+.combinations .splide__pagination__page.is-active {
+  background: #000;
+  transform: none;
 }
