@@ -530,3 +530,7 @@ figure.thumbnail img {
 .combinations {
   width: 100%;
 }
+
+.to-hide {
+  display:none;
+}
