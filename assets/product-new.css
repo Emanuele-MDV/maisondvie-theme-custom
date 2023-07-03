@@ -482,3 +482,8 @@ figure.thumbnail img {
   background: black;
   border-radius: 1px;
 }
+
+.par small {
+  line-height: 1.6rem !important;
+  font-size: 1.2rem;
+}
