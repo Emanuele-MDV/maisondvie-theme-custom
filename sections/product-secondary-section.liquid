@@ -29,7 +29,7 @@
         height="160" 
         />
       </figure>
-      <h3>{{ product_set.title }}</h3>
+      <h3><span>{{ product_set.vendor }}</span>{{ product_set.title }}</h3>
       {%- render 'price', product: product_set, use_variant: true, show_badges: true, price_class: 'price--large' -%}
       <span id="add-{{ product_set.id }}">Add to cart</span>
       
