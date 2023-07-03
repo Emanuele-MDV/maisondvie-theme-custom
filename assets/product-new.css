@@ -716,8 +716,9 @@ figure.thumbnail img {
   margin-top: 1.4rem;
 }
 
-.the-secondary-product-info .prod--form-container variant-selects {
+.the-secondary-product-info .prod--form-container variant-selects > div {
   border-bottom: 1px solid #D1D1D1;
+  margin-bottom:1.2rem;
 }
 
 @media screen and (min-width:1024px){
