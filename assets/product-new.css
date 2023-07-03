@@ -75,7 +75,7 @@ h2 {
     column-gap: 10rem;
   }
 
-  .the-product .column:last-of-type {
+  .the-product:not(.details) .column:last-of-type {
     display: flex;
     flex-direction: column;
     justify-content: center;
