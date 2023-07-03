@@ -590,3 +590,17 @@ figure.thumbnail img {
   color: #C12828;
   background: white;
 }
+
+.secondary-product > span {
+  display:block;
+  color:white;
+  background:black;
+  padding:1rem;
+  border-radius:1px;
+}
+
+@media screen and (min-width:1024px){
+  .secondary-product > span {
+    cursor:pointer;
+  }
+}
