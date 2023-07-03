@@ -183,15 +183,20 @@
     </div>
   </div>
 
-  {% if product.metafields.custom.products_set.value %}
-    
-    <div class="combinations">
+</article>
 
+
+
+{% if product.metafields.custom.products_set.value %}
+  
+  <article class="the-product details page-width">
+    <div class="combinations">
+  
       {% if combinations_cards.size > 1 %}
         <div class="splide combination-sets" role="group" aria-label="Splide Basic HTML Example">
           <h2>{{ section.settings.combinations_title }}</h2>
           <div class="splide__track">
-      		<div class="splide__list">  
+            <div class="splide__list">  
   
       {% else %}
           <h2>{{ section.settings.combinations_title }}</h2>
@@ -237,12 +242,13 @@
       {% endif %}
   
       {{ combinations_forms }}
-
-    </div>
-    
-  {% endif %}
   
-</article>
+    </div>
+  </article>
+                
+{% endif %}
+  
+
 
 
 {% schema %}
