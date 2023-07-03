@@ -569,3 +569,7 @@ figure.thumbnail img {
   display:block;
   text-transform:uppercase;
 }
+
+.secondary-product .splide__pagination {
+  position: initial;
+}
