@@ -352,6 +352,7 @@ figure.thumbnail img {
   font-size: 1.6rem;
   font-family: 'Wotfard', Arial, sans-serif;
   letter-spacing: 1px;
+  cursor:pointer;
 }
 
 .product-form button span {
