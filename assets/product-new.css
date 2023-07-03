@@ -27,7 +27,7 @@ h2 {
 
 /* PAGE STRUCTURE */
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
   .product-info .the-product.page-width {
     padding: 0;
   }
