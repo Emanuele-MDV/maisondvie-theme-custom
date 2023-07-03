@@ -608,9 +608,17 @@ figure.thumbnail img {
   width: fit-content;
 }
 
+.secondary-product .price__container span, .secondary-product .price__container span s {
+  font-size: 1.2rem;
+  font-weight: 200;
+  letter-spacing: 0;
+}
+
 @media screen and (min-width:1024px){
+  
   .secondary-product > span {
     cursor:pointer;
   }
+  
 }
 
