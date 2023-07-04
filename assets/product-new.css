@@ -642,6 +642,18 @@ figure.thumbnail img {
   }
 }
 
+@media screen and (min-width:2200px){
+  .secondary-product {
+    padding:2.8rem;
+    padding-left: calc(200px + 2.8rem);
+    min-height: 240px;
+  }
+
+  .secondary-product figure {
+    width: 200px;
+  }
+}
+
 /* SUGGESTION PRODUCTS FORMS */
 
 .secondary-product-container {
