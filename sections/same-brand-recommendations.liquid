@@ -103,7 +103,7 @@
   {% endcomment %}
   
   <div class="grid__item {{ grid_item_width }}">
-    {% include 'product-card-grid', max_height: max_height %}
+    {{ product.title }}
   </div>
   {% assign counter = counter | plus: 1 %}
   {% if counter == break_at %}
