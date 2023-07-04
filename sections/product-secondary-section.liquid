@@ -58,16 +58,16 @@
           {{ image_card | image_url : width : 300 }} 300w,
           {{ image_card | image_url : width : 380 }} 380w,
           100vw
-          "
+          " 
           sizes="
           (min-width:768px) 380px, 
           (min-width:320px) 300px
-          "
-          alt="{% if image_card.alt %}{{ image_card.alt }}{% else %}{{ product_set.title }}{% endif %}"
+          " 
+          alt="{% if image_card.alt %}{{ image_card.alt }}{% else %}{{ product_set.title }}{% endif %}" 
           src="{{ image_card | image_url }}" 
           loading="lazy" 
           width="380" 
-          height="380" 
+          height="420" 
           />
         </figure>
         <p class="prod-title"><span>{{ product_set.vendor }}</span>{{ product_set.title }}</p>
