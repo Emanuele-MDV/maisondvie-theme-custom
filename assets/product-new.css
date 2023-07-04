@@ -808,6 +808,12 @@ article.prod-card .wishlist-ico-btn span {
   display:none;
 }
 
+@media screen and (min-width:768x){
+  article.prod-card figure {
+    max-height: 46rem;
+  }
+}
+
 
 @media screen and (min-width:1200px){
 
