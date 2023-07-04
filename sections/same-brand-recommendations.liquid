@@ -10,7 +10,7 @@
   {% for product in collections[mycollection].products %}
     {% if product.title == current_product %}{% continue %}{% endif %}    
       {% render 'custom-card-product', card_product: product, section_id: section.id %}
-    
+      {% assign i = i | plus:1 %}
   {%- endfor -%}
   
 </div>
