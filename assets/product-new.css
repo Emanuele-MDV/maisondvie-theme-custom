@@ -719,12 +719,12 @@ figure.thumbnail img {
   margin-top: 1.4rem;
 }
 
-form .secondary-add {
+form.secondary-add {
   display:flex;
   flex-direction:column;
 }
 
-form .secondary-add select, form .secondary-add button {
+form.secondary-add select, form.secondary-add button {
   width:100%;
 }
 
