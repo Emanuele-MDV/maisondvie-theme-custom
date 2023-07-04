@@ -248,6 +248,7 @@ figure.thumbnail img {
   padding: .8rem;
   column-gap: .6rem;
   align-items:center;
+  cursor:pointer;
   position:initial;
 }
 
