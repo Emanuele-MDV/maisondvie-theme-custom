@@ -609,9 +609,9 @@ figure.thumbnail img {
   display: block;
   color: #fff;
   background: black;
-  padding: .6rem 2.2rem;
+  padding: .4rem 2.2rem;
   border-radius: 2px;
-  margin-top: .6rem;
+  margin-top: .4rem;
   width: fit-content;
 }
 
