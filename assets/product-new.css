@@ -205,7 +205,7 @@ figure.thumbnail img {
 
   .slider-container figure.splide__slide {
     max-height: unset;
-    height: 100vh;
+    height: 88vh;
     min-height: 890px;
   }
   
