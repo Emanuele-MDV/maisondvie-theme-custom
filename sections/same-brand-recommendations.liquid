@@ -4,13 +4,14 @@
   
   {% assign mycollection = product.vendor | handle %}
   {% assign current_product = product.title %}
-  {% assign max_prod = section.settings.limit_products %}
+  {% assign max_prod = 5 %}
   {% assign i = 0 %}
   
   {% for product in collections[mycollection].products %}
     {% if product.title == current_product %}{% continue %}{% endif %}    
       {% render 'custom-card-product', card_product: product, section_id: section.id %}
       {% assign i = i | plus:1 %}
+    {% if i == max_prod %}{% break %}{% endif %}
   {%- endfor -%}
   
 </div>
