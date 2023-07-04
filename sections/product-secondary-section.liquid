@@ -16,9 +16,11 @@
         srcset="
         {{ image | image_url : width : 140 }} 140w,
         {{ image | image_url : width : 160 }} 160w,
+        {{ image | image_url : width : 200 }} 200w,
         100vw
         "
         sizes="
+        (min-width:2200px) 200px,
         (min-width:768px) 160px, 
         (min-width:320px) 140px
         "
