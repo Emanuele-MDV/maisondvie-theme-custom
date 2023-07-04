@@ -41,19 +41,23 @@ article.prod-card:hover figure.hover-fx-change img.one{
 
 h3.card__heading {
     font-family: Wotfard;
-    text-transform: uppercase;
-    margin: 1.2rem 0;
+    margin: .8rem 0 .4rem;
     font-size: 1.5rem;
     letter-spacing:0;
     font-weight:lighter;
+  text-align:left;
 }
 
 p.vendor-name {
-    font-family: Grafier;
-    font-size: 1.8rem;
-    opacity: 1;
-    margin-top: 1rem;
-    letter-spacing:0;
+  font-family: Grafier;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  padding: 0;
+  text-align: left;
 }
 
 a.full-unstyled-link::before {
@@ -67,46 +71,161 @@ a.full-unstyled-link::before {
     z-index: 1;
 }
 
-h3#ContactFooter-success {
-    position: fixed;
+.price {
+    display: flex;
+    justify-content: flex-start;
+  margin-bottom:.8rem;
+}
+
+a.full-unstyled-link::before {
+    content: '';
+    position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
+    background: transparent;
     width: 100%;
     height: 100%;
+    z-index: 1;
+}
+
+/* SIZE LIST */
+
+.sizes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: .6rem;
+  margin-bottom: 1rem;
+}
+
+.sizes span {
+    font-size: 1rem;
+    line-height: 1rem;
+    text-transform:uppercase;
+    text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    color: white;
-    background: #000000db;
-    z-index: 3;
-    cursor: pointer;
-    flex-direction: column;
-    margin: 0;
-    -webkit-animation: display-none-transition 4s both;
-    animation: display-none-transition 4s both;
+    background: #dbdbdb;
+    border-radius: 30px;
 }
 
-@-webkit-keyframes display-none-transition {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.sizes span.sold-out{
+  opacity:.4;
 }
-@keyframes display-none-transition {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
+
+.sizes span:not(.unavailable) {
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sizes span.one-size, .sizes span.all-out {
+    width: fit-content;
+    padding: 0 0.6rem;
+}
+
+/* PRICE */
+
+.price--on-sale .price__sale {
+    justify-content: flex-start;
+    column-gap: 0;
+    align-items: baseline;
+}
+
+.price__container span:not(.visually-hidden){
+  margin-right:3px;
+}
+
+.price__container span.price-item.price-item--sale.price-item--last, .price__container span.price-item.price-item--regular {
+  font-family: Wotfard;
+  font-size: 1.4rem;
+  letter-spacing:-1px;
+}
+
+span.price-item.price-item--sale.price-item--last {
+    color: #AA2626;
+}
+
+s.price-item.price-item--regular, span.sale-- {
+  display: block;
+  font-size: 1.2rem;
+  margin:0;
+  letter-spacing:-1px;
+}
+
+
+
+
+/* LIST PAGES */
+
+@media screen and (min-width:1280px){
+  li.grid__item {
+    margin-bottom: 2.8rem;
   }
 }
 
-h3#ContactFooter-success svg.icon.icon-success {
-    width: 100px;
-    height: 60px;
-    margin: 0;
+li.grid__item article.prod-card figure{
+  height: 32rem;
+}
+
+.grid--1-col-tablet-down .grid__item article.prod-card figure {
+  height: 56rem;
+}
+
+@media screen and (min-width:990px){
+  li.grid__item article.prod-card figure {
+    height: 46rem;
+  }
+}
+
+/* 
+li.grid__item p.vendor-name {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+
+li.grid__item h3.card__heading {
+    margin: 0.8rem 0;
+    font-size: 1.4rem;
+}
+
+
+@media screen and (min-width:990px){
+  li.grid__item h3.card__heading {
+    font-size: 1.8rem;
+  }
+}
+
+li.grid__item .price--on-sale .price__sale {
+  flex-direction: column;
+}
+
+@media screen and (min-width:990px){
+  li.grid__item .price--on-sale .price__sale {
+    flex-direction: row;
+  }
+}
+ */
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width:1024px){
+
+  p.vendor-name, h3.card__heading, .price__container span.price-item.price-item--sale.price-item--last {
+    font-size: 1.6rem;
+    margin-botom:0;
+  }
+
+  .price__container span.price-item.price-item--sale.price-item--last, .price__container span.price-item.price-item--regular {
+    6font-size: 1.6rem;
+  }
+
+  s.price-item.price-item--regular, span.sale-- {
+    font-size: 1.4rem;
+  }
   
 }
+
+
