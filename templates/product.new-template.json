@@ -143,7 +143,10 @@
     },
     "149ab1de-6534-483a-8dee-c1a949b96dbd": {
       "type": "same-brand-recommendations",
+      "disabled": true,
       "settings": {
+        "section_title": "What's new",
+        "show_vendor_name": true
       }
     }
   },
