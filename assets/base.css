@@ -2983,7 +2983,46 @@ details-disclosure > details {
   
   
   /* ------------------------- CUSTOMIZATION STARTS HERE ------------------------- */
-  
+
+/* BUTTON WISHLIST */
+
+  button.wishlist-ico-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.8rem;
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  button.wishlist-ico-btn .icon {
+    width: 3rem;
+    height: 3rem;
+    stroke: #525252;
+    fill: transparent;
+    transition:all 160ms ease-out;
+  }
+
+  button.wishlist-ico-btn:hover .icon{
+    transform:scale(110%);
+  }
+
+  button.wishlist-ico-btn .icon path {
+    stroke-width: 20;
+  }
+
+  button.wishlist-ico-btn.active .icon {
+    stroke: #000;
+    fill: #000;
+  }
+
+  button.wishlist-ico-btn.active .icon path {
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.5);
+  }   
   
   
   p.announcement-bar__message.h5 {
