@@ -1,6 +1,6 @@
 <div class="page-width">
   <h2>WHat's new from {{ product.vendor }}</h2>
-  {% assign mycollection = product.vendor | handle %}
+  {% assign mycollection = product.vendor | handle | sort: 'created_at' %}
   {% assign current_product = product.title %}
   {% for product in collections[mycollection].products limit: 5 %}
         
@@ -8,16 +8,8 @@
         
           {% unless product.title == current_product %}
 
-            <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
-              {% render 'custom-card-product', card_product: product,
-              media_aspect_ratio: section.settings.image_ratio,
-              show_secondary_image: section.settings.show_secondary_image,
-              show_vendor: section.settings.show_vendor,
-              show_rating: section.settings.show_rating,
-              show_quick_add: section.settings.enable_quick_add,
-              section_id: section.id
-              %}
-            </li>
+            {% render 'custom-card-product', card_product: product, section_id: section.id %}
+            
 
           {% endunless %}
         {%- endfor -%}
