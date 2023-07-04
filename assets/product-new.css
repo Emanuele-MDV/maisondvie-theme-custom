@@ -824,3 +824,10 @@ article.prod-card .wishlist-ico-btn span {
   }
   
 }
+
+
+@media screen and (min-width:1200px){
+  article.prod-card figure {
+    max-height: 44rem;
+  }
+}
