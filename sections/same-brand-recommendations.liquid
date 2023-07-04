@@ -1,18 +1,20 @@
 <link rel="stylesheet" href="{{ 'custom-card-product.css' | asset_url }}" media="print" onload="this.media='all'">
 <div class="page-width">
   <h2>{{ section.settings.section_title }}{% if section.settings.show_vendor_name == true %} from {{ product.vendor }}{% endif %}</h2>
-  
-  {% assign mycollection = product.vendor | handle %}
-  {% assign current_product = product.title %}
-  {% assign max_prod = section.settings.max_products %}
-  {% assign i = 0 %}
-  
-  {% for product in collections[mycollection].products %}
-    {% if product.title == current_product %}{% continue %}{% endif %}    
-      {% render 'custom-card-product', card_product: product, section_id: section.id %}
-      {% assign i = i | plus:1 %}
-    {% if i == max_prod %}{% break %}{% endif %}
-  {%- endfor -%}
+
+  <div class="product-list">
+    {% assign mycollection = product.vendor | handle %}
+    {% assign current_product = product.title %}
+    {% assign max_prod = section.settings.max_products %}
+    {% assign i = 0 %}
+    
+    {% for product in collections[mycollection].products %}
+      {% if product.title == current_product %}{% continue %}{% endif %}    
+        {% render 'custom-card-product', card_product: product, section_id: section.id %}
+        {% assign i = i | plus:1 %}
+      {% if i == max_prod %}{% break %}{% endif %}
+    {%- endfor -%}
+  </div>
   
 </div>
 
