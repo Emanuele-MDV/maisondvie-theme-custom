@@ -610,7 +610,7 @@ figure.thumbnail img {
   color: #fff;
   background: black;
   padding: .6rem 2.2rem;
-  border-radius: 1px;
+  border-radius: 2px;
   margin-top: .6rem;
   width: fit-content;
 }
