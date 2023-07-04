@@ -720,12 +720,17 @@ figure.thumbnail img {
 }
 
 form.secondary-add {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
 form.secondary-add select, form.secondary-add button {
   width:100%;
+}
+
+form.secondary-add button {
+  cursor:pointer;
 }
 
 @media screen and (min-width:1024px){
