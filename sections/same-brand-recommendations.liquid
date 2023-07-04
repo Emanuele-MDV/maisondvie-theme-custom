@@ -10,7 +10,7 @@
     
     {% for product in collections[mycollection].products %}
       {% if product.title == current_product %}{% continue %}{% endif %}    
-        {% render 'custom-card-product', card_product: product, section_id: section.id %}
+        {% render 'custom-card-product', card_product: product %}
         {% assign i = i | plus:1 %}
       {% if i == max_prod %}{% break %}{% endif %}
     {%- endfor -%}
