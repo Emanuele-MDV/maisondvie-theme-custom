@@ -75,7 +75,7 @@
         {%- render 'price', product: product_set, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         <div class="prod--form-container">
           
-          <form method="post" action="/cart/add">
+          <form id="add-item-form" method="post" action="/cart/add">
             <input type="hidden" name="id" value="{{ product_set.variants.first.id }}">
             <select name="id" id="product-select-{{ product_set.id }}">
               {% for variant in product_set.variants %}
@@ -85,6 +85,9 @@
               {% endfor %}
             </select>
             <button type="submit">Add to Cart</button>
+
+            <a onclick=" Shopify.addItemFromForm('add-item-form'); return false" href="#">Shopify.addItemFromForm</a>('add-item-form')
+      
           </form>
           
         </div>
