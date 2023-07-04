@@ -535,6 +535,10 @@ figure.thumbnail img {
     font-size: 1.4rem;
     margin-bottom:1rem;
   }
+
+  article.details {
+    margin:8.2rem auto;
+  }
   
 }
 
