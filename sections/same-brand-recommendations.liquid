@@ -5,7 +5,7 @@
   {% assign mycollection = product.vendor | handle %}
   {% assign current_product = product.title %}
   
-  {% for product in collections[mycollection].products limit: 5 %}
+  {% for product in collections[mycollection].products %}
     {% unless product.title == current_product %}
       {% render 'custom-card-product', card_product: product, section_id: section.id %}
     {% endunless %}
@@ -35,6 +35,10 @@
         "id":"show_vendor_name",
         "label":"Show brand on title",
         "default":true
+      },
+      {
+        "type":"header",
+        "content":"Content settings"
       }
     ]
   }
