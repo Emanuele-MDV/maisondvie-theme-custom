@@ -4,6 +4,7 @@
   
   {% assign mycollection = product.vendor | handle %}
   {% assign current_product = product.title %}
+  {% assign max_prod = section.settings.limit_products %}
   
   {% for product in collections[mycollection].products %}
     {% if product.title == current_product %}{% continue %}{% endif %}
