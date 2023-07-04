@@ -794,6 +794,7 @@ form.secondary-add button {
   grid-template-columns: calc(50% - .25rem) calc(50% - .25rem);
   grid-template-rows: auto;
   gap: .5rem;
+  width:100%;
 }
 
 article.prod-card figure {
