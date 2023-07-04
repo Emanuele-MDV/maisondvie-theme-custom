@@ -820,7 +820,7 @@ article.prod-card .wishlist-ico-btn span {
 
   .product-list {
     grid-template-columns: calc(25% - 10px) calc(25% - 10px) calc(25% - 10px) calc(25% - 10px);
-    gap: 10px;
+    gap: 13px;
   }
   
 }
