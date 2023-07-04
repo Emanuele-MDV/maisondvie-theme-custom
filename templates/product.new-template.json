@@ -146,7 +146,7 @@
       "settings": {
         "section_title": "What's new",
         "show_vendor_name": true,
-        "max_products": 6,
+        "max_products": 4,
         "per_row": 4
       }
     }
