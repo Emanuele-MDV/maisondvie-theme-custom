@@ -781,3 +781,22 @@ form.secondary-add button {
   
 }
 
+
+/* PRODUCT RECOMMENDATIONS */
+
+.product-list {
+  display: grid;
+  grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+
+@media screen and (min-width:1200px){
+
+  .product-list {
+    grid-template-columns: 33% 33% 33%;
+    gap: 2rem;
+  }
+  
+}
