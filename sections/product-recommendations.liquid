@@ -28,10 +28,10 @@
       <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
       <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
         
-        {% assign recommendation_vendor = product.vendor %}
-        {% assign recommendation_parts = recommendations.products | where: "vendor",recommendation_vendor %}
       
-        {% for recommendation in recommendation_parts %}          
+      {% for recommendation in recommendations.products %}
+          
+          
           
           <li class="grid__item">
             {% render 'card-product',
@@ -42,7 +42,6 @@
               show_rating: section.settings.show_rating
             %}
           </li>
-        
         {% endfor %}
       </ul>
     {% endif %}
