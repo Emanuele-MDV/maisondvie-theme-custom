@@ -125,6 +125,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -143,10 +144,6 @@
     "149ab1de-6534-483a-8dee-c1a949b96dbd": {
       "type": "same-brand-recommendations",
       "settings": {
-        "show_related_products": true,
-        "related_title": "Other fine products",
-        "related_grid_num": "4",
-        "related_grid_row": "1"
       }
     }
   },
