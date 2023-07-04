@@ -719,17 +719,13 @@ figure.thumbnail img {
   margin-top: 1.4rem;
 }
 
-.the-secondary-product-info .prod--form-container variant-selects > div {
-  border-bottom: 1px solid #D1D1D1;
-  margin-bottom:1.2rem;
+form .secondary-add {
+  display:flex;
+  flex-direction:column;
 }
 
-.the-secondary-product-info .prod--form-container variant-selects > div > select {
-  padding: 0;
-}
-
-.the-secondary-product-info .prod--form-container variant-selects > div > .icon {
-  right:0;
+form .secondary-add select, form .secondary-add button {
+  width:100%;
 }
 
 @media screen and (min-width:1024px){
