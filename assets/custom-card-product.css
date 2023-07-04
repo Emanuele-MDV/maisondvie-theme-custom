@@ -136,7 +136,7 @@ a.full-unstyled-link::before {
   margin-right:3px;
 }
 
-.price__container span.price-item.price-item--sale.price-item--last, .price__container span.price-item.price-item--regular {
+.the-product-form .price__container span, .the-product-form .price__container span s {
   font-family: Wotfard;
   font-size: 1.4rem;
   letter-spacing:-1px;
