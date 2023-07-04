@@ -81,7 +81,7 @@
             <select name="id" id="product-select-{{ product_set.id }}">
               {% for variant in product_set.variants %}
                 <option value="{{ variant.id }}" {% if variant.available == false %} disabled="disabled" {% endif %}>
-                  {{ variant.title }}
+                  Size: {{ variant.title }}
                 </option>
               {% endfor %}
             </select>
