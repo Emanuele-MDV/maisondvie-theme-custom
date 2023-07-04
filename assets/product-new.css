@@ -248,6 +248,7 @@ figure.thumbnail img {
   padding: .8rem;
   column-gap: .6rem;
   align-items:center;
+  position:initial;
 }
 
 .features button .icon {
@@ -269,6 +270,9 @@ figure.thumbnail img {
   }
   .features button:hover {
     background:#E1DEDE;
+  }
+  .features button:hover .icon{
+    transform:scale(1.05);
   }
 }
 
@@ -668,7 +672,7 @@ figure.thumbnail img {
   height: 80vh;
   max-height: 680px;
   padding: 2.8rem 1.8rem;
-  padding-top:calc(320px + 2rem);
+  padding-top:calc(360px + 2rem);
   border: 1px solid #ccc;
   background: white;
   border-radius: 1px;
@@ -680,7 +684,7 @@ figure.thumbnail img {
   top:0;
   left:0;
   width:100%;
-  height:320px;
+  height:360px;
   overflow:hidden;
   margin:0;
 }
