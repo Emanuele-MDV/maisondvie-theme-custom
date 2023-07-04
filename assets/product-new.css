@@ -631,6 +631,13 @@ figure.thumbnail img {
   }
 }
 
+@media screen and (min-width:1366px){
+  .secondary-product {
+    padding-left: calc(162px + 2rem);
+    min-height: 220px;
+  }
+}
+
 /* SUGGESTION PRODUCTS FORMS */
 
 .secondary-product-container {
