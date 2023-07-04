@@ -850,3 +850,9 @@ article.prod-card .wishlist-ico-btn span {
     height: 56rem;
   }
 }
+
+@media screen and (min-width:2200px){
+  article.prod-card figure {
+    height: 60rem;
+  }
+}
