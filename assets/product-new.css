@@ -802,6 +802,10 @@ article.prod-card figure {
   max-height: 26rem;
 }
 
+article.prod-card button.wishlist-ico-btn .icon {
+  stroke: #000;
+}
+
 article.prod-card .wishlist-ico-btn span {
   display:none;
 }
