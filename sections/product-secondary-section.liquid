@@ -74,7 +74,7 @@
         <div class="prod-desc">{{ product_set.description | truncate: 90 }}<a href="{{ product_set.url }}" title="{{ product_set.title }}">View details</a></div>
         {%- render 'price', product: product_set, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         <div class="prod--form-container">
-          {% for variant in product.variants %}
+          {% for variant in product_set.variants %}
              <button onclick="Shopify.addItem('{{ variant.id }}', 1)">
                {{ variant.title }}
              </button>
