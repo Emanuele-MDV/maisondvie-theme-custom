@@ -1,5 +1,5 @@
 {% if section.settings.show_related_products == true %}
-<hr>
+
 <div class="product-template__container page-width" itemscope itemtype="http://schema.org/Product" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
  
 {% comment %}
@@ -102,8 +102,8 @@
     Replace 'test' below with prefered tag 
   {% endcomment %}
   
-  <div class="grid__item {{ grid_item_width }}">
-    {{ product.title }}
+  <div class="grid__item {{ grid_item_width }}" style="width:100%;">
+    {{ product.title }} - {{ product.vendor }}
   </div>
   {% assign counter = counter | plus: 1 %}
   {% if counter == break_at %}
