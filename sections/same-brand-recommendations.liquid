@@ -2,7 +2,7 @@
 <div class="page-width">
   <h2>{{ section.settings.section_title }}{% if section.settings.show_vendor_name == true %} from {{ product.vendor }}{% endif %}</h2>
 
-  <div class="product-list">
+  <div class="product-list per-row-{{ section.settings.per_row }}">
     {% assign mycollection = product.vendor | handle %}
     {% assign current_product = product.title %}
     {% assign max_prod = section.settings.max_products %}
@@ -49,6 +49,14 @@
         "type":"range",
         "id":"max_products",
         "label":"Limit products",
+        "min":1,
+        "max":6,
+        "default":4
+      },
+      {
+        "type":"range",
+        "id":"per_row",
+        "label":"Products per row",
         "min":1,
         "max":6,
         "default":4
