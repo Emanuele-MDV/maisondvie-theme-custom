@@ -126,27 +126,27 @@ a.full-unstyled-link::before {
 
 /* PRICE */
 
-.price--on-sale .price__sale {
+.prod-card .price--on-sale .price__sale {
     justify-content: flex-start;
     column-gap: 0;
     align-items: baseline;
 }
 
-.price__container span:not(.visually-hidden){
+.prod-card .price__container span:not(.visually-hidden){
   margin-right:3px;
 }
 
-.price__container span.price-item.price-item--sale.price-item--last, .price__container span.price-item.price-item--regular {
+.prod-card .price__container span.price-item.price-item--sale.price-item--last, .prod-card .price__container span.price-item.price-item--regular {
   font-family: Wotfard;
   font-size: 1.4rem;
   letter-spacing:-1px;
 }
 
-span.price-item.price-item--sale.price-item--last {
+.prod-card span.price-item.price-item--sale.price-item--last {
     color: #AA2626;
 }
 
-s.price-item.price-item--regular, span.sale-- {
+.prod-card s.price-item.price-item--regular, span.sale-- {
   display: block;
   font-size: 1.2rem;
   margin:0;
