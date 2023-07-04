@@ -96,7 +96,7 @@
   
   {% for product in collections.all.products %}
   {% unless product.handle == current_product.handle %}
-  {% unless same_vendor and current_product.vendor != product.vendor %}
+  {% unless same_vendor and current_product.vendor == product.vendor %}
   {% unless same_type and current_product.type != product.type %}
   {% comment %} 
     Replace 'test' below with prefered tag 
