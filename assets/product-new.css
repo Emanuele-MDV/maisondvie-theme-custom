@@ -816,10 +816,10 @@ article.prod-card .wishlist-ico-btn span {
 }
 
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1024px){
 
   .product-list {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: calc(25% - .25rem) calc(25% - .25rem) calc(25% - .25rem) calc(25% - .25rem);
     gap: 2rem;
   }
   
