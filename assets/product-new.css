@@ -735,6 +735,17 @@ form.secondary-add select {
   border-bottom:1px solid #D1D1D1;
 }
 
+form.secondary-add select {
+  border: unset;
+  border-bottom: 1px solid #D1D1D1;
+  padding: 0;
+  background: transparent;
+  padding: 0 0 16px;
+  font-family: 'Wotfard';
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 form.secondary-add button {
   border: 0;
   color: white;
