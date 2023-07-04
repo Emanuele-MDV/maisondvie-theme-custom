@@ -1,18 +1,14 @@
 <div class="page-width">
-  <h2>WHat's new from {{ product.vendor }}</h2>
-  {% assign mycollection = product.vendor | handle | sort: 'created_at' %}
+  <h2>{{ section.settings.section_title }} {{ product.vendor }}</h2>
+  
+  {% assign mycollection = product.vendor | handle %}
   {% assign current_product = product.title %}
+  
   {% for product in collections[mycollection].products limit: 5 %}
-        
-        
-        
-          {% unless product.title == current_product %}
-
-            {% render 'custom-card-product', card_product: product, section_id: section.id %}
-            
-
-          {% endunless %}
-        {%- endfor -%}
+    {% unless product.title == current_product %}
+      {% render 'custom-card-product', card_product: product, section_id: section.id %}
+    {% endunless %}
+  {%- endfor -%}
   
 </div>
 
@@ -25,13 +21,19 @@
     "settings": [
       {
         "type":"header",
-        "content":"Content settings"
+        "content":"Section heading"
       },
       {
         "type":"text",
         "id":"section_title",
         "label":"Write a headline",
         "default":"What's new"
+      },
+      {
+        "type":"checkbox",
+        "id":"show_vendor_name",
+        "label":"Show brand on title",
+        "default":true
       }
     ]
   }
