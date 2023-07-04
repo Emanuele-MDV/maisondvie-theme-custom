@@ -101,7 +101,7 @@
   {% comment %} 
     Replace 'test' below with prefered tag 
   {% endcomment %}
-  {% if product.tags contains  'test' %} 
+  
   <div class="grid__item {{ grid_item_width }}">
     {% include 'product-card-grid', max_height: max_height %}
   </div>
@@ -109,7 +109,7 @@
   {% if counter == break_at %}
   {% break %}
   {% endif %}
-  {% endif %}
+    
   {% endunless %}
   {% endunless %}
   {% endunless %}
