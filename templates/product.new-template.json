@@ -123,9 +123,17 @@
       "settings": {
       }
     },
+    "149ab1de-6534-483a-8dee-c1a949b96dbd": {
+      "type": "same-brand-recommendations",
+      "settings": {
+        "section_title": "What's new",
+        "show_vendor_name": true,
+        "max_products": 4,
+        "per_row": 4
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -140,22 +148,13 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "149ab1de-6534-483a-8dee-c1a949b96dbd": {
-      "type": "same-brand-recommendations",
-      "settings": {
-        "section_title": "What's new",
-        "show_vendor_name": true,
-        "max_products": 4,
-        "per_row": 4
-      }
     }
   },
   "order": [
     "main",
     "398e6d26-5cb0-4558-8661-3206b95f66ff",
     "d0f59063-1342-499d-8ea3-0885e0657841",
-    "product-recommendations",
-    "149ab1de-6534-483a-8dee-c1a949b96dbd"
+    "149ab1de-6534-483a-8dee-c1a949b96dbd",
+    "product-recommendations"
   ]
 }
