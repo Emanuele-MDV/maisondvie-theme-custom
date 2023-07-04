@@ -847,7 +847,7 @@ article.prod-card .wishlist-ico-btn span {
 
 @media screen and (min-width:1600px){
   article.prod-card figure {
-    height: 56rem;
+    min-height: 56rem;
   }
 }
 
