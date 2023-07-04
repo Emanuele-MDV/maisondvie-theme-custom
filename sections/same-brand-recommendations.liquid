@@ -6,9 +6,9 @@
   {% assign current_product = product.title %}
   
   {% for product in collections[mycollection].products %}
-    {% unless product.title == current_product %}
+    {% if product.title == current_product %}{% continue %}{% endif %}
+    
       {% render 'custom-card-product', card_product: product, section_id: section.id %}
-    {% endunless %}
   {%- endfor -%}
   
 </div>
