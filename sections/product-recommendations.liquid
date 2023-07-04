@@ -34,10 +34,6 @@
             if (recommendations && recommendations.innerHTML.trim().length) {
               this.innerHTML = recommendations.innerHTML;
             }
-
-            if (html.querySelector('.grid__item')) {
-              this.classList.add('product-recommendations--loaded');
-            }
           })
           .catch(e => {
             console.error(e);
