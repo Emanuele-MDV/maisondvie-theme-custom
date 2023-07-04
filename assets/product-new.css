@@ -633,8 +633,12 @@ figure.thumbnail img {
 
 @media screen and (min-width:1366px){
   .secondary-product {
-    padding-left: calc(162px + 2rem);
+    padding-left: calc(160px + 2rem);
     min-height: 220px;
+  }
+
+  .secondary-product figure {
+    width: 160px;
   }
 }
 
