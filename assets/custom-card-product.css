@@ -213,16 +213,16 @@ li.grid__item .price--on-sale .price__sale {
 
 @media screen and (min-width:1024px){
 
-  p.vendor-name, h3.card__heading, .price__container span.price-item.price-item--sale.price-item--last {
+ .prod-card p.vendor-name, h3.card__heading, .prod-card .price__container span.price-item.price-item--sale.price-item--last {
     font-size: 1.6rem;
     margin-botom:0;
   }
 
-  .price__container span.price-item.price-item--sale.price-item--last, .price__container span.price-item.price-item--regular {
+  .prod-card .price__container span.price-item.price-item--sale.price-item--last, .prod-card .price__container span.price-item.price-item--regular {
     6font-size: 1.6rem;
   }
 
-  s.price-item.price-item--regular, span.sale-- {
+  .prod-card s.price-item.price-item--regular, .prod-card span.sale-- {
     font-size: 1.4rem;
   }
   
