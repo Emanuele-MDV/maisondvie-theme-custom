@@ -145,7 +145,9 @@
       "type": "same-brand-recommendations",
       "settings": {
         "section_title": "What's new",
-        "show_vendor_name": true
+        "show_vendor_name": true,
+        "max_products": 6,
+        "per_row": 4
       }
     }
   },
