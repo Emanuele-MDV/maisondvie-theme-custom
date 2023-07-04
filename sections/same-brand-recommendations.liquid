@@ -1,7 +1,7 @@
 <div class="page-width">
   <h2>{{ section.settings.section_title }} {{ product.vendor }}</h2>
   
-  {% assign mycollection = product.vendor | handle | sort: 'created_at' %}
+  {% assign mycollection = product.vendor | handle %}
   {% assign current_product = product.title %}
   
   {% for product in collections[mycollection].products limit: 5 %}
