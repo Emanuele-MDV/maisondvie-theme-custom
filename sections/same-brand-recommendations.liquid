@@ -4,7 +4,7 @@
   
   {% assign mycollection = product.vendor | handle %}
   {% assign current_product = product.title %}
-  {% assign max_prod = 5 %}
+  {% assign max_prod = section.settings.max_products %}
   {% assign i = 0 %}
   
   {% for product in collections[mycollection].products %}
