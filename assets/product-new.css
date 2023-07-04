@@ -504,7 +504,7 @@ figure.thumbnail img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
-  .the-product.details.page-width {
+  .details.page-width {
     max-width: 80%;
   }
 }
