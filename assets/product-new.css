@@ -552,7 +552,7 @@ figure.thumbnail img {
   padding:2rem;
   padding-left:calc(120px + 2rem);
   border:1px solid #D1D1D1;
-  min-height:220px;
+  min-height:180px;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -793,9 +793,9 @@ form.secondary-add button {
 
 .product-list {
   display: grid;
-  grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+  grid-template-columns: calc(50% - .25rem) calc(50% - .25rem);
   grid-template-rows: auto;
-  gap: 1rem;
+  gap: .5rem;
 }
 
 article.prod-card figure {
