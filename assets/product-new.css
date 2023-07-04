@@ -802,6 +802,10 @@ article.prod-card figure {
   max-height: 26rem;
 }
 
+article.prod-card .wishlist-ico-btn span {
+  display:none;
+}
+
 
 @media screen and (min-width:1200px){
 
