@@ -625,6 +625,12 @@ figure.thumbnail img {
   background: white;
 }
 
+@media screen and (min-width:1200px){
+  .combinations {
+    margin: 0;
+  }
+}
+
 /* SUGGESTION PRODUCTS FORMS */
 
 .secondary-product-container {
