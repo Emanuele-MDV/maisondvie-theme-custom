@@ -664,11 +664,11 @@ figure.thumbnail img {
 .the-secondary-product-info {
   position: relative;
   width: 76%;
-  max-width:480px;
+  max-width:420px;
   height: 80vh;
   max-height: 680px;
   padding: 2.8rem 1.8rem;
-  padding-top:calc(320px + 1.5rem);
+  padding-top:calc(320px + 2rem);
   border: 1px solid #ccc;
   background: white;
   border-radius: 1px;
