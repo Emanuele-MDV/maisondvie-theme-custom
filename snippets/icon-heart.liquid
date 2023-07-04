@@ -1,3 +1,10 @@
-<svg class="icon icon-heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.453 18">
-  <path d="M6,1.5a4.5,4.5,0,0,0-3.18,7.678l7.909,7.909,7.909-7.909a4.5,4.5,0,1,0-6.36-6.36l-.842.842a1,1,0,0,1-1.414,0l-.842-.842A4.468,4.468,0,0,0,6,1.5m0-1a5.48,5.48,0,0,1,3.887,1.61l.842.842.842-.842a5.5,5.5,0,1,1,7.774,7.774L10.726,18.5,2.11,9.884A5.5,5.5,0,0,1,6,.5Z" transform="translate(-0.5 -0.5)"/>
-</svg>
+{% comment %}
+  Shopify Wishlist
+  Usage:
+    - Markup: {%- render 'icon-heart', class: product -%}
+    - Place this snippet inside your existing product card snippet
+
+  Parameters:
+    - class: Add a css class for custom styling (optional)
+{% endcomment %}
+<svg class="icon icon-heart {{ class -}}" viewBox="0 0 290 256" xmlns="http://www.w3.org/2000/svg"><path d="M258.844192 127.790368L145 241.63456 31.1558082 127.790368c-26.9461761-26.946176-26.9461761-70.6345598 0-97.5807359 26.9461762-26.94617613 70.6345598-26.94617613 97.5807358 0L145 46.4730881l16.263456-16.263456c26.946176-26.94617613 70.63456-26.94617613 97.580736 0 26.946176 26.9461761 26.946176 70.6345599 0 97.5807359z" fill-rule="evenodd"/></svg>
