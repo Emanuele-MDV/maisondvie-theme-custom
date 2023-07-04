@@ -74,11 +74,21 @@
         <div class="prod-desc">{{ product_set.description | truncate: 90 }}<a href="{{ product_set.url }}" title="{{ product_set.title }}">View details</a></div>
         {%- render 'price', product: product_set, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         <div class="prod--form-container">
-          {% for variant in product_set.variants %}
-             <button onclick="Shopify.addItem('{{ variant.id }}', 1)">
-               {{ variant.title }}
-             </button>
-          {% endfor %}
+          
+          <form method="post" action="/cart/add">
+            <input type="hidden" name="id" value="{{ product_set.variants.first.id }}">
+            <select name="id" id="product-select-{{ product_set.id }}">
+              {% for variant in product_set.variants %}
+                <option value="{{ variant.id }}"
+                  {% if variant.available == false %} disabled="disabled" {% endif %}
+                >
+                  {{ variant.title }} - {{ variant.price | money }}
+                </option>
+              {% endfor %}
+            </select>
+            <button type="submit">Add to Cart</button>
+          </form>
+          
         </div>
       </div>
       
