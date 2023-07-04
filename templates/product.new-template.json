@@ -139,12 +139,22 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "149ab1de-6534-483a-8dee-c1a949b96dbd": {
+      "type": "same-brand-recommendations",
+      "settings": {
+        "show_related_products": true,
+        "related_title": "Other fine products",
+        "related_grid_num": "4",
+        "related_grid_row": "1"
+      }
     }
   },
   "order": [
     "main",
     "398e6d26-5cb0-4558-8661-3206b95f66ff",
     "d0f59063-1342-499d-8ea3-0885e0657841",
-    "product-recommendations"
+    "product-recommendations",
+    "149ab1de-6534-483a-8dee-c1a949b96dbd"
   ]
 }
