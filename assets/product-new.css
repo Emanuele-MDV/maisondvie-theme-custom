@@ -538,6 +538,7 @@ figure.thumbnail img {
 
 .combinations {
   width: 100%;
+  margin: 5.2rem 0;
 }
 
 .secondary-product {
@@ -789,6 +790,10 @@ form.secondary-add button {
   grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
   grid-template-rows: auto;
   gap: 1rem;
+}
+
+article.prod-card figure {
+  max-height: 26rem;
 }
 
 
