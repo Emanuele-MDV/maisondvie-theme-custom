@@ -4,7 +4,7 @@
     {% if recommendations.performed and recommendations.products_count > 0 %}
       <h2>{{ section.settings.heading | escape }}</h2>
       
-      <div class="product-list" role="list">
+      <div class="product-list">
       {% for recommendation in recommendations.products %}
         {% render 'custom-card-product', card_product: recommendation %}
       {% endfor %}
