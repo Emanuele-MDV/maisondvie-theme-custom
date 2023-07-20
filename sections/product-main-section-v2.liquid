@@ -22,7 +22,7 @@
           {% comment %} difference in days {% endcomment %}
           {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
 
-          {% if diffDays <= 30  %}<span>New season</span>{% endif %}
+          {% if diffDays <= 30  %}<span class="new-season-label">New season</span>{% endif %}
   
           
         {%- when 'description' -%}
