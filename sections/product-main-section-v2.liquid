@@ -11,6 +11,18 @@
         {%- when 'title' -%}
           
           <h1 class="the-title">{% if block.settings.show_vendor == true %}<span class="brand-name">{{ product.vendor }} </span>{% endif %}{{ product.title }}</h1>
+
+          {% comment %} convert our dates to Number of seconds since 1970-01-01 00:00:00 UTC {% endcomment %}
+          {% assign dateStart = product.created_at | date: '%s' %}
+          {% assign nowTimestamp = 'now' | date: '%s' %}
+          
+          {% comment %} difference in seconds {% endcomment %}
+          {% assign diffSeconds = nowTimestamp | minus: dateStart %}
+          
+          {% comment %} difference in days {% endcomment %}
+          {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+          
+          <p>difference in days = {{ diffDays }}</p>
   
           
         {%- when 'description' -%}
