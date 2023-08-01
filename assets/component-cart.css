@@ -256,7 +256,8 @@ cart-items {
   border: 1px solid transparent;
   border-bottom: 0;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
+  font-size:1.4rem;
 }
 
 .tabset > label::after {
