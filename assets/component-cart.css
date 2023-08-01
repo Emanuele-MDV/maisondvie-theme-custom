@@ -226,8 +226,9 @@ cart-items {
 /* CUSTOMIZATION STARTS HERE */
 
 
-/*  CSS for the main interaction */
-
+/*
+ CSS for the main interaction
+*/
 .tabset > input[type="radio"] {
   position: absolute;
   left: -200vw;
@@ -246,7 +247,14 @@ cart-items {
   display: block;
 }
 
-/*  Styling */
+/*
+ Styling
+*/
+body {
+  font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+  color: #333;
+  font-weight: 300;
+}
 
 .tabset > label {
   position: relative;
@@ -296,7 +304,9 @@ input:focus-visible + label {
   border-top: 1px solid #ccc;
 }
 
-/*  Demo purposes only */
+/*
+ Demo purposes only
+*/
 *,
 *:before,
 *:after {
