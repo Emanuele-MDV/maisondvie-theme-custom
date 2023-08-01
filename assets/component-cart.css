@@ -293,6 +293,11 @@ input:focus-visible + label {
 }
 
 .tab-panel {
-  padding: 30px 0;
+  padding: 1rem 0;
   border-top: 1px solid #ccc;
+}
+
+.tab-panel ul {
+  list-style:none;
+  padding:0;
 }
