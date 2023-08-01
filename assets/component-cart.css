@@ -142,7 +142,7 @@ cart-items {
     padding-top: 0;
   }
 
-  .cart__footer > * {
+  .cart__footer > *:not(.delivery-time) {
     width: 35rem;
   }
 
