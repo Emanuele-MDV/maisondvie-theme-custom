@@ -14,12 +14,12 @@
             "timer_disclaimer": "Shop up to 50% off sale on your favorite brands, promo ends in:",
             "offer_ends": "26 Feb 2023",
             "class_timer": "another-test",
-            "slide_image": "shopify:\/\/shop_images\/new-arrivals-dresses.webp",
-            "bg_img": false,
+            "slide_image": "shopify:\/\/shop_images\/bordelle-new-lingerie-collection-2023.webp",
+            "bg_img": true,
             "slide_link": "shopify:\/\/collections\/new-arrivals",
             "text_btn": "Shop now",
             "text_align": "right",
-            "bg_color": "silver"
+            "bg_color": "black"
           }
         },
         "7782c197-9b2a-49ce-8371-12b786e0007c": {
