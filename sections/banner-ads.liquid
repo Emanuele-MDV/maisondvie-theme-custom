@@ -1,6 +1,4 @@
-{% if section.settings.is_first == true %}
-  <link rel="stylesheet" href="{{ 'banner-ads.css' | asset_url }}" media="print" onload="this.media='all'">
-{% endif %}
+<link rel="stylesheet" href="{{ 'banner-ads.css' | asset_url }}" media="print" onload="this.media='all'">
 
 {% comment %} Counting the slides --> if more than one it activates the slider {% endcomment %}
 
@@ -10,9 +8,12 @@
 {% endfor %}
 
 {% if count >= 2 %}
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
-  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css" rel="stylesheet" media="print" onload="this.media='all'"></link>
-
+  
+  {% if section.settings.is_first == true %}
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css" rel="stylesheet" media="print" onload="this.media='all'"></link>
+  {% endif %}
+  
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
   
@@ -25,10 +26,10 @@
         interval : 4000
       } );
       splide.mount();
-
       
     } );
   </script>
+  
 {% endif %}
 
 
@@ -38,7 +39,7 @@
 {% if count >= 2 %}<div id="{{ section.settings.custom_ID }}" class="splide">{% endif %}
 
   {% if section.settings.section_title != empty or section.settings.section_description != empty %}
-  <div class="page-width section-title{% if section.settings.show_text == true %} hide{% endif %}">
+  <div class="{% if section.settings.slider_size == 'narow' %}narrow {% endif %}page-width section-title{% if section.settings.show_text == true %} hide{% endif %}">
     {% if section.settings.section_title != empty %}<h2 class="{{ section.settings.header_size }}">{{ section.settings.section_title }}</h2>{% endif %}
     {% if section.settings.section_description != empty %}<p>{{ section.settings.section_description }}</p>{% endif %}
   </div>
@@ -54,64 +55,64 @@
         {% if count >= 2 %}<li class="splide__slide">{% endif %}
   
           
-          <article class="banner-container page-width">
+          <article class="banner-container page-width{% if block.settings.slide_class %} {{ block.settings.slide_class }}{% endif %}{% if block.settings.bg_img %} background-img{% endif %}{% if section.settings.slider_size == 'narrow' %} narrow{% endif %}">
             
             <div class="bg-{{ block.settings.bg_color }} text-align-{{ block.settings.text_align }}">
               <figure>
     
                 {% if block.settings.bg_img == false %}
                 
-                {% assign image = block.settings.slide_image %}
-                <img 
-                src="{{ image.src | img_url: 'x360' }}" 
-                alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
-                srcset="
-                {% if image.width > 370 %}{{ image.src | img_url: '375x500', crop : 'top' }} 375w{% endif %},
-                {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
-                {% if image.width > 500 %}{{ image.src | img_url: '620x768', crop : 'top' }} 520w{% endif %}
-                " 
-                sizes="
-                (min-width: 1024px) 520px,
-                (min-width: 720px) 420px,
-                (min-width: 360px) 375px,
-                100vw"
-                width="{{ image.width }}"
-                height="{{ image.height }}"
-                {% unless forloop.first %}loading="lazy"{% endunless %}
-                />
+                  {% assign image = block.settings.slide_image %}
+                  <img 
+                  src="{{ image.src | img_url: 'x360' }}" 
+                  alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
+                  srcset="
+                  {% if image.width > 370 %}{{ image.src | img_url: '375x500', crop : 'top' }} 375w{% endif %},
+                  {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
+                  {% if image.width > 500 %}{{ image.src | img_url: '750x768', crop : 'top' }} 750w{% endif %}
+                  " 
+                  sizes="
+                  (min-width: 1024px) 750px,
+                  (min-width: 720px) 420px,
+                  (min-width: 360px) 375px,
+                  100vw" 
+                  width="{{ image.width }}" 
+                  height="{{ image.height }}" 
+                  {% unless section.settings.above_the_line == true %} loading="lazy"{% endunless %}
+                  />
     
                 {% else %}
-    
-                <img 
-                src="{{ image.src | img_url: 'x360' }}" 
-                alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
-                srcset="
-                {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'center' }} 420w{% endif %},
-                {% if image.width > 550 %}{{ image.src | img_url: '550x768', crop : 'center' }} 520w{% endif %},
-                {% if image.width > 1024 %}{{ image.src | img_url: '1024x768', crop : 'center' }} 520w{% endif %},
-                {% if image.width > 1440 %}{{ image.src | img_url: '1440x768', crop : 'center' }} 520w{% endif %},
-                {% if image.width > 1600 %}{{ image.src | img_url: '1650x768', crop : 'center' }} 520w{% endif %},
-                " 
-                sizes="
-                (min-width: 1600px) 1650px,
-                (min-width: 1440px) 1440px,
-                (min-width: 1024px) 1024px,
-                (min-width: 720px) 550px,
-                (min-width: 360px) 420px,
-                100vw"
-                width="{{ image.width }}"
-                height="{{ image.height }}"
-                {% unless section.settings.above_the_line == true and forloop.first %}loading="lazy"{% endunless %}
-                />
+                  
+                  {% assign image = block.settings.slide_image %}
+                  <img 
+                  src="{{ image.src | img_url: 'x360' }}" 
+                  alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
+                  srcset="
+                  {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'right' }} 420w{% endif %},
+                  {% if image.width > 550 %}{{ image.src | img_url: '650x768', crop : 'center' }} 650w{% endif %},
+                  {% if image.width > 1024 %}{{ image.src | img_url: '1024x768', crop : 'center' }} 1024w{% endif %},
+                  {% if image.width > 1440 %}{{ image.src | img_url: '1440x768', crop : 'center' }} 1440w{% endif %},
+                  {% if image.width > 1600 %}{{ image.src | img_url: '1650x768', crop : 'center' }} 1650w{% endif %},
+                  " 
+                  sizes="
+                  (min-width: 1600px) 1650px,
+                  (min-width: 1440px) 1440px,
+                  (min-width: 1024px) 1024px,
+                  (min-width: 720px) 650px,
+                  (min-width: 360px) 420px,
+                  100vw" 
+                  width="{{ image.width }}" 
+                  height="{{ image.height }}"
+                  {% unless section.settings.above_the_line == true %} loading="lazy"{% endunless %}
+                  />
     
                 {% endif %}
                 
               </figure>
               <div class="banner-content">
-                {% if block.settings.slide_title %}<h3>{{ block.settings.slide_title }}</h3>{% endif %}
+                {% if block.settings.slide_title %}<h3{% if section.settings.slider_size == 'narrow' %} class="h1"{% else %} class="{{ block.settings.slide_heading_size }}"{% endif %}>{{ block.settings.slide_title }}</h3>{% endif %}
                 {% if block.settings.slide_text %}<p>{{ block.settings.slide_text }}</p>{% endif %}
                 
-
                 {% if block.settings.set_timer == true and block.settings.offer_ends != empty %}
                   {% include 'shopify-countdown-timer',
                     title: block.settings.timer_disclaimer,
@@ -120,8 +121,7 @@
                   %}
                 {% endif %}
 
-                {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="btn outline"><span>{{ block.settings.text_btn }}</span>{% render 'icon-arrow' %}</a>{% endif %}
-
+                {% if block.settings.slide_link %}<a href="{{ block.settings.slide_link }}" class="{% if section.settings.slider_size == 'narrow' %}simple-link{% else %}btn outline{% endif %}"><span>{{ block.settings.text_btn }}</span>{% render 'icon-arrow' %}</a>{% endif %}
                 
               </div>
             </div>
@@ -154,7 +154,7 @@
         "type":"checkbox",
         "id":"is_first",
         "default":false,
-        "label":"Load Script files?"
+        "label":"Load Script and CSS files?"
       },
       {
         "type":"checkbox",
@@ -203,6 +203,22 @@
         "id":"custom_ID",
         "label":"Add an ID. Mandatory!",
         "default":"banner-container"
+      },
+      {
+        "type":"select",
+        "id":"slider_size",
+        "label":"Select the size for the banner",
+        "options":[
+          {
+            "value":"narrow",
+            "label":"Small"
+          },
+          {
+            "value":"normal",
+            "label":"Large"
+          }
+        ],
+        "default":"normal"
       }
     ],
     "blocks":[
@@ -220,9 +236,34 @@
             "label":"Add a title on the slide"
           },
           {
+            "type":"select",
+            "id":"slide_heading_size",
+            "label":"Size for the title",
+            "options":[
+              {
+                "label":"Small",
+                "value":"h2"
+              },
+              {
+                "label":"Medium",
+                "value":"h1"
+              },
+              {
+                "label":"Large",
+                "value":"h0"
+              }
+            ],
+            "default":"h1"
+          },
+          {
             "type":"text",
             "id":"slide_text",
             "label":"Add a caption on the slide"
+          },
+          {
+            "type":"text",
+            "id":"slide_class",
+            "label":"Add a class on the slide"
           },
           {
             "type":"header",
@@ -331,12 +372,20 @@
                 "label":"Blue"
               },
               {
+                "value":"tiffany",
+                "label":"Tiffany azure"
+              },
+              {
                 "value":"red",
                 "label":"Red"
               },
               {
                 "value":"green",
                 "label":"Green"
+              },
+              {
+                "value":"yellow",
+                "label":"Yellow"
               }
             ]
           }
