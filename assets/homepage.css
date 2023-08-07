@@ -475,5 +475,5 @@ a.collection-single.have-desc article button {
 /* Bordelle new items banner - Aug 2023 */
 
 .bordelle-new figure {
-  left:0;
+  left:0!important;
 }
