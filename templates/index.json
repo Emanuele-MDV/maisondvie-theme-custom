@@ -1,30 +1,16 @@
 {
   "sections": {
-    "166305123918b33308": {
-      "type": "link-banner",
-      "disabled": true,
-      "settings": {
-        "custom_class": "banner-best-sellers dark outlined",
-        "image_position": "right",
-        "image": "shopify:\/\/shop_images\/best-sellers-fashion-designer-clothing.webp",
-        "text_label": "Check our",
-        "banner_title": "Best Sellers",
-        "banner_content": "<p>Discover our selection of iconic dresses, accessories, clothing and more<\/p>",
-        "btn_txt": "Shop now",
-        "btn_link": "shopify:\/\/collections\/best-sellers",
-        "outline_btn": false
-      }
-    },
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde": {
       "type": "banner-ads",
-      "disabled": true,
       "blocks": {
         "d7f9af9e-d16f-4e2d-86a3-338869a2f10e": {
           "type": "heading",
           "settings": {
-            "slide_title": "New <br>season arrivals",
-            "slide_text": "",
-            "set_timer": true,
+            "slide_title": "New Lingerie & accessories",
+            "slide_heading_size": "h0",
+            "slide_text": "View Atelier Bordelle collection",
+            "slide_class": "",
+            "set_timer": false,
             "timer_disclaimer": "Shop up to 50% off sale on your favorite brands, promo ends in:",
             "offer_ends": "26 Feb 2023",
             "class_timer": "another-test",
@@ -41,7 +27,9 @@
           "disabled": true,
           "settings": {
             "slide_title": "Dresses collection",
+            "slide_heading_size": "h1",
             "slide_text": "Shop the latest dress styles and trendy fashion",
+            "slide_class": "",
             "set_timer": true,
             "timer_disclaimer": "",
             "offer_ends": "19 Feb 2023",
@@ -66,7 +54,8 @@
         "header_size": "h1",
         "section_description": "that is a description!",
         "show_text": true,
-        "custom_ID": "banner-container"
+        "custom_ID": "banner-container",
+        "slider_size": "normal"
       }
     },
     "aa032179-e56a-45fe-9bf8-85bafb10daaa": {
@@ -331,7 +320,6 @@
     }
   },
   "order": [
-    "166305123918b33308",
     "17e9dc9e-51ec-4d0b-ba29-9a917423ffde",
     "aa032179-e56a-45fe-9bf8-85bafb10daaa",
     "269fff17-ca7b-4c7e-bacc-4e0ef0308608",
