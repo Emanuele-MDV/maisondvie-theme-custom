@@ -100,7 +100,7 @@
                   (min-width: 720px) 650px,
                   (min-width: 360px) 420px,
                   100vw" 
-                  src="{{ image.src | image_url: 'x360' }}" 
+                  src="{{ image | image_url }}" 
                   width="{{ image.width }}" 
                   height="{{ image.height }}"
                   {% unless section.settings.above_the_line == true %} loading="lazy"{% endunless %}
