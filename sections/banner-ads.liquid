@@ -89,7 +89,7 @@
                   <img 
                   alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
                   srcset="
-                  {% if block.settings.slide_image_mbl %}{{ image_mbl | image_url: '420x' }}{% else %}{{ image.src | image_url: '420x' }}{% endif %} 420w, 
+                  {% if block.settings.slide_image_mbl %}{{ image_mbl | image_url: '420x' }}{% else %}{{ image | image_url: '420x' }}{% endif %} 420w, 
                   {{ image | image_url: '650x' }} 650w, 
                   {{ image | image_url: '1024x' }} 1024w, 
                   {{ image | image_url: '1440x' }} 1440w, 
