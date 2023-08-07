@@ -67,9 +67,9 @@
                   <img 
                   alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
                   srcset="
-                  {% if image.width > 370 %}{{ image.src | image_url: '375x' }} 375w{% endif %},
-                  {% if image.width > 420 %}{{ image.src | image_url: '420x' }} 420w{% endif %},
-                  {% if image.width > 500 %}{{ image.src | image_url: '750x' }} 750w{% endif %}
+                  {% if image.width > 370 %}{{ image | image_url: '375x' }} 375w{% endif %},
+                  {% if image.width > 420 %}{{ image | image_url: '420x' }} 420w{% endif %},
+                  {% if image.width > 500 %}{{ image | image_url: '750x' }} 750w{% endif %}
                   " 
                   sizes="
                   (min-width: 1024px) 750px,
@@ -89,11 +89,11 @@
                   <img 
                   alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
                   srcset="
-                  {% if block.settings.slide_image_mbl %}{{ image_mbl.src | image_url: '420x' }}{% else %}{{ image.src | image_url: '420x' }}{% endif %} 420w, 
-                  {{ image.src | image_url: '650x' }} 650w, 
-                  {{ image.src | image_url: '1024x' }} 1024w, 
-                  {{ image.src | image_url: '1440x' }} 1440w, 
-                  {{ image.src | image_url: '1650x' }} 1650w
+                  {% if block.settings.slide_image_mbl %}{{ image_mbl | image_url: '420x' }}{% else %}{{ image.src | image_url: '420x' }}{% endif %} 420w, 
+                  {{ image | image_url: '650x' }} 650w, 
+                  {{ image | image_url: '1024x' }} 1024w, 
+                  {{ image | image_url: '1440x' }} 1440w, 
+                  {{ image | image_url: '1650x' }} 1650w
                   " 
                   sizes="
                   (min-width: 1600px) 1650px,
