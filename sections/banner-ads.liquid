@@ -63,19 +63,20 @@
                 {% if block.settings.bg_img == false %}
                 
                   {% assign image = block.settings.slide_image %}
+                  {% if block.settings.slide_image_mbl %}{% assign image_mbl = block.settings.slide_image_mbl  %}{% endif %}
                   <img 
-                  src="{{ image.src | img_url: 'x360' }}" 
                   alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
                   srcset="
-                  {% if image.width > 370 %}{{ image.src | img_url: '375x500', crop : 'top' }} 375w{% endif %},
-                  {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'top' }} 420w{% endif %},
-                  {% if image.width > 500 %}{{ image.src | img_url: '750x768', crop : 'top' }} 750w{% endif %}
+                  {% if image.width > 370 %}{{ image.src | image_url: '375x' }} 375w{% endif %},
+                  {% if image.width > 420 %}{{ image.src | image_url: '420x' }} 420w{% endif %},
+                  {% if image.width > 500 %}{{ image.src | image_url: '750x' }} 750w{% endif %}
                   " 
                   sizes="
                   (min-width: 1024px) 750px,
                   (min-width: 720px) 420px,
                   (min-width: 360px) 375px,
                   100vw" 
+                  src="{{ image.src | image_url: 'x360' }}" 
                   width="{{ image.width }}" 
                   height="{{ image.height }}" 
                   {% unless section.settings.above_the_line == true %} loading="lazy"{% endunless %}
@@ -84,15 +85,15 @@
                 {% else %}
                   
                   {% assign image = block.settings.slide_image %}
+                  {% if block.settings.slide_image_mbl %}{% assign image_mbl = block.settings.slide_image_mbl  %}{% endif %}
                   <img 
-                  src="{{ image.src | img_url: 'x360' }}" 
                   alt="{% if imge.alt %}{{ image.alt | escape }}{% else %}{{ block.settings.slide_title }}{% endif %}" 
                   srcset="
-                  {% if image.width > 420 %}{{ image.src | img_url: '420x620', crop : 'right' }} 420w{% endif %},
-                  {% if image.width > 550 %}{{ image.src | img_url: '650x768', crop : 'center' }} 650w{% endif %},
-                  {% if image.width > 1024 %}{{ image.src | img_url: '1024x768', crop : 'center' }} 1024w{% endif %},
-                  {% if image.width > 1440 %}{{ image.src | img_url: '1440x768', crop : 'center' }} 1440w{% endif %},
-                  {% if image.width > 1600 %}{{ image.src | img_url: '1650x768', crop : 'center' }} 1650w{% endif %},
+                  {% if block.settings.slide_image_mbl %}{{ image_mbl.src | image_url: '420x' }}{% else %}{{ image.src | image_url: '420x' }}{% endif %} 420w, 
+                  {{ image.src | image_url: '650x' }} 650w, 
+                  {{ image.src | image_url: '1024x' }} 1024w, 
+                  {{ image.src | image_url: '1440x' }} 1440w, 
+                  {{ image.src | image_url: '1650x' }} 1650w
                   " 
                   sizes="
                   (min-width: 1600px) 1650px,
@@ -101,6 +102,7 @@
                   (min-width: 720px) 650px,
                   (min-width: 360px) 420px,
                   100vw" 
+                  src="{{ image.src | image_url: 'x360' }}" 
                   width="{{ image.width }}" 
                   height="{{ image.height }}"
                   {% unless section.settings.above_the_line == true %} loading="lazy"{% endunless %}
@@ -125,6 +127,8 @@
                 
               </div>
             </div>
+
+            
             
           </article>
   
