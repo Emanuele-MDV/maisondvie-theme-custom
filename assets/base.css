@@ -4293,6 +4293,7 @@ section.footer-newsletter .page-width.narrow {
   }
   #ContactFooter button{
     border:1px solid black;
+    min-width: 80%;
   }
   #ContactFooter button, #ContactFooter button svg.icon {
     transition:all 200ms ease-out;
@@ -4302,6 +4303,6 @@ section.footer-newsletter .page-width.narrow {
     background:white;
   }
   #ContactFooter button:hover svg.icon {
-    margin-left:1.2rem;
+    margin-left:1.6rem;
   }
 }
