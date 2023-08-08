@@ -208,10 +208,30 @@ theme-check-disable UndefinedObject
                 {%- endfor -%}
               </ul>
             {% endif %}
-          </article>        
+          </article>
+          
         {% endcase %}
         
       {%- endfor -%}
+
+        <article class="footer-site-menus">
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {%- when 'link_list' -%}
+              {%- if block.settings.menu != blank and block.settings.heading != blank -%}
+                <ul class="footer-menu">
+                  {%- for link in block.settings.menu.links -%}
+                    <li>
+                      <a href="{{ link.url }}" class="footer-link{% if link.active %} active{% endif %}">
+                        {{ link.title }}
+                      </a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            {% endcase %}
+          {%- endfor -%}
+        </article>
       
     </div>
   </section>
