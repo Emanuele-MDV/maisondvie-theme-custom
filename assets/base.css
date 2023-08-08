@@ -4306,3 +4306,12 @@ section.footer-newsletter .page-width.narrow {
     margin-left:1.6rem;
   }
 }
+
+@media screen and (min-width:1366px){
+  #shopify-section-footer {
+    margin-top: 10rem;
+  }
+  section.footer-newsletter {
+    padding: 10rem 0;
+  }
+}
