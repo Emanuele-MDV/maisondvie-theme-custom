@@ -4315,3 +4315,9 @@ section.footer-newsletter .page-width.narrow {
     padding: 10rem 0;
   }
 }
+
+/* Main footer section */
+
+section.footer-content {
+  margin: 0;
+}
