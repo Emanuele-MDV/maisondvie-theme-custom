@@ -4213,3 +4213,11 @@ section.footer-newsletter .page-width.narrow {
   color:black;
   border-bottom:1px solid black;
 }
+
+#ContactFooter input::placeholder {
+  visibility:visible;
+  opacity:.7;
+  font-family:'Wotfard', Arial, sans-serif;
+  font-size:1.4rem;
+  font-weight:200;
+}
