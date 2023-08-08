@@ -4283,3 +4283,9 @@ section.footer-newsletter .page-width.narrow {
   }
   
 }
+
+@media screen and (min-width:1200px){
+  section.footer-newsletter .page-width.narrow {
+    column-gap: 14rem;
+  }
+}
