@@ -223,6 +223,7 @@ theme-check-disable UndefinedObject
               {% assign counter = counter | plus:1 %}
               <div class="div{{ counter }}">
               {%- if block.settings.menu != blank and block.settings.heading != blank -%}
+                <strong>{{ block.settings.heading }}</strong>
                 <ul class="footer-menu">
                   {%- for link in block.settings.menu.links -%}
                     <li>
