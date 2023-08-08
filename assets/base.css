@@ -4168,4 +4168,8 @@ header#shopify-section-header {
   
 }
 
+/* NARROW SECTIONS */
 
+.page-width.narrow {
+  max-width: 1080px;
+}
