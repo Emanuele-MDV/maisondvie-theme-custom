@@ -4176,6 +4176,8 @@ header#shopify-section-header {
 
 /* NEW FOOTER LAYOUT */
 
+/* Newsletter section */
+
 #shopify-section-footer {
   margin-top: 6.2rem;
 }
@@ -4246,4 +4248,18 @@ section.footer-newsletter .page-width.narrow {
 #ContactFooter button svg.icon {
   max-width:12px;
   margin-left:1rem;
+}
+
+/* Responsive for Newsletter section */
+
+@media screnn and (min-width:768px){
+
+  section.footer-newsletter .page-width.narrow {
+    flex-direction: row;
+  }
+
+  section.footer-newsletter .page-width.narrow > * {
+    flex:1;
+  }
+  
 }
