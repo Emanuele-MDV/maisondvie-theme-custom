@@ -4238,3 +4238,7 @@ section.footer-newsletter .page-width.narrow {
   padding:2rem;
   font-family:'Wotfard', Arial, sans-serif;
 }
+
+#ContactFooter button svg.icon {
+  max-width:12px;
+}
