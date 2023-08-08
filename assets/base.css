@@ -4264,8 +4264,9 @@ section.footer-newsletter .page-width.narrow {
   }
 
   section.footer-newsletter .page-width.narrow > form {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   
 }
