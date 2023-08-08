@@ -4212,6 +4212,8 @@ section.footer-newsletter .page-width.narrow {
   padding:2rem 0;
   color:black;
   border-bottom:1px solid black;
+  font-size:1.6rem;
+  font-weight:200;
 }
 
 #ContactFooter input::placeholder {
