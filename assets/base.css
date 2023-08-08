@@ -4262,5 +4262,10 @@ section.footer-newsletter .page-width.narrow {
   section.footer-newsletter .page-width.narrow > * {
     flex:1;
   }
+
+  section.footer-newsletter .page-width.narrow > form {
+    display:flex;
+    flex-direction:column;
+  }
   
 }
