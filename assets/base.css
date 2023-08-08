@@ -4256,6 +4256,7 @@ section.footer-newsletter .page-width.narrow {
 
   section.footer-newsletter .page-width.narrow {
     flex-direction: row;
+    column-gap: 5rem;
   }
 
   section.footer-newsletter .page-width.narrow > * {
