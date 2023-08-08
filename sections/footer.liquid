@@ -42,8 +42,8 @@ theme-check-disable UndefinedObject
 {% endcomment %}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  <div class="full">
-  <div class="footer-block--newsletter page-width">
+  
+  <section class="footer-newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}
@@ -169,8 +169,8 @@ theme-check-disable UndefinedObject
             {%- endif -%}
           </ul>
         {%- endif -%}
-      </div>
-  </div>
+      </section>
+  
   
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
