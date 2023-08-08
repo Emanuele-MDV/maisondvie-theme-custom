@@ -4193,8 +4193,9 @@ section.footer-newsletter .page-width.narrow {
 }
 
 .neewsletter-heading h2 {
-  text-align:left;
-  font-weight:200;
+  text-align: left;
+  font-weight: 200;
+  margin: 0 auto 1.2rem;
 }
 
 .neewsletter-heading h2 span {
