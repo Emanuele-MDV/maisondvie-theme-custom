@@ -4263,6 +4263,14 @@ section.footer-newsletter .page-width.narrow {
     flex:1;
   }
 
+  .neewsletter-heading h2 {
+    line-height: 3.6rem;
+  }
+
+  .neewsletter-heading h2 span {
+    font-size: 3.8rem;
+  }
+
   section.footer-newsletter .page-width.narrow > form {
     display: flex;
     flex-direction: column;
