@@ -178,7 +178,8 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our newsletter",
+          "newsletter_heading": "Subscribe to <span>Get 15% off coupon<\/span>",
+          "newsletter_par": "Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
