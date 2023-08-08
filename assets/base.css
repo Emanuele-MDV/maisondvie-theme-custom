@@ -4183,4 +4183,20 @@ header#shopify-section-header {
 section.footer-newsletter {
   padding: 5.2rem 0;
   margin: 0;
+  background: #F6F6F6;
+}
+
+section.footer-newsletter .page-width.narrow {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.neewsletter-heading h2 {
+  text-align:left;
+}
+
+.neewsletter-heading h2 span {
+  font-family: 'Grafier', Times, seri;
+  display: block;
 }
