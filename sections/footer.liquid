@@ -46,12 +46,12 @@ theme-check-disable UndefinedObject
   <section class="footer-newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
-            {%- if section.settings.newsletter_heading != blank -%}
-              <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-            	<p>Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.</p>
-            {%- endif -%}
             
-            </div>
+          {%- if section.settings.newsletter_heading != blank -%}<h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>{%- endif -%}
+              <p>Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.</p>
+          
+          
+          </div>
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">
@@ -529,6 +529,11 @@ theme-check-disable UndefinedObject
       "id": "newsletter_heading",
       "default": "Subscribe to our emails",
       "label": "t:sections.footer.settings.newsletter_heading.label"
+    },
+    {
+      "type": "text",
+      "id": "newsletter_par",
+      "label": "Show a description"
     },
     {
       "type": "header",
