@@ -4176,14 +4176,28 @@ header#shopify-section-header {
 
 /* NEW FOOTER LAYOUT */
 
-/* Newsletter section */
-
 #shopify-section-footer {
   margin-top: 6.2rem;
 }
 
-section.footer-newsletter {
+#shopify-section-footer section {
   padding: 6.2rem 0;
+}
+
+@media screen and (min-width:1366px){
+  #shopify-section-footer {
+    margin-top: 10rem;
+  }
+  #shopify-section-footer section {
+    padding: 10rem 0;
+  }
+}
+
+/* Newsletter section */
+
+
+
+section.footer-newsletter {
   margin: 0;
   background: #F6F6F6;
 }
@@ -4307,14 +4321,7 @@ section.footer-newsletter .page-width.narrow {
   }
 }
 
-@media screen and (min-width:1366px){
-  #shopify-section-footer {
-    margin-top: 10rem;
-  }
-  section.footer-newsletter {
-    padding: 10rem 0;
-  }
-}
+
 
 /* Main footer section */
 
