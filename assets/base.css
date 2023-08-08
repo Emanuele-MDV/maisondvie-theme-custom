@@ -4252,7 +4252,7 @@ section.footer-newsletter .page-width.narrow {
 
 /* Responsive for Newsletter section */
 
-@media screnn and (min-width:768px){
+@media screen and (min-width:768px){
 
   section.footer-newsletter .page-width.narrow {
     flex-direction: row;
