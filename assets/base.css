@@ -4291,6 +4291,9 @@ section.footer-newsletter .page-width.narrow {
   #ContactFooter button svg.icon {
     max-width:18px;
   }
+  #ContactFooter button{
+    border:1px solid black;
+  }
   #ContactFooter button, #ContactFooter button svg.icon {
     transition:all 200ms ease-out;
   }
