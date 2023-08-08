@@ -240,8 +240,10 @@ theme-check-disable UndefinedObject
     </div>
   </section>
 
-        
-      
+  
+  <div class="footer__copyright caption">
+    <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }} | All rights reserved</small>
+  </div>
   
   
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
