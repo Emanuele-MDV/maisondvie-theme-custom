@@ -4176,6 +4176,10 @@ header#shopify-section-header {
 
 /* NEW FOOTER LAYOUT */
 
+#shopify-section-footer {
+  margin-top: 5.2rem;
+}
+
 section.footer-newsletter {
   padding: 5.2rem 0;
   margin: 0;
