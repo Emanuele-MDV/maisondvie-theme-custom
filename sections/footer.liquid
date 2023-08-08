@@ -41,7 +41,7 @@ theme-check-disable UndefinedObject
 
 {% endcomment %}
 
-<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+<footer>
   
   {%- if section.settings.newsletter_enable -%}
     
@@ -245,6 +245,7 @@ theme-check-disable UndefinedObject
     <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }} | All rights reserved</small>
   </div>
   
+</footer>  
   
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
@@ -420,7 +421,8 @@ theme-check-disable UndefinedObject
       </div>
     </div>
   </div>
-</footer>
+  
+
 
 {% javascript %}
   class LocalizationForm extends HTMLElement {
