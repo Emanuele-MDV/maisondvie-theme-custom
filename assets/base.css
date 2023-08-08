@@ -4209,7 +4209,7 @@ section.footer-newsletter .page-width.narrow {
 
 #ContactFooter input {
   background:transparent;
-  padding:2rem 0;
+  padding:2rem 0 .8rem;
   color:black;
   border-bottom:1px solid black;
   font-size:1.6rem;
