@@ -216,7 +216,9 @@ theme-check-disable UndefinedObject
 
         <article class="footer-site-menus">
           {%- for block in section.blocks -%}
+            
             {% case block.type %}
+              
               {%- when 'link_list' -%}
               {%- if block.settings.menu != blank and block.settings.heading != blank -%}
                 <ul class="footer-menu">
@@ -229,7 +231,9 @@ theme-check-disable UndefinedObject
                   {%- endfor -%}
                 </ul>
               {%- endif -%}
+              
             {% endcase %}
+            
           {%- endfor -%}
         </article>
       
