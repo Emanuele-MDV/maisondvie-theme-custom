@@ -4173,3 +4173,10 @@ header#shopify-section-header {
 .page-width.narrow {
   max-width: 1080px;
 }
+
+/* NEW FOOTER LAYOUT */
+
+section.footer-newsletter {
+  padding: 5.2rem 0;
+  margin: 0;
+}
