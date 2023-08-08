@@ -213,11 +213,14 @@ theme-check-disable UndefinedObject
       {%- endfor -%}
   
         <article class="footer-site-menus site-pages">
+          {% assign counter = 0 %}
           {%- for block in section.blocks -%}
             
             {% case block.type %}
               
               {%- when 'link_list' -%}
+              {% assign counter = counter | plus:1 %}
+              <div class="div{{ counter }}">
               {%- if block.settings.menu != blank and block.settings.heading != blank -%}
                 <ul class="footer-menu">
                   {%- for link in block.settings.menu.links -%}
@@ -229,7 +232,7 @@ theme-check-disable UndefinedObject
                   {%- endfor -%}
                 </ul>
               {%- endif -%}
-              
+              </div>
             {% endcase %}
             
           {%- endfor -%}
