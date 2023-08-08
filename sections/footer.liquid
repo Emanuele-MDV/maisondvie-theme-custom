@@ -92,14 +92,22 @@ theme-check-disable UndefinedObject
       {%- endform -%}
     </div>
   </section>
+      
+  {%- endif -%}
 
   <section class="footer-content">
     <div class="page-width narrow">
+
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+
+          {%- when 'text' -%}
+        
+        {% endcase %}
+      {%- endfor -%}
       
     </div>
   </section>
-      
-  {%- endif -%}
 
         {%- if section.settings.show_social -%}
           <ul class="footer__list-social list-unstyled list-social" role="list">
