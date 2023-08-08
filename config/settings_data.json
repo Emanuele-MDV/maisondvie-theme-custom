@@ -148,10 +148,18 @@
               "show_social": true,
               "menu": "footer"
             }
+          },
+          "b9739176-d0e7-4399-8f18-1cb01b3cb32e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Top brands",
+              "menu": "footer-brands"
+            }
           }
         },
         "block_order": [
-          "0e853280-a57f-41d5-b0af-d8df3f867b1a"
+          "0e853280-a57f-41d5-b0af-d8df3f867b1a",
+          "b9739176-d0e7-4399-8f18-1cb01b3cb32e"
         ],
         "settings": {
           "newsletter_enable": true,
