@@ -4288,6 +4288,9 @@ section.footer-newsletter .page-width.narrow {
   section.footer-newsletter .page-width.narrow {
     column-gap: 14rem;
   }
+  #ContactFooter button svg.icon {
+    max-width:18px;
+  }
   #ContactFooter button, #ContactFooter button svg.icon {
     transition:all 200ms ease-out;
   }
