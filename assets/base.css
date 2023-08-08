@@ -4295,4 +4295,7 @@ section.footer-newsletter .page-width.narrow {
     color: black;
     background:white;
   }
+  #ContactFooter button:hover svg.icon {
+    margin-left:1.2rem;
+  }
 }
