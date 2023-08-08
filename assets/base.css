@@ -3055,6 +3055,7 @@ details-disclosure > details {
     font-size: 26px;
   }
 
+  /*
 
   footer label.field__label {
     color: white;
@@ -3063,11 +3064,13 @@ details-disclosure > details {
     left: 0;
   }
 
-/*   .field__input:focus~.field__label, .field__input:not(:placeholder-shown)~.field__label, .field__input:-webkit-autofill~.field__label, .customer .field input:focus~label, .customer .field input:not(:placeholder-shown)~label, .customer .field input:-webkit-autofill~label {
+   .field__input:focus~.field__label, .field__input:not(:placeholder-shown)~.field__label, .field__input:-webkit-autofill~.field__label, .customer .field input:focus~label, .customer .field input:not(:placeholder-shown)~label, .customer .field input:-webkit-autofill~label {
     font-size: 40px;
     left: 0;
     top: 1rem;
-  } */
+  } 
+
+*/
 
   button.search__button.field__button {
     top: 50%;
@@ -3216,6 +3219,8 @@ details-disclosure > details {
   }
   
   /* -------------------------------------------- FOOTER STARTS HERE -------------------------------------------- */
+
+  /*
   
   footer .full{
   background-color:#373737;
@@ -3299,7 +3304,8 @@ footer .field label {
   .footer-block strong, .footer-block ul li a, .footer-block p {
     font-size: 14px;
 }
-  
+
+*/
   
   /* HEADING SECTIONS STANDARD */
   
@@ -3603,6 +3609,8 @@ h3#ContactFooter-success svg.icon.icon-success {
     header-drawer {
       display: flex;
     }
+
+    /*
     
     .footer {
     margin-top: 0px!important;
@@ -3624,6 +3632,8 @@ h3#ContactFooter-success svg.icon.icon-success {
     .newsletter-form {
     margin-top: 18px;
 	}
+
+    */
     
 }
   
