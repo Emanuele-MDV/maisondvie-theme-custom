@@ -140,53 +140,28 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
-            "type": "link_list",
+          "0e853280-a57f-41d5-b0af-d8df3f867b1a": {
+            "type": "site_info",
             "settings": {
-              "heading": "Maison's Designers",
+              "show_number": true,
+              "show_email": true,
+              "show_social": true,
+              "show_legal": true,
               "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "39fd9f36-691a-4b12-b722-49f0495f09a1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Maison D'Vie",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "39fd9f36-691a-4b12-b722-49f0495f09a1",
-          "footer-2"
+          "0e853280-a57f-41d5-b0af-d8df3f867b1a"
         ],
         "settings": {
-          "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to <span>Get 15% off coupon<\/span>",
           "newsletter_par": "Keep up to date with the fresh arrivals, exclusive launches, and fashion inspiration at Maison D’Vie.",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true,
-          "margin_top": 80,
-          "padding_top": 0,
-          "padding_bottom": 36
+          "payment_enable": true
         }
       },
       "main-password-header": {
