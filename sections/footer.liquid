@@ -101,7 +101,11 @@ theme-check-disable UndefinedObject
       {%- for block in section.blocks -%}
         {% case block.type %}
 
-          {%- when 'text' -%}
+          {%- when 'site_info' -%}
+
+          <article class="footer-site-info">
+            <p>{{  }}</p>
+          </article>
         
         {% endcase %}
       {%- endfor -%}
