@@ -4488,6 +4488,14 @@ section.footer-content {
   .div3 { grid-area: 2 / 2 / 3 / 3; }
 }
 
+@media screen and (min-width:1366px){
+
+  .footer-content article:first-of-type {
+    padding-right:18%;
+  }
+  
+}
+
 /* Copyright section */
 
 
