@@ -4421,7 +4421,18 @@ section.footer-content {
   }
 
   .footer-menu-container strong {
-    margin-bottom:2rem;
+    position:relative;
+  }
+
+  .footer-menu-container strong:after {
+    content:'';
+    display:block;
+    position:absolute;
+    width:12px;
+    height:12px;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+    transform:rotate(-45deg);
   }
 
   .footer-menu-container ul {
