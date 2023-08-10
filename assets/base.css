@@ -4420,9 +4420,13 @@ section.footer-content {
     border-bottom:1px solid white;
   }
 
+  .footer-menu-container strong {
+    margin-bottom:2rem;
+  }
+
   .footer-menu-container ul {
     transition:all 200ms ease-out;
-    margin-bottom:0;
+    margin:0;
   }
 
   .footer-menu-container:not(.active) ul{
