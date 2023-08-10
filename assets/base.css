@@ -4353,10 +4353,26 @@ section.footer-content {
 }
 
 .footer-content .social-list{
-  gap:2.2rem;
+  gap:2rem;
   margin-bottom:0;
+}
+
+.footer-content .social-list::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 1px;
+  width: calc(100% - (28px + 28px + 4rem));
+  background: white;
 }
 
 .footer-content .social-list .icon {
   width: 28px;
+}
+
+.footer-content .social-list li {
+  display:flex;
+  align-items: center;
 }
