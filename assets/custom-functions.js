@@ -101,3 +101,12 @@ $( document ).ready(function() {
 
 
 });
+
+
+/* Footer menus */
+
+$('footer-menu-container').each(function(){
+  $(this).find('strong').on('click', function(){
+    $(this).parent().toggleClass('active')
+  })
+})
