@@ -4352,6 +4352,11 @@ section.footer-content {
   width: 100%;
 }
 
+.footer-content .social-list{
+  gap:2.2rem;
+  margin-bottom:0;
+}
+
 .footer-content .social-list .icon {
   width: 24px;
 }
