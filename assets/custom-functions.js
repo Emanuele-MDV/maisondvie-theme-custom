@@ -104,6 +104,7 @@ $( document ).ready(function() {
   $('.footer-menu-container').each(function(){
     $(this).find('strong').on('click', function(){
       $(this).parent().toggleClass('active')
+      $(this).parent().siblings().removeClass('active')
     })
   })
 
