@@ -4180,7 +4180,7 @@ header#shopify-section-header {
   margin-top: 6.2rem;
 }
 
-#shopify-section-footer section, .footer__copyright.caption {
+#shopify-section-footer section {
   padding: 6.2rem 0;
 }
 
@@ -4468,8 +4468,11 @@ section.footer-content {
 
 
 .footer__copyright.caption {
+  padding:3.2rem 0;
   background:black;
-  color:white;
   text-align:center;
-  
+}
+
+.footer__copyright.caption * {
+  color:white;
 }
