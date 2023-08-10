@@ -4273,11 +4273,14 @@ section.footer-newsletter .page-width.narrow {
 
   section.footer-newsletter .page-width.narrow {
     flex-direction: row;
-    column-gap: 5rem;
+    column-gap: 0;
   }
-
+  
   section.footer-newsletter .page-width.narrow > * {
-    flex:1;
+    width:50%;
+  }
+  .neewsletter-heading {
+    padding-right: 10%;
   }
 
   .neewsletter-heading h2 {
@@ -4297,12 +4300,7 @@ section.footer-newsletter .page-width.narrow {
 }
 
 @media screen and (min-width:1200px){
-  section.footer-newsletter .page-width.narrow {
-    column-gap: 0rem;
-  }
-  section.footer-newsletter .page-width.narrow > * {
-    width:50%;
-  }
+  
   .neewsletter-heading {
     padding-right: 18%;
   }
