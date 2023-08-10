@@ -183,7 +183,7 @@ theme-check-disable UndefinedObject
   
           {%- when 'site_info' -%}
           <article class="footer-site-info">
-            <strong>{{ shop.name }}</strong>
+            <strong class="shopn-name">{{ shop.name }}</strong>
             {% if block.settings.show_number == true %}<p><span>Customer Care: </span><a href="tel:+971042160720" title="phone">+971 04 216 07 20</a></p>{% endif %}
             {% if block.settings.show_email == true %}<p><span>Send an email: </span><a href="mailto:info@maisondvie.com" title="email">info@maisondvie.com</a></p>{% endif %}
             {% if block.settings.show_social %}{{ social_links }}{% endif %}
