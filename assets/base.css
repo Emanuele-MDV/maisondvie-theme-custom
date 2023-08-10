@@ -4434,7 +4434,7 @@ section.footer-content {
     height:12px;
     border-bottom:1px solid white;
     border-right:1px solid white;
-    transform:translate(-50%)rotate(-45deg);
+    transform:translate(-50%)rotate(45deg);
   }
 
   .footer-menu-container ul {
