@@ -4330,6 +4330,7 @@ section.footer-content {
 .footer-content * {
   color: #fff;
   font-size: 1.4rem;
+  font-weight:200;
 }
 
 .footer-content strong {
@@ -4339,7 +4340,9 @@ section.footer-content {
 }
 
 .footer-content ul {
-  list-style:none;
+  list-style: none;
+  padding: 0;
+  margin: 2.2rem 0;
 }
 
 .footer-content .social-list .icon {
