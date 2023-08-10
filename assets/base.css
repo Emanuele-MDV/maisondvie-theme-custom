@@ -4465,7 +4465,7 @@ section.footer-content {
 }
 
 @media screen and (min-width:990px){
-  .footer-content {
+  .footer-content>div {
     display:flex;
   }
   .footer-content article {
