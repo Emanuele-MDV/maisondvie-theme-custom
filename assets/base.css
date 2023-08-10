@@ -4333,4 +4333,5 @@ section.footer-content {
 
 .footer-content strong {
   text-transform: uppercase;
+  font-weight:200;
 }
