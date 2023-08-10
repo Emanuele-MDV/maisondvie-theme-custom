@@ -4428,11 +4428,13 @@ section.footer-content {
     content:'';
     display:block;
     position:absolute;
+    right:0;
+    top:50%;
     width:12px;
     height:12px;
     border-bottom:1px solid white;
     border-right:1px solid white;
-    transform:rotate(-45deg);
+    transform:translate(-50%)rotate(-45deg);
   }
 
   .footer-menu-container ul {
