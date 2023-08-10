@@ -4471,6 +4471,9 @@ section.footer-content {
   .footer-content article {
     width:50%;
   }
+  .footer-content article:first-of-type {
+    padding-right:10%;
+  }
 }
 
 /* Copyright section */
