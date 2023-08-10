@@ -4327,3 +4327,10 @@ section.footer-content {
   background: #191919;
 }
 
+.footer-content * {
+  color: white;
+}
+
+.footer-content strong {
+  text-transform: uppercase;
+}
