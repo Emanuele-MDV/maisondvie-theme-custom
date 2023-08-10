@@ -4362,7 +4362,7 @@ section.footer-content {
 
 .footer-content ul li {
   margin-bottom:1rem;
-  letter-spacing:.4rem;
+  letter-spacing:1px;
 }
 
 /* Social media list */
