@@ -4392,7 +4392,7 @@ section.footer-content {
 /* Payment icons list */
 
 .footer-content .list.list-payment {
-  gap: 1.4rem;
+  gap: .4rem;
 }
 
 .footer-content .list.list-payment li {
