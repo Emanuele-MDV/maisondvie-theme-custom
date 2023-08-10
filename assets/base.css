@@ -4419,6 +4419,10 @@ section.footer-content {
     padding-bottom:2rem;
     border-bottom:1px solid white;
   }
+
+  .footer-menu-container ul {
+    transition:all 200ms ease-out;
+  }
   
 }
 
