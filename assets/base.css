@@ -4435,6 +4435,11 @@ section.footer-content {
     border-bottom:1px solid white;
     border-right:1px solid white;
     transform:translate(-50%)rotate(45deg);
+    transition:all 200ms ease-out;
+  }
+
+  .footer-menu-container.active strong:after{
+    transform:translate(-50%)rotate(-136deg);
   }
 
   .footer-menu-container ul {
