@@ -4342,11 +4342,15 @@ section.footer-content {
   display:block;
 }
 
+/* Lists */
+
 .footer-content ul {
   list-style: none;
   padding: 0;
   margin: 2.2rem 0;
 }
+
+/* Social media list */
 
 .footer-content .social-list, .footer-content .list-payment {
   display: inline-flex;
@@ -4383,4 +4387,12 @@ section.footer-content {
 .footer-content .social-list li {
   display:flex;
   align-items: center;
+}
+
+/* Payment icons list */
+
+.footer-content .list.list-payment li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
