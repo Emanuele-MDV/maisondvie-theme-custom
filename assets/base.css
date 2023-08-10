@@ -4360,6 +4360,11 @@ section.footer-content {
   margin: 2rem 0;
 }
 
+.footer-content ul li {
+  margin-bottom:1rem;
+  letter-spacing:.4rem;
+}
+
 /* Social media list */
 
 .footer-content .social-list, .footer-content .list-payment {
