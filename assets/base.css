@@ -4410,3 +4410,15 @@ section.footer-content {
   align-items: center;
   justify-content: center;
 }
+
+/* Footer menus */
+
+@media screen and (max-width:990px){
+
+  .footer-menu-container{
+    padding-bottom:2rem;
+    border-bottom:1px solid white;
+  }
+  
+}
+
