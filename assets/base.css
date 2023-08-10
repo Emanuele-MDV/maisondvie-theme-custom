@@ -4342,3 +4342,6 @@ section.footer-content {
   list-style:none;
 }
 
+.footer-content .social-list .icon {
+  width: 24px;
+}
