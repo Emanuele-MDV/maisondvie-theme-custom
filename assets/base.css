@@ -4452,11 +4452,14 @@ section.footer-content {
     margin:0;
   }
 
+  .footer-menu-container.active ul{
+    margin-top:2rem;
+  }
+
   .footer-menu-container:not(.active) ul{
     height:0;
     overflow:hidden;
     transform:translateY(-80px);
-    margin-top:2rem;
   }
   
 }
