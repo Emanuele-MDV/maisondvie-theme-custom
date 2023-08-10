@@ -4368,6 +4368,12 @@ section.footer-content {
   background: white;
 }
 
+.footer-content .social-list li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer-content .social-list .icon {
   width: 26px;
 }
