@@ -4427,6 +4427,7 @@ section.footer-content {
   .footer-menu-container:not(.active) ul{
     height:0;
     overflow:hidden;
+    margin-top:-80px;
   }
   
 }
