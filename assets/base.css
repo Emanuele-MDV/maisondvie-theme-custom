@@ -4422,6 +4422,7 @@ section.footer-content {
 
   .footer-menu-container ul {
     transition:all 200ms ease-out;
+    margin:0;
   }
 
   .footer-menu-container:not(.active) ul{
