@@ -4180,7 +4180,7 @@ header#shopify-section-header {
   margin-top: 6.2rem;
 }
 
-#shopify-section-footer section {
+#shopify-section-footer section, .footer__copyright.caption {
   padding: 6.2rem 0;
 }
 
