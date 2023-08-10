@@ -4338,3 +4338,7 @@ section.footer-content {
   font-size: 1.6rem;
 }
 
+.footer-content ul {
+  list-style:none;
+}
+
