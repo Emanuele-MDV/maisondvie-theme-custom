@@ -4337,6 +4337,7 @@ section.footer-content {
   text-transform: uppercase;
   font-weight: 200;
   font-size: 1.6rem;
+  display:block;
 }
 
 .footer-content ul {
@@ -4347,7 +4348,8 @@ section.footer-content {
 
 .footer-content .social-list, .footer-content .list-payment {
   display: inline-flex;
-  position:relative;
+  position: relative;
+  width: 100%;
 }
 
 .footer-content .social-list .icon {
