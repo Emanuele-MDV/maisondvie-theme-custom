@@ -4325,6 +4325,8 @@ section.footer-newsletter .page-width.narrow {
 section.footer-content {
   margin: 0;
   background: #191919;
+  padding-left:2rem;
+  padding-right:2rem;
 }
 
 .footer-content * {
