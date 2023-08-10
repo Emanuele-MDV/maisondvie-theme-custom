@@ -99,14 +99,15 @@ $( document ).ready(function() {
   //   console.log(windoWidth);
   // }
 
+  /* Footer menus */
+
+  $('footer-menu-container').each(function(){
+    $(this).find('strong').on('click', function(){
+      $(this).parent().toggleClass('active')
+    })
+  })
+
 
 });
 
 
-/* Footer menus */
-
-$('footer-menu-container').each(function(){
-  $(this).find('strong').on('click', function(){
-    $(this).parent().toggleClass('active')
-  })
-})
