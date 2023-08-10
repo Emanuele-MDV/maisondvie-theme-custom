@@ -4333,6 +4333,7 @@ section.footer-content {
   color: #fff;
   font-size: 1.4rem;
   font-weight:200;
+  text-decoration:none;
 }
 
 .footer-content strong {
