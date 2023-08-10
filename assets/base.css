@@ -4423,6 +4423,11 @@ section.footer-content {
   .footer-menu-container ul {
     transition:all 200ms ease-out;
   }
+
+  .footer-menu-container:not(.active) ul{
+    height:0;
+    overflow:hidden;
+  }
   
 }
 
