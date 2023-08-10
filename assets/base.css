@@ -4353,7 +4353,7 @@ section.footer-content {
 }
 
 .footer-content .social-list{
-  gap:2rem;
+  gap:1.8rem;
   margin-bottom:0;
 }
 
@@ -4364,12 +4364,12 @@ section.footer-content {
   top: 50%;
   right: 0;
   height: 1px;
-  width: calc(100% - (28px + 28px + 4rem));
+  width: calc(100% - (26px + 26px + (1.8rem * 2) ));
   background: white;
 }
 
 .footer-content .social-list .icon {
-  width: 28px;
+  width: 26px;
 }
 
 .footer-content .social-list li {
