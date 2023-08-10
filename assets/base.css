@@ -4464,3 +4464,12 @@ section.footer-content {
   
 }
 
+/* Copyright section */
+
+
+.footer__copyright.caption {
+  background:black;
+  color:white;
+  text-align:center;
+  
+}
