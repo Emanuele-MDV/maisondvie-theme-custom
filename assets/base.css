@@ -4328,10 +4328,13 @@ section.footer-content {
 }
 
 .footer-content * {
-  color: white;
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 .footer-content strong {
   text-transform: uppercase;
-  font-weight:200;
+  font-weight: 200;
+  font-size: 1.6rem;
 }
+
