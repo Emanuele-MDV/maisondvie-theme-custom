@@ -155,11 +155,27 @@
               "heading": "Top brands",
               "menu": "footer-brands"
             }
+          },
+          "9744c280-eef8-4f61-9220-111291410647": {
+            "type": "link_list",
+            "settings": {
+              "heading": "For Women",
+              "menu": "footer-menu-women"
+            }
+          },
+          "da56ad5a-63fd-4616-9bc0-394a4d18d07a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "For men",
+              "menu": "footer-menu-women"
+            }
           }
         },
         "block_order": [
           "0e853280-a57f-41d5-b0af-d8df3f867b1a",
-          "b9739176-d0e7-4399-8f18-1cb01b3cb32e"
+          "b9739176-d0e7-4399-8f18-1cb01b3cb32e",
+          "9744c280-eef8-4f61-9220-111291410647",
+          "da56ad5a-63fd-4616-9bc0-394a4d18d07a"
         ],
         "settings": {
           "newsletter_enable": true,
