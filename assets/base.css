@@ -4298,7 +4298,7 @@ section.footer-newsletter .page-width.narrow {
 
 @media screen and (min-width:1200px){
   section.footer-newsletter .page-width.narrow {
-    column-gap: 14rem;
+    column-gap: 0rem;
   }
   #ContactFooter button svg.icon {
     max-width:18px;
@@ -4488,7 +4488,7 @@ section.footer-content {
   .div3 { grid-area: 2 / 2 / 3 / 3; }
 }
 
-@media screen and (min-width:1366px){
+@media screen and (min-width:1200px){
 
   .footer-content article:first-of-type {
     padding-right:18%;
