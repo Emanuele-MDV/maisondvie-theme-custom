@@ -4450,13 +4450,13 @@ section.footer-content {
   .footer-menu-container ul {
     transition:all 200ms ease-out;
     margin:0;
-    margin-top:2rem;
   }
 
   .footer-menu-container:not(.active) ul{
     height:0;
     overflow:hidden;
     transform:translateY(-80px);
+    margin-top:2rem;
   }
   
 }
