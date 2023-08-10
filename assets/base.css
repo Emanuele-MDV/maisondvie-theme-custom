@@ -4344,6 +4344,10 @@ section.footer-content {
   margin-top: 4rem;
 }
 
+.footer-content strong.shop-name {
+  margin-bottom:2rem;
+}
+
 /* Lists */
 
 .footer-content ul {
