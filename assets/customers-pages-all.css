@@ -1,0 +1,159 @@
+section#shopify-section-info-icons {
+  display: none;
+}
+
+.customer:not(.account, .addresses) {
+  min-height: 70vh;
+  width: 100%;
+  margin: 0!important;
+  max-width: 100%!important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem!important;
+  background: url(https://maisondvie.com/cdn/shop/files/about-maison-d-vie.webp);
+  background-size: cover;
+}
+
+@media screen and (min-width:991px){
+  .customer {
+    background-position: center;
+  }
+}
+
+.box {
+  width: 100%;
+  padding: 4rem 3.4rem;
+  background: #000000ad;
+  border-radius: 1px;
+  max-width: 420px;
+  border: 1px solid #494949;
+}
+
+h1 {
+  color: white;
+  font-family: 'Wotfard', Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: .4rem;
+}
+
+.account h1, .addresses h1 {
+  color: black;
+  margin:0;
+}
+
+
+.login p {
+  margin: 1.5rem 0;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+form#customer_login a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+form#customer_login a:first-of-type {
+  opacity: .6;
+}
+
+form#customer_login a:last-of-type {
+  text-transform:uppercase;
+  letter-spacing: .4rem;
+}
+
+.the-field label {
+  display:none!important;
+}
+
+.the-field {
+  width: 100%;
+}
+
+.the-field{
+  margin-bottom:1.2rem;
+}
+
+.the-field input, .the-field input:focus-visible {
+  width:100%;
+  background:transparent;
+  color:white;
+  padding:1.6rem 1rem 1.4rem 0;
+  font-family:'Wotfard',Arial, sans-serif;
+  border:0;
+  border-bottom:1px solid white;
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+.the-field input::placeholder {
+  color:white;
+  font-family:'Wotfard',Arial, sans-serif;
+  opacity:.6;
+  font-size:1.6rem;
+  font-weight:200;
+}
+
+main form button {
+  text-transform: uppercase;
+  font-family: 'Wotfard', Arial, sans-serif;
+  letter-spacing: .4rem!important;
+  padding: 2rem!important;
+  width: 100%;
+  border: 1px solid white!important;
+}
+
+main form button:hover {
+  color:black!important;
+  background:white!important;
+}
+
+/* ACCOUNT PAGE */
+
+
+.orders-history h2, .account-details h2 {
+  font-family: 'Wotfard', Arial, sans-serif;
+}
+
+.account-container {
+  column-gap: 4rem;
+}
+
+.customer.account div.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+a.logout-btn {
+  color: white;
+  text-decoration: none;
+  background: black;
+  padding: 1.2rem;
+  border-radius: 1px;
+  font-weight: 200;
+}
+
+/* FORM MESSAGES */
+
+h2.form__message, .login h3 {
+  color: white;
+  text-align: left;
+  font-size: 1.6rem!important;
+  font-family: 'Wotfard',Arial,sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.errors ul li {
+  color: white;
+  font-family: 'Wotfard';
+  font-size: 1.2rem;
+  font-weight: 200;
+}
