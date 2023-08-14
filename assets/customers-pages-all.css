@@ -2,6 +2,10 @@ section#shopify-section-info-icons {
   display: none;
 }
 
+#shopify-section-footer {
+  margin-top: 0;
+}
+
 .customer:not(.account, .addresses) {
   min-height: 70vh;
   width: 100%;
