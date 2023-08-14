@@ -161,3 +161,9 @@ h2.form__message, .login h3 {
   font-size: 1.2rem;
   font-weight: 200;
 }
+
+/* RETURNS PAGE & FORM */
+
+.returns-box h1 {
+  text-align: left;
+}
