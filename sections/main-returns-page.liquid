@@ -8,14 +8,14 @@
 
     {% if customer.id == null %}
       <div id="user_type">
-        <a href="#" class="refund-btn">
+        <a id="account_user" href="#" class="refund-btn">
           <button>
             <span>I have an account</span>
             Please login to your account and apply on the Refund request form
             {% render 'icon-arrow' %}
           </button>
         </a>
-        <a href="#" class="refund-btn">
+        <a id="guest_user" href="#" class="refund-btn">
           <button>
             <span>I am a guest</span>
             Please click here to fill the Refund request form
