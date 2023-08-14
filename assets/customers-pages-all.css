@@ -195,6 +195,10 @@ h2.form__message, .login h3 {
   text-decoration: none;
 }
 
+.refund-btn button span {
+  tex-transform:uppercase;
+}
+
 .refund-btn button .icon.icon-arrow {
   position: absolute;
   right: 1rem;
