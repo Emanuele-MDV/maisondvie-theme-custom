@@ -1,26 +1,34 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 {{ 'customers-pages-all.css' | asset_url | stylesheet_tag }}
 
-<div class="customer returns-box">
-  <div class="box">
-    <h1>Return & Refund my order</h1>
-    <p>Please review our <a href="#">Returns & refunds policy</a> before starting the procedure.</p>
-    <a href="#" class="refund-btn">
-      <button>
-        <span>I have an account</span>
-        Please login to your account and apply on the Refund request form
-        {% render 'icon-arrow' %}
-      </button>
-    </a>
-    <a href="#" class="refund-btn">
-      <button>
-        <span>I am a guest</span>
-        Please click here to fill the Refund request form
-        {% render 'icon-arrow' %}
-      </button>
-    </a>
+{% if customer %}
+
+{% else %}
+
+  <div class="customer returns-box">
+    <div class="box">
+      <h1>Return & Refund my order</h1>
+      <p>Please review our <a href="#">Returns & refunds policy</a> before starting the procedure.</p>
+      <a href="#" class="refund-btn">
+        <button>
+          <span>I have an account</span>
+          Please login to your account and apply on the Refund request form
+          {% render 'icon-arrow' %}
+        </button>
+      </a>
+      <a href="#" class="refund-btn">
+        <button>
+          <span>I am a guest</span>
+          Please click here to fill the Refund request form
+          {% render 'icon-arrow' %}
+        </button>
+      </a>
+    </div>
   </div>
-</div>
+
+{% endif %}
+
+
 
 {% schema %}
   {
