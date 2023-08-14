@@ -178,5 +178,26 @@ h2.form__message, .login h3 {
   text-decoration:underline;
 }
 
+.refund-btn {
+  text-decoration:none;
+}
 
+.refund-btn button {
+  display: flex;
+  padding: 2rem;
+  padding-right: 4rem;
+  flex-direction: column;
+  text-align: left;
+  position: relative;
+  margin: 0 0 1.4rem;
+  align-items: flex-start;
+  gap: 1rem;
+  text-decoration: none;
+}
 
+.refund-btn button .icon.icon-arrow {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
