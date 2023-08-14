@@ -9,9 +9,15 @@
         "col_2_layout": false,
         "custom_css_class": "about-page"
       }
+    },
+    "d7e5903e-fa2e-4ded-9af9-4a7b8ecbab30": {
+      "type": "main-returns-page",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d7e5903e-fa2e-4ded-9af9-4a7b8ecbab30"
   ]
 }
