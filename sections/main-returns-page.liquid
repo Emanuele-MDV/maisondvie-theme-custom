@@ -23,7 +23,7 @@
           </button>
         </a>
       </div>
-      <div id="form_container">
+      <div id="form_container" style="display:none;">
         Test form
       </div>
     {% else %}
@@ -36,7 +36,14 @@
 </div>
 
 
-
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    $('#guest_user').on('click', function(){
+      $('#user_type').css('display','none');
+      $('#form_container').css('display','block');
+    })
+  });  
+</script>
 
 
 {% schema %}
