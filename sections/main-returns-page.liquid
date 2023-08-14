@@ -8,6 +8,7 @@
     <p>Please review our <a href="#">Returns & refunds policy</a> before starting the procedure.</p>
 
     {% if customer.id == null %}
+      
       <div id="user_type">
         <a id="account_user" href="#" class="refund-btn">
           <button>
@@ -24,9 +25,11 @@
           </button>
         </a>
       </div>
+    
       <div id="form_container" style="display:none;">
         Test form
       </div>
+    
     {% else %}
     
       <div id="form_container" style="display:none;">
