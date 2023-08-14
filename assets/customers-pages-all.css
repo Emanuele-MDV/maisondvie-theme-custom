@@ -198,7 +198,7 @@ h2.form__message, .login h3 {
 }
 
 .refund-btn button span {
-  tex-transform:uppercase;
+  text-transform:uppercase;
 }
 
 .refund-btn button .icon.icon-arrow {
