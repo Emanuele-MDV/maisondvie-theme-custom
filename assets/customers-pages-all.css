@@ -36,10 +36,11 @@ section#shopify-section-info-icons, #shopify-section-section-info-icons {
 }
 
 h1 {
-  color: white;
-  font-family: 'Wotfard', Arial, sans-serif;
+  color: #fff;
+  font-family: Wotfard,Arial,sans-serif;
   font-weight: 200;
   letter-spacing: .4rem;
+  line-height: 4rem;
 }
 
 .account h1, .addresses h1 {
