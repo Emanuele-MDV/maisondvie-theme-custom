@@ -168,3 +168,7 @@ h2.form__message, .login h3 {
 .returns-box h1 {
   text-align: left;
 }
+
+.returns-box div > p {
+  color:white;
+}
