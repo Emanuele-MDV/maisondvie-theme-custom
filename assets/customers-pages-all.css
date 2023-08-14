@@ -1,5 +1,5 @@
 section#shopify-section-info-icons {
-  display: none;
+  display: none!important;
 }
 
 #shopify-section-footer {
