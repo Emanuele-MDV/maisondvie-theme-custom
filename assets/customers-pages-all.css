@@ -244,5 +244,11 @@ h2.form__message, .login h3 {
 }
 
 button.back-btn {
-  border:unset!important;
+  border: unset !important;
+  width: auto;
+  margin: 0;
+  display: block;
+  padding: 0 !important;
+  background: transparent !important;
+  min-width: unset;
 }
