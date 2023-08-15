@@ -84,7 +84,7 @@ form#customer_login a:last-of-type {
   margin-bottom:1.2rem;
 }
 
-.the-field input, .the-field input:focus-visible {
+.the-field input, .the-field input:focus-visible, .the-field select {
   width:100%;
   background:transparent;
   color:white;
