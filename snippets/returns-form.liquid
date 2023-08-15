@@ -25,11 +25,11 @@
           <label class="field__label" for="ContactForm-type">Request type</label>
         </div>
         <div class="the-field">
-          <input class="field__input" type="text" id="ContactForm_orderNumber" name="contact[Order]" value="" placeholder="Order Number">
+          <input class="field__input" type="text" aria-required="true" id="ContactForm_orderNumber" name="contact[Order]" value="" placeholder="Order Number*">
           <label class="field__label" for="ContactForm_orderNumber">Order number</label>
         </div>
         <div class="the-field">
-          <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
+          <input class="field__input" autocomplete="name" aria-required="true" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
         </div>
         <div class="the-field field--with-error">
