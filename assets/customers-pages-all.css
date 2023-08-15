@@ -244,5 +244,5 @@ h2.form__message, .login h3 {
 }
 
 button.back-btn {
-  border:0;
+  border:unset!important;
 }
