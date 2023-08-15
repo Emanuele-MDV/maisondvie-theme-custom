@@ -35,7 +35,7 @@ section#shopify-section-info-icons, #shopify-section-section-info-icons {
   border: 1px solid #494949;
 }
 
-h1 {
+h1, .h1 {
   color: #fff;
   font-family: Wotfard,Arial,sans-serif;
   font-weight: 200;
@@ -165,7 +165,7 @@ h2.form__message, .login h3 {
 
 /* RETURNS PAGE & FORM */
 
-.returns-box h1 {
+.returns-box h1, .returns-box .h1 {
   text-align: left;
 }
 
