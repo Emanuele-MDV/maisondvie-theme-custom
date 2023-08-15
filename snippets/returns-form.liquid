@@ -15,14 +15,26 @@
   {%- endif -%}
 
     {% if customer.id == null %}
-      Guest
+      
+      <div id="step_1">
+        
+      </div>
+
+      <div id="step_2">
+
+        <button type="submit" class="button">
+          {{ 'templates.contact.form.send' | t }}
+        </button>
+        
+      </div>
+      
     {% else %}
+      
       Customer
+      
     {% endif %}
   
   <div class="contact__button">
-    <button type="submit" class="button">
-      {{ 'templates.contact.form.send' | t }}
-    </button>
+    
   </div>
 {%- endform -%}
