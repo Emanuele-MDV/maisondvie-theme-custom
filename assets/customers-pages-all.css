@@ -169,13 +169,17 @@ h2.form__message, .login h3 {
   text-align: left;
 }
 
-.returns-box div > p, .returns-box div > p > a {
+.returns-box div > p, .returns-box div > p > a, .returns-box div > small {
   color:white;
   text-align:left;
 }
 
 .returns-box div > p > a {
   text-decoration:underline;
+}
+
+.returns-box div > small {
+  font-size:1.2rem;
 }
 
 .refund-btn {
