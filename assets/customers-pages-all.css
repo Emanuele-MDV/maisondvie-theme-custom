@@ -107,6 +107,20 @@ form#customer_login a:last-of-type {
   color:black;
 }
 
+.select-one {
+  color: white;
+  display: flex;
+  text-align: left;
+}
+
+.select-one input {
+  width: 22px;
+  margin: 0;
+    margin-right: 0px;
+  margin-right: 1.4rem;
+  height: 30px;
+}
+
 .the-field input::placeholder {
   color:white;
   font-family:'Wotfard',Arial, sans-serif;
