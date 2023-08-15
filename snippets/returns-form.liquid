@@ -111,9 +111,18 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function(){
+
+      var inputs = $('#step_1 input');      
+      
       $('#next_2').on('click', function(){
-        $('#step_1').css('display','none');
+
+        if( inputs.value ){
+          $('#step_1').css('display','none');
         $('#step_2').css('display','block');
+        } else {
+          alert('Please fill all the fields')
+        }        
+        
       })
 
       $('#back_1').on('click', function(){
