@@ -33,7 +33,7 @@
             name="contact[Order]"
             value=""
             placeholder="Order Number*"
-            {%- if form.errors contains 'Order' -%}
+            {%- if form.errors contains 'text' -%}
             <small class="contact__field-error" id="ContactForm-email-error">
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
               <span class="form__message">{% render 'icon-error' %}Order Number is mandatory</span>
