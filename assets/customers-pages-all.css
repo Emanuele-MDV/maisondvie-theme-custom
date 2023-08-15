@@ -179,7 +179,9 @@ h2.form__message, .login h3 {
 }
 
 .returns-box div > small {
-  font-size:1.2rem;
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 3.4rem;
 }
 
 .refund-btn {
