@@ -4,12 +4,15 @@
 <div class="customer returns-box">
   <div class="box">
     
-    <h1>Return & Refund my order</h1>
-    <p>Please review our <a href="#">Returns & refunds policy</a> before starting the procedure.</p>
+    
 
     {% if customer.id == null %}
       
       <div id="user_type">
+        
+        <h1>Return & Refund my order</h1>
+        <p>Please review our <a href="#">Returns & refunds policy</a> before starting the procedure.</p>
+        
         <a id="account_user" href="/account/login" class="refund-btn">
           <button>
             <span>I have an account</span>
@@ -24,6 +27,7 @@
             {% render 'icon-arrow' %}
           </button>
         </a>
+        
       </div>
     
       <div id="form_container" style="display:none;">
