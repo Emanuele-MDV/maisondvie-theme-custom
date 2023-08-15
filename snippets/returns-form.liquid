@@ -64,7 +64,7 @@
 
         <small>*Mandatory field, please provide the same information that were used for your order checkout.</small>
 
-        <button id="next_2">Next</button>
+        <span id="next_2">Next</span>
         
       </div>
 
@@ -118,9 +118,9 @@
 
         if( inputs.value ){
           $('#step_1').css('display','none');
-        $('#step_2').css('display','block');
+          $('#step_2').css('display','block');
         } else {
-          alert('Please fill all the fields')
+          alert('Please fill all the fields');
         }        
         
       })
