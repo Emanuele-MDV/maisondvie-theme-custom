@@ -101,6 +101,7 @@ form#customer_login a:last-of-type {
   appearence:auto;
   -moz-appearance:auto;
   -webkit-appearance:auto;
+  margin-bottom:4rem;
 }
 
 .the-field select option {
@@ -108,9 +109,10 @@ form#customer_login a:last-of-type {
 }
 
 .select-one {
-  color: white;
+  color: #fff;
   display: flex;
   text-align: left;
+  margin-bottom: 2rem;
 }
 
 .select-one input {
