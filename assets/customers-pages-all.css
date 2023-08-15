@@ -242,3 +242,7 @@ h2.form__message, .login h3 {
   top: 50%;
   transform: translateY(-50%);
 }
+
+button.back-btn {
+  border:0;
+}
