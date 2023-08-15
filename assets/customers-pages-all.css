@@ -88,7 +88,7 @@ form#customer_login a:last-of-type {
   width:100%;
   background:transparent;
   color:white;
-  padding:1.6rem 1rem 1.4rem 0;
+  padding:1.6rem 1rem 1.4rem 0!important;
   font-family:'Wotfard',Arial, sans-serif;
   border:0;
   border-bottom:1px solid white;
