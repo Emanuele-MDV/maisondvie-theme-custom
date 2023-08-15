@@ -97,6 +97,12 @@ form#customer_login a:last-of-type {
   box-shadow: none;
 }
 
+.the-field select {
+  appearence:initial;
+  -moz-appearance:initial;
+  -webkit-appearance:initial;
+}
+
 .the-field select option {
   color:black;
 }
