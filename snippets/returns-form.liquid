@@ -68,7 +68,7 @@
         
       </div>
 
-      <div id="step_2">
+      <div id="step_2" style="display:none;">
         
         <h2 class="h1">Product details:</h2>
         <p>Please provide a description about the product to be returned.</p>
@@ -108,6 +108,15 @@
       Customer
       
     {% endif %}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      $('#next_2').on('click', function(){
+        $('#step_1').css('display','none');
+        $('#step_2').css('display','block');
+      })
+    });  
+  </script>
   
   <div class="contact__button">
     
