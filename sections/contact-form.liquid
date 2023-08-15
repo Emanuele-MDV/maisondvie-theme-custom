@@ -22,6 +22,7 @@
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
+    
     {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
       {%- if form.posted_successfully? -%}
         <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
@@ -37,6 +38,7 @@
           </li>
         </ul>
       {%- endif -%}
+      
       <div class="contact__fields">
         <div class="field">
           <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
@@ -71,6 +73,14 @@
       <div class="field">
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+      </div>
+      <div class="field select">
+        <select name="contact[request_type]" class="facet-filters__sort select__select caption-large" id="subject" aria-describedby="a11y-refresh-page-message">
+          <option value="unselectable" disabled selected="selected" >How can we help you?</option>
+          <option value="order-help">Help me with my order</option>
+          <option value="refund">Return & refunds</option>
+          <option value="generic">Other requests</option>
+        </select>
       </div>
       <div class="field">
         <textarea
