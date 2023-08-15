@@ -97,6 +97,10 @@ form#customer_login a:last-of-type {
   box-shadow: none;
 }
 
+.the-field select option {
+  color:black;
+}
+
 .the-field input::placeholder {
   color:white;
   font-family:'Wotfard',Arial, sans-serif;
