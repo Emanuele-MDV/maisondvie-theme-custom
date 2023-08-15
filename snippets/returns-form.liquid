@@ -114,16 +114,10 @@
 
       var inputs = $('#step_1 input').val();      
       
-      $('#next_2').on('click', function(){
-
-        if( $(inputs).val() ){
+      $('#next_2').on('click', function(){        
           
           $('#step_1').css('display','none');
           $('#step_2').css('display','block');
-          
-        } else {
-          alert('Please fill all the fields');
-        }        
         
       })
 
