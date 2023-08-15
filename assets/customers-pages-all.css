@@ -72,7 +72,7 @@ form#customer_login a:last-of-type {
   letter-spacing: .4rem;
 }
 
-.the-field label {
+.the-field label:not(.select-one) {
   display:none!important;
 }
 
