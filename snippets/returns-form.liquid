@@ -1,17 +1,6 @@
 {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
   {%- if form.posted_successfully? -%}
     <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
-  {%- elsif form.errors -%}
-    <div class="form__message">
-      <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>{% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}</h2>
-    </div>
-    <ul class="form-status-list caption-large" role="list">
-      <li>
-        <a href="#ContactForm-email" class="link">
-          {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
-        </a>
-      </li>
-    </ul>
   {%- endif -%}
 
     {% if customer.id == null %}
@@ -33,17 +22,11 @@
             name="contact[Order]"
             value=""
             placeholder="Order Number*"
-            {%- if form.errors contains 'text' -%}
-            <small class="contact__field-error" id="ContactForm-order-error">
-              <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
-              <span class="form__message">{% render 'icon-error' %}Order Number is mandatory</span>
-            </small>
-          {%- endif -%}
           >
           <label class="field__label" for="ContactForm_orderNumber">Order number</label>
         </div>
         
-        <div class="the-field field--with-error">
+        <div class="the-field">
           <input 
             class="field__input" 
             autocomplete="name" 
@@ -52,10 +35,6 @@
             name="contact[{{ 'templates.contact.form.name' | t }}]" 
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" 
             aria-required="true" 
-            {% if form.errors contains 'name' %}
-              aria-invalid="true"
-              aria-describedby="ContactForm-name-error"
-            {% endif %}
             placeholder="{{ 'templates.contact.form.name' | t }}*"
           >
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
@@ -137,26 +116,6 @@
       Customer
       
     {% endif %}
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function(){
-
-      var inputs = $('#step_1 input').val();      
-      
-      $('#next_2').on('click', function(){        
-          
-          $('#step_1').css('display','none');
-          $('#step_2').css('display','block');
-        
-      })
-
-      $('#back_1').on('click', function(){
-        $('#step_1').css('display','block');
-        $('#step_2').css('display','none');
-      })
-      
-    });  
-  </script>
   
   <div class="contact__button">
     
