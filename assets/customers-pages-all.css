@@ -204,6 +204,7 @@ h2.form__message, .login h3 {
 .returns-box strong.form-heading, .returns-box div > p, .returns-box div > p > a, .returns-box div > small, form p {
   color:white;
   text-align:left;
+  display:block;
 }
 
 .returns-box div > p > a {
