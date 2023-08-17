@@ -18,6 +18,7 @@ section#shopify-section-info-icons, #shopify-section-section-info-icons {
   padding: 0 1.5rem!important;
   background: url(https://maisondvie.com/cdn/shop/files/about-maison-d-vie.webp);
   background-size: cover;
+  background-position: top right;
 }
 
 @media screen and (min-width:991px){
