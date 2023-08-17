@@ -221,6 +221,19 @@ form p {
   margin-top:0;
 }
 
+form small {
+  color: white;
+  text-align: left;
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+form small a {
+  color:white;
+}
+
+
 .returns-box div > p > a {
   text-decoration:underline;
 }
