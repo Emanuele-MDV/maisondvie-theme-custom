@@ -8,14 +8,20 @@
         <strong class="form-heading">Order details:</strong>
         <p>Fill the form below with your order details</p>
         <div class="the-field">
-          <input class="field__input visually-hidden" type="text" id="ContactForm-type" name="contact[Request type]" value="Refund request" placeholder="Request type">
+          <input 
+            class="field__input visually-hidden" 
+            type="text" id="ContactForm-type" 
+            name="contact[Request type]" 
+            value="Refund request" 
+            placeholder="Request type"
+          >
           <label class="field__label" for="ContactForm-type">Request type</label>
         </div>
         <div class="the-field field--with-error">
           <input 
             class="field__input"
             type="text"
-            aria-required="true"
+            required 
             id="ContactForm_orderNumber"
             name="contact[Order]"
             value=""
@@ -29,6 +35,7 @@
             class="field__input" 
             autocomplete="name" 
             type="text" 
+            required 
             id="ContactForm-name" 
             name="contact[{{ 'templates.contact.form.name' | t }}]" 
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" 
@@ -42,6 +49,7 @@
           <input
             autocomplete="email"
             type="email"
+            required 
             id="ContactForm-email"
             class="field__input"
             name="contact[email]"
@@ -55,7 +63,17 @@
           
         </div>
         <div class="the-field">
-          <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
+          <input 
+            type="tel" 
+            id="ContactForm-phone" 
+            required 
+            class="field__input" 
+            autocomplete="tel" 
+            name="contact[{{ 'templates.contact.form.phone' | t }}]" 
+            pattern="[0-9\-]*" 
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" 
+            placeholder="{{ 'templates.contact.form.phone' | t }}"
+          >
           <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
         </div>
         
