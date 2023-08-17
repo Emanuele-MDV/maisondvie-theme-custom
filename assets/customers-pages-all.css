@@ -202,8 +202,9 @@ h2.form__message, .login h3 {
 /* RETURNS PAGE & FORM */
 
 .customer.returns-box .box {
-  max-height: 64vh;
+  max-height: 68vh;
   overflow-y: scroll;
+  margin: 5.2rem 0;
 }
 
 .returns-box h1, .returns-box .h1 {
