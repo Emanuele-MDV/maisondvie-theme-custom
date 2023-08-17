@@ -5,7 +5,7 @@
 
     {% if customer.id == null %}
         
-        <h2 class="h1">Order details:</h2>
+        <strong class="form-heading">Order details:</strong>
         <p>Fill the form below with your order details</p>
         <div class="the-field">
           <input class="field__input visually-hidden" type="text" id="ContactForm-type" name="contact[Request type]" value="Refund request" placeholder="Request type">
@@ -59,7 +59,7 @@
           <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
         </div>
         
-        <h2 class="h1">Product details:</h2>
+        <strong class="form-heading">Product details:</strong>
         <p>Please provide a description about the product to be returned.</p>
 
         <div class="the-field">
