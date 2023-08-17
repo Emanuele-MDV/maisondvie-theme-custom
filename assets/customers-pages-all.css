@@ -207,6 +207,16 @@ h2.form__message, .login h3 {
   display:block;
 }
 
+form strong.form-heading {
+  font-size: 2.1rem;
+  font-weight: 200 !important;
+  text-transform: uppercase;
+}
+
+form p {
+  margin-top:0;
+}
+
 .returns-box div > p > a {
   text-decoration:underline;
 }
