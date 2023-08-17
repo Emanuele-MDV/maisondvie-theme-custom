@@ -197,6 +197,11 @@ h2.form__message, .login h3 {
 
 /* RETURNS PAGE & FORM */
 
+.customer.returns-box .box {
+  max-height: 800px;
+  overflow-y: scroll;
+}
+
 .returns-box h1, .returns-box .h1 {
   text-align: left;
 }
