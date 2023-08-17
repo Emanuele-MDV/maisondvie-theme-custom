@@ -4,8 +4,6 @@
   {%- endif -%}
 
     {% if customer.id == null %}
-      
-      <div id="step_1">
         
         <h2 class="h1">Order details:</h2>
         <p>Fill the form below with your order details</p>
@@ -60,8 +58,6 @@
           <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
           <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
         </div>
-
-        
         
         <h2 class="h1">Product details:</h2>
         <p>Please provide a description about the product to be returned.</p>
@@ -93,8 +89,6 @@
           {{ 'templates.contact.form.send' | t }}
           {% render 'icon-arrow' %}
         </button>
-        
-      </div>
       
     {% else %}
       
