@@ -10,7 +10,8 @@
         <div class="the-field">
           <input 
             class="field__input visually-hidden" 
-            type="text" id="ContactForm-type" 
+            type="text" 
+            id="ContactForm-type" 
             name="contact[Request type]" 
             value="Refund request" 
             placeholder="Request type"
@@ -20,9 +21,10 @@
         <div class="the-field field--with-error">
           <input 
             class="field__input"
-            type="text"
+            type="number"
             required 
             id="ContactForm_orderNumber"
+            pattern="[0-9\-#]*" 
             name="contact[Order]"
             value=""
             placeholder="Order Number*"
