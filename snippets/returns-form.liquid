@@ -111,9 +111,9 @@
         </button>
       
     {% else %}
-      
-      <strong class="form-heading">Order details:</strong>
-        <p>Fill the form below with your order details</p>
+        
+        <strong class="form-heading">Product details:</strong>
+        <p>Please provide a description about the product to be returned.</p>
 
         <div class="the-field visually-hidden">
           <input 
@@ -151,6 +151,27 @@
             {% endfor %}
           </select>
           <label class="field__label" for="ContactForm-reasons">Reason to return</label>
+        </div>
+
+        <div class="the-field">
+          <input class="field__input" type="text" id="ContactForm-product" required name="contact[Product Name]" value="" placeholder="Product name*">
+          <label class="field__label" for="ContactForm-product">Product name</label>
+        </div>
+
+        <div class="the-field select">
+          <select required name="contact[Reason to return]" id="ContactForm-reasons" aria-describedby="a11y-refresh-page-message">
+            <option value="Unselected" disabled selected="selected" >Reason to return</option>
+            <option value="Damaged product">Product(s) was damaged</option>
+            <option value="Wrong item">I received the wrong product(s)</option>
+            <option value="Not looking like the photo">The product(s) didn't look like the pictures</option>
+            <option value="Wrong size">I purchased the wrong size</option>
+          </select>
+          <label class="field__label" for="ContactForm-reasons">Reason to return</label>
+        </div>
+
+        <div class="the-field">
+          <label class="select-one"><input type="radio" id="gift_card" checked="checked" required name="contact[Refund type]" value="I would like to receive a coupon for my next purchase">I would like to receive a coupon for my next purchase</label>
+          <label class="select-one"><input type="radio" id="card_trans" name="contact[Refund type]" value="I would like to be refunded on my bank account">I would like to be refunded on my bank account</label>
         </div>
 
         <small>*Fields are mandatory, please ensure that the provided information matches with your order. for more info about our returns & refunds, visit the <a href="/policies/refund-policy">Refund policy page</a>.</small> 
