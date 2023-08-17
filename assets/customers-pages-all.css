@@ -213,6 +213,10 @@ form strong.form-heading {
   text-transform: uppercase;
 }
 
+form strong.form-heading:not(:first-of-type){
+  margin-top:2.8rem;
+}
+
 form p {
   margin-top:0;
 }
