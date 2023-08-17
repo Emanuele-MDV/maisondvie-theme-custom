@@ -198,7 +198,7 @@ h2.form__message, .login h3 {
 /* RETURNS PAGE & FORM */
 
 .customer.returns-box .box {
-  max-height: 800px;
+  max-height: 64vh;
   overflow-y: scroll;
 }
 
