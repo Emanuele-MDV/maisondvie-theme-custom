@@ -74,7 +74,7 @@
             name="contact[{{ 'templates.contact.form.phone' | t }}]" 
             pattern="[0-9\-]*" 
             value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" 
-            placeholder="{{ 'templates.contact.form.phone' | t }}"
+            placeholder="{{ 'templates.contact.form.phone' | t }}*"
           >
           <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
         </div>
@@ -83,7 +83,7 @@
         <p>Please provide a description about the product to be returned.</p>
 
         <div class="the-field">
-          <input class="field__input" type="text" id="ContactForm-product" required name="contact[Product Name]" value="" placeholder="Product name">
+          <input class="field__input" type="text" id="ContactForm-product" required name="contact[Product Name]" value="" placeholder="Product name*">
           <label class="field__label" for="ContactForm-product">Product name</label>
         </div>
 
