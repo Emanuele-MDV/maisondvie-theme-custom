@@ -112,7 +112,55 @@
       
     {% else %}
       
-      Customer
+      <strong class="form-heading">Order details:</strong>
+        <p>Fill the form below with your order details</p>
+
+        <div class="the-field visually-hidden">
+          <input 
+            class="field__input" 
+            autocomplete="name" 
+            type="text" 
+            required 
+            id="ContactForm-name" 
+            name="contact[{{ 'templates.contact.form.name' | t }}]" 
+            value="{{ customer.name }}" 
+            aria-required="true" 
+            placeholder="{{ 'templates.contact.form.name' | t }}*"
+          >
+          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+        </div>
+
+        <div class="the-field visually-hidden">
+          <input 
+            class="field__input" 
+            autocomplete="name" 
+            type="text" 
+            required 
+            id="ContactForm-name" 
+            name="contact[Customer email:]" 
+            value="{{ customer.email }}" 
+            aria-required="true" 
+            placeholder="{{ 'templates.contact.form.name' | t }}*"
+          >
+          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+        </div>
+
+        <div class="the-field select">
+          <select required name="contact[Reason to return]" id="ContactForm-reasons" aria-describedby="a11y-refresh-page-message">
+            <option value="Unselected" disabled selected="selected" >Select the order to return</option>
+            {% for order in customer.orders %}
+              <option value="Order N: {{ order.order_number }} - {{ order.created_at | date: "%m/%d/%y" }}">Order N: {{ order.order_number }} - {{ order.created_at | date: "%m/%d/%y" }}</option>
+            {% endfor %}
+          </select>
+          <label class="field__label" for="ContactForm-reasons">Reason to return</label>
+        </div>
+
+        <small>*Fields are mandatory, please ensure that the provided information matches with your order. for more info about our returns & refunds, visit the <a href="/policies/refund-policy">Refund policy page</a>.</small> 
+        
+        <button type="submit" class="button">
+          {{ 'templates.contact.form.send' | t }}
+          {% render 'icon-arrow' %}
+        </button>
       
     {% endif %}
   
