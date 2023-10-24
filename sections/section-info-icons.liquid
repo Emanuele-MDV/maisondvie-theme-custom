@@ -3,16 +3,18 @@
     <figure>
       {% assign image = block.settings.image_label %}
       <img
-      alt="{{ block.settings.title_label }}"
+      alt="{{ block.settings.title_label }}" 
       srcset="
-      {{ image | image_url : width: 28 }} 28w,
+      {{ image | image_url : width: 28 }} 28w, 
       {{ image | image_url : width: 40 }} 40w
-      "
+      " 
       sizes="
-      (max-width: 480px) 28px,
+      (max-width: 480px) 28px, 
       40px
-      "
-      src="{{ image | image_url }}"
+      " 
+      src="{{ image | image_url }}" 
+      width="38" 
+      height="24"
       />
       <figcaption>
         {{ block.settings.title_label }}
