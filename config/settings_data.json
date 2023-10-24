@@ -229,6 +229,14 @@
       "section-info-icons": {
         "type": "section-info-icons",
         "blocks": {
+          "2cca30cc-0fba-48a5-a4c7-2e61ea0b43fc": {
+            "type": "text",
+            "settings": {
+              "title_label": "Pay 4 interest-free payments",
+              "image_label": "shopify:\/\/shop_images\/tabby-Telr-buy-now-pay-later.webp",
+              "icon_link": ""
+            }
+          },
           "f73d8adb-9849-4499-833a-71ed8213686c": {
             "type": "text",
             "settings": {
@@ -255,6 +263,7 @@
           }
         },
         "block_order": [
+          "2cca30cc-0fba-48a5-a4c7-2e61ea0b43fc",
           "f73d8adb-9849-4499-833a-71ed8213686c",
           "575f22d3-03bd-44fe-9af3-ce84966de277",
           "39c880ad-a7a0-4a48-94c7-0eda9b891763"
