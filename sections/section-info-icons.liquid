@@ -57,22 +57,41 @@
   font-size:1rem;
 }
 
-  @media screen and (min-width:768px){
-    .info-icons {
-      position:relative;
-    }
-    .info-icons::after {
-      content: '';
-      display: block;
-      width: 10rem;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      background: rgb(255,255,255);
-      background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
-    }
+@media screen and (min-width:768px){
+  .info-icons {
+    position:relative;
   }
+  .info-icons::after {
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  }
+}
+
+@media screen and (min-width:1024px){
+  .info-icons {
+    justify-content: space-between;
+    gap: 0;
+  }
+  .info-icons::after{
+    content:unset;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .the-info-icon {
+    width: 22%;
+  }
+  .the-info-icon figcaption {
+    font-size:1.2rem;
+  }
+}
   
 </style>
 
