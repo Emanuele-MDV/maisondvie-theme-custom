@@ -23,14 +23,6 @@
   {% if block.settings.icon_link %}</a>{% endif %}
 {% endfor %}
 
-{% if section.settings.icons_theme == 'dark' %}
-  <script>
-    document.addEventListener( 'DOMContentLoaded', function() {
-      $('.info-icons').addClass('dark');
-    } );
-  </script>
-{% endif %}
-
 <style>
 
   .info-icons {
@@ -103,29 +95,6 @@
     "name": "Info icons",
     "tag":"section",
     "class":"info-icons",
-    "max_blocks": 4,
-    "settings": [
-      {
-        "type":"header",
-        "content":"Icons style"
-      },
-      {
-        "type":"select",
-        "id":"icons_theme",
-        "label":"Select style",
-        "options":[
-          {
-            "value":"dark",
-            "label":"Dark"
-          },
-          {
-            "value":"light",
-            "label":"Light"
-          }
-        ],
-        "default":"light"
-      }
-    ],
     "blocks": [
       {
         "type":"text",
