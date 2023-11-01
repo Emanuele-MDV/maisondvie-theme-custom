@@ -1,6 +1,6 @@
 /* CUSTOMIZATION COLECTION PAGES */
 
-
+/* 
 section#banner_section {
     width: fit-content;
     max-width: fit-content;
@@ -25,9 +25,10 @@ section#banner_section .collection-hero__inner .collection-hero__text-wrapper {
     width: 100%;
 }
 
-
+ */
 
 /* Aside */
+/* 
 
 aside#main-collection-filters {
     width: 25%;
@@ -50,8 +51,11 @@ h1.collection-hero__title span {
     display: block;
 }
 
+*/
 
 /* Description with rean more */
+
+/* 
 
 .collection-hero__description.rte{
 	position:relative;
@@ -106,9 +110,10 @@ content:'Read less';
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
 }
 
+ */
 
 /* Product counter & sort options */
-
+/* 
 .facets-vertical-form {
     justify-content: space-between!important;
 }
@@ -192,8 +197,9 @@ label.facet-checkbox.facet-checkbox--disabled {
     display: none;
 }
 
-
+ */
 /* Custom designers collections */
+/* 
 
 section.custom-designers-collections {
     padding-top: 80px;
@@ -285,9 +291,11 @@ section.custom-designers-collections ul.designers-show li a.button-link:hover{
   	font-weight:600;
 }
 
-
+ */
 
 /* Product grid */
+
+/* 
 
 h3.card__heading {
     font-size: 2rem;
@@ -312,14 +320,19 @@ h3.card__heading {
 }
 
 
-
+ */
 
 /* Specific designer collection */
 
+/* 
+
 body.designer-collection details#Details-3-template--16077895500031__product-grid{display:none;}
+
+ */
 
 /* --------------------------------------------------------- RESPONSIVE STARTS HERE --------------------------------------------------------- */
 
+/* 
 
 @media screen and (max-width:1024px){
 
@@ -438,10 +451,10 @@ section.custom-designers-collections ul.designers-show li {
   .collection-hero__description.rte:after {
     margin-top: 14px;
     font-size: 1.1rem;
-  }
+  } */
   
   /* FLTERS SETTINGS */
-  
+  /* 
   .facets-container {
     display: flex!important;
     flex-wrap: wrap;
@@ -535,10 +548,12 @@ section.custom-designers-collections ul.designers-show li {
   .mobile-facets__sort .select .icon-caret {
     right: 12px;
   }
+
+ */
   
   /* BANNER SETTINGS */
   
-  
+  /* 
   .collection-hero__image-container.media.gradient::after {
     content: '';
     display: block;
@@ -576,4 +591,4 @@ section.custom-designers-collections ul.designers-show li {
   }
   
   
-}
+} */
