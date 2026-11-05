@@ -41,7 +41,7 @@ theme-check-disable UndefinedObject
 
 {% endcomment %}
 
-  {% capture 'social_links' %}
+  {% capture social_links %}
     
   <ul class="social-list" role="list">
     {%- if settings.social_twitter_link != blank -%}
@@ -640,3 +640,13 @@ theme-check-disable UndefinedObject
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% capture 'social_links' %}"
+  to: "{% capture social_links %}"
+  position: 1917..1943
+{% endcomment %}

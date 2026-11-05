@@ -48,7 +48,7 @@
         </li>
       
       
-      {%- when 'collection' and collection.handle -%}
+      {%- when 'collection' -%}
 
         <li class="breadcrumbs">
           <a href="{{ shop.secure_url }}">Home</a>
@@ -146,4 +146,13 @@
     "class":"breadcrumbs",
     "settings": []
   }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- when 'collection' and collection.handle -%}"
+  to: "{%- when 'collection' -%}"
+  position: 1521..1546
+{%- endcomment -%}

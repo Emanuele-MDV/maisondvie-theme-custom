@@ -2,7 +2,7 @@
 <script src="{{ 'product-page.js' | asset_url }}" defer="defer"></script>
 {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
-  {% capture 'section-blocks' %}
+  {% capture section-blocks %}
 
     {%- for block in section.blocks -%}
   
@@ -39,7 +39,7 @@
 
   
 
-  {% capture 'price-form' %}
+  {% capture price-form %}
 
     {%- for block in section.blocks -%}
   
@@ -207,7 +207,7 @@
   {% endcapture %}
 
 
-{% capture 'colors' %}
+{% capture colors %}
 
   {% if product.metafields.custom.colors.value %}
     
@@ -476,3 +476,19 @@
   "settings": []
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% capture 'section-blocks' %}"
+  to: "{% capture section-blocks %}"
+  position: 221..249
+- from: "{% capture 'price-form' %}"
+  to: "{% capture price-form %}"
+  position: 1427..1451
+- from: "{% capture 'colors' %}"
+  to: "{% capture colors %}"
+  position: 10582..10602
+{% endcomment %}
